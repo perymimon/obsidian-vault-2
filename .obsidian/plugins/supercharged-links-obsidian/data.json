@@ -2,7 +2,8 @@
   "targetAttributes": [
     "type",
     "status",
-    "tags"
+    "tags",
+    "maturity"
   ],
   "targetTags": true,
   "getFromInlineField": true,
