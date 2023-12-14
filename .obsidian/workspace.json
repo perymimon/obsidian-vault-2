@@ -75,7 +75,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "משאבים/שיר-רז שיר ההכרות.md",
+                "file": "homes/שירים שלי.md",
                 "mode": "preview",
                 "source": true
               }
@@ -111,7 +111,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "שלט וילה",
+                "query": "tag:טקסט-שכתבתי/שיר",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -136,7 +136,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -168,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "משאבים/שיר-רז שיר ההכרות.md"
+                "file": "homes/שירים שלי.md"
               }
             }
           },
@@ -178,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "משאבים/שיר-רז שיר ההכרות.md",
+                "file": "homes/שירים שלי.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +207,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "משאבים/שיר-רז שיר ההכרות.md",
+                "file": "homes/שירים שלי.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -267,13 +268,13 @@
   },
   "active": "e702ecbfe32e96e7",
   "lastOpenFiles": [
+    "Jornal/daily/2023-12-14.md",
     "homes/שירים שלי.md",
     "משאבים/song - I see the sky tonight.md",
     "משאבים/שיר-רז שיר ההכרות.md",
     "Home.md",
     "משאבים/נשים.md",
     "note/וילה הרצליה.md",
-    "Jornal/daily/2023-12-14.md",
     "אנשים/ענבר איזנמן.md",
     "archive/הפרסום המקורי של הווילה חדר להשכרה.md",
     "archive/פרסום הווילה.md",
