@@ -75,7 +75,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "homes/שירים שלי.md",
+                "file": "משאבים/song - I see the sky tonight.md",
                 "mode": "preview",
                 "source": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "homes/שירים שלי.md"
+                "file": "משאבים/song - I see the sky tonight.md"
               }
             }
           },
@@ -178,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "homes/שירים שלי.md",
+                "file": "משאבים/song - I see the sky tonight.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "homes/שירים שלי.md",
+                "file": "משאבים/song - I see the sky tonight.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -265,8 +265,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b52c9dfd18c75d28",
+  "active": "e702ecbfe32e96e7",
   "lastOpenFiles": [
+    "homes/שירים שלי.md",
+    "משאבים/שיר-רז שיר ההכרות.md",
     "Home.md",
     "משאבים/נשים.md",
     "note/וילה הרצליה.md",
@@ -288,10 +290,8 @@
     "inbox/202312140001.md",
     "משאבים/שיר א - ליל חורף קסום.md",
     "משאבים/הרקדנית.md",
-    "משאבים/שיר-רז שיר ההכרות.md",
     "משאבים/2002 - שיר לענבל.md",
     "homes/synology.md",
-    "homes/שירים שלי.md",
     "homes/מחפש חוכמה.md",
     "desktop.ini",
     "tm/(01) tp - embedded notes .js",
