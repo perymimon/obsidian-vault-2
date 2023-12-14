@@ -13,5 +13,18 @@
   "enableBacklinks": true,
   "enableQuickSwitcher": true,
   "enableSuggestor": true,
-  "selectors": []
+  "selectors": [
+    {
+      "type": "tag",
+      "name": "type",
+      "value": "סטטוס",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "709a-6ca6",
+      "selectText": false,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    }
+  ]
 }
