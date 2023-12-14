@@ -1,0 +1,13 @@
+.daily :is(h2){
+    display: flex !important;
+    justify-content: space-between;
+
+}
+.daily :is(h2,.HyperMD-header-2) *{
+    pointer-events: none;
+}
+/*.daily :is(h2,.HyperMD-header-2):first-child{*/
+/*    direction: ltr;*/
+/*}*/
+
+

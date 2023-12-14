@@ -1,0 +1,14 @@
+/*make search bar better*/
+/* eliminate to match spaces and borders*/
+.search-result-container {
+    padding: 0;
+}
+
+.search-result-file-matches {
+    background-color: unset;
+    box-shadow: 0 1px 0 0 var(--background-modifier-border);
+}
+
+.search-result-file-match {
+    padding: var(--size-4-2);
+}

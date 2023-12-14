@@ -1,0 +1,28 @@
+{
+  "targetFolderPath": "Book/goodreads-db",
+  "fileName": "Goodreads- {{title}}",
+  "goodreadsBaseUrl": "https://www.goodreads.com/review/list_rss/31564931?key=-e1TEcNO6a0Hmavzw8UolwL6akpGbQa0mWAjF9M4qMDCzi5W&shelf=",
+  "goodreadsShelves": "read",
+  "frontmatterDictionary": {
+    "author": "[[author]]",
+    "pages": "pages",
+    "series": "series",
+    "cover": "cover",
+    "description": "description",
+    "fullTitle": "fullTitle",
+    "dateAdded": "dateAdded",
+    "datePublished": "datePublished",
+    "dateRead": "dateRead",
+    "title": "title",
+    "rawTitle": "rawTitle",
+    "rating": "rating",
+    "avgRating": "avgRating",
+    "shelves": "shelves",
+    "isbn": "isbn",
+    "review": "review",
+    "subtitle": "subtitle"
+  },
+  "bodyString": "{{title}} book-db \n@from goodreads API\n\n![]({{cover}})\n{{description}}",
+  "frequency": "0",
+  "overwrite": false
+}

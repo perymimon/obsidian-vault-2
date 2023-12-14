@@ -1,0 +1,12 @@
+{
+  "triggerSymbol": "@",
+  "limitLinkDirectories": [
+    "אנשים"
+  ],
+  "includeSymbol": false,
+  "showAddNewNote": true,
+  "addNewNoteTemplateFile": "",
+  "addNewNoteDirectory": "אנשים",
+  "useCompatibilityMode": true,
+  "leavePopupOpenForXSpaces": 1
+}

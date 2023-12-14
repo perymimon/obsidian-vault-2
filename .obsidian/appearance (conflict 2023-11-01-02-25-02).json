@@ -1,0 +1,16 @@
+{
+  "accentColor": "",
+  "cssTheme": "AnuPpuccin",
+  "enabledCssSnippets": [
+    "supercharged-links-gen",
+    "relif-ui",
+    "my-typs",
+    "type-book",
+    "type-daily"
+  ],
+  "nativeMenus": true,
+  "translucency": false,
+  "monospaceFontFamily": "JetBrains Mono",
+  "baseFontSize": 15,
+  "theme": "obsidian"
+}

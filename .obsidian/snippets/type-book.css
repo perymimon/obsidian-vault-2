@@ -1,0 +1,11 @@
+.book img:not([aria-hidden]){
+    float:left;
+    margin-inline-end:1em !important;
+    height: 18em;
+    z-index:1;
+    position:relative;
+}
+
+hr{
+    clear:both;
+}

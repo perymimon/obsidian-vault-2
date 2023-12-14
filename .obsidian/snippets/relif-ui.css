@@ -1,0 +1,62 @@
+/* make line not collapse on absolute content*/
+.cm-line{
+    min-height: 1em;
+}
+/* header make them small in code-mode*/
+.markdown-source-view{
+    --h2-size: var(--font-text-size) !important;
+    --h3-size: var(--font-text-size) !important;
+    --h4-size: var(--font-text-size) !important;
+    --h5-size: var(--font-text-size) !important;
+}
+
+[aria-hidden=true][aria-hidden][aria-hidden][aria-hidden]{
+    display: none !important;
+}
+
+/* all border around */
+.markdown-source-view{
+    border: 3px dashed;
+}
+
+/* Header */
+:not(.HyperMD-header-line) > .cm-formatting-header{
+    position: absolute;
+    width: max-content;
+    text-indent:calc(-100% + -1em) !important;
+}
+.HyperMD-header-line > .cm-formatting-header{
+    font-weight: bolder;
+}
+
+/* Quote */
+.HyperMD-quote{
+    padding-inline-start: 0 !important;
+    text-indent: -1em !important;
+}
+.HyperMD-quote:before{
+    margin-inline-start: -1.2em
+}
+/* */
+.heading-collapse-indicator
+{
+    position: absolute !important;
+}
+.cm-fold-indicator{
+    display: none !important;
+}
+
+/* Fix the selection */
+/* for now on narrow view you must click inside the area of the text to select the text ,
+that area is invisible with the backgroun. and elso because it narrow there is you must be careful to not click on somthing
+with that fix all the margin arround can be draggble also
+*/
+.markdown-source-view.mod-cm6.is-readable-line-width .cm-sizer {
+    max-width:unset;
+    margin-left: unset;
+    margin-right: unset;
+    width: 100%;
+}
+.markdown-source-view.mod-cm6.is-readable-line-width .cm-content {
+    max-width: unset;
+    padding-inline: calc( (100% - var(--file-line-width)) / 2 );

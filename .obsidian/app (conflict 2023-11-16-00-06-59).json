@@ -1,0 +1,15 @@
+{
+  "newFileLocation": "folder",
+  "newFileFolderPath": "input",
+  "newLinkFormat": "shortest",
+  "attachmentFolderPath": "./2021-02-05 - השיטה היהודית והזמן.md_Attachments",
+  "userIgnoreFilters": [
+    "tm/"
+  ],
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "rightToLeft": false,
+  "defaultViewMode": "preview",
+  "livePreview": false,
+  "focusNewTab": false
+}
