@@ -5,6 +5,7 @@ date-created: 2017-01-11
 date-modified: 2023-12-05
 tags:
   - טקסט-שכתבתי/שיר
+  - סטטוס/🌱
 ---
 
 the sky.
