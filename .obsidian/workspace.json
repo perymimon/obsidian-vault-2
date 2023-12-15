@@ -87,7 +87,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "archive/פתגמים וציטוטים של השראה.md",
+                "file": "inbox/python.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "d2288a4407fc7379",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "homes/Codes.md",
                 "mode": "source",
                 "source": true
               }
@@ -181,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "archive/פתגמים וציטוטים של השראה.md"
+                "file": "inbox/python.md"
               }
             }
           },
@@ -191,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "archive/פתגמים וציטוטים של השראה.md",
+                "file": "inbox/python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +231,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "archive/פתגמים וציטוטים של השראה.md",
+                "file": "inbox/python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -280,6 +292,9 @@
   },
   "active": "a83d07179e8470e0",
   "lastOpenFiles": [
+    "homes/Codes.md",
+    "inbox/python.md",
+    "archive/פתגמים וציטוטים של השראה.md",
     "homes/שירים שלי.md",
     "Jornal/daily/2023-12-14.md",
     "משאבים/song - I see the sky tonight.md",
@@ -299,13 +314,10 @@
     "אנשים/jornal/נקודות עבור נשים.md",
     "note/2023-11-15  רשימת בנות.md",
     "note/Instagram API.md",
-    "homes/Codes.md",
     "inbox/202312140001.md",
     "משאבים/שיר א - ליל חורף קסום.md",
     "משאבים/הרקדנית.md",
     "משאבים/2002 - שיר לענבל.md",
-    "homes/synology.md",
-    "homes/מחפש חוכמה.md",
     "desktop.ini",
     "tm/(01) tp - embedded notes .js",
     "tm/(01) tp - import  and embedded notes .js",
