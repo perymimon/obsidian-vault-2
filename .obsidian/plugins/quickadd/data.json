@@ -15,20 +15,20 @@
       },
       "format": {
         "enabled": true,
-        "format": "{{time}} [[{{linkcurrent}}|{{value}}]]"
+        "format": "- {{time}} {{linkcurrent}} {{value}} \\n"
       },
       "insertAfter": {
         "enabled": true,
-        "after": "## הספקתי היום ",
+        "after": "## הספקתי היום",
         "insertAtEnd": true,
-        "considerSubsections": false,
+        "considerSubsections": true,
         "createIfNotFound": true,
         "createIfNotFoundLocation": "bottom"
       },
       "prepend": false,
-      "task": true,
+      "task": false,
       "openFileInNewTab": {
-        "enabled": true,
+        "enabled": false,
         "direction": "vertical",
         "focus": false
       },
