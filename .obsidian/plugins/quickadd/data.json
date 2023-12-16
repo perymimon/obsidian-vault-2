@@ -14,8 +14,8 @@
         "template": ""
       },
       "format": {
-        "enabled": false,
-        "format": ""
+        "enabled": true,
+        "format": "{{time}} [[{{linkcurrent}}|{{value}}]]"
       },
       "insertAfter": {
         "enabled": true,
@@ -26,11 +26,11 @@
         "createIfNotFoundLocation": "bottom"
       },
       "prepend": false,
-      "task": false,
+      "task": true,
       "openFileInNewTab": {
         "enabled": true,
         "direction": "vertical",
-        "focus": true
+        "focus": false
       },
       "openFile": true,
       "openFileInMode": "source"
