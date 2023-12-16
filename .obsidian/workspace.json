@@ -13,100 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "משאבים/נשים.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "99e0899fe8e950fb",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "preview",
-                "source": true
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "8d8058c63e9f8969",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "archive/הפרסום המקורי של הווילה חדר להשכרה.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "acf44e368cd4942c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Jornal/daily/2023-12-14.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "47fc65d0d633267c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "note/וילה הרצליה.md",
+                "file": "Jornal/daily/2023-12-16.md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "e702ecbfe32e96e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "homes/שירים שלי.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "a83d07179e8470e0",
+            "id": "36f2cf80c1f23a5f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "inbox/python.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "d2288a4407fc7379",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "homes/Codes.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -193,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "inbox/python.md"
+                "file": "Jornal/daily/2023-12-16.md"
               }
             }
           },
@@ -203,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "inbox/python.md",
+                "file": "Jornal/daily/2023-12-16.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "inbox/python.md",
+                "file": "Jornal/daily/2023-12-16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -290,19 +215,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a83d07179e8470e0",
+  "active": "5c3988829c1e8037",
   "lastOpenFiles": [
-    "homes/Codes.md",
+    "tm/(01) add reference to section to daily note",
     "inbox/python.md",
+    "Jornal/daily/2023-12-16.md",
+    "אנשים/דינה.md",
+    "אנשים/ענבר איזנמן.md",
+    "משאבים/נשים.md",
+    "homes/Codes.md",
     "archive/פתגמים וציטוטים של השראה.md",
     "homes/שירים שלי.md",
     "Jornal/daily/2023-12-14.md",
     "משאבים/song - I see the sky tonight.md",
     "משאבים/שיר-רז שיר ההכרות.md",
     "Home.md",
-    "משאבים/נשים.md",
     "note/וילה הרצליה.md",
-    "אנשים/ענבר איזנמן.md",
     "archive/הפרסום המקורי של הווילה חדר להשכרה.md",
     "archive/פרסום הווילה.md",
     "משאבים/וילה הרצליה.md",
@@ -315,9 +243,6 @@
     "note/2023-11-15  רשימת בנות.md",
     "note/Instagram API.md",
     "inbox/202312140001.md",
-    "משאבים/שיר א - ליל חורף קסום.md",
-    "משאבים/הרקדנית.md",
-    "משאבים/2002 - שיר לענבל.md",
     "desktop.ini",
     "tm/(01) tp - embedded notes .js",
     "tm/(01) tp - import  and embedded notes .js",
