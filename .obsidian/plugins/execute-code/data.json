@@ -2,7 +2,7 @@
   "lastOpenLanguageTab": "python",
   "timeout": 10000,
   "allowInput": true,
-  "wslMode": false,
+  "wslMode": true,
   "nodePath": "node",
   "nodeArgs": "",
   "jsFileExtension": "js",
