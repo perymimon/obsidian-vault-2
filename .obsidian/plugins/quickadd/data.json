@@ -34,6 +34,41 @@
       },
       "openFile": true,
       "openFileInMode": "source"
+    },
+    {
+      "id": "e95ecc9a-1c3d-4467-9214-2abce199f07a",
+      "name": "מה הספקתי היום",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Jornal/daily/{{date}}",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- {{time}} {{value}} \\n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## הספקתי היום",
+        "insertAtEnd": true,
+        "considerSubsections": true,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "bottom"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": false
+      },
+      "openFile": true,
+      "openFileInMode": "source"
     }
   ],
   "macros": [],
