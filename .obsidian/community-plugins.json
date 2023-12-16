@@ -9,7 +9,6 @@
   "darlal-switcher-plus",
   "obsidian-git",
   "calendar",
-  "periodic-notes",
   "obsidian42-strange-new-worlds",
   "homepage",
   "obsidian-rollover-daily-todos",
@@ -18,13 +17,12 @@
   "file-explorer-note-count",
   "at-symbol-linking",
   "obsidian-linter",
-  "obsidian-sidebar-expand-on-hover",
   "obsidian-trash-explorer",
   "tag-wrangler",
   "various-complements",
   "obsidian-quickshare",
   "janitor",
-  "multi-properties",
   "quick-tagger",
-  "execute-code"
+  "execute-code",
+  "quickadd"
 ]

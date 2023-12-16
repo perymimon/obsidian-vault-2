@@ -14,7 +14,31 @@
               "type": "markdown",
               "state": {
                 "file": "Jornal/daily/2023-12-16.md",
-                "mode": "preview",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "7b38037c67846e4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "אנשים/ענבר איזנמן.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "a8f8195ef27e33e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jornal/daily/2023-12-16.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -27,6 +51,25 @@
               "state": {
                 "file": "inbox/python.md",
                 "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "71f42f03c2feb6f8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb4ba5d1ca9cf901",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jornal/daily/2023-12-16.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -85,8 +128,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -118,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Jornal/daily/2023-12-16.md"
+                "file": "אנשים/ענבר איזנמן.md"
               }
             }
           },
@@ -128,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Jornal/daily/2023-12-16.md",
+                "file": "אנשים/ענבר איזנמן.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +198,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Jornal/daily/2023-12-16.md",
+                "file": "אנשים/ענבר איזנמן.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,8 +237,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 418.5,
-    "collapsed": true
+    "width": 418.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,17 +252,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "janitor:Janitor: scan vault": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "periodic-notes:Open today": false
+      "darlal-switcher-plus:Open in Headings Mode": false
     }
   },
-  "active": "5c3988829c1e8037",
+  "active": "7b38037c67846e4a",
   "lastOpenFiles": [
+    "Jornal/daily/2023-12-16.md",
+    "אנשים/ענבר איזנמן.md",
+    "[[2023-12-16]].md",
+    "2023-12-16.md",
     "tm/(01) add reference to section to daily note",
     "inbox/python.md",
-    "Jornal/daily/2023-12-16.md",
     "אנשים/דינה.md",
-    "אנשים/ענבר איזנמן.md",
     "משאבים/נשים.md",
     "homes/Codes.md",
     "archive/פתגמים וציטוטים של השראה.md",
@@ -242,7 +284,6 @@
     "אנשים/jornal/נקודות עבור נשים.md",
     "note/2023-11-15  רשימת בנות.md",
     "note/Instagram API.md",
-    "inbox/202312140001.md",
     "desktop.ini",
     "tm/(01) tp - embedded notes .js",
     "tm/(01) tp - import  and embedded notes .js",
@@ -255,7 +296,6 @@
     "tm/(03) tp - mov dv list to folder.md~",
     "archive/comanies",
     "archive",
-    "draft",
     "keep/13dfeedbd74.8a43a4cc67bd6a4c.jpg",
     "keep/13dd9b32981.904df3ee64ab99f0.jpg",
     "keep/13dd9a2e550.bcd8073ff147be95.jpg",
