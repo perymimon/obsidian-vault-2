@@ -40,6 +40,11 @@ word[-1] # last char
 print(word[1:4]) # slicing 'ood'
 print(word[:4]) # from start 'good'
 print(word[5:]) # until last 'mornning'
+print(word[100]) # index overflow throw `index out of range` 
+
 ```
 
-	
+```python
+# but
+print(word[:100]) # `good morning`
+```

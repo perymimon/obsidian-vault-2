@@ -9,7 +9,8 @@ var tomorrow  = theDay.add(1,'days').format(fileDayFormat)
 var yesterday  = theDay.add(-2,'days').format(fileDayFormat)
 _%>
 ---
-
+aliases:
+ - Daily Template
 tags: [daily]
 cssclasses: daily
 day: <% theDay.format(fileDayFormat) %>
@@ -26,7 +27,7 @@ week: <% theDay.format(fileWeekFormat) %>
 - 
 
 
-## לסגור את היום 
+## אז איך עבר היום שלי 
 משפט::  
 סיפור::
 

@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "inbox/python.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               }
             },
@@ -222,11 +222,13 @@
   },
   "active": "fe035e273b010b4d",
   "lastOpenFiles": [
-    "אנשים/אנסטסיה.md",
-    "אנשים/jornal/מכתב המלצה לגיור.md",
-    "inbox/python.md",
-    "Home.md",
+    "tm/tp - daily note.md",
     "Jornal/daily/2023-12-17.md",
+    "אנשים/jornal/מכתב המלצה לגיור.md",
+    "Daily Template.md",
+    "inbox/python.md",
+    "אנשים/אנסטסיה.md",
+    "Home.md",
     "2023-12-17.md",
     "note/code reference.md",
     "Jornal/daily/2023-12-16.md",
@@ -248,8 +250,6 @@
     "משאבים/שיר-רז שיר ההכרות.md",
     "note/וילה הרצליה.md",
     "archive/הפרסום המקורי של הווילה חדר להשכרה.md",
-    "archive/פרסום הווילה.md",
-    "משאבים/וילה הרצליה.md",
     "desktop.ini",
     "tm/(01) tp - embedded notes .js",
     "tm/(01) tp - import  and embedded notes .js",
