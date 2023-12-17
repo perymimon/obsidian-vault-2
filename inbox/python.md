@@ -19,6 +19,10 @@ else:
 
 ```
 
+strings
+
 ```python
-print( '1 ' '2 ')
+#concat strings
+'1' '2\n' "34"
+# ` not work
 ```
