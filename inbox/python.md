@@ -128,5 +128,14 @@ for w in words:
 ```
 
 ```py
+# over collection's clone to avoid tricky situation
+users = {'Pery':1, 'Ron':0, 'Boris':1}
+print(users)
 
+# strategy: Iterate over a copy
+for user,status in users.copy().items():
+	if status == 0:
+		del users[user]
+
+print(users)
 ```
