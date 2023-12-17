@@ -31,9 +31,20 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "45a17bb8053581d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ענבר איזנמן-האשמות.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "3ee19616510ed8f8",
@@ -151,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ענבר איזנמן-האשמות.md"
+                "file": "inbox/python.md"
               }
             }
           },
@@ -161,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ענבר איזנמן-האשמות.md",
+                "file": "inbox/python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ענבר איזנמן-האשמות.md",
+                "file": "inbox/python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -246,10 +257,10 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "d1c75157f39791c5",
+  "active": "ed7b94c5cc0e8d0a",
   "lastOpenFiles": [
-    "אנשים/ענבר איזנמן.md",
     "ענבר איזנמן-האשמות.md",
+    "אנשים/ענבר איזנמן.md",
     "inbox/python.md",
     "Jornal/daily/2023-12-17.md",
     "tm/tp - daily note.md",

@@ -72,5 +72,9 @@ list[0] = 0;
 print('list support mutable list[0] = 0;', list)
 # add to list
 list.append(15)
+list.append(16)
 print('add to list', list)
+
+# assigment to slices
+list[1:3] 
 ```

@@ -85,7 +85,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "- [[{{date}}]] {{time}} {{value}}"
+        "format": "- [[{{date}}]] יום {{DATE:ddd}} {{time}} | {{value}} "
       },
       "insertAfter": {
         "enabled": true,
