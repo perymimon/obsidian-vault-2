@@ -37,14 +37,19 @@ strings
 ```python
 word = "good mornning"
 word[-1] # last char
-print(word[1:4]) # slicing 'ood'
-print(word[:4]) # from start 'good'
-print(word[5:]) # until last 'mornning'
-print(word[100]) # index overflow throw `index out of range` 
+print(word[1:4]) # print 'ood'
+print(word[:4]) # print 'good'
+print(word[5:]) # print 'mornning'
+print(word[100]) # throw `index out of range` 
 
 ```
 
 ```python
 # but
 print(word[:100]) # `good morning`
+print(word[100:]) # ``
+# word[0:2] = 'po' #throw `str object not support item assigment`
 ```
+
+```python
+print(len(word)) #print 13
