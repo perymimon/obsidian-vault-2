@@ -92,4 +92,19 @@ while a< 10:
 	fibonacci.append(a)
 	a,b = b, a+b
 print('fibonacci', fibonacci)
+
+# using the keyword argument `end` can be used to avoid new line with somthing else
+
+a,b = 0,1
+while a<10:
+	print(a, end=',')
+	a,b = b, a+b
+```
+
+## More Control Flow
+
+```py
+x = int(input('please anter an integer: '))
+print(x)
+
 ```
