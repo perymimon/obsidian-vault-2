@@ -38,21 +38,8 @@
               }
             },
             "group": "d9856a344bb6ac8d"
-          },
-          {
-            "id": "35e3d3fe69bcc79a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "מכתב המלצה לגיור.md",
-                "mode": "source",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "מכתב המלצה לגיור.md"
+                "file": "inbox/python.md"
               }
             }
           },
@@ -149,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "מכתב המלצה לגיור.md",
+                "file": "inbox/python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "מכתב המלצה לגיור.md",
+                "file": "inbox/python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -233,10 +220,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "35e3d3fe69bcc79a",
+  "active": "fe035e273b010b4d",
   "lastOpenFiles": [
     "אנשים/אנסטסיה.md",
-    "מכתב המלצה לגיור.md",
+    "אנשים/jornal/מכתב המלצה לגיור.md",
     "inbox/python.md",
     "Home.md",
     "Jornal/daily/2023-12-17.md",
