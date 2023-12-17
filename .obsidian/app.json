@@ -11,5 +11,7 @@
   "rightToLeft": false,
   "defaultViewMode": "preview",
   "livePreview": false,
-  "focusNewTab": false
+  "focusNewTab": false,
+  "autoPairMarkdown": false,
+  "trashOption": "local"
 }
