@@ -138,4 +138,13 @@ for user,status in users.copy().items():
 		del users[user]
 
 print(users)
+
+
+```
+
+```py
+# range() function 
+for i in range(2,10,2):	print(i, end=', ')
+
+print(sum(range(10)))
 ```
