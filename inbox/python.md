@@ -106,5 +106,8 @@ while a<10:
 ```py
 x = int(input('please anter an integer: '))
 print(x)
+if x < 0:
+	x = 0
+	print('Negative changed to zero')
 
 ```
