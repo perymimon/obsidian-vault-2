@@ -2,11 +2,16 @@
 aliases: 
 cssclasse: 
 date-created: 2023-12-13
-date-modified: 2023-12-13
+date-modified: 2023-12-17
 tags: 
 ---
+daily note : `=link(dateformat(date(today), "yyyy-MM-dd"))`
 
+## Active Working
 
+- [[python]]
+
+---
 
 ```dataviewjs
 dv.pagePaths('"homes"')

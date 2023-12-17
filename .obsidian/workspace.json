@@ -4,47 +4,61 @@
     "type": "split",
     "children": [
       {
-        "id": "dd5259357cb29f44",
+        "id": "bb1fd097ecc6ad63",
         "type": "tabs",
         "children": [
           {
-            "id": "8ea7123db7f73e1e",
+            "id": "c539d647fc8e0e27",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "preview",
+                "source": true
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "f6d476ade8f977be",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jornal/daily/2023-12-16.md",
+                "file": "note/code reference.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "309ce7cad88a38fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023-12-17.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "fc334aab9dd35cbb",
+            "id": "041c441cfa3113af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jornal/daily/2023-12-16.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "4d58c2a1b8e5a8b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Jornal/daily/2023-12-16.md",
-                "mode": "source",
+                "file": "inbox/python.md",
+                "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -102,7 +116,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5110321044922
+    "width": 310.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "7598a77bad2a22d5",
@@ -130,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Jornal/daily/2023-12-16.md"
+                "file": "inbox/python.md"
               }
             }
           },
@@ -140,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Jornal/daily/2023-12-16.md",
+                "file": "inbox/python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Jornal/daily/2023-12-16.md",
+                "file": "inbox/python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +221,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 418.5
+    "width": 418.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -224,18 +240,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b52c9dfd18c75d28",
+  "active": "041c441cfa3113af",
   "lastOpenFiles": [
+    "Home.md",
+    "2023-12-17.md",
+    "note/code reference.md",
+    "Jornal/daily/2023-12-16.md",
+    "inbox/python.md",
     "scripts",
     "Untitled.md",
     "אנשים/ענבר איזנמן.md",
-    "Jornal/daily/2023-12-16.md",
     "Jornal/daily/2023-10-20.md",
     "Jornal/daily/2023-11-08.md",
     "[[2023-12-16]].md",
     "2023-12-16.md",
     "tm/(01) add reference to section to daily note",
-    "inbox/python.md",
     "אנשים/דינה.md",
     "משאבים/נשים.md",
     "homes/Codes.md",
@@ -244,7 +263,6 @@
     "Jornal/daily/2023-12-14.md",
     "משאבים/song - I see the sky tonight.md",
     "משאבים/שיר-רז שיר ההכרות.md",
-    "Home.md",
     "note/וילה הרצליה.md",
     "archive/הפרסום המקורי של הווילה חדר להשכרה.md",
     "archive/פרסום הווילה.md",
@@ -252,7 +270,6 @@
     "note/הספר השחור.md",
     "archive/2023-09-16 - טקסט אנטי פמיניסטי.md",
     "note/מה הסיבות שגורמות לנו להשאר בודדים.md",
-    "note/כמה דברים שלמדתי בתור גבר רווק שמחפש זוגיות על המין הנשי.md",
     "desktop.ini",
     "tm/(01) tp - embedded notes .js",
     "tm/(01) tp - import  and embedded notes .js",
@@ -264,7 +281,6 @@
     "1234.undefined",
     "tm/(03) tp - mov dv list to folder.md~",
     "archive/comanies",
-    "archive",
     "keep/13dfeedbd74.8a43a4cc67bd6a4c.jpg",
     "keep/13dd9b32981.904df3ee64ab99f0.jpg",
     "keep/13dd9a2e550.bcd8073ff147be95.jpg",
