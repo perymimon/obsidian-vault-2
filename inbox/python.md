@@ -104,10 +104,29 @@ while a<10:
 ## More Control Flow
 
 ```py
+# If statment
+
 x = int(input('please anter an integer: '))
 print(x)
 if x < 0:
 	x = 0
 	print('Negative changed to zero')
+elif x==0:
+	print('Zero')
+elif x==1:
+	print('Single')
+else:
+	print('More')
+
+```
+
+```py
+# fpr statements
+words = ["hello", "my", "world"]
+for w in words:
+	print(w,len(w))
+```
+
+```py
 
 ```
