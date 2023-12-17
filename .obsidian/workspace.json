@@ -4,50 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "bb1fd097ecc6ad63",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c539d647fc8e0e27",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "preview",
-                "source": true
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "f6d476ade8f977be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "note/code reference.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "7f2bbbfd24f78045",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Jornal/daily/2023-12-17.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "ad21093c93ae209e",
         "type": "tabs",
         "children": [
@@ -82,8 +38,21 @@
               }
             },
             "group": "d9856a344bb6ac8d"
+          },
+          {
+            "id": "35e3d3fe69bcc79a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "מכתב המלצה לגיור.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "inbox/python.md"
+                "file": "מכתב המלצה לגיור.md"
               }
             }
           },
@@ -180,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "inbox/python.md",
+                "file": "מכתב המלצה לגיור.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "inbox/python.md",
+                "file": "מכתב המלצה לגיור.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -264,11 +233,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fe035e273b010b4d",
+  "active": "35e3d3fe69bcc79a",
   "lastOpenFiles": [
+    "אנשים/אנסטסיה.md",
+    "מכתב המלצה לגיור.md",
+    "inbox/python.md",
     "Home.md",
     "Jornal/daily/2023-12-17.md",
-    "inbox/python.md",
     "2023-12-17.md",
     "note/code reference.md",
     "Jornal/daily/2023-12-16.md",
@@ -292,8 +263,6 @@
     "archive/הפרסום המקורי של הווילה חדר להשכרה.md",
     "archive/פרסום הווילה.md",
     "משאבים/וילה הרצליה.md",
-    "note/הספר השחור.md",
-    "archive/2023-09-16 - טקסט אנטי פמיניסטי.md",
     "desktop.ini",
     "tm/(01) tp - embedded notes .js",
     "tm/(01) tp - import  and embedded notes .js",
