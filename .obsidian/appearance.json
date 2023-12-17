@@ -10,11 +10,12 @@
     "relif-search",
     "generic-layouts"
   ],
-  "nativeMenus": true,
+  "nativeMenus": false,
   "translucency": false,
   "monospaceFontFamily": "JetBrains Mono",
   "baseFontSize": 15,
   "theme": "obsidian",
   "interfaceFontFamily": "Inter",
-  "textFontFamily": ""
+  "textFontFamily": "",
+  "showViewHeader": false
 }

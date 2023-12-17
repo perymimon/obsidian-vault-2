@@ -38,6 +38,18 @@
               }
             },
             "group": "d9856a344bb6ac8d"
+          },
+          {
+            "id": "0f37f3ab93b98c38",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jornal/daily/2023-12-17.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ]
       }
@@ -206,7 +218,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-trash-explorer:Open trash explorer": false,
+      "obsidian-trash-explorer:Open trash explorer": true,
       "homepage:Open homepage": false,
       "graph:Open graph view": false,
       "command-palette:Open command palette": false,

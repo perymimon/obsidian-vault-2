@@ -2,7 +2,7 @@
   "choices": [
     {
       "id": "ef83fbe1-449e-4432-858e-3b39c1bfc920",
-      "name": "add section ref to daily",
+      "name": "להוסיף דף נוכחי לתיעוד היומי",
       "type": "Capture",
       "command": true,
       "appendLink": false,
