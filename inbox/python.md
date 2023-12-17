@@ -76,5 +76,20 @@ list.append(16)
 print('add to list', list)
 
 # assigment to slices
-list[1:3] 
+list[1:3] = ['a','b','c']
+print('assigment to slices and extend the length of the list ', list)
+list[-2:] = []
+print('remove values from list',list)
+print('length of the list', len(list))
+```
+
+## Programing
+
+```py
+a,b = 0,1
+fibonacci = []
+while a< 10:
+	fibonacci.append(a)
+	a,b = b, a+b
+print('fibonacci', fibonacci)
 ```
