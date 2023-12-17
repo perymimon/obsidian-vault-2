@@ -6,6 +6,9 @@ date-created: 2023-12-16
 date-modified: 2023-12-17
 tags: 
 ---
+
+## String
+
 ```python
 print("Be careful not to fall off!")
 ```
@@ -53,3 +56,21 @@ print(word[100:]) # ``
 
 ```python
 print(len(word)) #print 13
+
+```
+
+# List
+
+```py
+list = [1,3,9,12]
+print(list)
+print(list[0], list[-1], list[-3:])
+print('shalow copy of the list', list[:])
+print('list support concatention', list + [15, 18])
+# list supoort mutabel 
+list[0] = 0;
+print('list support mutable list[0] = 0;', list)
+# add to list
+list.append(15)
+print('add to list', list)
+```

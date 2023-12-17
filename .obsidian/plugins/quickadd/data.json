@@ -69,6 +69,41 @@
       },
       "openFile": true,
       "openFileInMode": "source"
+    },
+    {
+      "id": "6f97b8ff-a253-415c-9a3a-8bed95d0b002",
+      "name": "האשמות ענבר",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "ענבר איזנמן-האשמות.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- [[{{date}}]] {{time}} {{value}}"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## לוגס",
+        "insertAtEnd": true,
+        "considerSubsections": true,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "bottom"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": false
+      },
+      "openFile": true,
+      "openFileInMode": "source"
     }
   ],
   "macros": [],
