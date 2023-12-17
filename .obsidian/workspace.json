@@ -8,25 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d1c75157f39791c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "inbox/python.md",
-                "mode": "preview",
-                "source": true
-              }
-            },
-            "group": "d4d638b506b310db"
-          },
-          {
             "id": "45a17bb8053581d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ענבר איזנמן-האשמות.md",
+                "file": "inbox/python.md",
                 "mode": "source",
                 "source": true
               }
@@ -44,12 +31,11 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "inbox/python.md",
+                "file": "משאבים/קוד מוסד להוראת קבע בבנק.md",
                 "mode": "source",
                 "source": true
               }
-            },
-            "group": "d4d638b506b310db"
+            }
           },
           {
             "id": "0f37f3ab93b98c38",
@@ -150,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "inbox/python.md"
+                "file": "משאבים/קוד מוסד להוראת קבע בבנק.md"
               }
             }
           },
@@ -160,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "inbox/python.md",
+                "file": "משאבים/קוד מוסד להוראת קבע בבנק.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "inbox/python.md",
+                "file": "משאבים/קוד מוסד להוראת קבע בבנק.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,13 +228,16 @@
       "janitor:Janitor: scan vault": false,
       "darlal-switcher-plus:Open in Headings Mode": true,
       "darlal-switcher-plus:Open Symbols for the active editor": true,
-      "templater-obsidian:Templater": true
+      "templater-obsidian:Templater": true,
+      "omnisearch:Omnisearch": false
     }
   },
   "active": "fe035e273b010b4d",
   "lastOpenFiles": [
-    "ענבר איזנמן-האשמות.md",
     "inbox/python.md",
+    "archive/comanies/nuclei.md",
+    "ענבר איזנמן-האשמות.md",
+    "משאבים/קוד מוסד להוראת קבע בבנק.md",
     "אנשים/ענבר איזנמן.md",
     "Jornal/daily/2023-12-17.md",
     "tm/tp - daily note.md",
@@ -273,8 +262,6 @@
     "homes/שירים שלי.md",
     "Jornal/daily/2023-12-14.md",
     "משאבים/song - I see the sky tonight.md",
-    "משאבים/שיר-רז שיר ההכרות.md",
-    "note/וילה הרצליה.md",
     "desktop.ini",
     "tm/(01) tp - embedded notes .js",
     "tm/(01) tp - import  and embedded notes .js",
