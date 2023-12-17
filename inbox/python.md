@@ -42,4 +42,4 @@ print(word[:4]) # from start 'good'
 print(word[5:]) # until last 'mornning'
 ```
 
-	word = "kjkjk"
+	
