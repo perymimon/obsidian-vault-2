@@ -57,11 +57,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jornal/daily/2023-12-17.md",
+                "file": "inbox/python.md",
+                "mode": "preview",
+                "source": true
+              }
+            },
+            "group": "d9856a344bb6ac8d"
+          }
+        ]
+      },
+      {
+        "id": "3ee19616510ed8f8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fe035e273b010b4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "inbox/python.md",
                 "mode": "source",
                 "source": true
               }
-            }
+            },
+            "group": "d9856a344bb6ac8d"
           }
         ]
       }
@@ -150,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "inbox/python.md"
               }
             }
           },
@@ -160,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "inbox/python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "inbox/python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,10 +264,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c539d647fc8e0e27",
+  "active": "fe035e273b010b4d",
   "lastOpenFiles": [
-    "Jornal/daily/2023-12-17.md",
     "Home.md",
+    "Jornal/daily/2023-12-17.md",
     "inbox/python.md",
     "2023-12-17.md",
     "note/code reference.md",

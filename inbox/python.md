@@ -25,4 +25,21 @@ strings
 #concat strings
 '1' '2\n' "34"
 # ` not work
+
 ```
+
+```python
+# parenttheses to brick lines
+('8878787878'
+'klklklkl')
+```
+
+```python
+word = "good mornning"
+word[-1] # last char
+print(word[1:4]) # slicing 'ood'
+print(word[:4]) # from start 'good'
+print(word[5:]) # until last 'mornning'
+```
+
+	word = "kjkjk"
