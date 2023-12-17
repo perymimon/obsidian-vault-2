@@ -23,5 +23,7 @@
   "quick-tagger",
   "quickadd",
   "execute-code",
-  "omnisearch"
+  "omnisearch",
+  "code-block-from-selection",
+  "keyshots"
 ]

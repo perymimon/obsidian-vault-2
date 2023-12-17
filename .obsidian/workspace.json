@@ -14,10 +14,11 @@
               "type": "markdown",
               "state": {
                 "file": "inbox/python.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               }
-            }
+            },
+            "group": "e8a4b9eaa50d43b2"
           }
         ]
       },
@@ -31,11 +32,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "משאבים/קוד מוסד להוראת קבע בבנק.md",
+                "file": "inbox/python.md",
                 "mode": "source",
                 "source": true
               }
-            }
+            },
+            "group": "e8a4b9eaa50d43b2"
           },
           {
             "id": "0f37f3ab93b98c38",
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "משאבים/קוד מוסד להוראת קבע בבנק.md"
+                "file": "inbox/python.md"
               }
             }
           },
@@ -146,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "משאבים/קוד מוסד להוראת קבע בבנק.md",
+                "file": "inbox/python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "משאבים/קוד מוסד להוראת קבע בבנק.md",
+                "file": "inbox/python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,12 +234,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "fe035e273b010b4d",
+  "active": "45a17bb8053581d9",
   "lastOpenFiles": [
+    "משאבים/קוד מוסד להוראת קבע בבנק.md",
     "inbox/python.md",
     "archive/comanies/nuclei.md",
     "ענבר איזנמן-האשמות.md",
-    "משאבים/קוד מוסד להוראת קבע בבנק.md",
     "אנשים/ענבר איזנמן.md",
     "Jornal/daily/2023-12-17.md",
     "tm/tp - daily note.md",

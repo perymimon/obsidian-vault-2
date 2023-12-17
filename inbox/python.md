@@ -145,6 +145,6 @@ print(users)
 ```py
 # range() function 
 for i in range(2,10,2):	print(i, end=', ')
-
+print()
 print(sum(range(10)))
 ```
