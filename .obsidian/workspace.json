@@ -6,6 +6,7 @@
       {
         "id": "ad21093c93ae209e",
         "type": "tabs",
+        "dimension": 49.92481203007519,
         "children": [
           {
             "id": "45a17bb8053581d9",
@@ -21,6 +22,18 @@
             "group": "e8a4b9eaa50d43b2"
           },
           {
+            "id": "f9807bec1e4c0c3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "note/הכנה לטיולים.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "58f83574223cd6cc",
             "type": "leaf",
             "state": {
@@ -32,11 +45,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "3ee19616510ed8f8",
         "type": "tabs",
+        "dimension": 50.07518796992482,
         "children": [
           {
             "id": "fe035e273b010b4d",
@@ -162,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/obsidian code reference.md"
+                "file": "note/הכנה לטיולים.md"
               }
             }
           },
@@ -172,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/obsidian code reference.md",
+                "file": "note/הכנה לטיולים.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/obsidian code reference.md",
+                "file": "note/הכנה לטיולים.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -258,11 +273,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f431321c5e828fad",
+  "active": "f9807bec1e4c0c3d",
   "lastOpenFiles": [
-    "note/Obsidian.md",
-    "note/obsidian code reference.md",
     "scripts/TOC.js.md",
+    "note/obsidian code reference.md",
+    "note/Obsidian.md",
     "inbox/python.md",
     "אנשים/ענבר איזנמן.md",
     "משאבים/קוד מוסד להוראת קבע בבנק.md",
