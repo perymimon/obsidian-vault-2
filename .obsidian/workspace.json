@@ -6,7 +6,7 @@
       {
         "id": "ad21093c93ae209e",
         "type": "tabs",
-        "dimension": 49.92481203007519,
+        "dimension": 27.38707833047456,
         "children": [
           {
             "id": "45a17bb8053581d9",
@@ -18,8 +18,7 @@
                 "mode": "preview",
                 "source": true
               }
-            },
-            "group": "e8a4b9eaa50d43b2"
+            }
           },
           {
             "id": "f9807bec1e4c0c3d",
@@ -51,47 +50,21 @@
       {
         "id": "3ee19616510ed8f8",
         "type": "tabs",
-        "dimension": 50.07518796992482,
+        "dimension": 72.61292166952545,
         "children": [
-          {
-            "id": "fe035e273b010b4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "scripts/TOC.js.md",
-                "mode": "source",
-                "source": true
-              }
-            },
-            "group": "e8a4b9eaa50d43b2"
-          },
-          {
-            "id": "f431321c5e828fad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "note/obsidian code reference.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
           {
             "id": "0f37f3ab93b98c38",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jornal/daily/2023-12-17.md",
+                "file": "inbox/python.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/הכנה לטיולים.md"
+                "file": "inbox/python.md"
               }
             }
           },
@@ -187,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/הכנה לטיולים.md",
+                "file": "inbox/python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/הכנה לטיולים.md",
+                "file": "inbox/python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,8 +207,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "879ac7a01561a30e",
@@ -254,7 +226,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 418.5
+    "width": 418.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -273,22 +246,24 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f9807bec1e4c0c3d",
+  "active": "0f37f3ab93b98c38",
   "lastOpenFiles": [
+    "Home.md",
+    "Jornal/daily/2023-12-17.md",
+    "2023-12-19.md",
     "scripts/TOC.js.md",
     "note/obsidian code reference.md",
+    "note/הכנה לטיולים.md",
     "note/Obsidian.md",
     "inbox/python.md",
     "אנשים/ענבר איזנמן.md",
     "משאבים/קוד מוסד להוראת קבע בבנק.md",
     "archive/comanies/nuclei.md",
     "ענבר איזנמן-האשמות.md",
-    "Jornal/daily/2023-12-17.md",
     "tm/tp - daily note.md",
     "אנשים/jornal/מכתב המלצה לגיור.md",
     "Daily Template.md",
     "אנשים/אנסטסיה.md",
-    "Home.md",
     "2023-12-17.md",
     "Jornal/daily/2023-12-16.md",
     "scripts",
@@ -301,8 +276,6 @@
     "אנשים/דינה.md",
     "משאבים/נשים.md",
     "homes/Codes.md",
-    "archive/פתגמים וציטוטים של השראה.md",
-    "homes/שירים שלי.md",
     "desktop.ini",
     "tm/(01) tp - embedded notes .js",
     "tm/(01) tp - import  and embedded notes .js",

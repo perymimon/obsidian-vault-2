@@ -6,6 +6,7 @@ date-created: 2023-12-16
 date-modified: 2023-12-19
 tags: 
 ---
+`== dv.view("scripts/TOC")`
 
 ```python
 print("Be careful not to fall off!")
