@@ -7,8 +7,6 @@ date-modified: 2023-12-19
 tags: 
 ---
 
-## String
-
 ```python
 print("Be careful not to fall off!")
 ```
@@ -22,7 +20,7 @@ else:
 
 ```
 
-strings
+## String
 
 ```python
 #concat strings
@@ -57,6 +55,12 @@ print(word[100:]) # ``
 ```python
 print(len(word)) #print 13
 
+```
+
+```py
+# template string
+x = 10
+print(f"x={x}")
 ```
 
 # List
@@ -176,6 +180,7 @@ def http_error(status)
 ```
 
 ```py
+#Patterns can look like unpacking assignments, and can be used to bind variables:
 match point:
     case (0, 0):
         print("Origin")
@@ -209,4 +214,7 @@ def where_is(point):
             print("Somewhere else")
         case _:
             print("Not a point")
+```
+```py
+
 ```
