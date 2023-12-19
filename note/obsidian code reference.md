@@ -7,7 +7,7 @@ aliases:
   - code-reference-obsidian
 cssclasse: 
 date-created: 2023-10-29
-date-modified: 2023-12-13
+date-modified: 2023-12-19
 tags:
   - toc
   - reference
@@ -16,7 +16,7 @@ tags:
   - momen
 ---
 ---
-- [[Obsidian]]
+
 - [Home - Developer Documentation](https://docs.obsidian.md/Home)
 - [Templater](https://silentvoid13.github.io/Templater/introduction.html)
 	- [Internal Functions - Templater](https://silentvoid13.github.io/Templater/internal-functions/overview.html)

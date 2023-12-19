@@ -2,15 +2,15 @@
 aliases: אובסידיאן
 cssclasse: 
 date-created: 2023-11-03
-date-modified: 2023-12-12
+date-modified: 2023-12-19
 tags: 
 ---
-magic links
-[open plugin dialog](obsidian://show-plugin?id=obsidian-linter)
 
 notes
 [[My Obsidian workflow]]
 [[Obsidian-what-missing]]
-[[code reference]]
+[[obsidian code reference]]
 [[Obsidian markdown]]
 [[Obsidian list of recommended plugin to checkout]]
+
+magic links: [open plugin dialog](obsidian://show-plugin?id=obsidian-linter)

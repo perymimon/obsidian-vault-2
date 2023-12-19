@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "inbox/python.md",
+                "file": "scripts/TOC.js.md",
                 "mode": "preview",
                 "source": true
               }
@@ -44,12 +44,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "inbox/python.md",
+                "file": "scripts/TOC.js.md",
                 "mode": "source",
                 "source": true
               }
             },
             "group": "e8a4b9eaa50d43b2"
+          },
+          {
+            "id": "f431321c5e828fad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "note/obsidian code reference.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           },
           {
             "id": "0f37f3ab93b98c38",
@@ -63,7 +75,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,8 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5110321044922,
-    "collapsed": true
+    "width": 310.5110321044922
   },
   "right": {
     "id": "7598a77bad2a22d5",
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "inbox/python.md"
+                "file": "note/obsidian code reference.md"
               }
             }
           },
@@ -160,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "inbox/python.md",
+                "file": "note/obsidian code reference.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "inbox/python.md",
+                "file": "note/obsidian code reference.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +219,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "879ac7a01561a30e",
@@ -226,8 +239,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 418.5,
-    "collapsed": true
+    "width": 418.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -246,10 +258,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "45a17bb8053581d9",
+  "active": "f431321c5e828fad",
   "lastOpenFiles": [
-    "אנשים/ענבר איזנמן.md",
+    "note/Obsidian.md",
+    "note/obsidian code reference.md",
+    "scripts/TOC.js.md",
     "inbox/python.md",
+    "אנשים/ענבר איזנמן.md",
     "משאבים/קוד מוסד להוראת קבע בבנק.md",
     "archive/comanies/nuclei.md",
     "ענבר איזנמן-האשמות.md",
@@ -260,7 +275,6 @@
     "אנשים/אנסטסיה.md",
     "Home.md",
     "2023-12-17.md",
-    "note/code reference.md",
     "Jornal/daily/2023-12-16.md",
     "scripts",
     "Untitled.md",
@@ -274,8 +288,6 @@
     "homes/Codes.md",
     "archive/פתגמים וציטוטים של השראה.md",
     "homes/שירים שלי.md",
-    "Jornal/daily/2023-12-14.md",
-    "משאבים/song - I see the sky tonight.md",
     "desktop.ini",
     "tm/(01) tp - embedded notes .js",
     "tm/(01) tp - import  and embedded notes .js",
