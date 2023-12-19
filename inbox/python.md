@@ -3,7 +3,7 @@ aliases:
   - פייטון
 cssclasse: 
 date-created: 2023-12-16
-date-modified: 2023-12-17
+date-modified: 2023-12-19
 tags: 
 ---
 
@@ -147,4 +147,10 @@ print(users)
 for i in range(2,10,2):	print(i, end=', ')
 print()
 print(sum(range(10)))
+```
+
+``` 
+# keyword as usual 
+break 
+continue
 ```
