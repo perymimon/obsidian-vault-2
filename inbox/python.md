@@ -153,4 +153,60 @@ print(sum(range(10)))
 # keyword as usual 
 break 
 continue
+pass # pass statemenents does nothing , it require when syntax ask for somthing
+	 # like : class Dog(*args): pass	
+```
+
+## Match Statements
+
+```py
+# basic def
+def http_error(status)
+	match status:
+		case 400: 
+			return "bad request"
+		case 401 | 403 | 404:
+			return "Not allowd"
+		case 404: 
+			return "Not Found"
+		case 418:
+			return "I'm a teapot"
+		case _:
+			return "Somthing's wrong with the internet"
+```
+
+```py
+match point:
+    case (0, 0):
+        print("Origin")
+    case (0, y):
+        print(f"Y={y}")
+    case (x, 0):
+        print(f"X={x}")
+    case (x, y):
+        print(f"X={x}, Y={y}")
+    case _:
+        raise ValueError("Not a point")
+```
+
+If you are using classes to structure your data you can use the class name followed by an argument list resembling a constructor, but with the ability to capture attributes into variables:
+
+```py
+class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+def where_is(point):
+    match point:
+        case Point(x=0, y=0):
+            print("Origin")
+        case Point(x=0, y=y):
+            print(f"Y={y}")
+        case Point(x=x, y=0):
+            print(f"X={x}")
+        case Point():
+            print("Somewhere else")
+        case _:
+            print("Not a point")
 ```
