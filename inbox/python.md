@@ -4,7 +4,7 @@ aliases:
 cssclasse: 
 date-created: 2023-12-16
 date-modified: 2023-12-19
-tags: 
+tags: clearfy
 ---
 `== dv.view("scripts/TOC")`
 
@@ -196,7 +196,7 @@ match point:
 ```
 
 If you are using classes to structure your data you can use the class name followed by an argument list resembling a constructor, but with the ability to capture attributes into variables:
-
+#clearfy
 ```py
 class Point:
     def __init__(self, x, y):
@@ -216,6 +216,34 @@ def where_is(point):
         case _:
             print("Not a point")
 ```
+#clearfy
 ```py
+#Patterns can be arbitrarily nested. For example, if we have a short list of Points, with `__match_args__` added, we could match it like this:
 
+class Point:
+    __match_args__ = ('x', 'y')
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+match points:
+    case []:
+        print("No points")
+    case [Point(0, 0)]:
+        print("The origin")
+    case [Point(x, y)]:
+        print(f"Single point {x}, {y}")
+    case [Point(0, y1), Point(0, y2)]:
+        print(f"Two on the Y axis at {y1}, {y2}")
+    case _:
+        print("Something else")
 ```
+
+```py
+match point
+	case Point(x,y) if x==y:
+		print(f"Y=X at {x}")
+	case Point(x,y):
+		print(f"Not on the diagonal")
+```
+	

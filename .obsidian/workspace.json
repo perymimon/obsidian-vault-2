@@ -6,7 +6,7 @@
       {
         "id": "ad21093c93ae209e",
         "type": "tabs",
-        "dimension": 27.38707833047456,
+        "dimension": 44.97328800388538,
         "children": [
           {
             "id": "45a17bb8053581d9",
@@ -14,43 +14,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "scripts/TOC.js.md",
+                "file": "inbox/python.md",
                 "mode": "preview",
                 "source": true
               }
-            }
-          },
-          {
-            "id": "f9807bec1e4c0c3d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "note/הכנה לטיולים.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "58f83574223cd6cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "אנשים/ענבר איזנמן.md",
-                "mode": "source",
-                "source": true
-              }
-            }
+            },
+            "group": "9168290f7f81c923"
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "3ee19616510ed8f8",
         "type": "tabs",
-        "dimension": 72.61292166952545,
+        "dimension": 55.02671199611462,
         "children": [
           {
             "id": "0f37f3ab93b98c38",
@@ -62,7 +38,8 @@
                 "mode": "source",
                 "source": true
               }
-            }
+            },
+            "group": "9168290f7f81c923"
           }
         ]
       }
@@ -122,7 +99,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5110321044922
+    "width": 310.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "7598a77bad2a22d5",
@@ -248,14 +226,14 @@
   },
   "active": "0f37f3ab93b98c38",
   "lastOpenFiles": [
+    "scripts/TOC.js.md",
+    "inbox/python.md",
     "Home.md",
     "Jornal/daily/2023-12-17.md",
     "2023-12-19.md",
-    "scripts/TOC.js.md",
     "note/obsidian code reference.md",
     "note/הכנה לטיולים.md",
     "note/Obsidian.md",
-    "inbox/python.md",
     "אנשים/ענבר איזנמן.md",
     "משאבים/קוד מוסד להוראת קבע בבנק.md",
     "archive/comanies/nuclei.md",
