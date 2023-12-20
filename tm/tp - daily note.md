@@ -1,44 +1,37 @@
 <%*
+moment.lang('he')
 var fileDayFormat = 'YYYY-MM-DD'
 var fileWeekFormat = 'YYYY-[W]ww' 
-var happyDayFormat = "DD MMMM יום dddd היום ה- DDD, השבוע ה"
+var happyDayFormat = "DD MMMM, יום dddd, DDD ימים או W שבועות מתחילת השנה."
 var dv = app.plugins.plugins.dataview.api
 var title = tp.file.title
-var theDay = moment(title,fileDayFormat)
+var theDay = moment(title, fileDayFormat)
 var tomorrow  = theDay.add(1,'days').format(fileDayFormat)
 var yesterday  = theDay.add(-2,'days').format(fileDayFormat)
+debugger
 _%>
 ---
-aliases:
- - Daily Template
+aliases: <% theDay.format("DD MMMM YYYY") %>
 tags: [daily]
 cssclasses: daily
 day: <% theDay.format(fileDayFormat) %>
 week: <% theDay.format(fileWeekFormat) %>
 ---
 
-## [[<%_ yesterday _%>|👈]][[<% title %>#מהלך היום.|<% title %>]][[<%_ tomorrow _%>|👉]]
+## [[<%_ yesterday _%>|👈]] [[<% title %>#הספקתי היום|<% title %>]] [[<%_ tomorrow _%>|👉]]
 
->  <% theDay.format(happyDayFormat) %> **`$= moment(dv.current().day - 0).fromNow()`**
+> [!todo]  <% theDay.format(happyDayFormat) %> **`== moment(dv.current().day - 0).fromNow()`**
 
- > [!todo] היום <% theDay.format("dddd") %> , מה קורה ומה אני עושה היום
+> [!tip]  יומן מלחמה , היום ה - <% theDay.diff("2023-10-06",'days') %> למלחמה
 
 ## הספקתי היום 
 - 
 
+מצב רוח יומי:: 😑
 
-## אז איך עבר היום שלי 
+> [!cite] אז איך עבר היום שלי 
 משפט::  
 סיפור::
 
- 
-##  [[חרבות ברזל]]
-> [!tip]  יומן מלחמה , היום ה - <% theDay.diff("2023-10-06",'days') %> למלחמה
 
- | חטופים | נרצחים | חללי צה"ל |
- |:------:|:------:|:---------:|
- | 315    | 1,200  | 240       |
- 
-- [*]  
-- [*]  
-- [*]  
+
