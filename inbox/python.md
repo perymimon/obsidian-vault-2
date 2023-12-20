@@ -3,7 +3,7 @@ aliases:
   - פייטון
 cssclasse: 
 date-created: 2023-12-16
-date-modified: 2023-12-19
+date-modified: 2023-12-20
 tags: clearfy
 ---
 `== dv.view("scripts/TOC")`
@@ -87,6 +87,25 @@ list[-2:] = []
 print('remove values from list',list)
 print('length of the list', len(list))
 ```
+```py
+list.append(x)
+list.extend(iterable)
+list.insert(i,x) # list.insert(let(list),x) is like `append`
+list.pop([i])
+list.clear # like del list[:]
+list.index(x,[start[,end]]) # return index of list item
+list.count(x) 
+list.sort(*, key=None, reverse=false)
+list.reverse()
+list.copy() 
+
+```
+
+For queue ( insert to start pop from end) should using `collections.deque`
+```py
+
+```
+
 
 ## Programing
 

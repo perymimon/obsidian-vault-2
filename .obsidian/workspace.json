@@ -40,8 +40,21 @@
               }
             },
             "group": "9168290f7f81c923"
+          },
+          {
+            "id": "aac9327ff474d31e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "אנשים/ענבר איזנמן.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -128,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "inbox/python.md"
+                "file": "אנשים/ענבר איזנמן.md"
               }
             }
           },
@@ -138,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "inbox/python.md",
+                "file": "אנשים/ענבר איזנמן.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "inbox/python.md",
+                "file": "אנשים/ענבר איזנמן.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -224,12 +237,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "45a17bb8053581d9",
+  "active": "aac9327ff474d31e",
   "lastOpenFiles": [
+    "inbox/python.md",
     "Jornal/daily/2023-12-20.md",
     "desktop.ini",
     "scripts/TOC.js.md",
-    "inbox/python.md",
     "Home.md",
     "Jornal/daily/2023-12-17.md",
     "2023-12-19.md",
