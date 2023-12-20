@@ -72,14 +72,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jornal/daily/2023-12-20.md",
+                "file": "lyric/Say Something.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "6452c3f46b57538a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "אנשים/ענבר איזנמן.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -264,13 +276,14 @@
   "active": "25b6c4e4738eb19f",
   "lastOpenFiles": [
     "Jornal/daily/2023-12-20.md",
+    "אנשים/ענבר איזנמן.md",
+    "lyric/Say Something.md",
     "tm/tp - daily note.md",
     "Jornal/daily/2023-11-06.md",
     "Jornal/daily/2023-11-08.md",
     "Jornal/daily/2023-11-07.md",
     "משאבים/וילה הרצליה.md",
     "Jornal/daily/2023-12-13.md",
-    "אנשים/ענבר איזנמן.md",
     "inbox/python.md",
     "desktop.ini",
     "scripts/TOC.js.md",
@@ -290,7 +303,6 @@
     "Jornal/daily/2023-12-16.md",
     "scripts",
     "Untitled.md",
-    "Jornal/daily/2023-10-20.md",
     "tm/(01) add reference to section to daily note",
     "tm/(01) tp - embedded notes .js",
     "tm/(01) tp - import  and embedded notes .js",
