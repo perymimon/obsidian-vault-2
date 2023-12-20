@@ -91,6 +91,30 @@
             }
           },
           {
+            "id": "465d86e60cdc6395",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "משאבים/חשבונות משתמש.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "93a9a8acfbf5252d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "homes/synology.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "6452c3f46b57538a",
             "type": "leaf",
             "state": {
@@ -103,7 +127,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -132,7 +156,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:טקסט-שכתבתי/שיר",
+                "query": "tag:פרטים-חשובים",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -157,7 +181,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -190,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-12-21.md"
+                "file": "homes/synology.md"
               }
             }
           },
@@ -200,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-12-21.md",
+                "file": "homes/synology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,7 +253,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-12-21.md",
+                "file": "homes/synology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -285,10 +310,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f8fa98c674a0cfa6",
+  "active": "93a9a8acfbf5252d",
   "lastOpenFiles": [
-    "tm/tp - daily note.md",
+    "משאבים/חשבונות משתמש.md",
+    "homes/synology.md",
     "2023-12-21.md",
+    "tm/tp - daily note.md",
     "note/Obsidian markdown.md",
     "lyric/Say Something.md",
     "Jornal/daily/2023-12-20.md",
@@ -312,8 +339,6 @@
     "archive/comanies/nuclei.md",
     "ענבר איזנמן-האשמות.md",
     "אנשים/jornal/מכתב המלצה לגיור.md",
-    "Daily Template.md",
-    "אנשים/אנסטסיה.md",
     "scripts",
     "tm/(01) add reference to section to daily note",
     "tm/(01) tp - embedded notes .js",
