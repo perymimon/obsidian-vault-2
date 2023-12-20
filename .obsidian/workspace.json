@@ -47,14 +47,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "אנשים/ענבר איזנמן.md",
+                "file": "Jornal/daily/2023-12-20.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "f8fa98c674a0cfa6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "משאבים/וילה הרצליה.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -141,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "אנשים/ענבר איזנמן.md"
+                "file": "משאבים/וילה הרצליה.md"
               }
             }
           },
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "אנשים/ענבר איזנמן.md",
+                "file": "משאבים/וילה הרצליה.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "אנשים/ענבר איזנמן.md",
+                "file": "משאבים/וילה הרצליה.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,8 +229,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 418.5,
-    "collapsed": true
+    "width": 418.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -237,10 +248,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "aac9327ff474d31e",
+  "active": "f8fa98c674a0cfa6",
   "lastOpenFiles": [
-    "inbox/python.md",
     "Jornal/daily/2023-12-20.md",
+    "Jornal/daily/2023-12-13.md",
+    "אנשים/ענבר איזנמן.md",
+    "inbox/python.md",
     "desktop.ini",
     "scripts/TOC.js.md",
     "Home.md",
@@ -249,7 +262,6 @@
     "note/obsidian code reference.md",
     "note/הכנה לטיולים.md",
     "note/Obsidian.md",
-    "אנשים/ענבר איזנמן.md",
     "משאבים/קוד מוסד להוראת קבע בבנק.md",
     "archive/comanies/nuclei.md",
     "ענבר איזנמן-האשמות.md",
@@ -267,7 +279,6 @@
     "2023-12-16.md",
     "tm/(01) add reference to section to daily note",
     "אנשים/דינה.md",
-    "משאבים/נשים.md",
     "tm/(01) tp - embedded notes .js",
     "tm/(01) tp - import  and embedded notes .js",
     "tm/(03) tp - mov dv list to folder.js",
