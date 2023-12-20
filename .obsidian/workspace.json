@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tm/tp - daily note.md"
+                "file": "Jornal/daily/2023-12-20.md"
               }
             }
           },
@@ -188,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tm/tp - daily note.md",
+                "file": "Jornal/daily/2023-12-20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,7 +216,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tm/tp - daily note.md",
+                "file": "Jornal/daily/2023-12-20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -273,12 +273,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "25b6c4e4738eb19f",
+  "active": "aac9327ff474d31e",
   "lastOpenFiles": [
+    "tm/tp - daily note.md",
     "Jornal/daily/2023-12-20.md",
     "אנשים/ענבר איזנמן.md",
     "lyric/Say Something.md",
-    "tm/tp - daily note.md",
     "Jornal/daily/2023-11-06.md",
     "Jornal/daily/2023-11-08.md",
     "Jornal/daily/2023-11-07.md",
