@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tm/tp - daily template.md",
+                "file": "Jornal/daily/2023-12-21.md",
                 "mode": "source",
                 "source": true
               }
@@ -213,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lyric/Say Something.md"
+                "file": "Jornal/daily/2023-12-21.md"
               }
             }
           },
@@ -223,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lyric/Say Something.md",
+                "file": "Jornal/daily/2023-12-21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -251,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lyric/Say Something.md",
+                "file": "Jornal/daily/2023-12-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -305,15 +305,16 @@
       "darlal-switcher-plus:Open in Headings Mode": true,
       "darlal-switcher-plus:Open Symbols for the active editor": true,
       "templater-obsidian:Templater": true,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "f8fa98c674a0cfa6",
+  "active": "0d76154cbd414708",
   "lastOpenFiles": [
-    "2023-12-21.md",
-    "lyric/Say Something.md",
     "tm/tp - daily template.md",
     "Jornal/daily/2023-12-21.md",
+    "lyric/Say Something.md",
+    "2023-12-21.md",
     "desktop.ini",
     "homes/synology.md",
     "משאבים/חשבונות משתמש.md",
