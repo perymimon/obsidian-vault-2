@@ -16,7 +16,7 @@
   "folder_templates": [
     {
       "folder": "Jornal/daily",
-      "template": "tm/tp - daily note.md"
+      "template": "tm/tp - daily template.md"
     },
     {
       "folder": "Book",

@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tm/tp - daily note.md",
+                "file": "tm/tp - daily template.md",
                 "mode": "source",
                 "source": true
               }
@@ -84,8 +84,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-12-21.md",
-                "mode": "source",
+                "file": "lyric/Say Something.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -181,13 +181,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 310.5110321044922,
-    "collapsed": true
+    "width": 310.5110321044922
   },
   "right": {
     "id": "7598a77bad2a22d5",
@@ -215,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tm/tp - daily note.md"
+                "file": "lyric/Say Something.md"
               }
             }
           },
@@ -225,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tm/tp - daily note.md",
+                "file": "lyric/Say Something.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tm/tp - daily note.md",
+                "file": "lyric/Say Something.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -310,14 +308,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0d76154cbd414708",
+  "active": "f8fa98c674a0cfa6",
   "lastOpenFiles": [
     "2023-12-21.md",
-    "tm/tp - daily note.md",
+    "lyric/Say Something.md",
+    "tm/tp - daily template.md",
+    "Jornal/daily/2023-12-21.md",
+    "desktop.ini",
     "homes/synology.md",
     "משאבים/חשבונות משתמש.md",
     "note/Obsidian markdown.md",
-    "lyric/Say Something.md",
     "Jornal/daily/2023-12-20.md",
     "אנשים/ענבר איזנמן.md",
     "אנשים/ענבר איזנמן (conflict 2023-12-20-16-27-57).md",
@@ -327,7 +327,6 @@
     "משאבים/וילה הרצליה.md",
     "Jornal/daily/2023-12-13.md",
     "inbox/python.md",
-    "desktop.ini",
     "scripts/TOC.js.md",
     "Home.md",
     "Jornal/daily/2023-12-17.md",
@@ -338,7 +337,6 @@
     "משאבים/קוד מוסד להוראת קבע בבנק.md",
     "archive/comanies/nuclei.md",
     "ענבר איזנמן-האשמות.md",
-    "אנשים/jornal/מכתב המלצה לגיור.md",
     "scripts",
     "tm/(01) add reference to section to daily note",
     "tm/(01) tp - embedded notes .js",
