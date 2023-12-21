@@ -5,7 +5,7 @@ var fileWeekFormat = 'YYYY-[W]ww'
 var happyDayFormat = "DD MMMM, יום dddd, DDD ימים או W שבועות מתחילת השנה."
 var dv = app.plugins.plugins.dataview.api
 var title = tp.file.title
-var theDay = moment(title, fileDayFormat)
+var theDay = moment.utc(title, fileDayFormat)
 var tomorrow  = theDay.add(1,'days').format(fileDayFormat)
 var yesterday  = theDay.add(-2,'days').format(fileDayFormat)
 debugger

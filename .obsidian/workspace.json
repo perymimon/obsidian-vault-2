@@ -127,7 +127,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -215,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "homes/synology.md"
+                "file": "tm/tp - daily note.md"
               }
             }
           },
@@ -225,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "homes/synology.md",
+                "file": "tm/tp - daily note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +253,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "homes/synology.md",
+                "file": "tm/tp - daily note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -310,12 +310,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "93a9a8acfbf5252d",
+  "active": "0d76154cbd414708",
   "lastOpenFiles": [
-    "משאבים/חשבונות משתמש.md",
-    "homes/synology.md",
     "2023-12-21.md",
     "tm/tp - daily note.md",
+    "homes/synology.md",
+    "משאבים/חשבונות משתמש.md",
     "note/Obsidian markdown.md",
     "lyric/Say Something.md",
     "Jornal/daily/2023-12-20.md",
