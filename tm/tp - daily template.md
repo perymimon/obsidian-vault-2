@@ -7,8 +7,8 @@ var dv = app.plugins.plugins.dataview.api
 var title = tp.file.title
 var theDay = moment(title, fileDayFormat)
 debugger
-var tomorrow  = theDay.add(1,'days').format(fileDayFormat)
-var yesterday  = theDay.add(-2,'days').format(fileDayFormat)
+var tomorrow  = theDay.clone().add(1,'days').format(fileDayFormat)
+var yesterday  = theDay.clone().add(-2,'days').format(fileDayFormat)
 
 _%>
 ---
