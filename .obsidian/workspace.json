@@ -85,7 +85,7 @@
               "type": "markdown",
               "state": {
                 "file": "Jornal/daily/2023-12-21.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               }
             }
@@ -213,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lyric/Say Something.md"
+                "file": "Jornal/daily/2023-12-21.md"
               }
             }
           },
@@ -223,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lyric/Say Something.md",
+                "file": "Jornal/daily/2023-12-21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -251,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lyric/Say Something.md",
+                "file": "Jornal/daily/2023-12-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -309,17 +309,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c0172271b9025fab",
+  "active": "f8fa98c674a0cfa6",
   "lastOpenFiles": [
+    "Jornal/daily/2023-12-20.md",
+    "lyric/Say Something.md",
     "tm/tp - daily template.md",
     "Jornal/daily/2023-12-21.md",
-    "lyric/Say Something.md",
     "2023-12-21.md",
     "desktop.ini",
     "homes/synology.md",
     "משאבים/חשבונות משתמש.md",
     "note/Obsidian markdown.md",
-    "Jornal/daily/2023-12-20.md",
     "אנשים/ענבר איזנמן.md",
     "אנשים/ענבר איזנמן (conflict 2023-12-20-16-27-57).md",
     "Jornal/daily/2023-11-06.md",
