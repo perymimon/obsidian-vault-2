@@ -84,7 +84,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lyric/Say Something.md",
+                "file": "Jornal/daily/2023-12-21.md",
                 "mode": "preview",
                 "source": true
               }
@@ -213,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tm/tp - daily template.md"
+                "file": "lyric/Say Something.md"
               }
             }
           },
@@ -223,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tm/tp - daily template.md",
+                "file": "lyric/Say Something.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -251,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tm/tp - daily template.md",
+                "file": "lyric/Say Something.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -309,11 +309,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0d76154cbd414708",
+  "active": "c0172271b9025fab",
   "lastOpenFiles": [
-    "lyric/Say Something.md",
-    "Jornal/daily/2023-12-21.md",
     "tm/tp - daily template.md",
+    "Jornal/daily/2023-12-21.md",
+    "lyric/Say Something.md",
     "2023-12-21.md",
     "desktop.ini",
     "homes/synology.md",
