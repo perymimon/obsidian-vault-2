@@ -139,10 +139,6 @@ print('jack' in tel)
 print('pery' not in tel)
 ```
 
-```py 
-#looping techniques
-
-```
 ## Programing
 
 ```py
@@ -159,6 +155,36 @@ a,b = 0,1
 while a<10:
 	print(a, end=',')
 	a,b = b, a+b
+```
+
+```py 
+#looping techniques
+for k,v in ({'a': 1, 'b':2}).items():
+	print(k,v)
+print()
+# sequence
+for i,v in enumerate(['tic','tac','toe']):
+	print(i, v)
+
+print()
+
+# over on two or more sequence by using zip()
+a = [1,2,3]
+b = ['a','b','c']
+
+print( zip(a,b) )
+
+for n,d in zip(a,b):
+	print('number {0} for latter {1}'.format(a,b))
+
+# reverse 
+for i in reversed(range(1, 10, 2)):
+	print(i)
+
+# eliminate duplication 
+basket  = ['apple', 'orange', 'apple', 'pear', 'orange', 'banana']
+print( set(basket) )
+print( sorted(set(basket)) )
 ```
 
 ## More Control Flow

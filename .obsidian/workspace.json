@@ -69,6 +69,18 @@
               "pinned": true
             },
             "group": "d41f681ca29e753e"
+          },
+          {
+            "id": "db4b159b757a3d7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jornal/daily/2023-12-22.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ]
       }
