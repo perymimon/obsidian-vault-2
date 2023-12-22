@@ -22,18 +22,6 @@
             "group": "9168290f7f81c923"
           },
           {
-            "id": "0d76154cbd414708",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tm/tp - daily template.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "2c58c395c72a07fe",
             "type": "leaf",
             "state": {
@@ -45,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "3ee19616510ed8f8",
@@ -65,30 +52,6 @@
               }
             },
             "group": "9168290f7f81c923"
-          },
-          {
-            "id": "aac9327ff474d31e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Jornal/daily/2023-12-20.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "f8fa98c674a0cfa6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Jornal/daily/2023-12-21.md",
-                "mode": "source",
-                "source": true
-              }
-            }
           },
           {
             "id": "465d86e60cdc6395",
@@ -126,8 +89,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -213,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Jornal/daily/2023-12-21.md"
+                "file": "inbox/python.md"
               }
             }
           },
@@ -223,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Jornal/daily/2023-12-21.md",
+                "file": "inbox/python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -251,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Jornal/daily/2023-12-21.md",
+                "file": "inbox/python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -309,12 +271,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f8fa98c674a0cfa6",
+  "active": "0f37f3ab93b98c38",
   "lastOpenFiles": [
     "Jornal/daily/2023-12-20.md",
+    "Jornal/daily/2023-12-19.md",
+    "Jornal/daily/2023-12-22.md",
+    "Jornal/daily/2023-12-21.md",
     "lyric/Say Something.md",
     "tm/tp - daily template.md",
-    "Jornal/daily/2023-12-21.md",
     "2023-12-21.md",
     "desktop.ini",
     "homes/synology.md",
@@ -336,8 +300,6 @@
     "note/הכנה לטיולים.md",
     "note/Obsidian.md",
     "משאבים/קוד מוסד להוראת קבע בבנק.md",
-    "archive/comanies/nuclei.md",
-    "ענבר איזנמן-האשמות.md",
     "scripts",
     "tm/(01) add reference to section to daily note",
     "tm/(01) tp - embedded notes .js",
