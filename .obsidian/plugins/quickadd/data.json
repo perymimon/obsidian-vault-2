@@ -2,7 +2,7 @@
   "choices": [
     {
       "id": "ef83fbe1-449e-4432-858e-3b39c1bfc920",
-      "name": "להוסיף דף נוכחי לתיעוד היומי",
+      "name": "תיעוד עבודה על דף נוכחי היום",
       "type": "Capture",
       "command": true,
       "appendLink": false,

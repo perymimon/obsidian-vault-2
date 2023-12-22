@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "inbox/python.md",
+                "file": "Jornal/daily/2023-12-22.md",
                 "mode": "preview",
                 "source": true
               }
@@ -22,18 +22,19 @@
             "group": "9168290f7f81c923"
           },
           {
-            "id": "2c58c395c72a07fe",
+            "id": "9b94ded1d3e6d37c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/Obsidian markdown.md",
-                "mode": "source",
+                "file": "homes/synology.md",
+                "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "3ee19616510ed8f8",
@@ -46,48 +47,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "inbox/python.md",
+                "file": "Jornal/daily/2023-12-22.md",
                 "mode": "source",
                 "source": true
               }
             },
             "group": "9168290f7f81c923"
-          },
-          {
-            "id": "465d86e60cdc6395",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "משאבים/חשבונות משתמש.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "93a9a8acfbf5252d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "homes/synology.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "6452c3f46b57538a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "אנשים/ענבר איזנמן.md",
-                "mode": "source",
-                "source": true
-              }
-            }
           }
         ]
       }
@@ -175,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "inbox/python.md"
+                "file": "homes/synology.md"
               }
             }
           },
@@ -185,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "inbox/python.md",
+                "file": "homes/synology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "inbox/python.md",
+                "file": "homes/synology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,19 +236,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0f37f3ab93b98c38",
+  "active": "9b94ded1d3e6d37c",
   "lastOpenFiles": [
+    "Jornal/daily/2023-12-22.md",
+    "note/Obsidian markdown.md",
+    "Jornal/daily/2023-12-21.md",
+    "inbox/python.md",
     "Jornal/daily/2023-12-20.md",
     "Jornal/daily/2023-12-19.md",
-    "Jornal/daily/2023-12-22.md",
-    "Jornal/daily/2023-12-21.md",
     "lyric/Say Something.md",
     "tm/tp - daily template.md",
     "2023-12-21.md",
     "desktop.ini",
     "homes/synology.md",
     "משאבים/חשבונות משתמש.md",
-    "note/Obsidian markdown.md",
     "אנשים/ענבר איזנמן.md",
     "אנשים/ענבר איזנמן (conflict 2023-12-20-16-27-57).md",
     "Jornal/daily/2023-11-06.md",
@@ -291,7 +257,6 @@
     "Jornal/daily/2023-11-07.md",
     "משאבים/וילה הרצליה.md",
     "Jornal/daily/2023-12-13.md",
-    "inbox/python.md",
     "scripts/TOC.js.md",
     "Home.md",
     "Jornal/daily/2023-12-17.md",
