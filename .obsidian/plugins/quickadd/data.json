@@ -54,7 +54,7 @@
       },
       "insertAfter": {
         "enabled": true,
-        "after": "## הספקתי היום",
+        "after": " ## הספקתי היום",
         "insertAtEnd": true,
         "considerSubsections": true,
         "createIfNotFound": true,
