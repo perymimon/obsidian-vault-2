@@ -18,20 +18,22 @@
                 "mode": "preview",
                 "source": true
               }
-            },
-            "group": "9168290f7f81c923"
+            }
           },
           {
             "id": "9b94ded1d3e6d37c",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "homes/synology.md",
+                "file": "inbox/python.md",
                 "mode": "preview",
                 "source": true
-              }
-            }
+              },
+              "pinned": true
+            },
+            "group": "d41f681ca29e753e"
           },
           {
             "id": "fcc2141e71e6782c",
@@ -54,17 +56,19 @@
         "dimension": 55.02671199611462,
         "children": [
           {
-            "id": "0f37f3ab93b98c38",
+            "id": "74c8f80d9fa0be3f",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jornal/daily/2023-12-22.md",
+                "file": "inbox/python.md",
                 "mode": "source",
                 "source": true
-              }
+              },
+              "pinned": true
             },
-            "group": "9168290f7f81c923"
+            "group": "d41f681ca29e753e"
           }
         ]
       }
@@ -124,7 +128,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5110321044922
+    "width": 310.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "7598a77bad2a22d5",
@@ -152,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Jornal/daily/2023-12-22.md"
+                "file": "inbox/python.md"
               }
             }
           },
@@ -162,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Jornal/daily/2023-12-22.md",
+                "file": "inbox/python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Jornal/daily/2023-12-22.md",
+                "file": "inbox/python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -228,7 +233,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 418.5
+    "width": 418.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -248,13 +254,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0f37f3ab93b98c38",
+  "active": "74c8f80d9fa0be3f",
   "lastOpenFiles": [
-    "homes/synology.md",
     "Jornal/daily/2023-12-22.md",
+    "inbox/python.md",
+    "Home.md",
+    "homes/synology.md",
     "note/Obsidian markdown.md",
     "Jornal/daily/2023-12-21.md",
-    "inbox/python.md",
     "Jornal/daily/2023-12-20.md",
     "Jornal/daily/2023-12-19.md",
     "lyric/Say Something.md",
@@ -270,7 +277,6 @@
     "משאבים/וילה הרצליה.md",
     "Jornal/daily/2023-12-13.md",
     "scripts/TOC.js.md",
-    "Home.md",
     "Jornal/daily/2023-12-17.md",
     "2023-12-19.md",
     "note/obsidian code reference.md",

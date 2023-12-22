@@ -28,6 +28,8 @@ week: <% theDay.format(fileWeekFormat) %>
 ## הספקתי היום 
 - 
 
+## סיכום יומי
+
 מצב רוח יומי:: 😑
 
 > [!cite] אז איך עבר היום שלי 

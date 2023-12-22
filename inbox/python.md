@@ -3,7 +3,7 @@ aliases:
   - פייטון
 cssclasse: 
 date-created: 2023-12-16
-date-modified: 2023-12-20
+date-modified: 2023-12-22
 tags: clearfy
 ---
 `== dv.view("scripts/TOC")`
@@ -103,9 +103,14 @@ list.copy()
 
 For queue ( insert to start pop from end) should using `collections.deque`
 ```py
+matrix = [
+[1, 2, 3, 4],
+[5, 6, 7, 8],
+[9, 10, 11, 12],
+]
+
 
 ```
-
 
 ## Programing
 
