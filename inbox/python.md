@@ -187,6 +187,15 @@ print( set(basket) )
 print( sorted(set(basket)) )
 ```
 
+```py
+#comparing
+print((1, 2, 3)  < (1, 2, 4) )
+print((1, 2, 3) < (1, 2, 3, 2) )
+print([1, 2, 3] < [1, 2, 3] )
+print( 'ABC' < 'C' < 'Pascal' < 'Python' )
+
+```
+
 ## More Control Flow
 
 ```py
