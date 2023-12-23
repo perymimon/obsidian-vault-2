@@ -64,7 +64,7 @@ x = 10
 print(f"x={x}")
 ```
 
-# List
+## List
 
 ```py
 list = [1,3,9,12]
@@ -387,4 +387,13 @@ def ask_ok(prompt, retries=4, reminder='Please try again!'):
             raise ValueError('invalid user response')
         print(reminder)
 ```
-        **
+
+## Modules
+
+
+```py
+# the value of the global variable __name__ contain module name
+print("module name",__name__)
+
+import script\fibo.py
+```
