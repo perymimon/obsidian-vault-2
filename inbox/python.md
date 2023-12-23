@@ -3,7 +3,7 @@ aliases:
   - פייטון
 cssclasse: 
 date-created: 2023-12-16
-date-modified: 2023-12-22
+date-modified: 2023-12-24
 tags: clearfy
 ---
 `== dv.view("scripts/TOC")`
@@ -390,10 +390,13 @@ def ask_ok(prompt, retries=4, reminder='Please try again!'):
 
 ## Modules
 
-
 ```py
 # the value of the global variable __name__ contain module name
 print("module name",__name__)
 
-import script\fibo.py
+import fibo
+#fibo.fib(1000)
+fibo.__name__
+
+
 ```
