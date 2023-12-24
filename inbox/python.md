@@ -3,7 +3,7 @@ aliases:
   - פייטון
 cssclasse: 
 date-created: 2023-12-16
-date-modified: 2023-12-24
+date-modified: 2023-12-25
 tags: clearfy
 ---
 `== dv.view("scripts/TOC")`
@@ -614,7 +614,11 @@ while True:
 		 break
 	except ValueError:
 		print("Oops!  That was no valid number.  Try again...")
-
+		raise Exception
+		#or 
+		raise # rerise the same exepetion
+	else:
+		print(f'{x} is a number')
 ```
 
 ```py
@@ -637,7 +641,9 @@ for cls in [B, C, D]:
     except B:
         print("B")
 ```
-get into execetion details
+
+Get into Exception details
+
 ```py
 try:
 	raise Exception('spam', 'eggs')
@@ -649,4 +655,27 @@ except Exception as inst:
 	x, y = inst.args     # unpack args
 	print('x =', x)
 	print('y =', y)
+
+
+# BaseException is the common base class of all exceptions
+# Exception in sub class of BaseException, is the base class of all the non-fatal exceptions
+```
+
+Be specific as posible
+
+```
+import sys
+
+try:
+    f = open('myfile.txt')
+    s = f.readline()
+    i = int(s.strip())
+except OSError as err:
+    print("OS error:", err)
+except ValueError:
+    print("Could not convert data to an integer.")
+except Exception as err:
+    print(f"Unexpected {err=}, {type(err)=}")
+    raise
+
 ```

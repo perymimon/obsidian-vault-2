@@ -5,7 +5,6 @@ date-created: 2021-04-26
 date-modified: 2023-11-30
 tags:
   - משרות
-  - companie/6over6
 ---
 
 סטטוס
