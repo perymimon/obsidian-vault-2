@@ -396,7 +396,33 @@ print("module name",__name__)
 
 import fibo
 #fibo.fib(1000)
-fibo.__name__
+fibo.__name__ #name of the module
 
+from fibo import fib, fib2
+from fibo import * 
+import fibo as fib
+from fibo import fib as fibonacci
+
+# reload module again 
+import importlib;
+importlib.reload(modulename)
 
 ```
+
+### Executing Modules as Scripts
+
+```cmd
+python fibo.py <arguments>
+```
+
+Interactively run file as root or module
+```py
+if __name__ == "__main__":
+    import sys
+    fib(int(sys.argv[1]))
+
+# s
+sys.builtin_module_names
+```
+
+ 
