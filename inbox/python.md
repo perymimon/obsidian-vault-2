@@ -458,6 +458,7 @@ from . import echo
 from .. import formats
 from ..filters import equalizer
 ```
+
 ### Executing Modules as Scripts
 
 ```cmd
@@ -511,4 +512,13 @@ without parameter `dir()` list names i defiend currently;
 >>> import builtins
 >>> dir(builtins)
 # print all builtin varialbes and names 
+```
+
+### Output & Inputs
+
+```py
+write() #to file object
+sys.stdout #standart output
+
+
 ```
