@@ -117,8 +117,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "376ceaa848127cc3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jornal/daily/2023-12-24.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -204,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "inbox/python.md"
+                "file": "Jornal/daily/2023-12-24.md"
               }
             }
           },
@@ -214,7 +227,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "inbox/python.md",
+                "file": "Jornal/daily/2023-12-24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "inbox/python.md",
+                "file": "Jornal/daily/2023-12-24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -280,8 +293,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 418.5,
-    "collapsed": true
+    "width": 418.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -301,14 +313,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9b94ded1d3e6d37c",
+  "active": "376ceaa848127cc3",
   "lastOpenFiles": [
+    "Jornal/daily/2023-12-23.md",
+    "עטלף עיוור.md",
+    "Jornal/daily/2023-12-24.md",
+    "Untitled.canvas",
+    "inbox/python.md",
     "משאבים/הפילוסופיה ההוליסטית שלי.md",
     "משאבים/הגיגים ופתגמים.md",
-    "inbox/python.md",
     "scripts/fibo.py.md",
     "Jornal/daily/2023-12-21.md",
-    "Jornal/daily/2023-12-23.md",
     "Jornal/daily/2023-12-22.md",
     "Home.md",
     "homes/synology.md",
@@ -328,8 +343,6 @@
     "משאבים/וילה הרצליה.md",
     "Jornal/daily/2023-12-13.md",
     "scripts/TOC.js.md",
-    "Jornal/daily/2023-12-17.md",
-    "2023-12-19.md",
     "scripts",
     "tm/(01) add reference to section to daily note",
     "tm/(01) tp - embedded notes .js",
@@ -349,7 +362,6 @@
     "assets/Assets/18647be51ed.904cbc3c5b9964c0.jpg",
     "assets/Assets/15877148000.942df1a955e9490d.jpg",
     "assets/Assets/14ed3c37b90.bc8dabbb93b4d231.jpg",
-    "Untitled.canvas",
     "Obsidian.canvas"
   ]
 }
