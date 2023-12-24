@@ -450,10 +450,13 @@ __all__ = ["echo", "surround","reverse"]
 #then
 from sound.effects import *
 import just those names to local namespace
-
-
 ```
 
+```py
+#relative import inside a package
+from . import echo
+from .. import formats
+from ..filters import equalizer
 ```
 ### Executing Modules as Scripts
 
