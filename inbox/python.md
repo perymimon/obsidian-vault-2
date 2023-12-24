@@ -86,7 +86,13 @@ print('Jack: {Jack:d}; Sjoerd: {Sjoerd:d}; Dcab: {Dcab:d}'.format(**table))
 # Jack: 4098; Sjoerd: 4127; Dcab: 8637678
 # this is useful with built-in function vars() which returns a dictionary containing all local variables.
 
-
+for x in range(1, 11):
+	print('{0:2d} {1:3d} {2:4d}'.format(x, x*x, x*x*x))
+#  1   1    1
+#  2   4    8
+#  3   9   27
+#  4  16   64
+#  5  25  125
 ```
 ```py
 import math
@@ -557,6 +563,18 @@ without parameter `dir()` list names i defiend currently;
 ```py
 write() #to file object
 sys.stdout #standart output
+```
 
+```py
+# open(filename, mode, encoding=None) returns a file object
+f = open('filename', 'w', encoding="utf-8")
+# w = just write, r = (defult) just read, a = append, r+ = write & read
+# add b to encoding opend file to read byets.
 
+```
+
+```py
+#using `with` to close automatic file after use even on exepetion
+with open('workfile', encoding="utf-8") as f:
+	read_data = f.read()
 ```
