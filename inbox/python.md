@@ -443,4 +443,5 @@ import sys
 sys.ps1 #define the strings used as primary prompy '>>>'
 sys.ps2 #define the strings used as secondary promp '...'
 sys.path #list of string that determines moduls search paths
+sys variables 
 ```
