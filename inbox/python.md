@@ -442,6 +442,24 @@ After initialization, Python programs can modify sys.path.
 import sys
 sys.ps1 #define the strings used as primary prompy '>>>'
 sys.ps2 #define the strings used as secondary promp '...'
-sys.path #list of string that determines moduls search paths
-sys variables 
+sys.path #list of string that determines moduls search paths, init from  system varible PYTHONPATH or default if not set
+
+sys.path.append('another path')
+
+dir() #used to get list of all names module defined
+dir(sys) #[..., ..]
+```
+
+without parameter `dir()` list names i defiend currently;
+
+```bash py
+>>> a = [1, 2, 3, 4, 5]
+>>> import fibo
+>>> fib = fibo.fib
+>>> dir()
+['__builtins__', '__name__', 'a', 'fib', 'fibo', 'sys']
+
+>>> import builtins
+>>> dir(builtins)
+# print all builtin varialbes and names 
 ```
