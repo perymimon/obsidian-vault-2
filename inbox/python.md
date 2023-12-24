@@ -576,5 +576,43 @@ f = open('filename', 'w', encoding="utf-8")
 ```py
 #using `with` to close automatic file after use even on exepetion
 with open('workfile', encoding="utf-8") as f:
-	read_data = f.read()
+	read_data = f.read(size = 100)
+
+f.readline() #for reading until `\n`  include.
+
+# more efficient way is loop array.
+for line in f:
+	print(line, end='')
+
+# to read all file's line directly to list
+list(file)
+# or
+f.readlines()
+
+f.tell() # return current position as byts from begining of the file
+f.seek(offset, whence) #whence=0(default) from file begin, 1 = from current location, 2=from end
+f.seek(-3, 2)  # Go to the 3rd byte before the end
+# In text files only seeks relative to start of file (0)
+```
+
+```py
+import json
+x = [1, 'simple', 'list']
+print(json.dumps(x))
+# save directly to object file
+json.dump(x, objectTextFile)
+# to read 
+json.load(objectFile)
+```
+
+## Exeptions
+
+```ty
+while True:
+	try:
+		 x = int(input("Please enter a number: "))
+		 break
+	except ValueError:
+		print("Oops!  That was no valid number.  Try again...")
+
 ```
