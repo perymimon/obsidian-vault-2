@@ -166,8 +166,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -253,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Jornal/daily/2023-12-24.md"
+                "file": "inbox/python.md"
               }
             }
           },
@@ -263,7 +262,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Jornal/daily/2023-12-24.md",
+                "file": "inbox/python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -291,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Jornal/daily/2023-12-24.md",
+                "file": "inbox/python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -349,10 +348,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5853cdc37e532f58",
+  "active": "74c8f80d9fa0be3f",
   "lastOpenFiles": [
-    "inbox/python.md",
     "Jornal/daily/2023-12-24.md",
+    "inbox/python.md",
     "Jornal/daily/2023-12-23.md",
     "עטלף עיוור.md",
     "Untitled.canvas",
