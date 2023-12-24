@@ -62,8 +62,24 @@ print(len(word)) #print 13
 # template string
 x = 10
 print(f"x={x}")
-```
 
+yes_votes = 42_572_654
+no_votes = 43_132_495
+'{:-9} YES votes  {:2.2%}'.format(yes_votes, percentage)
+# ' 42572654 YES votes  49.67%'
+
+
+```
+```py
+import math
+print(f'The pi is about {math.pi:.3f}`) #The pi is about 3.142
+
+table = {'Sjoerd': 4127, 'Jack': 4098, 'Dcab': 7678}
+for name, phone in table.items(): 
+	print(f'{name:10} ==> {phone:10d}')
+
+
+```
 ## List
 
 ```py
