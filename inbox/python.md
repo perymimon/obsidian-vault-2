@@ -434,6 +434,13 @@ if __name__ == "__main__":
 
 After initialization, Python programs can modify sys.path.
 
-The directory containing the script being run is placed at the beginning of the search path, ahead of the standard library path. This means that scripts in that directory will be loaded instead of modules of the same name in the library directory. This is an error unless the replacement is intended. See section Standard Modules for more information.
-
 #### [“Compiled” Python files](https://docs.python.org/3/tutorial/modules.html#compiled-python-files)
+
+## Standard Modules
+
+```py
+import sys
+sys.ps1 #define the strings used as primary prompy '>>>'
+sys.ps2 #define the strings used as secondary promp '...'
+sys.path #list of string that determines moduls search paths
+```
