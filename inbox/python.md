@@ -427,7 +427,13 @@ if __name__ == "__main__":
  for `import spam`
 1. first searches for a built-in module in `sys.builtin_module_names`
 2. then searches for a file named `spam.py` in directories names in `sys.path`
-	it init from that values 
+	it init from that values
 	1. directory containing the input script (or the current directory when no file is specified).
 	2. PYTHONPATH (a list of directory names, with the same syntax as the shell variable PATH).
-	3. The installation-dependent default (by convention including a site-packages directory, handled by the site module). #clearfy 
+	3. The installation-dependent default (by convention including a site-packages directory, handled by the site module). #clearfy
+
+After initialization, Python programs can modify sys.path.
+
+The directory containing the script being run is placed at the beginning of the search path, ahead of the standard library path. This means that scripts in that directory will be loaded instead of modules of the same name in the library directory. This is an error unless the replacement is intended. See section Standard Modules for more information.
+
+#### [“Compiled” Python files](https://docs.python.org/3/tutorial/modules.html#compiled-python-files)
