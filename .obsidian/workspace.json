@@ -129,9 +129,17 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "46ac9b08f55503a2",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -216,9 +224,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Jornal/daily/2023-12-24.md"
-              }
+              "state": {}
             }
           },
           {
@@ -227,7 +233,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Jornal/daily/2023-12-24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +260,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Jornal/daily/2023-12-24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -314,8 +318,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9eea83703093dda4",
+  "active": "b52c9dfd18c75d28",
   "lastOpenFiles": [
+    "archive/comanies/telfire.md",
     "inbox/python.md",
     "Jornal/daily/2023-12-24.md",
     "Jornal/daily/2023-12-23.md",
@@ -343,7 +348,6 @@
     "Jornal/daily/2023-11-07.md",
     "משאבים/וילה הרצליה.md",
     "Jornal/daily/2023-12-13.md",
-    "scripts/TOC.js.md",
     "scripts",
     "tm/(01) add reference to section to daily note",
     "tm/(01) tp - embedded notes .js",
@@ -352,7 +356,7 @@
     "assets/13dd9a2e550.bcd8073ff147be95.jpg",
     "assets/13dfeedbd74.8a43a4cc67bd6a4c.jpg",
     "assets/13dd9b32981.904df3ee64ab99f0.jpg",
-    "רשימות/1234.undefined",
+    "אינדקס/1234.undefined",
     "1234.undefined",
     "tm/(03) tp - mov dv list to folder.md~",
     "archive/comanies",

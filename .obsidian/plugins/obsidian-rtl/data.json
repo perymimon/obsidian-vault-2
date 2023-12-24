@@ -8,11 +8,8 @@
     "Jornal/daily/2023-11-01.md": "rtl",
     "אנשים/השחקנית.md": "auto",
     "Jornal/daily/2023-11-15.md": "rtl",
-    "רשימות/הרצאות יוטיוב.md": "auto",
-    "רשימות/פרוייקטים.md": "rtl",
     "אנשים/יוליה מפעם.md": "ltr",
     "ספרים/אילון מאסק - הספר.md": "rtl",
-    "רשימות/ספרים שקראתי.md": "rtl",
     "אנשים/אורדן טרבלסי.md": "auto",
     "אנשים/jornal/2018-05-03 ברכה ליום הולדת של שלי.md": "rtl",
     "archive/2020-09-10 הזמנה לארוחת שישי.md": "rtl",
@@ -32,7 +29,10 @@
     "note/עקרונות בבניית UI.md": "rtl",
     "אנשים/ענבר איזנמן.md": "rtl",
     "tm/tp - daily template.md": "auto",
-    "Jornal/daily/2023-12-23.md": "rtl"
+    "Jornal/daily/2023-12-23.md": "rtl",
+    "אינדקס/הרצאות יוטיוב.md": "auto",
+    "אינדקס/פרוייקטים.md": "rtl",
+    "אינדקס/ספרים שקראתי.md": "rtl"
   },
   "defaultDirection": "auto",
   "rememberPerFile": true,
