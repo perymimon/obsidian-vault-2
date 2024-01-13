@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-01-14.md",
+                "file": "Jornal/daily/2024-01-14.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5110321044922
+    "width": 310.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "7598a77bad2a22d5",
@@ -87,7 +88,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2024-01-14.md"
+                "file": "Jornal/daily/2024-01-14.md"
               }
             }
           },
@@ -135,8 +136,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "5ad0f87f8532925f",
@@ -163,19 +163,22 @@
       "markdown-importer:Open Markdown importer": true,
       "zk-prefixer:Create new unique note": true,
       "chronology:Open Chronology": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "2be675d38ffbf7af",
   "lastOpenFiles": [
     "Jornal/daily/2024-01-13.md",
+    "Jornal/daily/2024-01-14.md",
+    "Jornal/daily/2024-01-12.md",
+    "Jornal/daily/2024-01-11.md",
     "2024-01-14.md",
     "Jornal/daily/2024-01-12 (conflict 2024-01-13-17-19-30).md",
     "משאבים/goodreads-db/Breath and Bone.md",
     "משאבים/goodreads-db/Blue Mars.md",
     "משאבים/ספרים/אדיוס מוצ'אצ'וס.md",
     "Homepage.md",
-    "Jornal/daily/2024-01-12.md",
     "tm/habbit-tracker.md",
     "tm/tp - daily template.md",
     "משאבים/goodreads-db/אומן השיר.md",
@@ -192,8 +195,6 @@
     "משאבים/goodreads-db/הצל של אנדר.md",
     "משאבים/goodreads-db/הצל של ההגמון.md",
     "משאבים/goodreads-db/קסנוסייד.md",
-    "משאבים/goodreads-db/דובר למתים.md",
-    "משאבים/goodreads-db/האם אנדרואידים חולמים על כבשים חשמליות.md",
     "משאבים/goodreads-db",
     "ספרים",
     "Book/goodreads-db",

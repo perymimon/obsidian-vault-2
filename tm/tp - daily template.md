@@ -16,9 +16,12 @@ tags: [daily]
 cssclasses: daily
 day: <% theDay.format(fileDayFormat) %>
 week: <% theDay.format(fileWeekFormat) %>
+banner: https://i.imgur.com/TVcNaT5.png
+banner_y: 0.5
 ---
 
-[[jornal/daily/<%_ yesterday _%>|אתמול 👈]] [[<% title %>#הספקתי היום|<% title %>]] [[jornal/daily/<%_ tomorrow _%>|👉 מחר ]]
+[[jornal/daily/<%_ yesterday _%>|אתמול 👉]] ---------- [[jornal/daily/<%_ tomorrow _%>|👈 מחר ]]
+
 
 > [!todo]  <% theDay.format(happyDayFormat) %> **`== moment(dv.current().day - 0).fromNow()`**
 
