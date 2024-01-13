@@ -14,7 +14,6 @@
   "float-search",
   "table-editor-obsidian",
   "file-explorer-note-count",
-  "obsidian-linter",
   "obsidian-trash-explorer",
   "tag-wrangler",
   "obsidian-quickshare",
@@ -31,12 +30,11 @@
   "slash-commander",
   "pomodoro-timer",
   "obsidian-plugin-update-tracker",
-  "2hop-links-plus",
   "change-case",
   "obsidian-outliner",
-  "buttons",
   "obsidian-meta-bind-plugin",
-  "booksidian-plugin",
   "obsidian-banners",
-  "multi-properties"
+  "multi-properties",
+  "obsidian-linter",
+  "chronology"
 ]

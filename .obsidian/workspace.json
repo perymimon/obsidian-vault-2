@@ -65,14 +65,6 @@
               "type": "bookmarks",
               "state": {}
             }
-          },
-          {
-            "id": "ab571ff2df745614",
-            "type": "leaf",
-            "state": {
-              "type": "trash-explorer",
-              "state": {}
-            }
           }
         ]
       }
@@ -87,14 +79,15 @@
       {
         "id": "a819be8c58bdd49a",
         "type": "tabs",
-        "dimension": 60.56466302367942,
         "children": [
           {
             "id": "f5f286256d70b4e5",
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "Jornal/daily/2024-01-13.md"
+              }
             }
           },
           {
@@ -132,23 +125,25 @@
                 "searchQuery": ""
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "879ac7a01561a30e",
-        "type": "tabs",
-        "dimension": 39.435336976320585,
-        "children": [
+          },
           {
-            "id": "c0172271b9025fab",
+            "id": "9b6df99b84945ae2",
+            "type": "leaf",
+            "state": {
+              "type": "chronology-calendar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "23970490494f7bcc",
             "type": "leaf",
             "state": {
               "type": "calendar",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -156,24 +151,21 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-trash-explorer:Open trash explorer": true,
-      "homepage:Open homepage": false,
       "command-palette:Open command palette": true,
       "markdown-importer:Open Markdown importer": true,
       "zk-prefixer:Create new unique note": true,
-      "table-editor-obsidian:Advanced Tables Toolbar": true,
+      "templater-obsidian:Templater": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "homepage:Open homepage": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "janitor:Janitor: scan vault": false,
-      "darlal-switcher-plus:Open in Headings Mode": true,
-      "darlal-switcher-plus:Open Symbols for the active editor": true,
-      "templater-obsidian:Templater": true,
-      "omnisearch:Omnisearch": false,
-      "desk:Create new desk": false,
-      "pomodoro-timer:Toggle timer panel": false,
       "periodic-notes:Open today": false,
-      "booksidian-plugin:Booksidian Sync": false
+      "desk:Create new desk": false,
+      "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "c0172271b9025fab",
+  "active": "2be675d38ffbf7af",
   "lastOpenFiles": [
     "משאבים/goodreads-db/Breath and Bone.md",
     "משאבים/goodreads-db/Blue Mars.md",
