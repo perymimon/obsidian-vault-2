@@ -1,17 +1,17 @@
 ---
-author: '[[דיוויד גראן]]'
-pages: '349'
-series: ''
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1621694642l/58120734._SY475_.jpg
+author: "[[דיוויד גראן]]"
+pages: "349"
+series: ""
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1621694642l/58120734._SY475_.jpg
 fullTitle: העיר האבודה Z
-dateAdded: '2023-10-27'
-datePublished: '2009-01-01'
-dateRead: ''
+dateAdded: 2023-10-27
+datePublished: 2009-01-01
+dateRead: ""
 title: העיר האבודה Z
 rawTitle: העיר האבודה Z
-isbn: ''
-subtitle: ''
+isbn: ""
+subtitle: ""
+cssclasses: book
 ---
 # העיר האבודה Z
 

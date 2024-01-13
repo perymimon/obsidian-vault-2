@@ -1,17 +1,17 @@
 ---
-author: '[[David Eddings]]'
-pages: '371'
-series: 'The Malloreon, #4'
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1342438281l/371787.jpg
+author: "[[David Eddings]]"
+pages: "371"
+series: "The Malloreon, #4"
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1342438281l/371787.jpg
 fullTitle: Sorceress of Darshiva
-dateAdded: '2023-11-16'
-datePublished: '1989-01-01'
-dateRead: ''
+dateAdded: 2023-11-16
+datePublished: 1989-01-01
+dateRead: ""
 title: Sorceress of Darshiva
-rawTitle: 'Sorceress of Darshiva (The Malloreon, #4)'
-isbn: '0345369351'
-subtitle: ''
+rawTitle: "Sorceress of Darshiva (The Malloreon, #4)"
+isbn: "0345369351"
+subtitle: ""
+cssclasses: book
 ---
 # Sorceress of Darshiva (The Malloreon, #4)
 

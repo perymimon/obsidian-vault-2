@@ -1,17 +1,17 @@
 ---
-author: '[[David Eddings]]'
-pages: '305'
-series: 'The Belgariad #3'
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1315276590l/44688.jpg
+author: "[[David Eddings]]"
+pages: "305"
+series: "The Belgariad #3"
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1315276590l/44688.jpg
 fullTitle: Magicians Gambit
-dateAdded: '2023-11-16'
-datePublished: '1983-01-01'
-dateRead: ''
+dateAdded: 2023-11-16
+datePublished: 1983-01-01
+dateRead: ""
 title: Magicians Gambit
-rawTitle: 'Magician''s Gambit (The Belgariad #3)'
-isbn: '0345335457'
-subtitle: ''
+rawTitle: "Magician's Gambit (The Belgariad #3)"
+isbn: "0345335457"
+subtitle: ""
+cssclasses: book
 ---
 # Magician&#39;s Gambit (The Belgariad #3)
 

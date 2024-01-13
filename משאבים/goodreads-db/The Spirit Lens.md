@@ -1,17 +1,17 @@
 ---
-author: '[[Carol Berg]]'
-pages: '464'
-series: 'Collegia Magica, #1'
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1329826086l/6678976.jpg
+author: "[[Carol Berg]]"
+pages: "464"
+series: "Collegia Magica, #1"
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1329826086l/6678976.jpg
 fullTitle: The Spirit Lens
-dateAdded: '2023-11-18'
-datePublished: '2009-01-01'
-dateRead: ''
+dateAdded: 2023-11-18
+datePublished: 2009-01-01
+dateRead: ""
 title: The Spirit Lens
-rawTitle: 'The Spirit Lens (Collegia Magica, #1)'
-isbn: '0451463110'
-subtitle: ''
+rawTitle: "The Spirit Lens (Collegia Magica, #1)"
+isbn: "0451463110"
+subtitle: ""
+cssclasses: book
 ---
 # The Spirit Lens (Collegia Magica, #1)
 

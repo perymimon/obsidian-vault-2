@@ -1,17 +1,17 @@
 ---
-author: '[[Terry Goodkind]]'
-pages: '836'
-series: 'Sword of Truth, #1'
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1385248539l/43889.jpg
+author: "[[Terry Goodkind]]"
+pages: "836"
+series: "Sword of Truth, #1"
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1385248539l/43889.jpg
 fullTitle: Wizards First Rule
-dateAdded: '2023-11-17'
-datePublished: '1994-01-01'
-dateRead: ''
+dateAdded: 2023-11-17
+datePublished: 1994-01-01
+dateRead: ""
 title: Wizards First Rule
-rawTitle: 'Wizard''s First Rule (Sword of Truth, #1)'
-isbn: '0765346524'
-subtitle: ''
+rawTitle: "Wizard's First Rule (Sword of Truth, #1)"
+isbn: "0765346524"
+subtitle: ""
+cssclasses: book
 ---
 # Wizard&#39;s First Rule (Sword of Truth, #1)
 

@@ -1,17 +1,17 @@
 ---
-author: '[[David Eddings]]'
-pages: '326'
-series: 'The Belgariad #2'
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1428943169l/587582.jpg
+author: "[[David Eddings]]"
+pages: "326"
+series: "The Belgariad #2"
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1428943169l/587582.jpg
 fullTitle: Queen of Sorcery
-dateAdded: '2023-11-16'
-datePublished: '1982-01-01'
-dateRead: ''
+dateAdded: 2023-11-16
+datePublished: 1982-01-01
+dateRead: ""
 title: Queen of Sorcery
-rawTitle: 'Queen of Sorcery (The Belgariad #2)'
-isbn: '0345335651'
-subtitle: ''
+rawTitle: "Queen of Sorcery (The Belgariad #2)"
+isbn: "0345335651"
+subtitle: ""
+cssclasses: book
 ---
 # Queen of Sorcery (The Belgariad #2)
 

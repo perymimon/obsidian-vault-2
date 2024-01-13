@@ -1,17 +1,17 @@
 ---
-author: '[[Elaine Bergstrom]]'
-pages: '320'
-series: ''
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1681308164l/129059687._SY475_.jpg
+author: "[[Elaine Bergstrom]]"
+pages: "320"
+series: ""
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1681308164l/129059687._SY475_.jpg
 fullTitle: Tapestry Of Dark Souls Ravenloft The Covenant
-dateAdded: '2023-11-17'
-datePublished: '1993-01-01'
-dateRead: ''
+dateAdded: 2023-11-17
+datePublished: 1993-01-01
+dateRead: ""
 title: Tapestry Of Dark Souls
-rawTitle: 'Tapestry Of Dark Souls: Ravenloft: The Covenant'
-isbn: ''
+rawTitle: "Tapestry Of Dark Souls: Ravenloft: The Covenant"
+isbn: ""
 subtitle: Ravenloft
+cssclasses: book
 ---
 # Tapestry Of Dark Souls: Ravenloft: The Covenant
 

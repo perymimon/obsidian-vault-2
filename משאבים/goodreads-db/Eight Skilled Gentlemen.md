@@ -1,17 +1,17 @@
 ---
-author: '[[Barry Hughart]]'
-pages: '255'
-series: 'The Chronicles of Master Li and Number Ten Ox, #3'
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389245393l/77206.jpg
+author: "[[Barry Hughart]]"
+pages: "255"
+series: "The Chronicles of Master Li and Number Ten Ox, #3"
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389245393l/77206.jpg
 fullTitle: Eight Skilled Gentlemen
-dateAdded: '2023-11-18'
-datePublished: '1991-01-01'
-dateRead: ''
+dateAdded: 2023-11-18
+datePublished: 1991-01-01
+dateRead: ""
 title: Eight Skilled Gentlemen
-rawTitle: 'Eight Skilled Gentlemen (The Chronicles of Master Li and Number Ten Ox, #3)'
-isbn: '0385417101'
-subtitle: ''
+rawTitle: "Eight Skilled Gentlemen (The Chronicles of Master Li and Number Ten Ox, #3)"
+isbn: "0385417101"
+subtitle: ""
+cssclasses: book
 ---
 # Eight Skilled Gentlemen (The Chronicles of Master Li and Number Ten Ox, #3)
 

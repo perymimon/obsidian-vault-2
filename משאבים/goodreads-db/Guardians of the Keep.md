@@ -1,17 +1,17 @@
 ---
-author: '[[Carol Berg]]'
-pages: '528'
-series: 'The Bridge of D''Arnath, #2'
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1406459822l/437787.jpg
+author: "[[Carol Berg]]"
+pages: "528"
+series: "The Bridge of D'Arnath, #2"
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1406459822l/437787.jpg
 fullTitle: Guardians of the Keep
-dateAdded: '2023-11-18'
-datePublished: '2004-01-01'
-dateRead: ''
+dateAdded: 2023-11-18
+datePublished: 2004-01-01
+dateRead: ""
 title: Guardians of the Keep
-rawTitle: 'Guardians of the Keep (The Bridge of D''Arnath, #2)'
-isbn: '0451460006'
-subtitle: ''
+rawTitle: "Guardians of the Keep (The Bridge of D'Arnath, #2)"
+isbn: "0451460006"
+subtitle: ""
+cssclasses: book
 ---
 # Guardians of the Keep (The Bridge of D&#39;Arnath, #2)
 

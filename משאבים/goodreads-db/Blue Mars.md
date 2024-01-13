@@ -1,17 +1,18 @@
 ---
-author: '[[Kim Stanley Robinson]]'
-pages: '768'
-series: 'Mars Trilogy, #3'
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1429497319l/77504.jpg
+author: "[[Kim Stanley Robinson]]"
+pages: "768"
+series: "Mars Trilogy, #3"
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1429497319l/77504.jpg
 fullTitle: Blue Mars
-dateAdded: '2023-11-18'
-datePublished: '1996-01-01'
-dateRead: ''
+dateAdded: 2023-11-18
+datePublished: 1996-01-01
+dateRead: ""
 title: Blue Mars
-rawTitle: 'Blue Mars (Mars Trilogy, #3)'
-isbn: '0553573357'
-subtitle: ''
+rawTitle: "Blue Mars (Mars Trilogy, #3)"
+isbn: "0553573357"
+subtitle: ""
+cssclasses:
+  - book
 ---
 # Blue Mars (Mars Trilogy, #3)
 

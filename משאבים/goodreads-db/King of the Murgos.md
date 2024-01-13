@@ -1,17 +1,17 @@
 ---
-author: '[[David Eddings]]'
-pages: '418'
-series: 'The Malloreon, #2'
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1172550298l/189811.jpg
+author: "[[David Eddings]]"
+pages: "418"
+series: "The Malloreon, #2"
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1172550298l/189811.jpg
 fullTitle: King of the Murgos
-dateAdded: '2023-11-16'
-datePublished: '1988-01-01'
-dateRead: ''
+dateAdded: 2023-11-16
+datePublished: 1988-01-01
+dateRead: ""
 title: King of the Murgos
-rawTitle: 'King of the Murgos (The Malloreon, #2)'
-isbn: '0552148032'
-subtitle: ''
+rawTitle: "King of the Murgos (The Malloreon, #2)"
+isbn: "0552148032"
+subtitle: ""
+cssclasses: book
 ---
 # King of the Murgos (The Malloreon, #2)
 

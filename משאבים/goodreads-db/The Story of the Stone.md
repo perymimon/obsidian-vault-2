@@ -1,17 +1,17 @@
 ---
-author: '[[Barry Hughart]]'
-pages: '289'
-series: 'The Chronicles of Master Li and Number Ten Ox, #2'
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1507327958l/77207._SY475_.jpg
+author: "[[Barry Hughart]]"
+pages: "289"
+series: "The Chronicles of Master Li and Number Ten Ox, #2"
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1507327958l/77207._SY475_.jpg
 fullTitle: The Story of the Stone
-dateAdded: '2023-11-18'
-datePublished: '1988-01-01'
-dateRead: ''
+dateAdded: 2023-11-18
+datePublished: 1988-01-01
+dateRead: ""
 title: The Story of the Stone
-rawTitle: 'The Story of the Stone (The Chronicles of Master Li and Number Ten Ox, #2)'
-isbn: '0553282786'
-subtitle: ''
+rawTitle: "The Story of the Stone (The Chronicles of Master Li and Number Ten Ox, #2)"
+isbn: "0553282786"
+subtitle: ""
+cssclasses: book
 ---
 # The Story of the Stone (The Chronicles of Master Li and Number Ten Ox, #2)
 

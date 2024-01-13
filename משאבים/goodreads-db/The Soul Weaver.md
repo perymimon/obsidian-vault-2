@@ -1,17 +1,17 @@
 ---
-author: '[[Carol Berg]]'
-pages: '469'
-series: 'The Bridge of D''Arnath, #3'
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1406460298l/437782.jpg
+author: "[[Carol Berg]]"
+pages: "469"
+series: "The Bridge of D'Arnath, #3"
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1406460298l/437782.jpg
 fullTitle: The Soul Weaver
-dateAdded: '2023-11-18'
-datePublished: '2005-01-01'
-dateRead: ''
+dateAdded: 2023-11-18
+datePublished: 2005-01-01
+dateRead: ""
 title: The Soul Weaver
-rawTitle: 'The Soul Weaver (The Bridge of D''Arnath, #3)'
-isbn: '0451460170'
-subtitle: ''
+rawTitle: "The Soul Weaver (The Bridge of D'Arnath, #3)"
+isbn: "0451460170"
+subtitle: ""
+cssclasses: book
 ---
 # The Soul Weaver (The Bridge of D&#39;Arnath, #3)
 

@@ -1,17 +1,17 @@
 ---
-author: '[[David Eddings]]'
-pages: '754'
-series: ''
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403179783l/18884.jpg
+author: "[[David Eddings]]"
+pages: "754"
+series: ""
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403179783l/18884.jpg
 fullTitle: Polgara the Sorceress Malloreon
-dateAdded: '2023-11-16'
-datePublished: '1997-01-01'
-dateRead: ''
+dateAdded: 2023-11-16
+datePublished: 1997-01-01
+dateRead: ""
 title: Polgara the Sorceress Malloreon
 rawTitle: Polgara the Sorceress (Malloreon)
-isbn: '0345422554'
-subtitle: ''
+isbn: "0345422554"
+subtitle: ""
+cssclasses: book
 ---
 # Polgara the Sorceress (Malloreon)
 

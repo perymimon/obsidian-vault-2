@@ -1,17 +1,17 @@
 ---
-author: '[[David Eddings]]'
-pages: '304'
-series: 'The Belgariad, #1'
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391346857l/44659.jpg
+author: "[[David Eddings]]"
+pages: "304"
+series: "The Belgariad, #1"
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391346857l/44659.jpg
 fullTitle: Pawn of Prophecy
-dateAdded: '2023-11-16'
-datePublished: '1982-01-01'
-dateRead: ''
+dateAdded: 2023-11-16
+datePublished: 1982-01-01
+dateRead: ""
 title: Pawn of Prophecy
-rawTitle: 'Pawn of Prophecy (The Belgariad, #1)'
-isbn: '0345468643'
-subtitle: ''
+rawTitle: "Pawn of Prophecy (The Belgariad, #1)"
+isbn: "0345468643"
+subtitle: ""
+cssclasses: book
 ---
 # Pawn of Prophecy (The Belgariad, #1)
 

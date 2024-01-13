@@ -1,17 +1,17 @@
 ---
-author: '[[Stieg Larsson]]'
-pages: '480'
-series: 'Millennium, #1'
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684638853l/2429135.jpg
+author: "[[Stieg Larsson]]"
+pages: "480"
+series: "Millennium, #1"
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684638853l/2429135.jpg
 fullTitle: The Girl with the Dragon Tattoo
-dateAdded: '2023-11-17'
-datePublished: '2005-01-01'
-dateRead: ''
+dateAdded: 2023-11-17
+datePublished: 2005-01-01
+dateRead: ""
 title: The Girl with the Dragon Tattoo
-rawTitle: 'The Girl with the Dragon Tattoo (Millennium, #1)'
-isbn: '0670069019'
-subtitle: ''
+rawTitle: "The Girl with the Dragon Tattoo (Millennium, #1)"
+isbn: "0670069019"
+subtitle: ""
+cssclasses: book
 ---
 # The Girl with the Dragon Tattoo (Millennium, #1)
 

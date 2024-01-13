@@ -1,17 +1,17 @@
 ---
-author: '[[Kim Stanley Robinson]]'
-pages: '624'
-series: 'Mars Trilogy, #2'
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389628152l/77505.jpg
+author: "[[Kim Stanley Robinson]]"
+pages: "624"
+series: "Mars Trilogy, #2"
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389628152l/77505.jpg
 fullTitle: Green Mars
-dateAdded: '2023-11-18'
-datePublished: '1993-01-01'
-dateRead: ''
+dateAdded: 2023-11-18
+datePublished: 1993-01-01
+dateRead: ""
 title: Green Mars
-rawTitle: 'Green Mars (Mars Trilogy, #2)'
-isbn: '0553572393'
-subtitle: ''
+rawTitle: "Green Mars (Mars Trilogy, #2)"
+isbn: "0553572393"
+subtitle: ""
+cssclasses: book
 ---
 # Green Mars (Mars Trilogy, #2)
 

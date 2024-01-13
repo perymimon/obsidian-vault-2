@@ -1,17 +1,17 @@
 ---
-author: '[[ט.ר. ריצמונד]]'
+author: "[[ט.ר. ריצמונד]]"
 pages: undefined
-series: ''
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1699674686l/150404095.jpg
+series: ""
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1699674686l/150404095.jpg
 fullTitle: פרוייקט אליס project alice
-dateAdded: '2023-10-27'
-datePublished: ''
-dateRead: ''
+dateAdded: 2023-10-27
+datePublished: ""
+dateRead: ""
 title: פרוייקט אליס project alice
 rawTitle: פרוייקט אליס project alice
-isbn: ''
-subtitle: ''
+isbn: ""
+subtitle: ""
+cssclasses: book
 ---
 # פרוייקט אליס project alice
 

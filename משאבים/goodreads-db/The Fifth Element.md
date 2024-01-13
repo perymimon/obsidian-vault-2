@@ -1,17 +1,17 @@
 ---
-author: '[[Terry Bisson]]'
-pages: '256'
-series: ''
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387701493l/1458174.jpg
+author: "[[Terry Bisson]]"
+pages: "256"
+series: ""
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387701493l/1458174.jpg
 fullTitle: The Fifth Element
-dateAdded: '2023-11-16'
-datePublished: '1997-01-01'
-dateRead: ''
+dateAdded: 2023-11-16
+datePublished: 1997-01-01
+dateRead: ""
 title: The Fifth Element
 rawTitle: The Fifth Element
-isbn: '0061058386'
-subtitle: ''
+isbn: "0061058386"
+subtitle: ""
+cssclasses: book
 ---
 # The Fifth Element
 

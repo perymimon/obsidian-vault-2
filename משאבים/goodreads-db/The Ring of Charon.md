@@ -1,17 +1,17 @@
 ---
-author: '[[Roger MacBride Allen]]'
-pages: '500'
-series: 'The Hunted Earth, #1'
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1281475967l/513160.jpg
+author: "[[Roger MacBride Allen]]"
+pages: "500"
+series: "The Hunted Earth, #1"
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1281475967l/513160.jpg
 fullTitle: The Ring of Charon
-dateAdded: '2023-11-16'
-datePublished: '1990-01-01'
-dateRead: ''
+dateAdded: 2023-11-16
+datePublished: 1990-01-01
+dateRead: ""
 title: The Ring of Charon
-rawTitle: 'The Ring of Charon (The Hunted Earth, #1)'
-isbn: '0812530144'
-subtitle: ''
+rawTitle: "The Ring of Charon (The Hunted Earth, #1)"
+isbn: "0812530144"
+subtitle: ""
+cssclasses: book
 ---
 # The Ring of Charon (The Hunted Earth, #1)
 

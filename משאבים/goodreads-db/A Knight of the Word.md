@@ -1,17 +1,17 @@
 ---
-author: '[[Terry Brooks]]'
-pages: '386'
-series: 'Word & Void, #2'
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403811542l/420496.jpg
+author: "[[Terry Brooks]]"
+pages: "386"
+series: "Word & Void, #2"
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403811542l/420496.jpg
 fullTitle: A Knight of the Word
-dateAdded: '2023-11-17'
-datePublished: '1998-01-01'
-dateRead: ''
+dateAdded: 2023-11-17
+datePublished: 1998-01-01
+dateRead: ""
 title: A Knight of the Word
-rawTitle: 'A Knight of the Word (Word & Void, #2)'
-isbn: '0345424646'
-subtitle: ''
+rawTitle: "A Knight of the Word (Word & Void, #2)"
+isbn: "0345424646"
+subtitle: ""
+cssclasses: book
 ---
 # A Knight of the Word (Word &amp; Void, #2)
 

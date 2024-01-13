@@ -1,17 +1,17 @@
 ---
-author: '[[Octavia E. Butler]]'
-pages: '306'
-series: 'Patternmaster, #1'
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388462753l/52318.jpg
+author: "[[Octavia E. Butler]]"
+pages: "306"
+series: "Patternmaster, #1"
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388462753l/52318.jpg
 fullTitle: Wild Seed
-dateAdded: '2023-11-16'
-datePublished: '1980-01-01'
-dateRead: ''
+dateAdded: 2023-11-16
+datePublished: 1980-01-01
+dateRead: ""
 title: Wild Seed
-rawTitle: 'Wild Seed (Patternmaster, #1)'
-isbn: '0446676977'
-subtitle: ''
+rawTitle: "Wild Seed (Patternmaster, #1)"
+isbn: "0446676977"
+subtitle: ""
+cssclasses: book
 ---
 # Wild Seed (Patternmaster, #1)
 

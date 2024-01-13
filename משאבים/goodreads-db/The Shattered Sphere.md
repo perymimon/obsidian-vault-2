@@ -1,17 +1,17 @@
 ---
-author: '[[Roger MacBride Allen]]'
-pages: '412'
-series: 'The Hunted Earth, #2'
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1594261853l/1350712.jpg
+author: "[[Roger MacBride Allen]]"
+pages: "412"
+series: "The Hunted Earth, #2"
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1594261853l/1350712.jpg
 fullTitle: The Shattered Sphere
-dateAdded: '2023-11-16'
-datePublished: '1994-01-01'
-dateRead: ''
+dateAdded: 2023-11-16
+datePublished: 1994-01-01
+dateRead: ""
 title: The Shattered Sphere
-rawTitle: 'The Shattered Sphere (The Hunted Earth, #2)'
-isbn: '0312857349'
-subtitle: ''
+rawTitle: "The Shattered Sphere (The Hunted Earth, #2)"
+isbn: "0312857349"
+subtitle: ""
+cssclasses: book
 ---
 # The Shattered Sphere (The Hunted Earth, #2)
 

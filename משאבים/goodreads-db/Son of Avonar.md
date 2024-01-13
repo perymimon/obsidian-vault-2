@@ -1,17 +1,17 @@
 ---
-author: '[[Carol Berg]]'
-pages: '471'
-series: 'The Bridge of D''Arnath, #1'
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388181993l/437786.jpg
+author: "[[Carol Berg]]"
+pages: "471"
+series: "The Bridge of D'Arnath, #1"
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388181993l/437786.jpg
 fullTitle: Son of Avonar
-dateAdded: '2023-11-18'
-datePublished: '2004-01-01'
-dateRead: ''
+dateAdded: 2023-11-18
+datePublished: 2004-01-01
+dateRead: ""
 title: Son of Avonar
-rawTitle: 'Son of Avonar (The Bridge of D''Arnath, #1)'
-isbn: '0451459628'
-subtitle: ''
+rawTitle: "Son of Avonar (The Bridge of D'Arnath, #1)"
+isbn: "0451459628"
+subtitle: ""
+cssclasses: book
 ---
 # Son of Avonar (The Bridge of D&#39;Arnath, #1)
 

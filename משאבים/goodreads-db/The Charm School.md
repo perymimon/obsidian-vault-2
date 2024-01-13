@@ -1,17 +1,17 @@
 ---
-author: '[[Nelson DeMille]]'
-pages: '644'
-series: ''
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529622205l/40606265._SY475_.jpg
+author: "[[Nelson DeMille]]"
+pages: "644"
+series: ""
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529622205l/40606265._SY475_.jpg
 fullTitle: The Charm School
-dateAdded: '2023-11-17'
-datePublished: '1988-01-01'
-dateRead: ''
+dateAdded: 2023-11-17
+datePublished: 1988-01-01
+dateRead: ""
 title: The Charm School
 rawTitle: The Charm School
-isbn: ''
-subtitle: ''
+isbn: ""
+subtitle: ""
+cssclasses: book
 ---
 # The Charm School
 

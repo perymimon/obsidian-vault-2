@@ -1,17 +1,17 @@
 ---
-author: '[[Terry Brooks]]'
-pages: '420'
-series: 'Word & Void, #1'
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1451687782l/187124.jpg
+author: "[[Terry Brooks]]"
+pages: "420"
+series: "Word & Void, #1"
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1451687782l/187124.jpg
 fullTitle: Running with the Demon
-dateAdded: '2023-11-17'
-datePublished: '1997-01-01'
-dateRead: ''
+dateAdded: 2023-11-17
+datePublished: 1997-01-01
+dateRead: ""
 title: Running with the Demon
-rawTitle: 'Running with the Demon (Word & Void, #1)'
-isbn: '0345379624'
-subtitle: ''
+rawTitle: "Running with the Demon (Word & Void, #1)"
+isbn: "0345379624"
+subtitle: ""
+cssclasses: book
 ---
 # Running with the Demon (Word &amp; Void, #1)
 

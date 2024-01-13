@@ -1,17 +1,17 @@
 ---
-author: '[[Carol Berg]]'
-pages: '408'
-series: 'Lighthouse, #1'
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431493610l/437790._SY475_.jpg
+author: "[[Carol Berg]]"
+pages: "408"
+series: "Lighthouse, #1"
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431493610l/437790._SY475_.jpg
 fullTitle: Flesh and Spirit
-dateAdded: '2023-11-18'
-datePublished: '2007-01-01'
-dateRead: ''
+dateAdded: 2023-11-18
+datePublished: 2007-01-01
+dateRead: ""
 title: Flesh and Spirit
-rawTitle: 'Flesh and Spirit (Lighthouse, #1)'
+rawTitle: "Flesh and Spirit (Lighthouse, #1)"
 isbn: 045146088X
-subtitle: ''
+subtitle: ""
+cssclasses: book
 ---
 # Flesh and Spirit (Lighthouse, #1)
 

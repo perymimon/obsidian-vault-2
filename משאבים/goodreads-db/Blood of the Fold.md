@@ -1,17 +1,17 @@
 ---
-author: '[[Terry Goodkind]]'
-pages: '623'
-series: 'Sword of Truth, #3'
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1562778918l/43892.jpg
+author: "[[Terry Goodkind]]"
+pages: "623"
+series: "Sword of Truth, #3"
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1562778918l/43892.jpg
 fullTitle: Blood of the Fold
-dateAdded: '2023-11-17'
-datePublished: '1996-01-01'
-dateRead: ''
+dateAdded: 2023-11-17
+datePublished: 1996-01-01
+dateRead: ""
 title: Blood of the Fold
-rawTitle: 'Blood of the Fold (Sword of Truth, #3)'
-isbn: '0812551478'
-subtitle: ''
+rawTitle: "Blood of the Fold (Sword of Truth, #3)"
+isbn: "0812551478"
+subtitle: ""
+cssclasses: book
 ---
 # Blood of the Fold (Sword of Truth, #3)
 

@@ -1,19 +1,17 @@
 ---
-author: '[[Barry Hughart]]'
-pages: '652'
-series: 'The Chronicles of Master Li and Number Ten Ox, #1-3'
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1297483625l/92581.jpg
+author: "[[Barry Hughart]]"
+pages: "652"
+series: "The Chronicles of Master Li and Number Ten Ox, #1-3"
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1297483625l/92581.jpg
 fullTitle: The Chronicles of Master Li and Number Ten Ox
-dateAdded: '2023-11-18'
-datePublished: '1998-01-01'
-dateRead: ''
+dateAdded: 2023-11-18
+datePublished: 1998-01-01
+dateRead: ""
 title: The Chronicles of Master Li and Number Ten Ox
-rawTitle: >-
-  The Chronicles of Master Li and Number Ten Ox (The Chronicles of Master Li and
-  Number Ten Ox, #1-3)
-isbn: '0966543602'
-subtitle: ''
+rawTitle: "The Chronicles of Master Li and Number Ten Ox (The Chronicles of Master Li and Number Ten Ox, #1-3)"
+isbn: "0966543602"
+subtitle: ""
+cssclasses: book
 ---
 # The Chronicles of Master Li and Number Ten Ox (The Chronicles of Master Li and Number Ten Ox, #1-3)
 

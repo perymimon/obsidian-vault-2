@@ -1,17 +1,17 @@
 ---
-author: '[[Carol Berg]]'
-pages: '467'
-series: ''
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1309203108l/437788.jpg
+author: "[[Carol Berg]]"
+pages: "467"
+series: ""
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1309203108l/437788.jpg
 fullTitle: Song of the Beast
-dateAdded: '2023-11-18'
-datePublished: '2003-01-01'
-dateRead: ''
+dateAdded: 2023-11-18
+datePublished: 2003-01-01
+dateRead: ""
 title: Song of the Beast
 rawTitle: Song of the Beast
-isbn: '0451459237'
-subtitle: ''
+isbn: "0451459237"
+subtitle: ""
+cssclasses: book
 ---
 # Song of the Beast
 

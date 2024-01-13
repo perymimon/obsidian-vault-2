@@ -1,17 +1,17 @@
 ---
-author: '[[David Eddings]]'
-pages: '438'
-series: 'The Malloreon, #1'
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1342528416l/673657.jpg
+author: "[[David Eddings]]"
+pages: "438"
+series: "The Malloreon, #1"
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1342528416l/673657.jpg
 fullTitle: Guardians of the West
-dateAdded: '2023-11-16'
-datePublished: '1987-01-01'
-dateRead: ''
+dateAdded: 2023-11-16
+datePublished: 1987-01-01
+dateRead: ""
 title: Guardians of the West
-rawTitle: 'Guardians of the West (The Malloreon, #1)'
-isbn: '0345352661'
-subtitle: ''
+rawTitle: "Guardians of the West (The Malloreon, #1)"
+isbn: "0345352661"
+subtitle: ""
+cssclasses: book
 ---
 # Guardians of the West (The Malloreon, #1)
 
