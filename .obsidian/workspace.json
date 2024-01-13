@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5110321044922
+    "width": 310.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "7598a77bad2a22d5",
@@ -133,45 +134,28 @@
               "type": "chronology-calendar-view",
               "state": {}
             }
-          },
-          {
-            "id": "23970490494f7bcc",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 400.5
+    "width": 400.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "command-palette:Open command palette": true,
       "markdown-importer:Open Markdown importer": true,
-      "zk-prefixer:Create new unique note": true,
-      "templater-obsidian:Templater": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "homepage:Open homepage": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "janitor:Janitor: scan vault": false,
-      "periodic-notes:Open today": false,
-      "desk:Create new desk": false,
-      "pomodoro-timer:Toggle timer panel": false
+      "zk-prefixer:Create new unique note": true
     }
   },
   "active": "2be675d38ffbf7af",
   "lastOpenFiles": [
+    "Jornal/daily/2024-01-13.md",
     "משאבים/goodreads-db/Breath and Bone.md",
     "משאבים/goodreads-db/Blue Mars.md",
     "משאבים/ספרים/אדיוס מוצ'אצ'וס.md",
     "Homepage.md",
-    "Jornal/daily/2024-01-13.md",
     "Jornal/daily/2024-01-12.md",
     "tm/habbit-tracker.md",
     "tm/tp - daily template.md",
