@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jornal/daily/2024-01-13.md",
+                "file": "2024-01-14.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5110321044922,
-    "collapsed": true
+    "width": 310.5110321044922
   },
   "right": {
     "id": "7598a77bad2a22d5",
@@ -88,7 +87,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Jornal/daily/2024-01-13.md"
+                "file": "2024-01-14.md"
               }
             }
           },
@@ -169,8 +168,8 @@
   },
   "active": "2be675d38ffbf7af",
   "lastOpenFiles": [
-    "2024-01-14.md",
     "Jornal/daily/2024-01-13.md",
+    "2024-01-14.md",
     "Jornal/daily/2024-01-12 (conflict 2024-01-13-17-19-30).md",
     "משאבים/goodreads-db/Breath and Bone.md",
     "משאבים/goodreads-db/Blue Mars.md",
