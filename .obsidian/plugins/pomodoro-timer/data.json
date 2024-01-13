@@ -1,0 +1,15 @@
+{
+  "workLen": 25,
+  "breakLen": 5,
+  "autostart": false,
+  "useStatusBarTimer": true,
+  "notificationSound": true,
+  "customSound": "",
+  "logFile": "DAILY",
+  "logFocused": false,
+  "logPath": "",
+  "logLevel": "ALL",
+  "logTemplate": "",
+  "logFormat": "SIMPLE",
+  "useSystemNotification": false
+}

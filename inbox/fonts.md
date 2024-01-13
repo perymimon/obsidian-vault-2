@@ -1,0 +1,1 @@
+Fonts are all about dressing your words in clothing that suits the occasion. You’re not going to wear a ball gown or tux to a football game (especially not if you’re playing), and a baggy t-shirt isn’t going to cut it for a night at the opera (especially if you’re singing).

@@ -1,0 +1,26 @@
+{
+  "devMode": false,
+  "ignoreCodeBlockRestrictions": false,
+  "preferredDateFormat": "YYYY-MM-DD",
+  "useUsDateInputOrder": false,
+  "firstWeekday": {
+    "index": 0,
+    "name": "Sunday",
+    "shortName": "Su"
+  },
+  "syncInterval": 200,
+  "minSyncInterval": 50,
+  "maxSyncInterval": 1000,
+  "enableJs": false,
+  "viewFieldDisplayNullAsEmpty": false,
+  "enableSyntaxHighlighting": true,
+  "inputFieldTemplates": [
+    {
+      "name": "mood",
+      "declaration": "INPUT[suggester(defaultValue(😑),option(😑), option(🥰),option(😛),option(🙂),option(☹️),option(🧑‍💻))]"
+    }
+  ],
+  "excludedFolders": [
+    "templates"
+  ]
+}
