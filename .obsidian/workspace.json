@@ -80,6 +80,7 @@
       {
         "id": "a819be8c58bdd49a",
         "type": "tabs",
+        "dimension": 67.00091157702826,
         "children": [
           {
             "id": "f5f286256d70b4e5",
@@ -89,6 +90,14 @@
               "state": {
                 "file": "Jornal/daily/2024-01-13.md"
               }
+            }
+          },
+          {
+            "id": "9b6df99b84945ae2",
+            "type": "leaf",
+            "state": {
+              "type": "chronology-calendar-view",
+              "state": {}
             }
           },
           {
@@ -126,12 +135,20 @@
                 "searchQuery": ""
               }
             }
-          },
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "5ad0f87f8532925f",
+        "type": "tabs",
+        "dimension": 32.99908842297174,
+        "children": [
           {
-            "id": "9b6df99b84945ae2",
+            "id": "6abbcb0d476d0062",
             "type": "leaf",
             "state": {
-              "type": "chronology-calendar-view",
+              "type": "calendar",
               "state": {}
             }
           }
@@ -139,20 +156,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 400.5,
-    "collapsed": true
+    "width": 400.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "command-palette:Open command palette": true,
       "markdown-importer:Open Markdown importer": true,
-      "zk-prefixer:Create new unique note": true
+      "zk-prefixer:Create new unique note": true,
+      "chronology:Open Chronology": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "2be675d38ffbf7af",
   "lastOpenFiles": [
-    "Jornal/daily/2024-01-12 (conflict 2024-01-13-17-19-30).md",
+    "2024-01-14.md",
     "Jornal/daily/2024-01-13.md",
+    "Jornal/daily/2024-01-12 (conflict 2024-01-13-17-19-30).md",
     "משאבים/goodreads-db/Breath and Bone.md",
     "משאבים/goodreads-db/Blue Mars.md",
     "משאבים/ספרים/אדיוס מוצ'אצ'וס.md",
@@ -176,7 +195,6 @@
     "משאבים/goodreads-db/קסנוסייד.md",
     "משאבים/goodreads-db/דובר למתים.md",
     "משאבים/goodreads-db/האם אנדרואידים חולמים על כבשים חשמליות.md",
-    "משאבים/goodreads-db/ילדי המחשבה.md",
     "משאבים/goodreads-db",
     "ספרים",
     "Book/goodreads-db",

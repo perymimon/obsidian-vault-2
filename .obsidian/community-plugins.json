@@ -8,5 +8,8 @@
   "obsidian-imgur-plugin",
   "obsidian-rtl",
   "obsidian-linter",
-  "obsidian-git"
+  "obsidian-git",
+  "calendar",
+  "chronology",
+  "templater-obsidian"
 ]
