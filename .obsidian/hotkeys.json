@@ -176,8 +176,7 @@
   "darlal-switcher-plus:switcher-plus:open-commands": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Mod"
       ],
       "key": "P"
     }
@@ -278,6 +277,21 @@
         "Alt"
       ],
       "key": "A"
+    }
+  ],
+  "properties:open-local": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "P"
+    },
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "P"
     }
   ]
 }

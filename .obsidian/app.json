@@ -13,5 +13,8 @@
   "livePreview": false,
   "focusNewTab": false,
   "autoPairMarkdown": false,
-  "trashOption": "local"
+  "trashOption": "local",
+  "mobilePullAction": "command-palette:open",
+  "readableLineLength": false,
+  "propertiesInDocument": "hidden"
 }

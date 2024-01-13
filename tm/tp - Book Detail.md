@@ -2,7 +2,8 @@
 var fileDayFormat = "YYYY-MM-DD"
 var happyDayFormat = "DD MMMM יום dddd היום ה- DDD, השבוע ה"
 var dv = app.plugins.plugins.dataview.api
-var file = await tp.system.suggester((item) => item.basename, app.vault.getMarkdownFiles())
+var goodreadsDB = app.vault.getMarkdownFiles().filter(item.path.include('goodreads-db'))
+var file = await tp.system.suggester((item) => item.basename, goodreadsDB)
 var note = dv.page("Goodreads - " + file.basename)
 
 tR += `# ${note.file.link}  \n`

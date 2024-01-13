@@ -10,7 +10,7 @@ notes
 [[My Obsidian workflow]]
 [[Obsidian-what-missing]]
 [[obsidian code reference]]
-[[Obsidian markdown]]
+[[Obsidian md notation]]
 [[Obsidian list of recommended plugin to checkout]]
 
 magic links: [open plugin dialog](obsidian://show-plugin?id=obsidian-linter)

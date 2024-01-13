@@ -1,19 +1,10 @@
 [
   "file-explorer",
   "global-search",
-  "graph",
-  "backlink",
-  "canvas",
-  "outgoing-link",
-  "tag-pane",
-  "page-preview",
+  "properties",
   "note-composer",
   "command-palette",
   "editor-status",
-  "bookmarks",
   "markdown-importer",
-  "zk-prefixer",
-  "outline",
-  "word-count",
-  "file-recovery"
+  "zk-prefixer"
 ]

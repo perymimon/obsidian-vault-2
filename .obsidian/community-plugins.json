@@ -1,6 +1,5 @@
 [
   "templater-obsidian",
-  "obsidian-style-settings",
   "obsidian-rtl",
   "dataview",
   "obsidian-auto-link-title",
@@ -26,5 +25,17 @@
   "omnisearch",
   "code-block-from-selection",
   "keyshots",
-  "periodic-notes"
+  "periodic-notes",
+  "key-value-list",
+  "desk",
+  "slash-commander",
+  "pomodoro-timer",
+  "obsidian-plugin-update-tracker",
+  "2hop-links-plus",
+  "change-case",
+  "obsidian-outliner",
+  "buttons",
+  "obsidian-meta-bind-plugin",
+  "booksidian-plugin",
+  "obsidian-banners"
 ]

@@ -104,6 +104,41 @@
       },
       "openFile": true,
       "openFileInMode": "source"
+    },
+    {
+      "id": "1a3b6275-d9b2-4604-b43d-55cf470298bc",
+      "name": "מה הספקתי ",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- {{time}} {{value}} \\n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## הספקתי היום",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "bottom"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": false
+      },
+      "openFile": true,
+      "openFileInMode": "source"
     }
   ],
   "macros": [],

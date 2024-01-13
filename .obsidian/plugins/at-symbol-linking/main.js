@@ -2359,7 +2359,9 @@ var DEFAULT_SETTINGS = {
   addNewNoteTemplateFile: "",
   addNewNoteDirectory: "",
   useCompatibilityMode: false,
-  leavePopupOpenForXSpaces: 0
+  leavePopupOpenForXSpaces: 0,
+  validCharacterRegex: `[a-z0-9$-_!%"'.,*&@()/;{}<>?~\`=+]`,
+  validCharacterRegexFlags: "i"
 };
 var arrayMove = (array, fromIndex, toIndex) => {
   if (toIndex < 0 || toIndex === array.length) {
@@ -2382,9 +2384,6 @@ var SettingsTab = class extends import_obsidian3.PluginSettingTab {
   }
   display() {
     this.containerEl.empty();
-    this.containerEl.appendChild(
-      createHeading(this.containerEl, "At Symbol (@) Linking Settings")
-    );
     const triggerSymbolDesc = document.createDocumentFragment();
     triggerSymbolDesc.append("Type this symbol to trigger the popup.");
     new import_obsidian3.Setting(this.containerEl).setName("Trigger Symbol").setDesc(triggerSymbolDesc).addText((text) => {
@@ -2577,8 +2576,42 @@ var SettingsTab = class extends import_obsidian3.PluginSettingTab {
         this.validate();
       };
     });
+    new import_obsidian3.Setting(this.containerEl).setName("Advanced settings").setHeading();
+    const validCharacterRegexDesc = document.createDocumentFragment();
+    validCharacterRegexDesc.append(
+      "JavaScript Regular Expression used to determine if a character in autocomplete is valid for looking up or creating new files.",
+      validCharacterRegexDesc.createEl("br"),
+      "Characters typed that don't match this regex will not be included in the final search query in compatibility mode.",
+      validCharacterRegexDesc.createEl("br"),
+      "In normal mode, the popup will close when an invalid character is typed."
+    );
+    new import_obsidian3.Setting(this.containerEl).setName("Valid character Regex").setDesc(validCharacterRegexDesc).addText((text) => {
+      text.setPlaceholder(this.plugin.settings.validCharacterRegex).setValue(this.plugin.settings.validCharacterRegex).onChange(async (value) => {
+        this.plugin.settings.validCharacterRegex = value;
+        await this.plugin.saveSettings();
+      });
+      text.inputEl.onblur = () => {
+        this.validate("validCharacterRegex");
+      };
+    });
+    const validCharacterRegexFlagsDesc = document.createDocumentFragment();
+    validCharacterRegexFlagsDesc.append(
+      "Flags to use with the valid character regex."
+    );
+    new import_obsidian3.Setting(this.containerEl).setName("Valid character Regex flags").setDesc(validCharacterRegexFlagsDesc).addText((text) => {
+      text.setPlaceholder(
+        this.plugin.settings.validCharacterRegexFlags
+      ).setValue(this.plugin.settings.validCharacterRegexFlags).onChange(async (value) => {
+        this.plugin.settings.validCharacterRegexFlags = value;
+        await this.plugin.saveSettings();
+      });
+      text.inputEl.onblur = () => {
+        this.validate("validCharacterRegexFlags");
+      };
+    });
   }
-  async validate() {
+  async validate(editedSetting) {
+    var _a;
     const settings = this.plugin.settings;
     const updateSetting = async (setting, value) => {
       this.plugin.settings[setting] = value;
@@ -2632,14 +2665,33 @@ var SettingsTab = class extends import_obsidian3.PluginSettingTab {
     if (isNaN(parseInt(settings.leavePopupOpenForXSpaces.toString())) || settings.leavePopupOpenForXSpaces < 0) {
       await updateSetting("leavePopupOpenForXSpaces", 0);
     }
+    if (((_a = settings.validCharacterRegex) == null ? void 0 : _a.trim()) === "") {
+      await updateSetting(
+        "validCharacterRegex",
+        DEFAULT_SETTINGS.validCharacterRegex
+      );
+    }
+    try {
+      new RegExp(
+        settings.validCharacterRegex,
+        settings.validCharacterRegexFlags
+      );
+    } catch (e) {
+      new import_obsidian3.Notice(`Invalid regex or flags`);
+      if (editedSetting === "validCharacterRegex") {
+        await updateSetting(
+          "validCharacterRegex",
+          DEFAULT_SETTINGS.validCharacterRegex
+        );
+      } else if (editedSetting === "validCharacterRegexFlags") {
+        await updateSetting(
+          "validCharacterRegexFlags",
+          DEFAULT_SETTINGS.validCharacterRegexFlags
+        );
+      }
+    }
   }
 };
-function createHeading(el, text, level = 2) {
-  const heading = el.createEl(`h${level}`, {
-    text
-  });
-  return heading;
-}
 
 // src/native-suggestion/suggest-popup.ts
 var import_obsidian7 = require("obsidian");
@@ -2665,6 +2717,7 @@ async function replaceNewFileVars(app2, templateContent, title) {
       `@ Symbol Linking: Unable to read core plugin templates config at path: ${coreTemplatesConfigPath}`
     );
     console.log(error);
+    return templateContent;
   }
   let dateFormat = "YYYY-MM-DD";
   let timeFormat = "HH:mm";
@@ -2868,15 +2921,14 @@ function sharedGetSuggestions(files, query, settings) {
 }
 
 // src/utils/valid-file-name.ts
-var validCharRegex = /[a-z0-9\\$\\-\\_\\!\\%\\"\\'\\.\\,\\*\\&\\(\\)\\;\\{\\}\\+\\=\\~\\`\\?\\<\\>)]/i;
-var isValidFileNameCharacter = (char) => {
+var isValidFileNameCharacter = (char, settings) => {
   if (char === " ") {
     return true;
   }
   if (char === "\\") {
     return false;
   }
-  return validCharRegex.test(char);
+  return new RegExp(settings.validCharacterRegex).test(char);
 };
 
 // src/native-suggestion/suggest-popup.ts
@@ -2951,7 +3003,7 @@ var SuggestionPopup = class extends import_obsidian7.EditorSuggest {
     query.startsWith(" ")) {
       return this.closeSuggestion();
     }
-    if (!query || !isValidFileNameCharacter(typedChar)) {
+    if (!query || !isValidFileNameCharacter(typedChar, this.settings)) {
       return this.closeSuggestion();
     }
     return {
@@ -3386,8 +3438,10 @@ function atSymbolTriggerExtension(app2, settings) {
         if (!isInValidContext) {
           return false;
         }
+        let justOpened = false;
         if (!this.isOpen && typedChar === settings.triggerSymbol) {
-          return this.openSuggestion();
+          justOpened = true;
+          this.openSuggestion();
         } else if (!this.isOpen) {
           return false;
         }
@@ -3399,9 +3453,9 @@ function atSymbolTriggerExtension(app2, settings) {
           this.openQuery = this.openQuery.slice(0, -1);
         } else if (typedChar === "Escape") {
           this.closeSuggestion();
-        } else if (!isValidFileNameCharacter(typedChar) || event.altKey || event.metaKey || event.ctrlKey || key.includes("backspace") || key.includes("shift") || key.includes("arrow")) {
+        } else if (!isValidFileNameCharacter(typedChar, settings) || event.altKey || event.metaKey || event.ctrlKey || key.includes("backspace") || key.includes("shift") || key.includes("arrow")) {
           return false;
-        } else {
+        } else if (!justOpened) {
           this.openQuery += typedChar;
         }
         if (this.openQuery.split(" ").length - 1 > settings.leavePopupOpenForXSpaces || // Also close if the query starts with a space, regardless of space settings

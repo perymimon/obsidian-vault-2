@@ -1,4 +1,6 @@
 ---
+quickshare-date: 2023-12-27 19:54:38
+quickshare-url: "https://noteshare.space/note/clqo2sta0206001mwkx2kz81r#3HJNN3xZEGtLB+8cEksUWh/4lVhLYqNRjFSU9hW4Fbw"
 aliases: 
 cssclasse: 
 date-created: 2023-12-20
@@ -43,3 +45,5 @@ Oh-oh, say something, I'm giving up on you
 Say something, I'm giving up on you
 
 Say something
+
+

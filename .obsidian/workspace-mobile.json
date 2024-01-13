@@ -15,6 +15,7 @@
               "state": {
                 "file": "note/בנקים.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": true
               }
             }
@@ -24,12 +25,8 @@
             "type": "leaf",
             "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "pinned": true
             }
           },
@@ -39,8 +36,100 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jornal/daily/2023-12-20.md",
+                "file": "Jornal/daily/2024-01-12.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "79a7cca7eafc880e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jornal/daily/2024-01-11.md",
                 "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "02782516b5fac8c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jornal/daily/2024-01-11.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "7feaad6dd8c7243b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jornal/daily/2024-01-10.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "e5c53e8755739fd0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jornal/daily/2024-01-10.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "3ce1b396775af321",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jornal/daily/2024-01-10.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "4d14b9f701b2d6d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jornal/daily/2024-01-10.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "9d2225d02e0fccf5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jornal/daily/2024-01-10.md",
+                "mode": "source",
+                "backlinks": false,
                 "source": true
               }
             }
@@ -51,8 +140,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "משאבים/נשים.md",
-                "mode": "source",
+                "file": "Plugins.md",
+                "mode": "preview",
+                "backlinks": false,
                 "source": true
               }
             }
@@ -65,12 +155,13 @@
               "state": {
                 "file": "inbox/python.md",
                 "mode": "preview",
+                "backlinks": false,
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -90,7 +181,7 @@
         }
       },
       {
-        "id": "8ef45a5cd894b844",
+        "id": "70f94a55c5f07c75",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -105,22 +196,13 @@
         }
       },
       {
-        "id": "6001e658077ba1b4",
+        "id": "a2de99d1f6ad953d",
         "type": "leaf",
         "state": {
-          "type": "tag",
+          "type": "all-properties",
           "state": {
-            "sortOrder": "frequency",
-            "useHierarchy": true
+            "sortOrder": "frequency"
           }
-        }
-      },
-      {
-        "id": "b20895cbfa152ef4",
-        "type": "leaf",
-        "state": {
-          "type": "bookmarks",
-          "state": {}
         }
       }
     ],
@@ -130,53 +212,6 @@
     "id": "69b5940f4d8fefc7",
     "type": "mobile-drawer",
     "children": [
-      {
-        "id": "7757c1f73a33ea7c",
-        "type": "leaf",
-        "state": {
-          "type": "calendar",
-          "state": {}
-        }
-      },
-      {
-        "id": "b50e250bdedcb4aa",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "משאבים/נשים.md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
-          }
-        }
-      },
-      {
-        "id": "51e314d9f8019b63",
-        "type": "leaf",
-        "state": {
-          "type": "outgoing-link",
-          "state": {
-            "file": "משאבים/נשים.md",
-            "linksCollapsed": false,
-            "unlinkedCollapsed": true
-          }
-        }
-      },
-      {
-        "id": "2782ccf361ab241e",
-        "type": "leaf",
-        "state": {
-          "type": "outline",
-          "state": {
-            "file": "משאבים/נשים.md"
-          }
-        }
-      },
       {
         "id": "59f200cdff52354c",
         "type": "leaf",
@@ -190,52 +225,45 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-trash-explorer:Open trash explorer": false,
       "janitor:Janitor: scan vault": false,
-      "omnisearch:Omnisearch": false,
-      "quick-tagger:Add tag to current note": false,
-      "quick-tagger:Remove tag from current note": true,
       "templater-obsidian:Templater": false,
-      "darlal-switcher-plus:Open in Headings Mode": true,
-      "darlal-switcher-plus:Open Symbols for the active editor": true,
       "homepage:Open homepage": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "graph:Open graph view": true,
-      "canvas:Create new canvas": true,
-      "command-palette:Open command palette": true,
       "markdown-importer:Open format converter": true,
-      "zk-prefixer:Create new unique note": false,
+      "zk-prefixer:Create new unique note": true,
+      "command-palette:Open command palette": true,
       "periodic-notes:Open today": false
     }
   },
-  "active": "98638863bff030d3",
+  "active": "471f456191f7736e",
   "lastOpenFiles": [
+    "Jornal/daily/2024-01-11.md",
+    "Jornal/daily/2024-01-13.md",
+    "jornal/daily/2024-01-12.md",
+    "Jornal/daily/2024-01-12.md",
+    "Jornal/daily/2024-01-10.md",
+    "Jornal/daily/2024-01-09.md",
+    "Jornal/daily/2024-01-08.md",
+    "Jornal/daily/2024-01-07.md",
+    "inbox/pieces context.md",
+    "piecesdb.json",
+    "note/Obsidian md notation.md",
+    "Plugins.md",
+    "note/תבניות.md",
+    "tm/tp - daily template.md",
+    "Jornal/daily/2023-12-20.md",
+    "Home.md",
+    "note/בנקים.md",
+    "_.obsidian",
+    "משאבים/נשים.md",
+    "Jornal/daily/2024-01-06.md",
     "Jornal/daily/2023-12-24.md",
     "עטלף עיוור.md",
-    "משאבים/נשים.md",
     "אנשים/ענבר איזנמן.md",
     "Jornal/daily/2023-12-22.md",
     "Jornal/daily/2023-12-21.md",
     "Jornal/daily/2023-12-19.md",
     "inbox/python.md",
-    "Home.md",
-    "note/בנקים.md",
     "Untitled.md",
-    "jornal/daily/2023-12-21.md",
-    "Jornal/daily/2023-12-20.md",
-    "jornal/daily/2023-12-20.md",
-    "lyric/Say Something.md",
-    "Jornal/daily/2023-11-28.md",
-    "Jornal/daily/2023-12-17.md",
-    "משירים.md",
-    "אנשים/jornal/ברכת יום הולדת לחני 2021.md",
-    "TOC/משחקי-לוח.md",
-    "resource/developer tools.md",
-    "resource/תמונות עליה של משפחת מימון.md",
-    "keep/יומני הערפד.md",
-    "inbox/פרסום הווילה.md",
-    "Jornal/daily/2021-11-04.md",
-    "draft/טינדר שיט.md",
     "draft",
     "archive"
   ]

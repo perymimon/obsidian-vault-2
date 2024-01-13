@@ -1,28 +1,23 @@
 {
-  "targetFolderPath": "Book/goodreads-db",
-  "fileName": "Goodreads- {{title}}",
+  "targetFolderPath": "משאבים/goodreads-db",
+  "fileName": "{{title}}",
   "goodreadsBaseUrl": "https://www.goodreads.com/review/list_rss/31564931?key=-e1TEcNO6a0Hmavzw8UolwL6akpGbQa0mWAjF9M4qMDCzi5W&shelf=",
-  "goodreadsShelves": "read",
+  "goodreadsShelves": "want to read\nread",
   "frontmatterDictionary": {
     "author": "[[author]]",
     "pages": "pages",
     "series": "series",
     "cover": "cover",
-    "description": "description",
     "fullTitle": "fullTitle",
     "dateAdded": "dateAdded",
     "datePublished": "datePublished",
     "dateRead": "dateRead",
     "title": "title",
     "rawTitle": "rawTitle",
-    "rating": "rating",
-    "avgRating": "avgRating",
-    "shelves": "shelves",
     "isbn": "isbn",
-    "review": "review",
     "subtitle": "subtitle"
   },
-  "bodyString": "{{title}} book-db \n@from goodreads API\n\n![]({{cover}})\n{{description}}",
+  "bodyString": "# {{rawTitle}}\n\n![]({{cover}})  \nbanner:: [banner link]({{cover}})  \nauthor:: [[{{author}}]]  \npublish:: [[{{datePublished}}]]\npages:: {{pages}}\nrating:: {{rating}} \nOther reviews:: \ndateRead:: {{dateRead}}\n\n<hr  style=\"clear:both\"/>\n\n{{review}}\n\n```dataview\nLIST from [[]]\n```\n\n## נקודות לקחת \n\n### פרק מספר\n> [!quote] -- page number -- \n>  content from the book\n\n\n\n\n```",
   "frequency": "0",
   "overwrite": false
 }
