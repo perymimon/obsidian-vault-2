@@ -14,6 +14,25 @@
               "type": "markdown",
               "state": {
                 "file": "Jornal/daily/2024-01-14.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "8232f66ee61ac9f1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5a915987b1aaa3d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jornal/daily/2024-01-14.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -154,7 +173,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 400.5
+    "width": 400.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,13 +187,13 @@
       "daily-notes:Open today's note": false
     }
   },
-  "active": "2be675d38ffbf7af",
+  "active": "5a915987b1aaa3d4",
   "lastOpenFiles": [
-    "Jornal/daily/2024-01-15.md",
-    "tm/tp - daily template.md",
     "Jornal/daily/2024-01-13.md",
-    "Jornal/daily/2024-01-16.md",
+    "Jornal/daily/2024-01-15.md",
     "Jornal/daily/2024-01-14.md",
+    "tm/tp - daily template.md",
+    "Jornal/daily/2024-01-16.md",
     "Jornal/daily/2024-01-17.md",
     "Jornal/daily/2024-01-12.md",
     "tm/tp - New Note.md",
