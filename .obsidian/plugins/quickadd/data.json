@@ -142,10 +142,10 @@
     }
   ],
   "macros": [],
-  "inputPrompt": "single-line",
+  "inputPrompt": "multi-line",
   "devMode": false,
   "templateFolderPath": "",
-  "announceUpdates": false,
+  "announceUpdates": true,
   "version": "1.6.1",
   "disableOnlineFeatures": true,
   "ai": {
