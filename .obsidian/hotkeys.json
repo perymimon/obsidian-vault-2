@@ -172,7 +172,21 @@
     }
   ],
   "file-explorer:new-file": [],
-  "command-palette:open": [],
+  "command-palette:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "P"
+    },
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ],
   "darlal-switcher-plus:switcher-plus:open-commands": [
     {
       "modifiers": [
@@ -292,6 +306,24 @@
         "Alt"
       ],
       "key": "P"
+    }
+  ],
+  "daily-notes:goto-prev": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "."
+    }
+  ],
+  "daily-notes:goto-next": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": ","
     }
   ]
 }

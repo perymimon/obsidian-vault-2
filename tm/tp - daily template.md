@@ -20,9 +20,7 @@ banner: https://i.imgur.com/TVcNaT5.png
 banner_y: 0.5
 ---
 
-[[jornal/daily/<%_ yesterday _%>|אתמול 👉]] ---------- [[jornal/daily/<%_ tomorrow _%>|👈 מחר ]]
-
-# <% theDay.format("יום dddd") %> 
+# [[jornal/daily/<%_ yesterday _%>|אתמול 👉]] <% theDay.format("יום dddd") %> [[jornal/daily/<%_ tomorrow _%>|👈 מחר ]]
 
 > [!todo]  <% theDay.format(happyDayFormat) %> 
 > **`== moment(dv.current().day - 0).fromNow()`**
