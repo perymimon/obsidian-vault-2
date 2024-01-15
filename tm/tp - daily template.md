@@ -41,11 +41,10 @@ actions:
     command: quickadd:choice:1a3b6275-d9b2-4604-b43d-55cf470298bc
 
 ```
--  
 
 > [!cite] אז איך עבר היום שלי
 > **מצב רוח** :  התעוררות `INPUT[mood][:mood.morning]` , צהריים : `INPUT[mood][:mood.noon]`,  לפני השינה :  `INPUT[mood][:mood.sleep]`
-> **כותרת היום** : `INPUT[text(defaultValue("יום שגרתי")):daily.title]`
+> **כותרת היום** : `INPUT[text(defaultValue(יום שגרתי)):daily.title]`
 > ```meta-bind
 > INPUT[editor:daily.story]
 > ```
