@@ -46,7 +46,7 @@
               "type": "markdown",
               "state": {
                 "file": "tm/tp - daily template.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Jornal/daily/2024-01-13.md"
+                "file": "tm/tp - daily template.md"
               }
             }
           },
@@ -200,9 +200,10 @@
       "daily-notes:Open today's note": false
     }
   },
-  "active": "6abbcb0d476d0062",
+  "active": "2be675d38ffbf7af",
   "lastOpenFiles": [
     "Jornal/daily/2024-01-15.md",
+    "Jornal/daily/2024-01-13.md",
     "Jornal/daily/2024-01-16.md",
     "Jornal/daily/2024-01-14.md",
     "tm/tp - daily template.md",
@@ -212,7 +213,6 @@
     "tm/meta-bind",
     "ענבר איזנמן-האשמות.md",
     "מחשבה.md",
-    "Jornal/daily/2024-01-13.md",
     "Jornal/daily/2024-01-11.md",
     "2024-01-14.md",
     "Jornal/daily/2024-01-12 (conflict 2024-01-13-17-19-30).md",

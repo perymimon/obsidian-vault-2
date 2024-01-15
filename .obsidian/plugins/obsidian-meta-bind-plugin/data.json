@@ -17,7 +17,7 @@
   "inputFieldTemplates": [
     {
       "name": "mood",
-      "declaration": "INPUT[suggester(defaultValue(😑),option(😑), option(🥰),option(😛),option(🙂),option(☹️),option(🧑‍💻))]"
+      "declaration": "INPUT[suggester(defaultValue(😑),option(😑), option(🥰),option(😛),option(🙂),option(☹️),option(🧑‍💻),option(🤔))]"
     }
   ],
   "excludedFolders": [

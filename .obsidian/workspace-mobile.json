@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ענבר איזנמן-האשמות.md",
-                "mode": "source",
+                "file": "Jornal/daily/2024-01-14.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -149,6 +149,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "daily-notes:Open today's daily note": false,
       "templater-obsidian:Templater": false,
       "markdown-importer:Open format converter": true,
       "zk-prefixer:Create new unique note": true,
@@ -158,10 +159,10 @@
   },
   "active": "1bf18b2c274fa825",
   "lastOpenFiles": [
-    "Jornal/daily/2024-01-14.md",
-    "ענבר איזנמן-האשמות.md",
     "Jornal/daily/2024-01-13.md",
     "Jornal/daily/2024-01-15.md",
+    "ענבר איזנמן-האשמות.md",
+    "Jornal/daily/2024-01-14.md",
     "tm/habbit-tracker.md",
     "אינדקס/מקומות לטייל במרכז.md",
     "Jornal/daily/2024-01-11.md",
