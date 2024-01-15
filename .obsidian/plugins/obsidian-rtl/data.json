@@ -36,7 +36,8 @@
     "Jornal/daily/2024-01-12.md": "rtl",
     "משאבים/ספרים/אילון מאסק - הספר.md": "rtl",
     "Jornal/daily/2024-01-13.md": "rtl",
-    "Jornal/daily/2024-01-14.md": "auto"
+    "Jornal/daily/2024-01-14.md": "auto",
+    "Jornal/daily/2024-01-11.md": "auto"
   },
   "defaultDirection": "auto",
   "rememberPerFile": true,

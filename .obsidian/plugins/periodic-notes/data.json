@@ -12,12 +12,13 @@
     "format": "",
     "template": "",
     "folder": "Jornal/weekly",
-    "enabled": true
+    "enabled": false
   },
   "monthly": {
     "format": "",
     "template": "",
-    "folder": ""
+    "folder": "Jornal/monthly",
+    "enabled": true
   },
   "quarterly": {
     "format": "",

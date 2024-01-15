@@ -4,25 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "88ceb8bc1a135fdb",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "2be675d38ffbf7af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Jornal/daily/2024-01-14.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "8232f66ee61ac9f1",
         "type": "tabs",
         "children": [
@@ -32,8 +13,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jornal/daily/2024-01-14.md",
+                "file": "Jornal/daily/2024-01-15.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "52856eb1b09456e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jornal/daily/2024-01-15.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "d9b6bc2705fc7063",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4d222f2195847b40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tm/meta-bind/habbit-tracker.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -106,7 +119,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Jornal/daily/2024-01-14.md"
+                "file": "tm/meta-bind/habbit-tracker.md"
               }
             }
           },
@@ -173,8 +186,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 400.5,
-    "collapsed": true
+    "width": 400.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,38 +196,39 @@
       "chronology:Open Chronology": false,
       "templater-obsidian:Templater": false,
       "periodic-notes:Open today": false,
-      "daily-notes:Open today's note": false
+      "daily-notes:Open today's note": false,
+      "switcher:Open quick switcher": false
     }
   },
-  "active": "5a915987b1aaa3d4",
+  "active": "4d222f2195847b40",
   "lastOpenFiles": [
-    "Jornal/daily/2024-01-13.md",
     "Jornal/daily/2024-01-15.md",
-    "Jornal/daily/2024-01-14.md",
+    "tm/meta-bind/habbit-tracker.md",
+    "Jornal/monthly",
     "tm/tp - daily template.md",
     "Jornal/daily/2024-01-16.md",
-    "Jornal/daily/2024-01-17.md",
+    "Jornal/daily/2024-01-14.md",
+    "Jornal/daily/2024-01-13.md",
     "Jornal/daily/2024-01-12.md",
+    "Jornal/daily/2024-01-11.md",
+    "Jornal/daily/2024-01-10.md",
+    "Jornal/daily/2024-01-15 (conflict 2024-01-15-14-41-20).md",
+    "Jornal/daily/2024-01-17.md",
     "tm/tp - New Note.md",
     "tm/meta-bind",
     "ענבר איזנמן-האשמות.md",
     "מחשבה.md",
-    "Jornal/daily/2024-01-11.md",
     "2024-01-14.md",
     "Jornal/daily/2024-01-12 (conflict 2024-01-13-17-19-30).md",
     "משאבים/goodreads-db/Breath and Bone.md",
     "משאבים/goodreads-db/Blue Mars.md",
     "משאבים/ספרים/אדיוס מוצ'אצ'וס.md",
     "Homepage.md",
-    "tm/meta-bind/habbit-tracker.md",
     "משאבים/goodreads-db/אומן השיר.md",
     "משאבים/ספרים/הפרדס של עקיבא.md",
     "משאבים/goodreads-db/הפרדס של עקיבא.md",
     "ספרים/הפרדס של עקיבה.md",
     "משאבים/goodreads-db/King of the Murgos.md",
-    "משאבים/goodreads-db/A Knight of the Word.md",
-    "tm/(02) tp - ins dv list.md",
-    "משאבים/goodreads-db/שר הטבעות - שני הצריחים.md",
     "משאבים/goodreads-db",
     "ספרים",
     "Book/goodreads-db",
@@ -225,7 +238,6 @@
     "Untitled.canvas",
     "desktop.ini",
     "scripts",
-    "tm/(01) add reference to section to daily note",
     "assets/13dd9a2e550.bcd8073ff147be95.jpg",
     "assets/13dfeedbd74.8a43a4cc67bd6a4c.jpg",
     "assets/13dd9b32981.904df3ee64ab99f0.jpg",
