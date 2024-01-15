@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2be675d38ffbf7af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Jornal/daily/2024-01-14.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
             "id": "3e05cf499447dfaa",
             "type": "leaf",
             "state": {
@@ -40,6 +27,25 @@
               "type": "markdown",
               "state": {
                 "file": "Jornal/daily/2024-01-14.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "88ceb8bc1a135fdb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2be675d38ffbf7af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tm/tp - daily template.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -96,8 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5110321044922,
-    "collapsed": true
+    "width": 310.5110321044922
   },
   "right": {
     "id": "7598a77bad2a22d5",
@@ -114,7 +119,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Jornal/daily/2024-01-14.md"
+                "file": "tm/tp - daily template.md"
               }
             }
           },
@@ -195,9 +200,14 @@
   },
   "active": "2be675d38ffbf7af",
   "lastOpenFiles": [
+    "Jornal/daily/2024-01-14.md",
+    "tm/tp - daily template.md",
+    "tm/tp - New Note.md",
+    "tm/meta-bind",
+    "ענבר איזנמן-האשמות.md",
+    "Jornal/daily/2024-01-15.md",
     "מחשבה.md",
     "Jornal/daily/2024-01-13.md",
-    "Jornal/daily/2024-01-14.md",
     "Jornal/daily/2024-01-12.md",
     "Jornal/daily/2024-01-11.md",
     "2024-01-14.md",
@@ -206,8 +216,7 @@
     "משאבים/goodreads-db/Blue Mars.md",
     "משאבים/ספרים/אדיוס מוצ'אצ'וס.md",
     "Homepage.md",
-    "tm/habbit-tracker.md",
-    "tm/tp - daily template.md",
+    "tm/meta-bind/habbit-tracker.md",
     "משאבים/goodreads-db/אומן השיר.md",
     "משאבים/ספרים/הפרדס של עקיבא.md",
     "משאבים/goodreads-db/הפרדס של עקיבא.md",
@@ -218,9 +227,6 @@
     "משאבים/goodreads-db/שר הטבעות - שני הצריחים.md",
     "משאבים/goodreads-db/שר הטבעות - שיבת המלך.md",
     "משאבים/goodreads-db/ההוביט או לשם ובחזרה.md",
-    "משאבים/goodreads-db/המשחק של אנדר.md",
-    "משאבים/goodreads-db/הצל של אנדר.md",
-    "משאבים/goodreads-db/הצל של ההגמון.md",
     "משאבים/goodreads-db",
     "ספרים",
     "Book/goodreads-db",
@@ -231,7 +237,6 @@
     "desktop.ini",
     "scripts",
     "tm/(01) add reference to section to daily note",
-    "tm/(01) tp - embedded notes .js",
     "assets/13dd9a2e550.bcd8073ff147be95.jpg",
     "assets/13dfeedbd74.8a43a4cc67bd6a4c.jpg",
     "assets/13dd9b32981.904df3ee64ab99f0.jpg",

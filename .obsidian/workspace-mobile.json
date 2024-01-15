@@ -13,8 +13,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jornal/daily/2024-01-14.md",
-                "mode": "preview",
+                "file": "ענבר איזנמן-האשמות.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "797783280f99cca4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ענבר איזנמן-האשמות.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "aa0cb4f1db1aae86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jornal/daily/2024-01-13.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -132,9 +158,12 @@
   },
   "active": "1bf18b2c274fa825",
   "lastOpenFiles": [
-    "אינדקס/מקומות לטייל במרכז.md",
     "Jornal/daily/2024-01-14.md",
+    "ענבר איזנמן-האשמות.md",
     "Jornal/daily/2024-01-13.md",
+    "Jornal/daily/2024-01-15.md",
+    "tm/habbit-tracker.md",
+    "אינדקס/מקומות לטייל במרכז.md",
     "Jornal/daily/2024-01-11.md",
     "Jornal/daily/2024-01-10.md",
     "Plugins.md",
@@ -143,7 +172,6 @@
     "note/בנקים.md",
     "משאבים/goodreads-db/ילדי המחשבה.md",
     "מחשבה.md",
-    "tm/habbit-tracker.md",
     "Jornal/daily/2024-01-12 (conflict 2024-01-13-17-19-30).md",
     "jornal/daily/2024-01-12.md",
     "Jornal/daily/2024-01-09.md",
@@ -158,8 +186,6 @@
     "Home.md",
     "_.obsidian",
     "משאבים/נשים.md",
-    "Jornal/daily/2024-01-06.md",
-    "Jornal/daily/2023-12-24.md",
     "draft",
     "archive"
   ]

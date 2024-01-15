@@ -2,7 +2,7 @@
 moment.lang('he')
 var fileDayFormat = 'YYYY-MM-DD'
 var fileWeekFormat = 'YYYY-[W]ww' 
-var happyDayFormat = "יום dddd, DD MMMM yyyy | מתחילת השנה: DDD ימים (או W שבועות)."
+var happyDayFormat = " DD MMMM yyyy | מתחילת השנה: DDD ימים (או W שבועות)."
 var dv = app.plugins.plugins.dataview.api
 var title = tp.file.title
 var theDay = moment(title, fileDayFormat)
@@ -22,8 +22,10 @@ banner_y: 0.5
 
 [[jornal/daily/<%_ yesterday _%>|אתמול 👉]] ---------- [[jornal/daily/<%_ tomorrow _%>|👈 מחר ]]
 
+# <% theDay.format("יום dddd") %> 
 
-> [!todo]  <% theDay.format(happyDayFormat) %> **`== moment(dv.current().day - 0).fromNow()`**
+> [!todo]  <% theDay.format(happyDayFormat) %> 
+> **`== moment(dv.current().day - 0).fromNow()`**
 
 > [!tip]  יומן מלחמה , היום ה - <% theDay.diff("2023-10-06",'days') %> למלחמה
 
