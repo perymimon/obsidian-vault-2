@@ -23,8 +23,10 @@ actions:
     command: quickadd:choice:1a3b6275-d9b2-4604-b43d-55cf470298bc
   - type: sleep
     ms: 100
-  - type: input
-    str: "קריאת ספר סיפור  {{habbit.book.name }}"
+  - type: updateMetadata
+    bindTarget: memory^inputText
+    evaluate: false
+    value: "קריאת ספר סיפור  {{habbit.book.name }}"
   - type: js
     file: scripts/metabind-template-input.js 
 
