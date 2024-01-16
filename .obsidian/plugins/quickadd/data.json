@@ -142,7 +142,7 @@
     }
   ],
   "macros": [],
-  "inputPrompt": "single-line",
+  "inputPrompt": "multi-line",
   "devMode": false,
   "templateFolderPath": "",
   "announceUpdates": true,

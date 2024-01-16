@@ -1,6 +1,8 @@
 ---
 habbit:
   redingStoryBook: true
+  book:
+    name: "[[משאבים/ספרים/אומן השיר.md|אומן השיר]]"
 ---
 > [!danger]+ Habit Tracker
 > **כושר**: `BUTTON[hanging,morning-gym,JustDance]`
@@ -21,10 +23,10 @@ actions:
     command: quickadd:choice:1a3b6275-d9b2-4604-b43d-55cf470298bc
   - type: sleep
     ms: 100
-  - type: js
-    file: scripts/habbit-tracking.js
   - type: input
     str: "קריאת ספר סיפור  {{habbit.book.name }}"
+  - type: js
+    file: scripts/metabind-template-input.js 
 
 ``` 
 

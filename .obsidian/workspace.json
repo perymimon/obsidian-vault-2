@@ -221,6 +221,8 @@
   },
   "active": "4d222f2195847b40",
   "lastOpenFiles": [
+    "scripts/metabind-template-input.js",
+    "scripts/flat-object.js",
     "Jornal/daily/2024-01-15.md",
     "tm/meta-bind/habbit-tracker.md",
     "scripts/habbit-tracking.js",
@@ -256,7 +258,6 @@
     "piecesdb.json",
     "_.obsidian",
     "Untitled.canvas",
-    "desktop.ini",
     "assets/13dd9a2e550.bcd8073ff147be95.jpg",
     "assets/13dfeedbd74.8a43a4cc67bd6a4c.jpg",
     "assets/13dd9b32981.904df3ee64ab99f0.jpg",
