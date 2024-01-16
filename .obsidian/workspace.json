@@ -34,19 +34,6 @@
             }
           },
           {
-            "id": "52856eb1b09456e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Jornal/daily/2024-01-15.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
             "id": "6b4d767f8c73f2c9",
             "type": "leaf",
             "state": {
@@ -61,6 +48,25 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "4013598cdd087d87",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "52856eb1b09456e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jornal/daily/2024-01-16.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +116,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5110321044922
+    "width": 310.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "7598a77bad2a22d5",
@@ -210,11 +217,11 @@
   },
   "active": "4d222f2195847b40",
   "lastOpenFiles": [
-    "Jornal/daily/2024-01-16 (1).md",
     "Jornal/daily/2024-01-16.md",
-    "Jornal/daily/2024-01-15.md",
-    "משאבים/ספרים/הפרדס של עקיבא.md",
     "tm/meta-bind/habbit-tracker.md",
+    "Jornal/daily/2024-01-15.md",
+    "Jornal/daily/2024-01-16 (1).md",
+    "משאבים/ספרים/הפרדס של עקיבא.md",
     "Jornal/monthly",
     "tm/tp - daily template.md",
     "Jornal/daily/2024-01-14.md",

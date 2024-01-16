@@ -1,8 +1,32 @@
+---
+habbit:
+  redingStoryBook: true
+---
 > [!danger]+ Habit Tracker
 > **כושר**: `BUTTON[hanging,morning-gym,JustDance]`
 > **דת**: `BUTTON[tefillin]` 
 > **פנאי** `BUTTON[topTableGame]` 
-> **קריאה**:  `INPUT[suggester(optionQuery(#book)):habbit.book.name]`  עד עמוד `INPUT[number:habbit.book.page]`
+> **קריאה**:  `BUTTON[readStoryBook]` 
+>  `INPUT[suggester(optionQuery(#book)):habbit.book.name]`  עד עמוד `INPUT[number:habbit.book.page]`
+
+
+```meta-bind-button
+label: ספר
+id: readStoryBook
+hidden: true
+style: primary
+actions:
+  - type: command
+    command: quickadd:choice:1a3b6275-d9b2-4604-b43d-55cf470298bc
+  - type: sleep
+    ms: 100
+  - type: input
+    str: "קריאת ספר סיפור  {{habbit.book.name }}"
+  - type: updateMetadata
+    bindTarget: habbit.redingStoryBook
+    evaluate: false
+    value: true
+```
 
 ```meta-bind-button
 label: להתלות
