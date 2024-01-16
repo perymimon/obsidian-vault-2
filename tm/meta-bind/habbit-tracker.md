@@ -17,6 +17,10 @@ tooltip: ""
 id: ""
 style: default
 actions:
+  - type: command
+    command: quickadd:choice:1a3b6275-d9b2-4604-b43d-55cf470298bc
+  - type: sleep
+    ms: 100
   - type: js
     file: scripts/habbit-tracking.js
 
