@@ -23,6 +23,8 @@ actions:
     ms: 100
   - type: js
     file: scripts/habbit-tracking.js
+  - type: input
+    str: "קריאת ספר סיפור  {{habbit.book.name }}"
 
 ``` 
 

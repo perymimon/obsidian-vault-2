@@ -1,3 +1,6 @@
+let t = document.activeElement
+
+
 let markdownBuilder = engine.markdown.createBuilder();
 
 markdownBuilder.createHeading(2, 'Test Heading');
