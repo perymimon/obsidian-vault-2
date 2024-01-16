@@ -21,6 +21,45 @@
             }
           },
           {
+            "id": "62d9b17f92433dca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jornal/daily/2024-01-14.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "128ed227c0e0d31e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jornal/daily/2024-01-16.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "2493f58731391eab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jornal/daily/2024-01-14.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
             "id": "61c1e5906e34e908",
             "type": "leaf",
             "state": {
@@ -185,8 +224,9 @@
   },
   "active": "1bf18b2c274fa825",
   "lastOpenFiles": [
-    "Jornal/daily/2024-01-15.md",
+    "Jornal/daily/2024-01-16.md",
     "Jornal/daily/2024-01-14.md",
+    "Jornal/daily/2024-01-15.md",
     "Jornal/daily/2024-01-13.md",
     "ענבר איזנמן-האשמות.md",
     "tm/habbit-tracker.md",
@@ -212,7 +252,6 @@
     "Jornal/daily/2023-12-20.md",
     "Home.md",
     "_.obsidian",
-    "משאבים/נשים.md",
     "draft",
     "archive"
   ]
