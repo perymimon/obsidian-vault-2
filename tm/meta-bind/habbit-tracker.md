@@ -9,6 +9,18 @@ habbit:
 > **קריאה**:  `BUTTON[readStoryBook]` 
 >  `INPUT[suggester(optionQuery(#book)):habbit.book.name]`  עד עמוד `INPUT[number:habbit.book.page]`
 
+```meta-bind-button
+label: test button
+hidden: false
+class: ""
+tooltip: ""
+id: ""
+style: default
+actions:
+  - type: js
+    file: scripts/habbit-tracking.js
+
+``` 
 
 ```meta-bind-button
 label: ספר

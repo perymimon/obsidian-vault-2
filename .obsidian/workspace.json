@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "tm/meta-bind/habbit-tracker.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -182,7 +182,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "5ad0f87f8532925f",
@@ -210,13 +211,14 @@
       "zk-prefixer:Create new unique note": true,
       "chronology:Open Chronology": false,
       "templater-obsidian:Templater": false,
-      "periodic-notes:Open today": false,
       "daily-notes:Open today's note": false,
-      "switcher:Open quick switcher": false
+      "switcher:Open quick switcher": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "4d222f2195847b40",
   "lastOpenFiles": [
+    "scripts/habbit-tracking.js",
     "Jornal/daily/2024-01-16.md",
     "tm/meta-bind/habbit-tracker.md",
     "Jornal/daily/2024-01-15.md",
@@ -244,7 +246,6 @@
     "משאבים/goodreads-db/אומן השיר.md",
     "משאבים/goodreads-db/הפרדס של עקיבא.md",
     "ספרים/הפרדס של עקיבה.md",
-    "משאבים/goodreads-db/King of the Murgos.md",
     "משאבים/goodreads-db",
     "ספרים",
     "Book/goodreads-db",
