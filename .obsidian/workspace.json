@@ -14,8 +14,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jornal/daily/2024-01-15.md",
-                "mode": "preview",
+                "file": "inbox/202401171323.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -34,8 +34,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "b5e5480a6d4c3e43",
@@ -121,7 +120,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "inbox/test.md"
+                "file": "database/log - Fury of Dracula.md"
               }
             }
           },
@@ -172,21 +171,21 @@
       "modalforms:Edit forms": false
     }
   },
-  "active": "4d222f2195847b40",
+  "active": "db8ca16e06d90bc0",
   "lastOpenFiles": [
-    "archive/Fury of Dracula (2th Edition) 2005 (.1 rank score).md",
+    "inbox/202401171323.md",
+    "Jornal/daily/2024-01-15.md",
     "inbox/test.md",
+    "archive/Fury of Dracula (2th Edition) 2005 (.1 rank score).md",
     "database/log - Fury of Dracula.md",
     "archive/2021 הזמנה ליום הולדת של איתמר.md",
     "archive/2018-05-03 - מכתב לביטוח הלאומי.md",
     "archive/2022-03-28 הזמנה לערב משחקים.md",
     "אנשים/jornal/2023-10-18.md",
-    "inbox/202401171323.md",
     "database",
     "tm/meta-bind/habbit-tracker.md",
     "Jornal/daily/2024-01-16.md",
     "Jornal/daily/2024-01-17.md",
-    "Jornal/daily/2024-01-15.md",
     "scripts/metabind-template-input.js",
     "scripts/flat-object.js",
     "scripts/habbit-tracking.js",

@@ -141,7 +141,48 @@
       "openFileInMode": "source"
     }
   ],
-  "macros": [],
+  "macros": [
+    {
+      "name": "123",
+      "id": "7b4c434c-99e9-4fdf-be47-6c360aaa1706",
+      "commands": [
+        {
+          "name": "Untitled Template Choice",
+          "type": "NestedChoice",
+          "id": "0a2b1466-36db-4383-b22f-e58aad360e38",
+          "choice": {
+            "id": "86253d11-b016-4816-82c7-8f530b9951ec",
+            "name": "Untitled Template Choice",
+            "type": "Template",
+            "command": false,
+            "templatePath": "",
+            "fileNameFormat": {
+              "enabled": false,
+              "format": ""
+            },
+            "folder": {
+              "enabled": false,
+              "folders": [],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
   "inputPrompt": "multi-line",
   "devMode": false,
   "templateFolderPath": "",
