@@ -4,57 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "8232f66ee61ac9f1",
+        "id": "6debec29d0d5808c",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
-            "id": "5a915987b1aaa3d4",
+            "id": "a0619f6d47716621",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "inbox/202401171323.md",
-                "mode": "source",
+                "file": "אנשים/ענבר איזנמן.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           },
           {
-            "id": "4d222f2195847b40",
+            "id": "7a21484bb425abc3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "inbox/test.md",
-                "mode": "source",
+                "file": "אנשים/ענבר איזנמן (conflict 2023-12-20-16-27-57).md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ]
-      },
-      {
-        "id": "b5e5480a6d4c3e43",
-        "type": "tabs",
-        "dimension": 50,
-        "children": [
-          {
-            "id": "db8ca16e06d90bc0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "אנשים/דני.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -120,7 +100,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "אנשים/דני.md"
+                "file": "אנשים/ענבר איזנמן (conflict 2023-12-20-16-27-57).md"
               }
             }
           },
@@ -163,23 +143,30 @@
                 "version": "1",
                 "fields": [
                   {
-                    "name": "description",
-                    "label": "Description",
-                    "description": "About the game",
+                    "name": "game",
+                    "label": "Game",
+                    "description": "",
                     "input": {
-                      "type": "text",
-                      "allowUnknownValues": false
+                      "type": "dataview",
+                      "allowUnknownValues": false,
+                      "folder": "אנשים",
+                      "options": [],
+                      "source": "notes",
+                      "query": "dv.pages(\"#משחקי-לוח\").file.name"
                     },
                     "isRequired": false
                   },
                   {
-                    "name": "Logs",
-                    "label": "",
+                    "name": "players",
+                    "label": "Players",
                     "description": "",
                     "input": {
-                      "type": "document_block",
+                      "type": "multiselect",
                       "allowUnknownValues": false,
-                      "body": ""
+                      "query": "",
+                      "multi_select_options": [],
+                      "source": "notes",
+                      "folder": "אנשים"
                     },
                     "isRequired": false
                   }
@@ -208,12 +195,22 @@
       "modalforms:Edit forms": false
     }
   },
-  "active": "71318f1eef9db5ac",
+  "active": "7a21484bb425abc3",
   "lastOpenFiles": [
-    "database/log - Fury of Dracula.md",
-    "inbox/202401171323.md",
-    "Jornal/daily/2024-01-15.md",
+    "אנשים/ענבר איזנמן.md",
     "inbox/test.md",
+    "אנשים/ענבר איזנמן (conflict 2023-12-20-16-27-57).md",
+    "אנשים/אנסטסיה.md",
+    "אנשים/Ordan Trablsi.md",
+    "אנשים/אילון-מאסק.md",
+    "inbox/202401171323.md",
+    "אנשים/השחקנית.md",
+    "אנשים/איילה.md",
+    "אנשים/אמא מזל מימון.md",
+    "אנשים/גילי כהן.md",
+    "אנשים/דני.md",
+    "database/log - Fury of Dracula.md",
+    "Jornal/daily/2024-01-15.md",
     "archive/Fury of Dracula (2th Edition) 2005 (.1 rank score).md",
     "archive/2021 הזמנה ליום הולדת של איתמר.md",
     "archive/2018-05-03 - מכתב לביטוח הלאומי.md",
@@ -231,17 +228,7 @@
     "Jornal/monthly",
     "tm/tp - daily template.md",
     "Jornal/daily/2024-01-14.md",
-    "Jornal/daily/2024-01-13.md",
-    "Jornal/daily/2024-01-12.md",
-    "Jornal/daily/2024-01-11.md",
-    "Jornal/daily/2024-01-10.md",
-    "Jornal/daily/2024-01-15 (conflict 2024-01-15-14-41-20).md",
-    "tm/tp - New Note.md",
     "tm/meta-bind",
-    "ענבר איזנמן-האשמות.md",
-    "מחשבה.md",
-    "2024-01-14.md",
-    "Jornal/daily/2024-01-12 (conflict 2024-01-13-17-19-30).md",
     "משאבים/goodreads-db",
     "ספרים",
     "Book/goodreads-db",
