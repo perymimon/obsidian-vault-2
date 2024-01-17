@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "אנשים/ענבר איזנמן (conflict 2023-12-20-16-27-57).md",
+                "file": "אנשים/ענבר איזנמן.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -100,7 +100,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "אנשים/ענבר איזנמן (conflict 2023-12-20-16-27-57).md"
+                "file": "אנשים/ענבר איזנמן.md"
               }
             }
           },
@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -191,17 +191,17 @@
       "templater-obsidian:Templater": false,
       "daily-notes:Open today's note": false,
       "switcher:Open quick switcher": false,
-      "periodic-notes:Open today": false,
-      "modalforms:Edit forms": false
+      "modalforms:Edit forms": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "7a21484bb425abc3",
+  "active": "b52c9dfd18c75d28",
   "lastOpenFiles": [
+    "אנשים/Ordan Trablsi.md",
+    "אנשים/ענבר איזנמן (conflict 2023-12-20-16-27-57).md",
     "אנשים/ענבר איזנמן.md",
     "inbox/test.md",
-    "אנשים/ענבר איזנמן (conflict 2023-12-20-16-27-57).md",
     "אנשים/אנסטסיה.md",
-    "אנשים/Ordan Trablsi.md",
     "אנשים/אילון-מאסק.md",
     "inbox/202401171323.md",
     "אנשים/השחקנית.md",

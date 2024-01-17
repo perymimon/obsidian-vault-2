@@ -6,7 +6,6 @@
     {
       "title": "Example form",
       "name": "example-form",
-      "version": "1",
       "fields": [
         {
           "name": "name",
@@ -84,7 +83,6 @@
           "input": {
             "type": "multiselect",
             "source": "fixed",
-            "allowUnknownValues": false,
             "multi_select_options": [
               "Android",
               "iOS",
@@ -93,7 +91,8 @@
               "Linux",
               "Solaris",
               "MS2"
-            ]
+            ],
+            "allowUnknownValues": false
           }
         },
         {
@@ -210,36 +209,35 @@
             "body": "return `Hello ${form.name}!\n Your best friend is ${form.best_fried}`"
           }
         }
-      ]
+      ],
+      "version": "1"
     },
     {
       "title": "Tob Table Game",
       "name": "TopTableGame",
-      "version": "1",
+      "customClassname": "TopTableGame",
       "fields": [
         {
           "name": "description",
           "label": "Description",
           "description": "About the game",
+          "isRequired": false,
           "input": {
-            "type": "text",
-            "allowUnknownValues": false
-          },
-          "isRequired": false
+            "type": "text"
+          }
         },
         {
           "name": "Logs",
           "label": "",
           "description": "",
+          "isRequired": false,
           "input": {
             "type": "document_block",
-            "allowUnknownValues": false,
             "body": ""
-          },
-          "isRequired": false
+          }
         }
       ],
-      "customClassname": "TopTableGame"
+      "version": "1"
     }
   ]
 }
