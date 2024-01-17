@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "אנשים/דני.md",
-                "mode": "preview",
+                "file": "אנשים/נריה רוזנר.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "אנשים/דני.md"
+                "file": "אנשים/נריה רוזנר.md"
               }
             }
           },
@@ -161,11 +161,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 523.5
+    "width": 947.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,11 +180,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b258d899107b0636",
+  "active": "71318f1eef9db5ac",
   "lastOpenFiles": [
+    "אנשים/סטאס פירר.md",
+    "אנשים/נריה רוזנר.md",
+    "אנשים/אופק דאון.md",
+    "אנשים/איילה.md",
+    "אנשים/פרי מימון.md",
+    "אנשים/ענבר איזנמן.md",
+    "אנשים/איליה.md",
     "אנשים/דני.md",
     "אנשים/יהודה פולק.md",
-    "אנשים/אופק דאון.md",
     "tm/tp - Book Detail.md",
     "אנשים/גילי כהן.md",
     "אנשים/בלה.md",
@@ -191,23 +198,17 @@
     "אנשים/אנית גרוסמן.md",
     "אנשים/אמא מזל מימון.md",
     "אנשים/אילון-מאסק.md",
-    "אנשים/ענבר איזנמן.md",
     "אנשים/ענבר איזנמן (conflict 2023-12-20-16-27-57).md",
     "אנשים/אילון-מאסק (conflict 2023-11-25-14-45-03).md",
     "אנשים/Ordan Trablsi.md",
     "inbox/test.md",
     "inbox/202401171323.md",
     "אנשים/השחקנית.md",
-    "אנשים/איילה.md",
     "database/log - Fury of Dracula.md",
     "Jornal/daily/2024-01-15.md",
     "archive/Fury of Dracula (2th Edition) 2005 (.1 rank score).md",
     "archive/2021 הזמנה ליום הולדת של איתמר.md",
-    "archive/2018-05-03 - מכתב לביטוח הלאומי.md",
-    "archive/2022-03-28 הזמנה לערב משחקים.md",
-    "אנשים/jornal/2023-10-18.md",
     "database",
-    "tm/meta-bind/habbit-tracker.md",
     "scripts/metabind-template-input.js",
     "scripts/flat-object.js",
     "scripts/habbit-tracking.js",
