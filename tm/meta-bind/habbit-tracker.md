@@ -6,36 +6,14 @@ habbit:
     page: 24
   topTableGame: true
 ---
-> [!danger]+ Habit Tracker
+> [!danger]+ Habit Tracker 
 > **כושר**: `BUTTON[hanging,morning-gym,JustDance]`
 > **דת**: `BUTTON[tefillin]` 
 > **פנאי** `BUTTON[topTableGame]` 
-> **קריאה**:  `BUTTON[readStoryBook]` 
->  `INPUT[suggester(optionQuery(#book)):habbit.book.name]`  עד עמוד `INPUT[number:habbit.book.page]`
-
+> **קריאה**:  `BUTTON[readStoryBook]` `INPUT[suggester(optionQuery(#book)):habbit.book.name]`  עד עמוד `INPUT[number:habbit.book.page]`
+  
 ```meta-bind-button
-label: test button
-hidden: false
-class: ""
-tooltip: ""
-id: ""
-style: default
-actions:
-  - type: command
-    command: quickadd:choice:1a3b6275-d9b2-4604-b43d-55cf470298bc
-  - type: sleep
-    ms: 100
-  - type: updateMetadata
-    bindTarget: memory^inputText
-    evaluate: false
-    value: "קראתי בספר  {{habbit.book.name }} עד עמוד {{habbit.book.page}}"
-  - type: js
-    file: scripts/metabind-template-input.js 
-
-``` 
-
-```meta-bind-button
-label: ספר
+label: "קראתי ספר"
 id: readStoryBook
 hidden: true
 style: primary
@@ -46,13 +24,11 @@ actions:
     ms: 100
   - type: updateMetadata
     bindTarget: memory^inputText
-    evaluate: false
-    value: "קראתי בספר  {{habbit.book.name }} עד עמוד {{habbit.book.page}}"
+    value: "קראתי בספר {{habbit.book.name}} עד עמוד {{habbit.book.page}}"
   - type: js
     file: scripts/metabind-template-input.js 
-
-```
-
+``` 
+ 
 ```meta-bind-button
 label: להתלות
 id: hanging
