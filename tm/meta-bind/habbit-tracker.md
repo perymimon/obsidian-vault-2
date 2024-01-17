@@ -9,12 +9,29 @@ habbit:
 > [!danger]+ Habit Tracker 
 > **כושר**: `BUTTON[hanging,morning-gym,JustDance]`
 > **דת**: `BUTTON[tefillin]` 
-> **פנאי** `BUTTON[topTableGame]` 
-> **קריאה**:  `BUTTON[readStoryBook]` `INPUT[suggester(optionQuery(#book)):habbit.book.name]`  עד עמוד `INPUT[number:habbit.book.page]`
-  
+> **hobbies** `BUTTON[topTableGame]` 
+> **Reading**: Book `INPUT[suggester(optionQuery(#book)):habbit.book.name]`  until page `INPUT[number:habbit.book.page]` `BUTTON[readingStoryBook]`
+
 ```meta-bind-button
-label: "קראתי ספר"
-id: readStoryBook
+label: Reading Book
+hidden: true
+id: readingStoryBook
+style: primary
+actions:
+  - type: command
+    command: quickadd:choice:1a3b6275-d9b2-4604-b43d-55cf470298bc
+  - type: sleep
+    ms: 100
+  - type: updateMetadata
+    bindTarget: memory^inputText
+    value: I'm reading {{habbit.book.name}} until page {{habbit.book.page}}
+  - type: js
+    file: scripts/metabind-template-input.js  
+``` 
+ 
+```meta-bind-button
+label: Hanging
+id: hanging
 hidden: true
 style: primary
 actions:
@@ -24,31 +41,13 @@ actions:
     ms: 100
   - type: updateMetadata
     bindTarget: memory^inputText
-    value: "קראתי בספר {{habbit.book.name}} עד עמוד {{habbit.book.page}}"
+    value: hanging for 1 minute
   - type: js
-    file: scripts/metabind-template-input.js 
-``` 
- 
-```meta-bind-button
-label: להתלות
-id: hanging
-hidden: true
-style: primary
-actions:
-  - type: command
-    command: quickadd:choice:1a3b6275-d9b2-4604-b43d-55cf470298bc
-  - type: sleep
-    ms: 100
-  - type: input
-    str: תלייה 1 דקה
-  - type: updateMetadata
-    bindTarget: habbit.hanging
-    evaluate: false
-    value: true
+    file: scripts/metabind-template-input.js  
 ```
 
 ```meta-bind-button
-label: תרגילי בוקר
+label: Morning Gym
 id: morning-gym
 hidden: true
 style: primary
@@ -57,8 +56,11 @@ actions:
     command: quickadd:choice:1a3b6275-d9b2-4604-b43d-55cf470298bc
   - type: sleep
     ms: 100
+  - type: updateMetadata
+    bindTarget: memory^inputText
+    value: Morning Gym, set 1    
   - type: input
-    str: תרגילי בוקר
+    str: Morning Gym, set 1
   - type: updateMetadata
     bindTarget: habbit.hanging
     evaluate: false
@@ -104,7 +106,7 @@ actions:
 
 
 ```meta-bind-button
-label: משחקי שולחן
+label: Top Table Game
 id: topTableGame
 hidden: true
 style: primary
@@ -114,9 +116,8 @@ actions:
   - type: sleep
     ms: 100
   - type: input
-    str: שיחקתי ב 
+    str: I played : 
   - type: updateMetadata
     bindTarget: habbit.topTableGame
-    evaluate: false
     value: true
 ```

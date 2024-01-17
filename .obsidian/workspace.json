@@ -6,7 +6,7 @@
       {
         "id": "8232f66ee61ac9f1",
         "type": "tabs",
-        "dimension": 64.27320490367777,
+        "dimension": 55.61416729464958,
         "children": [
           {
             "id": "5a915987b1aaa3d4",
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tm/meta-bind/habbit-tracker.md",
+                "file": "inbox/202401171323.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -40,7 +40,7 @@
       {
         "id": "4013598cdd087d87",
         "type": "tabs",
-        "dimension": 35.72679509632224,
+        "dimension": 44.38583270535042,
         "children": [
           {
             "id": "52856eb1b09456e5",
@@ -123,7 +123,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "tm/meta-bind/habbit-tracker.md"
+                "file": "inbox/202401171323.md"
               }
             }
           },
@@ -191,7 +191,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 400.5
+    "width": 400.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,12 +208,14 @@
   },
   "active": "4d222f2195847b40",
   "lastOpenFiles": [
-    "Jornal/daily/2024-01-15.md",
     "tm/meta-bind/habbit-tracker.md",
+    "inbox/202401171323.md",
+    "Jornal/daily/2024-01-16.md",
+    "Jornal/daily/2024-01-17.md",
+    "Jornal/daily/2024-01-15.md",
     "scripts/metabind-template-input.js",
     "scripts/flat-object.js",
     "scripts/habbit-tracking.js",
-    "Jornal/daily/2024-01-16.md",
     "Jornal/daily/2024-01-16 (1).md",
     "משאבים/ספרים/הפרדס של עקיבא.md",
     "Jornal/monthly",
@@ -223,7 +226,6 @@
     "Jornal/daily/2024-01-11.md",
     "Jornal/daily/2024-01-10.md",
     "Jornal/daily/2024-01-15 (conflict 2024-01-15-14-41-20).md",
-    "Jornal/daily/2024-01-17.md",
     "tm/tp - New Note.md",
     "tm/meta-bind",
     "ענבר איזנמן-האשמות.md",
