@@ -211,6 +211,35 @@
           }
         }
       ]
+    },
+    {
+      "title": "Tob Table Game",
+      "name": "TopTableGame",
+      "version": "1",
+      "fields": [
+        {
+          "name": "description",
+          "label": "Description",
+          "description": "About the game",
+          "input": {
+            "type": "text",
+            "allowUnknownValues": false
+          },
+          "isRequired": false
+        },
+        {
+          "name": "Logs",
+          "label": "",
+          "description": "",
+          "input": {
+            "type": "document_block",
+            "allowUnknownValues": false,
+            "body": ""
+          },
+          "isRequired": false
+        }
+      ],
+      "customClassname": "TopTableGame"
     }
   ]
 }
