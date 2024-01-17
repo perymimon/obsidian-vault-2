@@ -3,6 +3,8 @@ habbit:
   redingStoryBook: true
   book:
     name: "[[משאבים/ספרים/אומן השיר.md|אומן השיר]]"
+    page: 24
+  topTableGame: true
 ---
 > [!danger]+ Habit Tracker
 > **כושר**: `BUTTON[hanging,morning-gym,JustDance]`
@@ -26,7 +28,7 @@ actions:
   - type: updateMetadata
     bindTarget: memory^inputText
     evaluate: false
-    value: "קריאת ספר סיפור  {{habbit.book.name }}"
+    value: "קראתי בספר  {{habbit.book.name }} עד עמוד {{habbit.book.page}}"
   - type: js
     file: scripts/metabind-template-input.js 
 
@@ -42,12 +44,13 @@ actions:
     command: quickadd:choice:1a3b6275-d9b2-4604-b43d-55cf470298bc
   - type: sleep
     ms: 100
-  - type: input
-    str: "קריאת ספר סיפור  {{habbit.book.name }}"
   - type: updateMetadata
-    bindTarget: habbit.redingStoryBook
+    bindTarget: memory^inputText
     evaluate: false
-    value: true
+    value: "קראתי בספר  {{habbit.book.name }} עד עמוד {{habbit.book.page}}"
+  - type: js
+    file: scripts/metabind-template-input.js 
+
 ```
 
 ```meta-bind-button
