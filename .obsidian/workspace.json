@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "database/log - Fury of Dracula.md",
+                "file": "אנשים/דני.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -120,7 +120,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "database/log - Fury of Dracula.md"
+                "file": "אנשים/דני.md"
               }
             }
           },
@@ -151,12 +151,49 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "71318f1eef9db5ac",
+            "type": "leaf",
+            "state": {
+              "type": "modal-form-edit-form-view",
+              "state": {
+                "title": "Tob Table Game",
+                "name": "TopTableGame",
+                "version": "1",
+                "fields": [
+                  {
+                    "name": "description",
+                    "label": "Description",
+                    "description": "About the game",
+                    "input": {
+                      "type": "text",
+                      "allowUnknownValues": false
+                    },
+                    "isRequired": false
+                  },
+                  {
+                    "name": "Logs",
+                    "label": "",
+                    "description": "",
+                    "input": {
+                      "type": "document_block",
+                      "allowUnknownValues": false,
+                      "body": ""
+                    },
+                    "isRequired": false
+                  }
+                ],
+                "customClassname": "TopTableGame"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 492.5
+    "width": 1066.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,13 +208,13 @@
       "modalforms:Edit forms": false
     }
   },
-  "active": "db8ca16e06d90bc0",
+  "active": "71318f1eef9db5ac",
   "lastOpenFiles": [
+    "database/log - Fury of Dracula.md",
     "inbox/202401171323.md",
     "Jornal/daily/2024-01-15.md",
     "inbox/test.md",
     "archive/Fury of Dracula (2th Edition) 2005 (.1 rank score).md",
-    "database/log - Fury of Dracula.md",
     "archive/2021 הזמנה ליום הולדת של איתמר.md",
     "archive/2018-05-03 - מכתב לביטוח הלאומי.md",
     "archive/2022-03-28 הזמנה לערב משחקים.md",
