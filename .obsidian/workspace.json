@@ -4,37 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "6debec29d0d5808c",
+        "id": "0313a6262f5096ef",
         "type": "tabs",
         "children": [
           {
-            "id": "a0619f6d47716621",
+            "id": "b258d899107b0636",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "אנשים/ענבר איזנמן.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "7a21484bb425abc3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "אנשים/ענבר איזנמן.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5110321044922
+    "width": 307.5
   },
   "right": {
     "id": "7598a77bad2a22d5",
@@ -99,9 +80,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "אנשים/ענבר איזנמן.md"
-              }
+              "state": {}
             }
           },
           {
@@ -176,11 +155,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 1066.5
+    "width": 746.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,14 +174,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b52c9dfd18c75d28",
+  "active": "71318f1eef9db5ac",
   "lastOpenFiles": [
-    "אנשים/Ordan Trablsi.md",
-    "אנשים/ענבר איזנמן (conflict 2023-12-20-16-27-57).md",
     "אנשים/ענבר איזנמן.md",
+    "אנשים/ענבר איזנמן (conflict 2023-12-20-16-27-57).md",
+    "אנשים/אילון-מאסק.md",
+    "אנשים/אילון-מאסק (conflict 2023-11-25-14-45-03).md",
+    "אנשים/Ordan Trablsi.md",
     "inbox/test.md",
     "אנשים/אנסטסיה.md",
-    "אנשים/אילון-מאסק.md",
     "inbox/202401171323.md",
     "אנשים/השחקנית.md",
     "אנשים/איילה.md",
@@ -227,7 +207,6 @@
     "משאבים/ספרים/הפרדס של עקיבא.md",
     "Jornal/monthly",
     "tm/tp - daily template.md",
-    "Jornal/daily/2024-01-14.md",
     "tm/meta-bind",
     "משאבים/goodreads-db",
     "ספרים",
