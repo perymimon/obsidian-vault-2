@@ -170,9 +170,22 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "3b7393b5a230c0f9",
+            "type": "leaf",
+            "state": {
+              "type": "modal-form-edit-form-view",
+              "state": {
+                "title": "",
+                "name": "",
+                "version": "1",
+                "fields": []
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       },
       {
         "id": "5ad0f87f8532925f",
@@ -191,8 +204,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 400.5,
-    "collapsed": true
+    "width": 806.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,10 +215,11 @@
       "templater-obsidian:Templater": false,
       "daily-notes:Open today's note": false,
       "switcher:Open quick switcher": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "modalforms:Edit forms": false
     }
   },
-  "active": "4d222f2195847b40",
+  "active": "3b7393b5a230c0f9",
   "lastOpenFiles": [
     "tm/meta-bind/habbit-tracker.md",
     "inbox/202401171323.md",

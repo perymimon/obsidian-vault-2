@@ -14,5 +14,6 @@
   "templater-obsidian",
   "periodic-notes",
   "quickadd",
-  "js-engine"
+  "js-engine",
+  "modalforms"
 ]
