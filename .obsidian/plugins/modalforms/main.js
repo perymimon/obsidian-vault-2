@@ -243,10 +243,10 @@ var require_function = __commonJS({
       return n - 1;
     }
     exports.decrement = decrement;
-    function absurd3(_) {
+    function absurd4(_) {
       throw new Error("Called `absurd` function which should be uncallable");
     }
-    exports.absurd = absurd3;
+    exports.absurd = absurd4;
     function tupled(f2) {
       return function(a) {
         return f2.apply(void 0, a);
@@ -293,7 +293,7 @@ var require_function = __commonJS({
       }
     }
     exports.pipe = pipe4;
-    exports.hole = absurd3;
+    exports.hole = absurd4;
     var SK2 = function(_, b) {
       return b;
     };
@@ -1616,6 +1616,15 @@ var reduceRightWithIndex = function(b, f2) {
 // node_modules/fp-ts/es6/Array.js
 var prepend3 = prepend;
 var append4 = append2;
+var chainWithIndex = function(f2) {
+  return function(as4) {
+    var out = [];
+    for (var i = 0; i < as4.length; i++) {
+      out.push.apply(out, f2(i, as4[i]));
+    }
+    return out;
+  };
+};
 var lookup2 = lookup;
 function findFirst2(predicate) {
   return findFirst(predicate);
@@ -1640,6 +1649,12 @@ var map2 = function(f2) {
     });
   };
 };
+var flatMap2 = /* @__PURE__ */ dual(2, function(ma, f2) {
+  return pipe(ma, chainWithIndex(function(i, a) {
+    return f2(a, i);
+  }));
+});
+var flatten = /* @__PURE__ */ flatMap2(identity);
 var filterMapWithIndex = function(f2) {
   return function(fa) {
     var out = [];
@@ -1755,6 +1770,11 @@ var not = function(predicate) {
 // node_modules/fp-ts/es6/Option.js
 var none2 = none;
 var some3 = some;
+function fromPredicate(predicate) {
+  return function(a) {
+    return predicate(a) ? some3(a) : none2;
+  };
+}
 var getRight = function(ma) {
   return ma._tag === "Left" ? none2 : some3(ma.right);
 };
@@ -1781,18 +1801,19 @@ var ap2 = function(fa) {
     return isNone2(fab) ? none2 : isNone2(fa) ? none2 : some3(fab.value(fa.value));
   };
 };
-var flatMap2 = /* @__PURE__ */ dual(2, function(ma, f2) {
+var flatMap3 = /* @__PURE__ */ dual(2, function(ma, f2) {
   return isNone2(ma) ? none2 : f2(ma.value);
 });
 var Chain2 = {
   URI: URI3,
   map: _map2,
   ap: _ap2,
-  chain: flatMap2
+  chain: flatMap3
 };
 var orElse2 = dual(2, function(self, that) {
   return isNone2(self) ? that() : self;
 });
+var alt = orElse2;
 var fromEither = getRight;
 var FromEither2 = {
   URI: URI3,
@@ -1819,7 +1840,7 @@ var tapEither2 = /* @__PURE__ */ dual(2, tapEither(FromEither2, Chain2));
 var fromNullable2 = function(a) {
   return a == null ? none2 : some3(a);
 };
-var chain2 = flatMap2;
+var chain2 = flatMap3;
 
 // src/std/index.ts
 var flow2 = import_function6.flow;
@@ -1832,7 +1853,8 @@ var A = {
   findFirstMap: findFirstMap2,
   map: map2,
   filter,
-  filterMap
+  filterMap,
+  flatten
 };
 var NEA = {
   concatAll: concatAll3
@@ -1863,7 +1885,9 @@ var O = {
   none: none2,
   fold: fold2,
   fromNullable: fromNullable2,
-  chain: chain2
+  chain: chain2,
+  fromPredicate,
+  alt
 };
 var parse2 = tryCatchK(parse, (e) => e);
 function parseC(schema, options) {
@@ -2057,11 +2081,6 @@ var MultiSelectQuerySchema = object({
 });
 function canAllowUnknownValues(type, source) {
   return type === "multiselect" && (source === "dataview" || source === "fixed");
-}
-function allowsUnknownValues(input) {
-  if (input.source === "notes")
-    return false;
-  return input.allowUnknownValues;
 }
 var MultiselectSchema = union([
   MultiSelectNotesSchema,
@@ -2341,6 +2360,9 @@ var Ord = {
   compare: function(first2, second) {
     return first2 < second ? -1 : first2 > second ? 1 : 0;
   }
+};
+var isString = function(u) {
+  return typeof u === "string";
 };
 var trim = function(s) {
   return s.trim();
@@ -3255,53 +3277,25 @@ var PUBLIC_VERSION = "4";
 if (typeof window !== "undefined")
   (window.__svelte || (window.__svelte = { v: /* @__PURE__ */ new Set() })).v.add(PUBLIC_VERSION);
 
-// src/suggesters/MultiSuggest.ts
-var import_obsidian2 = require("obsidian");
-var MultiSuggest = class extends import_obsidian2.AbstractInputSuggest {
-  constructor(inputEl, content, onSelectCb, app2, allowUnknownValues = false) {
-    super(app2, inputEl);
-    this.inputEl = inputEl;
-    this.onSelectCb = onSelectCb;
-    this.allowUnknownValues = allowUnknownValues;
-    this.content = content;
-  }
-  getSuggestions(inputStr) {
-    const lowerCaseInputStr = inputStr.toLocaleLowerCase();
-    const candidates = this.allowUnknownValues && inputStr !== "" ? [...this.content, inputStr] : Array.from(this.content);
-    return candidates.filter(
-      (content) => content.toLocaleLowerCase().contains(lowerCaseInputStr)
-    );
-  }
-  renderSuggestion(content, el) {
-    el.setText(content);
-  }
-  selectSuggestion(content, evt) {
-    this.onSelectCb(content);
-    this.inputEl.value = "";
-    this.close();
-    this.inputEl.focus();
-  }
-};
-
 // src/views/components/MultiSelect.svelte
 function add_css(target) {
   append_styles(target, "svelte-168eg05", ".multi-select-root.svelte-168eg05.svelte-168eg05{display:flex;flex-direction:column;gap:0.5rem;flex:1;--button-size:1.5rem}.badge.svelte-168eg05.svelte-168eg05{--icon-size:var(--icon-xs);--icon-stroke:var(--icon-xs-stroke-width);display:flex;align-items:center;background-color:var(--pill-background);border:var(--pill-border-width) solid var(--pill-border-color);border-radius:var(--pill-radius);color:var(--pill-color);cursor:var(--cursor);font-weight:var(--pill-weight);padding-top:var(--pill-padding-y);padding-bottom:var(--pill-padding-y);padding-left:var(--pill-padding-x);padding-right:var(--pill-padding-x);line-height:1;max-width:100%;gap:var(--size-4-2);justify-content:center;align-items:center}.hidden.svelte-168eg05.svelte-168eg05{visibility:hidden}.hidden.svelte-168eg05 span.svelte-168eg05{height:var(--button-size)}.badge.svelte-168eg05 span.svelte-168eg05{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:1rem}.badges.svelte-168eg05.svelte-168eg05{display:flex;flex-wrap:wrap;gap:8px;min-height:2rem;padding:0.5rem 0 0 0}button.svelte-168eg05.svelte-168eg05{background:none;border:none;color:inherit;font:inherit;line-height:inherit;padding:0;-webkit-appearance:none;-moz-appearance:none;-o-appearance:none;appearance:none;box-shadow:none;border:none;cursor:pointer;height:var(--button-size);width:var(--button-size)}");
 }
 function get_each_context(ctx, list, i) {
   const child_ctx = ctx.slice();
-  child_ctx[12] = list[i];
+  child_ctx[9] = list[i];
   return child_ctx;
 }
 function get_each_context_1(ctx, list, i) {
   const child_ctx = ctx.slice();
-  child_ctx[15] = list[i];
+  child_ctx[12] = list[i];
   return child_ctx;
 }
 function create_each_block_1(ctx) {
   let span;
   let t_value = (
     /*error*/
-    ctx[15] + ""
+    ctx[12] + ""
   );
   let t;
   return {
@@ -3317,7 +3311,7 @@ function create_each_block_1(ctx) {
     p(ctx2, dirty) {
       if (dirty & /*$errors*/
       4 && t_value !== (t_value = /*error*/
-      ctx2[15] + ""))
+      ctx2[12] + ""))
         set_data(t, t_value);
     },
     d(detaching) {
@@ -3351,7 +3345,7 @@ function create_each_block(ctx) {
   let span;
   let t0_value = (
     /*value*/
-    ctx[12] + ""
+    ctx[9] + ""
   );
   let t0;
   let t1;
@@ -3362,9 +3356,9 @@ function create_each_block(ctx) {
   function click_handler() {
     return (
       /*click_handler*/
-      ctx[10](
+      ctx[8](
         /*value*/
-        ctx[12]
+        ctx[9]
       )
     );
   }
@@ -3397,7 +3391,7 @@ function create_each_block(ctx) {
       ctx = new_ctx;
       if (dirty & /*$values*/
       8 && t0_value !== (t0_value = /*value*/
-      ctx[12] + ""))
+      ctx[9] + ""))
         set_data(t0, t0_value);
     },
     d(detaching) {
@@ -3572,59 +3566,28 @@ function create_fragment(ctx) {
   };
 }
 function instance($$self, $$props, $$invalidate) {
-  let remainingOptions;
   let $errors, $$unsubscribe_errors = noop, $$subscribe_errors = () => ($$unsubscribe_errors(), $$unsubscribe_errors = subscribe(errors, ($$value) => $$invalidate(2, $errors = $$value)), errors);
   let $values, $$unsubscribe_values = noop, $$subscribe_values = () => ($$unsubscribe_values(), $$unsubscribe_values = subscribe(values, ($$value) => $$invalidate(3, $values = $$value)), values);
   $$self.$$.on_destroy.push(() => $$unsubscribe_errors());
   $$self.$$.on_destroy.push(() => $$unsubscribe_values());
-  let { availableOptions = [] } = $$props;
+  let { model } = $$props;
   let { errors } = $$props;
   $$subscribe_errors();
   let { values } = $$props;
   $$subscribe_values();
-  let { allowUnknownValues = false } = $$props;
   let { setting } = $$props;
-  let { app: app2 } = $$props;
   setting.settingEl.setCssStyles({ alignItems: "baseline" });
-  function createInput(element2) {
-    new MultiSuggest(
-      element2,
-      remainingOptions,
-      (selected) => {
-        remainingOptions.delete(selected);
-        remainingOptions = remainingOptions;
-        values.update((x) => [...x, selected]);
-      },
-      app2,
-      allowUnknownValues
-    );
-  }
-  function removeValue(value) {
-    remainingOptions.add(value);
-    remainingOptions = remainingOptions;
-    values.update((xs) => pipe2(xs, A.filter((x) => x !== value)));
-  }
+  const { createInput, removeValue } = model;
   const click_handler = (value) => removeValue(value);
   $$self.$$set = ($$props2) => {
-    if ("availableOptions" in $$props2)
-      $$invalidate(6, availableOptions = $$props2.availableOptions);
+    if ("model" in $$props2)
+      $$invalidate(6, model = $$props2.model);
     if ("errors" in $$props2)
       $$subscribe_errors($$invalidate(0, errors = $$props2.errors));
     if ("values" in $$props2)
       $$subscribe_values($$invalidate(1, values = $$props2.values));
-    if ("allowUnknownValues" in $$props2)
-      $$invalidate(7, allowUnknownValues = $$props2.allowUnknownValues);
     if ("setting" in $$props2)
-      $$invalidate(8, setting = $$props2.setting);
-    if ("app" in $$props2)
-      $$invalidate(9, app2 = $$props2.app);
-  };
-  $$self.$$.update = () => {
-    if ($$self.$$.dirty & /*availableOptions*/
-    64) {
-      $:
-        remainingOptions = new Set(availableOptions);
-    }
+      $$invalidate(7, setting = $$props2.setting);
   };
   return [
     errors,
@@ -3633,10 +3596,8 @@ function instance($$self, $$props, $$invalidate) {
     $values,
     createInput,
     removeValue,
-    availableOptions,
-    allowUnknownValues,
+    model,
     setting,
-    app2,
     click_handler
   ];
 }
@@ -3650,12 +3611,10 @@ var MultiSelect = class extends SvelteComponent {
       create_fragment,
       safe_not_equal,
       {
-        availableOptions: 6,
+        model: 6,
         errors: 0,
         values: 1,
-        allowUnknownValues: 7,
-        setting: 8,
-        app: 9
+        setting: 7
       },
       add_css
     );
@@ -3664,9 +3623,9 @@ var MultiSelect = class extends SvelteComponent {
 var MultiSelect_default = MultiSelect;
 
 // src/utils/Log.ts
-var import_obsidian3 = require("obsidian");
+var import_obsidian2 = require("obsidian");
 function log_notice(title, msg, titleClass, bodyClass) {
-  const notice = new import_obsidian3.Notice("", 15e3);
+  const notice = new import_obsidian2.Notice("", 15e3);
   const el = notice.noticeEl;
   el.empty();
   const head5 = el.createEl("h6", { text: title, cls: titleClass });
@@ -3876,13 +3835,13 @@ function objectSelect(obj, opts) {
       (opts2) => {
         const picked = pipe2(
           fromNullable2(opts2.pick),
-          flatMap2(fromArray),
+          flatMap3(fromArray),
           map3(picKeys(obj)),
           getOrElse2(() => obj)
         );
         return pipe2(
           fromNullable2(opts2.omit),
-          flatMap2(fromArray),
+          flatMap3(fromArray),
           map3(omitKeys(picked)),
           getOrElse2(() => picked)
         );
@@ -3893,7 +3852,7 @@ function objectSelect(obj, opts) {
 }
 
 // src/core/FormResult.ts
-var import_obsidian4 = require("obsidian");
+var import_obsidian3 = require("obsidian");
 function isPrimitive(value) {
   return typeof value === "string" || typeof value === "boolean" || typeof value === "number";
 }
@@ -3938,7 +3897,7 @@ var FormResult = class {
    */
   asFrontmatterString(options) {
     const data = objectSelect(this.data, options);
-    return (0, import_obsidian4.stringifyYaml)(data);
+    return (0, import_obsidian3.stringifyYaml)(data);
   }
   /**
    * Return the current data as a block of dataview properties
@@ -4035,7 +3994,7 @@ function exhaustiveGuard(_value) {
 }
 
 // src/utils/files.ts
-var import_obsidian5 = require("obsidian");
+var import_obsidian4 = require("obsidian");
 var FolderDoesNotExistError = class extends Error {
 };
 FolderDoesNotExistError.tag = "FolderDoesNotExistError";
@@ -4062,11 +4021,11 @@ var NotAFileError = class extends Error {
 NotAFileError.tag = "NotAFileError";
 function resolve_tfolder(folder_str, app2) {
   return pipe2(
-    (0, import_obsidian5.normalizePath)(folder_str),
+    (0, import_obsidian4.normalizePath)(folder_str),
     (path) => app2.vault.getAbstractFileByPath(path),
     E.fromNullable(new FolderDoesNotExistError(`Folder "${folder_str}" doesn't exist`)),
     E.flatMap((file) => {
-      if (!(file instanceof import_obsidian5.TFolder)) {
+      if (!(file instanceof import_obsidian4.TFolder)) {
         return E.left(new NotAFolderError(file));
       }
       return E.right(file);
@@ -4078,33 +4037,1399 @@ function get_tfiles_from_folder(folder_str, app2) {
     resolve_tfolder(folder_str, app2),
     E.flatMap((folder) => {
       const files = [];
-      import_obsidian5.Vault.recurseChildren(folder, (file) => {
-        if (file instanceof import_obsidian5.TFile) {
+      import_obsidian4.Vault.recurseChildren(folder, (file) => {
+        if (file instanceof import_obsidian4.TFile) {
           files.push(file);
         }
       });
       return E.right(files);
     }),
-    E.map(
-      (files) => {
-        return files.sort((a, b) => {
-          return a.basename.localeCompare(b.basename);
-        });
-      }
+    E.map((files) => {
+      return files.sort((a, b) => {
+        return a.basename.localeCompare(b.basename);
+      });
+    })
+  );
+}
+function isArrayOfStrings(value) {
+  return Array.isArray(value) && value.every((v) => typeof v === "string");
+}
+var splitIfString = (value) => pipe2(
+  value,
+  O.fromPredicate(isString),
+  O.map((s) => s.split(","))
+);
+function parseToArrOfStr(str) {
+  return pipe2(
+    str,
+    O.fromNullable,
+    O.chain(
+      (value) => pipe2(
+        value,
+        splitIfString,
+        /* prettier-ignore */
+        O.alt(() => pipe2(
+          value,
+          O.fromPredicate(isArrayOfStrings)
+        ))
+      )
     )
   );
 }
+function extract_tags(cache) {
+  const bodyTags = pipe2(
+    cache.tags,
+    O.fromNullable,
+    O.map(A.map((tag) => tag.tag))
+  );
+  const frontmatterTags = pipe2(
+    cache.frontmatter,
+    O.fromNullable,
+    O.chain((frontmatter) => parseToArrOfStr(frontmatter.tags))
+  );
+  return pipe2(
+    [bodyTags, frontmatterTags],
+    A.compact,
+    A.flatten
+  );
+}
+function enrich_tfile(file, app2) {
+  var _a;
+  const metadata = app2.metadataCache.getCache(file.path);
+  return {
+    ...file,
+    frontmatter: (_a = metadata == null ? void 0 : metadata.frontmatter) != null ? _a : {},
+    tags: pipe2(
+      metadata,
+      O.fromNullable,
+      O.map(extract_tags),
+      O.getOrElse(() => [])
+    )
+  };
+}
 function file_exists(file_str, app2) {
   return pipe2(
-    (0, import_obsidian5.normalizePath)(file_str),
+    (0, import_obsidian4.normalizePath)(file_str),
     (path) => app2.vault.getAbstractFileByPath(path),
     (value) => value !== null
   );
 }
 
 // src/suggesters/suggestFile.ts
-var import_obsidian6 = require("obsidian");
-var FileSuggest = class extends import_obsidian6.AbstractInputSuggest {
+var import_obsidian5 = require("obsidian");
+
+// node_modules/fuse.js/dist/fuse.esm.js
+function isArray(value) {
+  return !Array.isArray ? getTag(value) === "[object Array]" : Array.isArray(value);
+}
+var INFINITY = 1 / 0;
+function baseToString(value) {
+  if (typeof value == "string") {
+    return value;
+  }
+  let result = value + "";
+  return result == "0" && 1 / value == -INFINITY ? "-0" : result;
+}
+function toString(value) {
+  return value == null ? "" : baseToString(value);
+}
+function isString2(value) {
+  return typeof value === "string";
+}
+function isNumber(value) {
+  return typeof value === "number";
+}
+function isBoolean(value) {
+  return value === true || value === false || isObjectLike(value) && getTag(value) == "[object Boolean]";
+}
+function isObject(value) {
+  return typeof value === "object";
+}
+function isObjectLike(value) {
+  return isObject(value) && value !== null;
+}
+function isDefined(value) {
+  return value !== void 0 && value !== null;
+}
+function isBlank(value) {
+  return !value.trim().length;
+}
+function getTag(value) {
+  return value == null ? value === void 0 ? "[object Undefined]" : "[object Null]" : Object.prototype.toString.call(value);
+}
+var INCORRECT_INDEX_TYPE = "Incorrect 'index' type";
+var LOGICAL_SEARCH_INVALID_QUERY_FOR_KEY = (key) => `Invalid value for key ${key}`;
+var PATTERN_LENGTH_TOO_LARGE = (max2) => `Pattern length exceeds max of ${max2}.`;
+var MISSING_KEY_PROPERTY = (name) => `Missing ${name} property in key`;
+var INVALID_KEY_WEIGHT_VALUE = (key) => `Property 'weight' in key '${key}' must be a positive integer`;
+var hasOwn = Object.prototype.hasOwnProperty;
+var KeyStore = class {
+  constructor(keys) {
+    this._keys = [];
+    this._keyMap = {};
+    let totalWeight = 0;
+    keys.forEach((key) => {
+      let obj = createKey(key);
+      totalWeight += obj.weight;
+      this._keys.push(obj);
+      this._keyMap[obj.id] = obj;
+      totalWeight += obj.weight;
+    });
+    this._keys.forEach((key) => {
+      key.weight /= totalWeight;
+    });
+  }
+  get(keyId) {
+    return this._keyMap[keyId];
+  }
+  keys() {
+    return this._keys;
+  }
+  toJSON() {
+    return JSON.stringify(this._keys);
+  }
+};
+function createKey(key) {
+  let path = null;
+  let id = null;
+  let src = null;
+  let weight = 1;
+  let getFn = null;
+  if (isString2(key) || isArray(key)) {
+    src = key;
+    path = createKeyPath(key);
+    id = createKeyId(key);
+  } else {
+    if (!hasOwn.call(key, "name")) {
+      throw new Error(MISSING_KEY_PROPERTY("name"));
+    }
+    const name = key.name;
+    src = name;
+    if (hasOwn.call(key, "weight")) {
+      weight = key.weight;
+      if (weight <= 0) {
+        throw new Error(INVALID_KEY_WEIGHT_VALUE(name));
+      }
+    }
+    path = createKeyPath(name);
+    id = createKeyId(name);
+    getFn = key.getFn;
+  }
+  return { path, id, weight, src, getFn };
+}
+function createKeyPath(key) {
+  return isArray(key) ? key : key.split(".");
+}
+function createKeyId(key) {
+  return isArray(key) ? key.join(".") : key;
+}
+function get(obj, path) {
+  let list = [];
+  let arr = false;
+  const deepGet = (obj2, path2, index) => {
+    if (!isDefined(obj2)) {
+      return;
+    }
+    if (!path2[index]) {
+      list.push(obj2);
+    } else {
+      let key = path2[index];
+      const value = obj2[key];
+      if (!isDefined(value)) {
+        return;
+      }
+      if (index === path2.length - 1 && (isString2(value) || isNumber(value) || isBoolean(value))) {
+        list.push(toString(value));
+      } else if (isArray(value)) {
+        arr = true;
+        for (let i = 0, len = value.length; i < len; i += 1) {
+          deepGet(value[i], path2, index + 1);
+        }
+      } else if (path2.length) {
+        deepGet(value, path2, index + 1);
+      }
+    }
+  };
+  deepGet(obj, isString2(path) ? path.split(".") : path, 0);
+  return arr ? list : list[0];
+}
+var MatchOptions = {
+  // Whether the matches should be included in the result set. When `true`, each record in the result
+  // set will include the indices of the matched characters.
+  // These can consequently be used for highlighting purposes.
+  includeMatches: false,
+  // When `true`, the matching function will continue to the end of a search pattern even if
+  // a perfect match has already been located in the string.
+  findAllMatches: false,
+  // Minimum number of characters that must be matched before a result is considered a match
+  minMatchCharLength: 1
+};
+var BasicOptions = {
+  // When `true`, the algorithm continues searching to the end of the input even if a perfect
+  // match is found before the end of the same input.
+  isCaseSensitive: false,
+  // When true, the matching function will continue to the end of a search pattern even if
+  includeScore: false,
+  // List of properties that will be searched. This also supports nested properties.
+  keys: [],
+  // Whether to sort the result list, by score
+  shouldSort: true,
+  // Default sort function: sort by ascending score, ascending index
+  sortFn: (a, b) => a.score === b.score ? a.idx < b.idx ? -1 : 1 : a.score < b.score ? -1 : 1
+};
+var FuzzyOptions = {
+  // Approximately where in the text is the pattern expected to be found?
+  location: 0,
+  // At what point does the match algorithm give up. A threshold of '0.0' requires a perfect match
+  // (of both letters and location), a threshold of '1.0' would match anything.
+  threshold: 0.6,
+  // Determines how close the match must be to the fuzzy location (specified above).
+  // An exact letter match which is 'distance' characters away from the fuzzy location
+  // would score as a complete mismatch. A distance of '0' requires the match be at
+  // the exact location specified, a threshold of '1000' would require a perfect match
+  // to be within 800 characters of the fuzzy location to be found using a 0.8 threshold.
+  distance: 100
+};
+var AdvancedOptions = {
+  // When `true`, it enables the use of unix-like search commands
+  useExtendedSearch: false,
+  // The get function to use when fetching an object's properties.
+  // The default will search nested paths *ie foo.bar.baz*
+  getFn: get,
+  // When `true`, search will ignore `location` and `distance`, so it won't matter
+  // where in the string the pattern appears.
+  // More info: https://fusejs.io/concepts/scoring-theory.html#fuzziness-score
+  ignoreLocation: false,
+  // When `true`, the calculation for the relevance score (used for sorting) will
+  // ignore the field-length norm.
+  // More info: https://fusejs.io/concepts/scoring-theory.html#field-length-norm
+  ignoreFieldNorm: false,
+  // The weight to determine how much field length norm effects scoring.
+  fieldNormWeight: 1
+};
+var Config = {
+  ...BasicOptions,
+  ...MatchOptions,
+  ...FuzzyOptions,
+  ...AdvancedOptions
+};
+var SPACE = /[^ ]+/g;
+function norm(weight = 1, mantissa = 3) {
+  const cache = /* @__PURE__ */ new Map();
+  const m = Math.pow(10, mantissa);
+  return {
+    get(value) {
+      const numTokens = value.match(SPACE).length;
+      if (cache.has(numTokens)) {
+        return cache.get(numTokens);
+      }
+      const norm2 = 1 / Math.pow(numTokens, 0.5 * weight);
+      const n = parseFloat(Math.round(norm2 * m) / m);
+      cache.set(numTokens, n);
+      return n;
+    },
+    clear() {
+      cache.clear();
+    }
+  };
+}
+var FuseIndex = class {
+  constructor({
+    getFn = Config.getFn,
+    fieldNormWeight = Config.fieldNormWeight
+  } = {}) {
+    this.norm = norm(fieldNormWeight, 3);
+    this.getFn = getFn;
+    this.isCreated = false;
+    this.setIndexRecords();
+  }
+  setSources(docs = []) {
+    this.docs = docs;
+  }
+  setIndexRecords(records = []) {
+    this.records = records;
+  }
+  setKeys(keys = []) {
+    this.keys = keys;
+    this._keysMap = {};
+    keys.forEach((key, idx) => {
+      this._keysMap[key.id] = idx;
+    });
+  }
+  create() {
+    if (this.isCreated || !this.docs.length) {
+      return;
+    }
+    this.isCreated = true;
+    if (isString2(this.docs[0])) {
+      this.docs.forEach((doc, docIndex) => {
+        this._addString(doc, docIndex);
+      });
+    } else {
+      this.docs.forEach((doc, docIndex) => {
+        this._addObject(doc, docIndex);
+      });
+    }
+    this.norm.clear();
+  }
+  // Adds a doc to the end of the index
+  add(doc) {
+    const idx = this.size();
+    if (isString2(doc)) {
+      this._addString(doc, idx);
+    } else {
+      this._addObject(doc, idx);
+    }
+  }
+  // Removes the doc at the specified index of the index
+  removeAt(idx) {
+    this.records.splice(idx, 1);
+    for (let i = idx, len = this.size(); i < len; i += 1) {
+      this.records[i].i -= 1;
+    }
+  }
+  getValueForItemAtKeyId(item2, keyId) {
+    return item2[this._keysMap[keyId]];
+  }
+  size() {
+    return this.records.length;
+  }
+  _addString(doc, docIndex) {
+    if (!isDefined(doc) || isBlank(doc)) {
+      return;
+    }
+    let record = {
+      v: doc,
+      i: docIndex,
+      n: this.norm.get(doc)
+    };
+    this.records.push(record);
+  }
+  _addObject(doc, docIndex) {
+    let record = { i: docIndex, $: {} };
+    this.keys.forEach((key, keyIndex) => {
+      let value = key.getFn ? key.getFn(doc) : this.getFn(doc, key.path);
+      if (!isDefined(value)) {
+        return;
+      }
+      if (isArray(value)) {
+        let subRecords = [];
+        const stack = [{ nestedArrIndex: -1, value }];
+        while (stack.length) {
+          const { nestedArrIndex, value: value2 } = stack.pop();
+          if (!isDefined(value2)) {
+            continue;
+          }
+          if (isString2(value2) && !isBlank(value2)) {
+            let subRecord = {
+              v: value2,
+              i: nestedArrIndex,
+              n: this.norm.get(value2)
+            };
+            subRecords.push(subRecord);
+          } else if (isArray(value2)) {
+            value2.forEach((item2, k) => {
+              stack.push({
+                nestedArrIndex: k,
+                value: item2
+              });
+            });
+          } else
+            ;
+        }
+        record.$[keyIndex] = subRecords;
+      } else if (isString2(value) && !isBlank(value)) {
+        let subRecord = {
+          v: value,
+          n: this.norm.get(value)
+        };
+        record.$[keyIndex] = subRecord;
+      }
+    });
+    this.records.push(record);
+  }
+  toJSON() {
+    return {
+      keys: this.keys,
+      records: this.records
+    };
+  }
+};
+function createIndex(keys, docs, { getFn = Config.getFn, fieldNormWeight = Config.fieldNormWeight } = {}) {
+  const myIndex = new FuseIndex({ getFn, fieldNormWeight });
+  myIndex.setKeys(keys.map(createKey));
+  myIndex.setSources(docs);
+  myIndex.create();
+  return myIndex;
+}
+function parseIndex(data, { getFn = Config.getFn, fieldNormWeight = Config.fieldNormWeight } = {}) {
+  const { keys, records } = data;
+  const myIndex = new FuseIndex({ getFn, fieldNormWeight });
+  myIndex.setKeys(keys);
+  myIndex.setIndexRecords(records);
+  return myIndex;
+}
+function computeScore$1(pattern, {
+  errors = 0,
+  currentLocation = 0,
+  expectedLocation = 0,
+  distance = Config.distance,
+  ignoreLocation = Config.ignoreLocation
+} = {}) {
+  const accuracy = errors / pattern.length;
+  if (ignoreLocation) {
+    return accuracy;
+  }
+  const proximity = Math.abs(expectedLocation - currentLocation);
+  if (!distance) {
+    return proximity ? 1 : accuracy;
+  }
+  return accuracy + proximity / distance;
+}
+function convertMaskToIndices(matchmask = [], minMatchCharLength = Config.minMatchCharLength) {
+  let indices = [];
+  let start = -1;
+  let end = -1;
+  let i = 0;
+  for (let len = matchmask.length; i < len; i += 1) {
+    let match3 = matchmask[i];
+    if (match3 && start === -1) {
+      start = i;
+    } else if (!match3 && start !== -1) {
+      end = i - 1;
+      if (end - start + 1 >= minMatchCharLength) {
+        indices.push([start, end]);
+      }
+      start = -1;
+    }
+  }
+  if (matchmask[i - 1] && i - start >= minMatchCharLength) {
+    indices.push([start, i - 1]);
+  }
+  return indices;
+}
+var MAX_BITS = 32;
+function search(text3, pattern, patternAlphabet, {
+  location = Config.location,
+  distance = Config.distance,
+  threshold = Config.threshold,
+  findAllMatches = Config.findAllMatches,
+  minMatchCharLength = Config.minMatchCharLength,
+  includeMatches = Config.includeMatches,
+  ignoreLocation = Config.ignoreLocation
+} = {}) {
+  if (pattern.length > MAX_BITS) {
+    throw new Error(PATTERN_LENGTH_TOO_LARGE(MAX_BITS));
+  }
+  const patternLen = pattern.length;
+  const textLen = text3.length;
+  const expectedLocation = Math.max(0, Math.min(location, textLen));
+  let currentThreshold = threshold;
+  let bestLocation = expectedLocation;
+  const computeMatches = minMatchCharLength > 1 || includeMatches;
+  const matchMask = computeMatches ? Array(textLen) : [];
+  let index;
+  while ((index = text3.indexOf(pattern, bestLocation)) > -1) {
+    let score = computeScore$1(pattern, {
+      currentLocation: index,
+      expectedLocation,
+      distance,
+      ignoreLocation
+    });
+    currentThreshold = Math.min(score, currentThreshold);
+    bestLocation = index + patternLen;
+    if (computeMatches) {
+      let i = 0;
+      while (i < patternLen) {
+        matchMask[index + i] = 1;
+        i += 1;
+      }
+    }
+  }
+  bestLocation = -1;
+  let lastBitArr = [];
+  let finalScore = 1;
+  let binMax = patternLen + textLen;
+  const mask = 1 << patternLen - 1;
+  for (let i = 0; i < patternLen; i += 1) {
+    let binMin = 0;
+    let binMid = binMax;
+    while (binMin < binMid) {
+      const score2 = computeScore$1(pattern, {
+        errors: i,
+        currentLocation: expectedLocation + binMid,
+        expectedLocation,
+        distance,
+        ignoreLocation
+      });
+      if (score2 <= currentThreshold) {
+        binMin = binMid;
+      } else {
+        binMax = binMid;
+      }
+      binMid = Math.floor((binMax - binMin) / 2 + binMin);
+    }
+    binMax = binMid;
+    let start = Math.max(1, expectedLocation - binMid + 1);
+    let finish = findAllMatches ? textLen : Math.min(expectedLocation + binMid, textLen) + patternLen;
+    let bitArr = Array(finish + 2);
+    bitArr[finish + 1] = (1 << i) - 1;
+    for (let j = finish; j >= start; j -= 1) {
+      let currentLocation = j - 1;
+      let charMatch = patternAlphabet[text3.charAt(currentLocation)];
+      if (computeMatches) {
+        matchMask[currentLocation] = +!!charMatch;
+      }
+      bitArr[j] = (bitArr[j + 1] << 1 | 1) & charMatch;
+      if (i) {
+        bitArr[j] |= (lastBitArr[j + 1] | lastBitArr[j]) << 1 | 1 | lastBitArr[j + 1];
+      }
+      if (bitArr[j] & mask) {
+        finalScore = computeScore$1(pattern, {
+          errors: i,
+          currentLocation,
+          expectedLocation,
+          distance,
+          ignoreLocation
+        });
+        if (finalScore <= currentThreshold) {
+          currentThreshold = finalScore;
+          bestLocation = currentLocation;
+          if (bestLocation <= expectedLocation) {
+            break;
+          }
+          start = Math.max(1, 2 * expectedLocation - bestLocation);
+        }
+      }
+    }
+    const score = computeScore$1(pattern, {
+      errors: i + 1,
+      currentLocation: expectedLocation,
+      expectedLocation,
+      distance,
+      ignoreLocation
+    });
+    if (score > currentThreshold) {
+      break;
+    }
+    lastBitArr = bitArr;
+  }
+  const result = {
+    isMatch: bestLocation >= 0,
+    // Count exact matches (those with a score of 0) to be "almost" exact
+    score: Math.max(1e-3, finalScore)
+  };
+  if (computeMatches) {
+    const indices = convertMaskToIndices(matchMask, minMatchCharLength);
+    if (!indices.length) {
+      result.isMatch = false;
+    } else if (includeMatches) {
+      result.indices = indices;
+    }
+  }
+  return result;
+}
+function createPatternAlphabet(pattern) {
+  let mask = {};
+  for (let i = 0, len = pattern.length; i < len; i += 1) {
+    const char2 = pattern.charAt(i);
+    mask[char2] = (mask[char2] || 0) | 1 << len - i - 1;
+  }
+  return mask;
+}
+var BitapSearch = class {
+  constructor(pattern, {
+    location = Config.location,
+    threshold = Config.threshold,
+    distance = Config.distance,
+    includeMatches = Config.includeMatches,
+    findAllMatches = Config.findAllMatches,
+    minMatchCharLength = Config.minMatchCharLength,
+    isCaseSensitive = Config.isCaseSensitive,
+    ignoreLocation = Config.ignoreLocation
+  } = {}) {
+    this.options = {
+      location,
+      threshold,
+      distance,
+      includeMatches,
+      findAllMatches,
+      minMatchCharLength,
+      isCaseSensitive,
+      ignoreLocation
+    };
+    this.pattern = isCaseSensitive ? pattern : pattern.toLowerCase();
+    this.chunks = [];
+    if (!this.pattern.length) {
+      return;
+    }
+    const addChunk = (pattern2, startIndex) => {
+      this.chunks.push({
+        pattern: pattern2,
+        alphabet: createPatternAlphabet(pattern2),
+        startIndex
+      });
+    };
+    const len = this.pattern.length;
+    if (len > MAX_BITS) {
+      let i = 0;
+      const remainder = len % MAX_BITS;
+      const end = len - remainder;
+      while (i < end) {
+        addChunk(this.pattern.substr(i, MAX_BITS), i);
+        i += MAX_BITS;
+      }
+      if (remainder) {
+        const startIndex = len - MAX_BITS;
+        addChunk(this.pattern.substr(startIndex), startIndex);
+      }
+    } else {
+      addChunk(this.pattern, 0);
+    }
+  }
+  searchIn(text3) {
+    const { isCaseSensitive, includeMatches } = this.options;
+    if (!isCaseSensitive) {
+      text3 = text3.toLowerCase();
+    }
+    if (this.pattern === text3) {
+      let result2 = {
+        isMatch: true,
+        score: 0
+      };
+      if (includeMatches) {
+        result2.indices = [[0, text3.length - 1]];
+      }
+      return result2;
+    }
+    const {
+      location,
+      distance,
+      threshold,
+      findAllMatches,
+      minMatchCharLength,
+      ignoreLocation
+    } = this.options;
+    let allIndices = [];
+    let totalScore = 0;
+    let hasMatches = false;
+    this.chunks.forEach(({ pattern, alphabet, startIndex }) => {
+      const { isMatch, score, indices } = search(text3, pattern, alphabet, {
+        location: location + startIndex,
+        distance,
+        threshold,
+        findAllMatches,
+        minMatchCharLength,
+        includeMatches,
+        ignoreLocation
+      });
+      if (isMatch) {
+        hasMatches = true;
+      }
+      totalScore += score;
+      if (isMatch && indices) {
+        allIndices = [...allIndices, ...indices];
+      }
+    });
+    let result = {
+      isMatch: hasMatches,
+      score: hasMatches ? totalScore / this.chunks.length : 1
+    };
+    if (hasMatches && includeMatches) {
+      result.indices = allIndices;
+    }
+    return result;
+  }
+};
+var BaseMatch = class {
+  constructor(pattern) {
+    this.pattern = pattern;
+  }
+  static isMultiMatch(pattern) {
+    return getMatch(pattern, this.multiRegex);
+  }
+  static isSingleMatch(pattern) {
+    return getMatch(pattern, this.singleRegex);
+  }
+  search() {
+  }
+};
+function getMatch(pattern, exp) {
+  const matches = pattern.match(exp);
+  return matches ? matches[1] : null;
+}
+var ExactMatch = class extends BaseMatch {
+  constructor(pattern) {
+    super(pattern);
+  }
+  static get type() {
+    return "exact";
+  }
+  static get multiRegex() {
+    return /^="(.*)"$/;
+  }
+  static get singleRegex() {
+    return /^=(.*)$/;
+  }
+  search(text3) {
+    const isMatch = text3 === this.pattern;
+    return {
+      isMatch,
+      score: isMatch ? 0 : 1,
+      indices: [0, this.pattern.length - 1]
+    };
+  }
+};
+var InverseExactMatch = class extends BaseMatch {
+  constructor(pattern) {
+    super(pattern);
+  }
+  static get type() {
+    return "inverse-exact";
+  }
+  static get multiRegex() {
+    return /^!"(.*)"$/;
+  }
+  static get singleRegex() {
+    return /^!(.*)$/;
+  }
+  search(text3) {
+    const index = text3.indexOf(this.pattern);
+    const isMatch = index === -1;
+    return {
+      isMatch,
+      score: isMatch ? 0 : 1,
+      indices: [0, text3.length - 1]
+    };
+  }
+};
+var PrefixExactMatch = class extends BaseMatch {
+  constructor(pattern) {
+    super(pattern);
+  }
+  static get type() {
+    return "prefix-exact";
+  }
+  static get multiRegex() {
+    return /^\^"(.*)"$/;
+  }
+  static get singleRegex() {
+    return /^\^(.*)$/;
+  }
+  search(text3) {
+    const isMatch = text3.startsWith(this.pattern);
+    return {
+      isMatch,
+      score: isMatch ? 0 : 1,
+      indices: [0, this.pattern.length - 1]
+    };
+  }
+};
+var InversePrefixExactMatch = class extends BaseMatch {
+  constructor(pattern) {
+    super(pattern);
+  }
+  static get type() {
+    return "inverse-prefix-exact";
+  }
+  static get multiRegex() {
+    return /^!\^"(.*)"$/;
+  }
+  static get singleRegex() {
+    return /^!\^(.*)$/;
+  }
+  search(text3) {
+    const isMatch = !text3.startsWith(this.pattern);
+    return {
+      isMatch,
+      score: isMatch ? 0 : 1,
+      indices: [0, text3.length - 1]
+    };
+  }
+};
+var SuffixExactMatch = class extends BaseMatch {
+  constructor(pattern) {
+    super(pattern);
+  }
+  static get type() {
+    return "suffix-exact";
+  }
+  static get multiRegex() {
+    return /^"(.*)"\$$/;
+  }
+  static get singleRegex() {
+    return /^(.*)\$$/;
+  }
+  search(text3) {
+    const isMatch = text3.endsWith(this.pattern);
+    return {
+      isMatch,
+      score: isMatch ? 0 : 1,
+      indices: [text3.length - this.pattern.length, text3.length - 1]
+    };
+  }
+};
+var InverseSuffixExactMatch = class extends BaseMatch {
+  constructor(pattern) {
+    super(pattern);
+  }
+  static get type() {
+    return "inverse-suffix-exact";
+  }
+  static get multiRegex() {
+    return /^!"(.*)"\$$/;
+  }
+  static get singleRegex() {
+    return /^!(.*)\$$/;
+  }
+  search(text3) {
+    const isMatch = !text3.endsWith(this.pattern);
+    return {
+      isMatch,
+      score: isMatch ? 0 : 1,
+      indices: [0, text3.length - 1]
+    };
+  }
+};
+var FuzzyMatch = class extends BaseMatch {
+  constructor(pattern, {
+    location = Config.location,
+    threshold = Config.threshold,
+    distance = Config.distance,
+    includeMatches = Config.includeMatches,
+    findAllMatches = Config.findAllMatches,
+    minMatchCharLength = Config.minMatchCharLength,
+    isCaseSensitive = Config.isCaseSensitive,
+    ignoreLocation = Config.ignoreLocation
+  } = {}) {
+    super(pattern);
+    this._bitapSearch = new BitapSearch(pattern, {
+      location,
+      threshold,
+      distance,
+      includeMatches,
+      findAllMatches,
+      minMatchCharLength,
+      isCaseSensitive,
+      ignoreLocation
+    });
+  }
+  static get type() {
+    return "fuzzy";
+  }
+  static get multiRegex() {
+    return /^"(.*)"$/;
+  }
+  static get singleRegex() {
+    return /^(.*)$/;
+  }
+  search(text3) {
+    return this._bitapSearch.searchIn(text3);
+  }
+};
+var IncludeMatch = class extends BaseMatch {
+  constructor(pattern) {
+    super(pattern);
+  }
+  static get type() {
+    return "include";
+  }
+  static get multiRegex() {
+    return /^'"(.*)"$/;
+  }
+  static get singleRegex() {
+    return /^'(.*)$/;
+  }
+  search(text3) {
+    let location = 0;
+    let index;
+    const indices = [];
+    const patternLen = this.pattern.length;
+    while ((index = text3.indexOf(this.pattern, location)) > -1) {
+      location = index + patternLen;
+      indices.push([index, location - 1]);
+    }
+    const isMatch = !!indices.length;
+    return {
+      isMatch,
+      score: isMatch ? 0 : 1,
+      indices
+    };
+  }
+};
+var searchers = [
+  ExactMatch,
+  IncludeMatch,
+  PrefixExactMatch,
+  InversePrefixExactMatch,
+  InverseSuffixExactMatch,
+  SuffixExactMatch,
+  InverseExactMatch,
+  FuzzyMatch
+];
+var searchersLen = searchers.length;
+var SPACE_RE = / +(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)/;
+var OR_TOKEN = "|";
+function parseQuery(pattern, options = {}) {
+  return pattern.split(OR_TOKEN).map((item2) => {
+    let query = item2.trim().split(SPACE_RE).filter((item3) => item3 && !!item3.trim());
+    let results = [];
+    for (let i = 0, len = query.length; i < len; i += 1) {
+      const queryItem = query[i];
+      let found = false;
+      let idx = -1;
+      while (!found && ++idx < searchersLen) {
+        const searcher = searchers[idx];
+        let token = searcher.isMultiMatch(queryItem);
+        if (token) {
+          results.push(new searcher(token, options));
+          found = true;
+        }
+      }
+      if (found) {
+        continue;
+      }
+      idx = -1;
+      while (++idx < searchersLen) {
+        const searcher = searchers[idx];
+        let token = searcher.isSingleMatch(queryItem);
+        if (token) {
+          results.push(new searcher(token, options));
+          break;
+        }
+      }
+    }
+    return results;
+  });
+}
+var MultiMatchSet = /* @__PURE__ */ new Set([FuzzyMatch.type, IncludeMatch.type]);
+var ExtendedSearch = class {
+  constructor(pattern, {
+    isCaseSensitive = Config.isCaseSensitive,
+    includeMatches = Config.includeMatches,
+    minMatchCharLength = Config.minMatchCharLength,
+    ignoreLocation = Config.ignoreLocation,
+    findAllMatches = Config.findAllMatches,
+    location = Config.location,
+    threshold = Config.threshold,
+    distance = Config.distance
+  } = {}) {
+    this.query = null;
+    this.options = {
+      isCaseSensitive,
+      includeMatches,
+      minMatchCharLength,
+      findAllMatches,
+      ignoreLocation,
+      location,
+      threshold,
+      distance
+    };
+    this.pattern = isCaseSensitive ? pattern : pattern.toLowerCase();
+    this.query = parseQuery(this.pattern, this.options);
+  }
+  static condition(_, options) {
+    return options.useExtendedSearch;
+  }
+  searchIn(text3) {
+    const query = this.query;
+    if (!query) {
+      return {
+        isMatch: false,
+        score: 1
+      };
+    }
+    const { includeMatches, isCaseSensitive } = this.options;
+    text3 = isCaseSensitive ? text3 : text3.toLowerCase();
+    let numMatches = 0;
+    let allIndices = [];
+    let totalScore = 0;
+    for (let i = 0, qLen = query.length; i < qLen; i += 1) {
+      const searchers2 = query[i];
+      allIndices.length = 0;
+      numMatches = 0;
+      for (let j = 0, pLen = searchers2.length; j < pLen; j += 1) {
+        const searcher = searchers2[j];
+        const { isMatch, indices, score } = searcher.search(text3);
+        if (isMatch) {
+          numMatches += 1;
+          totalScore += score;
+          if (includeMatches) {
+            const type = searcher.constructor.type;
+            if (MultiMatchSet.has(type)) {
+              allIndices = [...allIndices, ...indices];
+            } else {
+              allIndices.push(indices);
+            }
+          }
+        } else {
+          totalScore = 0;
+          numMatches = 0;
+          allIndices.length = 0;
+          break;
+        }
+      }
+      if (numMatches) {
+        let result = {
+          isMatch: true,
+          score: totalScore / numMatches
+        };
+        if (includeMatches) {
+          result.indices = allIndices;
+        }
+        return result;
+      }
+    }
+    return {
+      isMatch: false,
+      score: 1
+    };
+  }
+};
+var registeredSearchers = [];
+function register(...args) {
+  registeredSearchers.push(...args);
+}
+function createSearcher(pattern, options) {
+  for (let i = 0, len = registeredSearchers.length; i < len; i += 1) {
+    let searcherClass = registeredSearchers[i];
+    if (searcherClass.condition(pattern, options)) {
+      return new searcherClass(pattern, options);
+    }
+  }
+  return new BitapSearch(pattern, options);
+}
+var LogicalOperator = {
+  AND: "$and",
+  OR: "$or"
+};
+var KeyType = {
+  PATH: "$path",
+  PATTERN: "$val"
+};
+var isExpression = (query) => !!(query[LogicalOperator.AND] || query[LogicalOperator.OR]);
+var isPath = (query) => !!query[KeyType.PATH];
+var isLeaf = (query) => !isArray(query) && isObject(query) && !isExpression(query);
+var convertToExplicit = (query) => ({
+  [LogicalOperator.AND]: Object.keys(query).map((key) => ({
+    [key]: query[key]
+  }))
+});
+function parse3(query, options, { auto = true } = {}) {
+  const next = (query2) => {
+    let keys = Object.keys(query2);
+    const isQueryPath = isPath(query2);
+    if (!isQueryPath && keys.length > 1 && !isExpression(query2)) {
+      return next(convertToExplicit(query2));
+    }
+    if (isLeaf(query2)) {
+      const key = isQueryPath ? query2[KeyType.PATH] : keys[0];
+      const pattern = isQueryPath ? query2[KeyType.PATTERN] : query2[key];
+      if (!isString2(pattern)) {
+        throw new Error(LOGICAL_SEARCH_INVALID_QUERY_FOR_KEY(key));
+      }
+      const obj = {
+        keyId: createKeyId(key),
+        pattern
+      };
+      if (auto) {
+        obj.searcher = createSearcher(pattern, options);
+      }
+      return obj;
+    }
+    let node = {
+      children: [],
+      operator: keys[0]
+    };
+    keys.forEach((key) => {
+      const value = query2[key];
+      if (isArray(value)) {
+        value.forEach((item2) => {
+          node.children.push(next(item2));
+        });
+      }
+    });
+    return node;
+  };
+  if (!isExpression(query)) {
+    query = convertToExplicit(query);
+  }
+  return next(query);
+}
+function computeScore(results, { ignoreFieldNorm = Config.ignoreFieldNorm }) {
+  results.forEach((result) => {
+    let totalScore = 1;
+    result.matches.forEach(({ key, norm: norm2, score }) => {
+      const weight = key ? key.weight : null;
+      totalScore *= Math.pow(
+        score === 0 && weight ? Number.EPSILON : score,
+        (weight || 1) * (ignoreFieldNorm ? 1 : norm2)
+      );
+    });
+    result.score = totalScore;
+  });
+}
+function transformMatches(result, data) {
+  const matches = result.matches;
+  data.matches = [];
+  if (!isDefined(matches)) {
+    return;
+  }
+  matches.forEach((match3) => {
+    if (!isDefined(match3.indices) || !match3.indices.length) {
+      return;
+    }
+    const { indices, value } = match3;
+    let obj = {
+      indices,
+      value
+    };
+    if (match3.key) {
+      obj.key = match3.key.src;
+    }
+    if (match3.idx > -1) {
+      obj.refIndex = match3.idx;
+    }
+    data.matches.push(obj);
+  });
+}
+function transformScore(result, data) {
+  data.score = result.score;
+}
+function format(results, docs, {
+  includeMatches = Config.includeMatches,
+  includeScore = Config.includeScore
+} = {}) {
+  const transformers = [];
+  if (includeMatches)
+    transformers.push(transformMatches);
+  if (includeScore)
+    transformers.push(transformScore);
+  return results.map((result) => {
+    const { idx } = result;
+    const data = {
+      item: docs[idx],
+      refIndex: idx
+    };
+    if (transformers.length) {
+      transformers.forEach((transformer) => {
+        transformer(result, data);
+      });
+    }
+    return data;
+  });
+}
+var Fuse = class {
+  constructor(docs, options = {}, index) {
+    this.options = { ...Config, ...options };
+    if (this.options.useExtendedSearch && false) {
+      throw new Error(EXTENDED_SEARCH_UNAVAILABLE);
+    }
+    this._keyStore = new KeyStore(this.options.keys);
+    this.setCollection(docs, index);
+  }
+  setCollection(docs, index) {
+    this._docs = docs;
+    if (index && !(index instanceof FuseIndex)) {
+      throw new Error(INCORRECT_INDEX_TYPE);
+    }
+    this._myIndex = index || createIndex(this.options.keys, this._docs, {
+      getFn: this.options.getFn,
+      fieldNormWeight: this.options.fieldNormWeight
+    });
+  }
+  add(doc) {
+    if (!isDefined(doc)) {
+      return;
+    }
+    this._docs.push(doc);
+    this._myIndex.add(doc);
+  }
+  remove(predicate = () => false) {
+    const results = [];
+    for (let i = 0, len = this._docs.length; i < len; i += 1) {
+      const doc = this._docs[i];
+      if (predicate(doc, i)) {
+        this.removeAt(i);
+        i -= 1;
+        len -= 1;
+        results.push(doc);
+      }
+    }
+    return results;
+  }
+  removeAt(idx) {
+    this._docs.splice(idx, 1);
+    this._myIndex.removeAt(idx);
+  }
+  getIndex() {
+    return this._myIndex;
+  }
+  search(query, { limit = -1 } = {}) {
+    const {
+      includeMatches,
+      includeScore,
+      shouldSort,
+      sortFn,
+      ignoreFieldNorm
+    } = this.options;
+    let results = isString2(query) ? isString2(this._docs[0]) ? this._searchStringList(query) : this._searchObjectList(query) : this._searchLogical(query);
+    computeScore(results, { ignoreFieldNorm });
+    if (shouldSort) {
+      results.sort(sortFn);
+    }
+    if (isNumber(limit) && limit > -1) {
+      results = results.slice(0, limit);
+    }
+    return format(results, this._docs, {
+      includeMatches,
+      includeScore
+    });
+  }
+  _searchStringList(query) {
+    const searcher = createSearcher(query, this.options);
+    const { records } = this._myIndex;
+    const results = [];
+    records.forEach(({ v: text3, i: idx, n: norm2 }) => {
+      if (!isDefined(text3)) {
+        return;
+      }
+      const { isMatch, score, indices } = searcher.searchIn(text3);
+      if (isMatch) {
+        results.push({
+          item: text3,
+          idx,
+          matches: [{ score, value: text3, norm: norm2, indices }]
+        });
+      }
+    });
+    return results;
+  }
+  _searchLogical(query) {
+    const expression = parse3(query, this.options);
+    const evaluate = (node, item2, idx) => {
+      if (!node.children) {
+        const { keyId, searcher } = node;
+        const matches = this._findMatches({
+          key: this._keyStore.get(keyId),
+          value: this._myIndex.getValueForItemAtKeyId(item2, keyId),
+          searcher
+        });
+        if (matches && matches.length) {
+          return [
+            {
+              idx,
+              item: item2,
+              matches
+            }
+          ];
+        }
+        return [];
+      }
+      const res = [];
+      for (let i = 0, len = node.children.length; i < len; i += 1) {
+        const child = node.children[i];
+        const result = evaluate(child, item2, idx);
+        if (result.length) {
+          res.push(...result);
+        } else if (node.operator === LogicalOperator.AND) {
+          return [];
+        }
+      }
+      return res;
+    };
+    const records = this._myIndex.records;
+    const resultMap = {};
+    const results = [];
+    records.forEach(({ $: item2, i: idx }) => {
+      if (isDefined(item2)) {
+        let expResults = evaluate(expression, item2, idx);
+        if (expResults.length) {
+          if (!resultMap[idx]) {
+            resultMap[idx] = { idx, item: item2, matches: [] };
+            results.push(resultMap[idx]);
+          }
+          expResults.forEach(({ matches }) => {
+            resultMap[idx].matches.push(...matches);
+          });
+        }
+      }
+    });
+    return results;
+  }
+  _searchObjectList(query) {
+    const searcher = createSearcher(query, this.options);
+    const { keys, records } = this._myIndex;
+    const results = [];
+    records.forEach(({ $: item2, i: idx }) => {
+      if (!isDefined(item2)) {
+        return;
+      }
+      let matches = [];
+      keys.forEach((key, keyIndex) => {
+        matches.push(
+          ...this._findMatches({
+            key,
+            value: item2[keyIndex],
+            searcher
+          })
+        );
+      });
+      if (matches.length) {
+        results.push({
+          idx,
+          item: item2,
+          matches
+        });
+      }
+    });
+    return results;
+  }
+  _findMatches({ key, value, searcher }) {
+    if (!isDefined(value)) {
+      return [];
+    }
+    let matches = [];
+    if (isArray(value)) {
+      value.forEach(({ v: text3, i: idx, n: norm2 }) => {
+        if (!isDefined(text3)) {
+          return;
+        }
+        const { isMatch, score, indices } = searcher.searchIn(text3);
+        if (isMatch) {
+          matches.push({
+            score,
+            key,
+            value: text3,
+            idx,
+            norm: norm2,
+            indices
+          });
+        }
+      });
+    } else {
+      const { v: text3, n: norm2 } = value;
+      const { isMatch, score, indices } = searcher.searchIn(text3);
+      if (isMatch) {
+        matches.push({ score, key, value: text3, norm: norm2, indices });
+      }
+    }
+    return matches;
+  }
+};
+Fuse.version = "6.6.2";
+Fuse.createIndex = createIndex;
+Fuse.parseIndex = parseIndex;
+Fuse.config = Config;
+{
+  Fuse.parseQuery = parse3;
+}
+{
+  register(ExtendedSearch);
+}
+
+// src/suggesters/suggestFile.ts
+var FileSuggest = class extends import_obsidian5.AbstractInputSuggest {
   constructor(app2, inputEl, strategy, folder) {
     super(app2, inputEl);
     this.app = app2;
@@ -4113,17 +5438,67 @@ var FileSuggest = class extends import_obsidian6.AbstractInputSuggest {
     this.folder = folder;
   }
   getSuggestions(input_str) {
-    const all_files = get_tfiles_from_folder(this.folder, this.app);
+    const all_files = pipe2(
+      get_tfiles_from_folder(this.folder, this.app),
+      E.map(A.map((file) => enrich_tfile(file, this.app)))
+    );
     if (E.isLeft(all_files)) {
       return [];
     }
     const lower_input_str = input_str.toLowerCase();
-    return all_files.right.filter((file) => {
-      return file instanceof import_obsidian6.TFile && file.extension === "md" && file.path.toLowerCase().contains(lower_input_str);
+    if (input_str === "")
+      return all_files.right;
+    const fuse = new Fuse(all_files.right, {
+      includeMatches: false,
+      includeScore: true,
+      shouldSort: true,
+      keys: [
+        { name: "path", weight: 2 },
+        { name: "tags", weight: 1 },
+        { name: "frontmatter.aliases", weight: 2 }
+      ]
+    });
+    return fuse.search(lower_input_str).map((result) => {
+      return result.item;
     });
   }
+  /* This is an example structure of how a obsidian suggestion looks like in the dom
+          <div class="suggestion">
+              <div class="suggestion-item mod-complex is-selected">
+                  <div class="suggestion-content">
+                      <div class="suggestion-title">
+                          <span class="suggestion-highlight">Fátima</span>
+                      </div>
+                      <div class="suggestion-note">Fátima</div>
+                  </div>
+                  <div class="suggestion-aux">
+                      <span class="suggestion-flair" aria-label="Alias">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-forward">
+                              <polyline points="15 17 20 12 15 7"></polyline>
+                              <path d="M4 18v-2a4 4 0 0 1 4-4h12"></path>
+                          </svg>
+                      </span>
+                  </div>
+              </div>
+          </div>
+  In the renderSuggestion the `el` is the suggestion-item div
+  */
   renderSuggestion(file, el) {
-    el.setText(this.strategy.renderSuggestion(file));
+    var _a;
+    const text3 = this.strategy.renderSuggestion(file);
+    el.addClasses(["mod-complex"]);
+    const title = el.createDiv({ cls: "suggestion-title", text: text3 });
+    const subtitle = el.createDiv({
+      cls: "suggestion-note modal-form-suggestion",
+      text: (_a = file.parent) == null ? void 0 : _a.path
+    });
+    const icon = el.createSpan({ cls: "suggestion-icon" });
+    (0, import_obsidian5.setIcon)(icon, "folder");
+    subtitle.prepend(icon);
+    const body = el.createDiv({ cls: "suggestion-content" });
+    body.appendChild(title);
+    body.appendChild(subtitle);
+    el.appendChild(body);
   }
   selectSuggestion(file) {
     this.inputEl.value = this.strategy.selectSuggestion(file);
@@ -4133,7 +5508,7 @@ var FileSuggest = class extends import_obsidian6.AbstractInputSuggest {
 };
 
 // src/suggesters/suggestFromDataview.ts
-var import_obsidian7 = require("obsidian");
+var import_obsidian6 = require("obsidian");
 
 // src/suggesters/SafeDataviewQuery.ts
 function sandboxedDvQuery(query) {
@@ -4185,7 +5560,7 @@ function createRegexFromInput(input) {
 }
 
 // src/suggesters/suggestFromDataview.ts
-var DataviewSuggest = class extends import_obsidian7.AbstractInputSuggest {
+var DataviewSuggest = class extends import_obsidian6.AbstractInputSuggest {
   constructor(inputEl, dvQuery, app2) {
     super(app2, inputEl);
     this.inputEl = inputEl;
@@ -4501,8 +5876,8 @@ function makeFormEngine(onSubmit, defaultValues = {}) {
 }
 
 // src/suggesters/suggestFolder.ts
-var import_obsidian8 = require("obsidian");
-var FolderSuggest = class extends import_obsidian8.AbstractInputSuggest {
+var import_obsidian7 = require("obsidian");
+var FolderSuggest = class extends import_obsidian7.AbstractInputSuggest {
   constructor(inputEl, app2) {
     super(app2, inputEl);
     this.inputEl = inputEl;
@@ -4512,7 +5887,7 @@ var FolderSuggest = class extends import_obsidian8.AbstractInputSuggest {
     const abstractFiles = this.app.vault.getAllLoadedFiles();
     const lowerCaseInputStr = inputStr.toLowerCase();
     const folders = abstractFiles.reduce((acc, folder) => {
-      if (folder instanceof import_obsidian8.TFolder && folder.path.toLowerCase().contains(lowerCaseInputStr)) {
+      if (folder instanceof import_obsidian7.TFolder && folder.path.toLowerCase().contains(lowerCaseInputStr)) {
         acc.push(folder);
       }
       return acc;
@@ -4528,6 +5903,127 @@ var FolderSuggest = class extends import_obsidian8.AbstractInputSuggest {
     this.close();
   }
 };
+
+// src/views/components/MultiSelectModel.ts
+var import_function9 = __toESM(require_function());
+
+// src/suggesters/StringSuggest.ts
+var import_obsidian8 = require("obsidian");
+var StringSuggest = class extends import_obsidian8.AbstractInputSuggest {
+  constructor(inputEl, content, onSelectCb, app2, allowUnknownValues = false) {
+    super(app2, inputEl);
+    this.inputEl = inputEl;
+    this.onSelectCb = onSelectCb;
+    this.allowUnknownValues = allowUnknownValues;
+    this.content = content;
+  }
+  getSuggestions(inputStr) {
+    const lowerCaseInputStr = inputStr.toLocaleLowerCase();
+    const candidates = this.allowUnknownValues && inputStr !== "" ? [...this.content, inputStr] : Array.from(this.content);
+    return candidates.filter(
+      (content) => content.toLocaleLowerCase().contains(lowerCaseInputStr)
+    );
+  }
+  renderSuggestion(content, el) {
+    el.setText(content);
+  }
+  selectSuggestion(content, evt) {
+    this.onSelectCb(content);
+    this.inputEl.value = "";
+    this.close();
+    this.inputEl.focus();
+  }
+};
+
+// src/views/components/MultiSelectModel.ts
+function MultiSelectModel(fieldInput, app2, values) {
+  const source = fieldInput.source;
+  const removeValue = (value) => values.update(
+    (xs) => pipe2(
+      xs,
+      A.filter((x) => x !== value)
+    )
+  );
+  switch (source) {
+    case "dataview":
+    case "fixed": {
+      const remainingOptions = new Set(
+        source === "fixed" ? fieldInput.multi_select_options : executeSandboxedDvQuery(sandboxedDvQuery(fieldInput.query), app2)
+      );
+      return {
+        createInput(element2) {
+          new StringSuggest(
+            element2,
+            remainingOptions,
+            (selected) => {
+              remainingOptions.delete(selected);
+              values.update((x) => [...x, selected]);
+            },
+            app2,
+            fieldInput.allowUnknownValues
+          );
+        },
+        removeValue(value) {
+          remainingOptions.add(value);
+          removeValue(value);
+        }
+      };
+    }
+    case "notes": {
+      return {
+        createInput(element2) {
+          new FileSuggest(
+            app2,
+            element2,
+            {
+              renderSuggestion(file) {
+                return file.basename;
+              },
+              selectSuggestion(file) {
+                values.update((x) => [...x, file.basename]);
+                return "";
+              }
+            },
+            fieldInput.folder
+          );
+        },
+        removeValue
+      };
+    }
+    default:
+      return (0, import_function9.absurd)(source);
+  }
+}
+function MultiSelectTags(fieldInput, app2, values) {
+  const remainingOptions = new Set(
+    Object.keys(app2.metadataCache.getTags()).map(
+      (tag) => tag.slice(1)
+    )
+  );
+  return {
+    createInput(element2) {
+      new StringSuggest(
+        element2,
+        remainingOptions,
+        (selected) => {
+          remainingOptions.delete(selected);
+          values.update((x) => [...x, selected]);
+        },
+        app2,
+        true
+      );
+    },
+    removeValue(value) {
+      remainingOptions.add(value);
+      values.update(
+        (x) => pipe2(
+          x,
+          A.filter((x2) => x2 !== value)
+        )
+      );
+    }
+  };
+}
 
 // src/FormModal.ts
 var notify = throttle(
@@ -4663,50 +6159,38 @@ var FormModal = class extends import_obsidian9.Modal {
             slider.onChange(fieldStore.value.set);
           });
         case "multiselect": {
-          const source = fieldInput.source;
-          const allowUnknownValues = allowsUnknownValues(fieldInput);
-          const options = source == "fixed" ? fieldInput.multi_select_options : source == "notes" ? pipe2(
-            get_tfiles_from_folder(fieldInput.folder, this.app),
-            E.map(A.map((file) => file.basename)),
-            E.getOrElse((err) => {
-              log_error(err);
-              return [];
-            })
-          ) : executeSandboxedDvQuery(
-            sandboxedDvQuery(fieldInput.query),
-            this.app
-          );
           fieldStore.value.set(initialValue != null ? initialValue : []);
           this.svelteComponents.push(
             new MultiSelect_default({
               target: fieldBase.controlEl,
               props: {
+                model: MultiSelectModel(
+                  fieldInput,
+                  this.app,
+                  fieldStore.value
+                ),
                 values: fieldStore.value,
-                availableOptions: options,
                 errors: fieldStore.errors,
-                setting: fieldBase,
-                app: this.app,
-                allowUnknownValues
+                setting: fieldBase
               }
             })
           );
           return;
         }
         case "tag": {
-          const options = Object.keys(this.app.metadataCache.getTags()).map(
-            (tag) => tag.slice(1)
-          );
           fieldStore.value.set(initialValue != null ? initialValue : []);
           this.svelteComponents.push(
             new MultiSelect_default({
               target: fieldBase.controlEl,
               props: {
                 values: fieldStore.value,
-                availableOptions: options,
                 setting: fieldBase,
                 errors: fieldStore.errors,
-                app: this.app,
-                allowUnknownValues: true
+                model: MultiSelectTags(
+                  fieldInput,
+                  this.app,
+                  fieldStore.value
+                )
               }
             })
           );
@@ -5637,11 +7121,11 @@ function instance5($$self, $$props, $$invalidate) {
   let { folder = "" } = $$props;
   let { notifyChange } = $$props;
   function searchFolder(element2) {
-    new import_obsidian10.Setting(element2).addSearch((search) => {
-      search.setPlaceholder("Select a folder");
-      search.setValue(folder);
-      new FolderSuggest(search.inputEl, app);
-      search.onChange((value) => {
+    new import_obsidian10.Setting(element2).addSearch((search2) => {
+      search2.setPlaceholder("Select a folder");
+      search2.setValue(folder);
+      new FolderSuggest(search2.inputEl, app);
+      search2.onChange((value) => {
         $$invalidate(2, folder = value);
         notifyChange();
       });
@@ -7266,14 +8750,14 @@ var stream = function(buffer, cursor) {
     cursor
   };
 };
-var get = function(s) {
+var get2 = function(s) {
   return lookup2(s.cursor, s.buffer);
 };
 var atEnd = function(s) {
   return s.cursor >= s.buffer.length;
 };
 var getAndNext = function(s) {
-  return pipe(get(s), map3(function(a) {
+  return pipe(get2(s), map3(function(a) {
     return { value: a, next: { buffer: s.buffer, cursor: s.cursor + 1 } };
   }));
 };
@@ -7360,7 +8844,7 @@ var withStart = function(p2) {
   };
 };
 var maybe = function(M) {
-  return alt(function() {
+  return alt2(function() {
     return of3(M.empty);
   });
 };
@@ -7370,7 +8854,7 @@ var eof = function() {
   }, "end of file");
 };
 var many = function(p2) {
-  return pipe(many1(p2), alt(function() {
+  return pipe(many1(p2), alt2(function() {
     return of3([]);
   }));
 };
@@ -7379,7 +8863,7 @@ var many1 = function(parser) {
     return chainRec_(of2(head5), function(acc) {
       return pipe(parser, map5(function(a) {
         return left2(append4(a)(acc));
-      }), alt(function() {
+      }), alt2(function() {
         return of3(right2(acc));
       }));
     });
@@ -7387,7 +8871,7 @@ var many1 = function(parser) {
 };
 var sepBy = function(sep, p2) {
   var nil = of3([]);
-  return pipe(sepBy1(sep, p2), alt(function() {
+  return pipe(sepBy1(sep, p2), alt2(function() {
     return nil;
   }));
 };
@@ -7418,7 +8902,7 @@ var lookAhead = function(p2) {
   };
 };
 var optional2 = function(parser) {
-  return pipe(parser, map5(some3), alt(function() {
+  return pipe(parser, map5(some3), alt2(function() {
     return succeed(none2);
   }));
 };
@@ -7427,7 +8911,7 @@ var many1Till = function(parser, terminator) {
     return chainRec_(of(x), function(acc) {
       return pipe(terminator, map5(function() {
         return right2(acc);
-      }), alt(function() {
+      }), alt2(function() {
         return pipe(parser, map5(function(a) {
           return left2(append3(a)(acc));
         }));
@@ -7507,7 +8991,7 @@ var chainFirst = function(f2) {
     });
   };
 };
-var alt = function(that) {
+var alt2 = function(that) {
   return function(fa) {
     return alt_(fa, that);
   };
@@ -7674,7 +9158,7 @@ function run2(string3) {
 }
 
 // src/core/template/templateParser.ts
-var import_function13 = __toESM(require_function());
+var import_function14 = __toESM(require_function());
 var import_obsidian12 = require("obsidian");
 function TemplateText(value) {
   return { _tag: "text", value };
@@ -7722,15 +9206,15 @@ var commandParser = pipe2(
   map5((value) => {
     return pipe2(
       value,
-      O.fold(() => [], import_function13.identity),
+      O.fold(() => [], import_function14.identity),
       FrontmatterCommand
     );
   })
 );
 var OpenOrEof = pipe2(
   open,
-  alt(() => commandOpen),
-  alt(() => EofStr)
+  alt2(() => commandOpen),
+  alt2(() => EofStr)
 );
 var anythingUntilOpenOrEOF = many1Till(
   item(),
@@ -7742,8 +9226,8 @@ var text2 = pipe2(
 );
 var TextOrVariable = pipe2(
   templateIdentifier,
-  alt(() => commandParser),
-  alt(() => text2)
+  alt2(() => commandParser),
+  alt2(() => text2)
 );
 var Template = pipe2(
   many(TextOrVariable),
@@ -7792,7 +9276,7 @@ function tokenToString(token) {
     case "frontmatter-command":
       return `{{# frontmatter pick: ${token.pick.join(", ")}, omit: ${token.omit.join(", ")} #}}`;
     default:
-      return (0, import_function13.absurd)(tag);
+      return (0, import_function14.absurd)(tag);
   }
 }
 function matchToken(onText, onVariable, onCommand) {
@@ -7805,7 +9289,7 @@ function matchToken(onText, onVariable, onCommand) {
       case "frontmatter-command":
         return onCommand(token);
       default:
-        return (0, import_function13.absurd)(token);
+        return (0, import_function14.absurd)(token);
     }
   };
 }
@@ -8348,7 +9832,7 @@ var TemplateEditor = class extends SvelteComponent {
 var TemplateEditor_default = TemplateEditor;
 
 // src/views/FormBuilder.svelte
-var import_function14 = __toESM(require_function());
+var import_function15 = __toESM(require_function());
 
 // src/views/components/Tabs.svelte
 function add_css7(target) {
@@ -11140,7 +12624,7 @@ function instance11($$self, $$props, $$invalidate) {
     if ($$self.$$.dirty[0] & /*definition*/
     1) {
       $:
-        $$invalidate(6, fieldNames = (0, import_function14.pipe)(definition.fields, A.map((f2) => f2.name)));
+        $$invalidate(6, fieldNames = (0, import_function15.pipe)(definition.fields, A.map((f2) => f2.name)));
     }
   };
   $:

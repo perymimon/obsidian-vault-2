@@ -11,8 +11,13 @@
             "id": "b258d899107b0636",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "אנשים/גילי כהן.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#משחקי-לוח  ",
+                "query": "[\"tags\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,11 +66,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 307.5
+    "width": 302.5
   },
   "right": {
     "id": "7598a77bad2a22d5",
@@ -80,7 +86,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "אנשים/גילי כהן.md"
+              }
             }
           },
           {
@@ -144,7 +152,7 @@
                       "allowUnknownValues": false,
                       "query": "",
                       "multi_select_options": [],
-                      "source": "notes",
+                      "source": "dataview",
                       "folder": "אנשים"
                     },
                     "isRequired": false
@@ -155,7 +163,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -167,26 +175,28 @@
       "markdown-importer:Open Markdown importer": true,
       "zk-prefixer:Create new unique note": true,
       "chronology:Open Chronology": false,
-      "templater-obsidian:Templater": false,
       "daily-notes:Open today's note": false,
       "switcher:Open quick switcher": false,
-      "modalforms:Edit forms": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "templater-obsidian:Templater": false,
+      "modalforms:Edit forms": false
     }
   },
-  "active": "71318f1eef9db5ac",
+  "active": "24d4839dd5af5bb4",
   "lastOpenFiles": [
+    "אנשים/בלה.md",
+    "אנשים/אנסטסיה.md",
+    "אנשים/אנית גרוסמן.md",
+    "אנשים/אמא מזל מימון.md",
+    "אנשים/אילון-מאסק.md",
     "אנשים/ענבר איזנמן.md",
     "אנשים/ענבר איזנמן (conflict 2023-12-20-16-27-57).md",
-    "אנשים/אילון-מאסק.md",
     "אנשים/אילון-מאסק (conflict 2023-11-25-14-45-03).md",
     "אנשים/Ordan Trablsi.md",
     "inbox/test.md",
-    "אנשים/אנסטסיה.md",
     "inbox/202401171323.md",
     "אנשים/השחקנית.md",
     "אנשים/איילה.md",
-    "אנשים/אמא מזל מימון.md",
     "אנשים/גילי כהן.md",
     "אנשים/דני.md",
     "database/log - Fury of Dracula.md",
@@ -204,9 +214,7 @@
     "scripts/flat-object.js",
     "scripts/habbit-tracking.js",
     "Jornal/daily/2024-01-16 (1).md",
-    "משאבים/ספרים/הפרדס של עקיבא.md",
     "Jornal/monthly",
-    "tm/tp - daily template.md",
     "tm/meta-bind",
     "משאבים/goodreads-db",
     "ספרים",
