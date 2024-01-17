@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "archive/Fury of Dracula (2th Edition) 2005 (.1 rank score).md",
+                "file": "inbox/test.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -121,7 +121,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "database/log - Fury of Dracula.md"
+                "file": "inbox/test.md"
               }
             }
           },
@@ -172,9 +172,10 @@
       "modalforms:Edit forms": false
     }
   },
-  "active": "db8ca16e06d90bc0",
+  "active": "4d222f2195847b40",
   "lastOpenFiles": [
     "archive/Fury of Dracula (2th Edition) 2005 (.1 rank score).md",
+    "inbox/test.md",
     "database/log - Fury of Dracula.md",
     "archive/2021 הזמנה ליום הולדת של איתמר.md",
     "archive/2018-05-03 - מכתב לביטוח הלאומי.md",
@@ -205,7 +206,6 @@
     "מחשבה.md",
     "2024-01-14.md",
     "Jornal/daily/2024-01-12 (conflict 2024-01-13-17-19-30).md",
-    "משאבים/goodreads-db/Breath and Bone.md",
     "משאבים/goodreads-db",
     "ספרים",
     "Book/goodreads-db",
