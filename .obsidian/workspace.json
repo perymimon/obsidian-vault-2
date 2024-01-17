@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "אנשים/גילי כהן.md",
+                "file": "אנשים/דני.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "אנשים/גילי כהן.md"
+                "file": "אנשים/דני.md"
               }
             }
           },
@@ -162,28 +161,31 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 746.5
+    "width": 523.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "command-palette:Open command palette": true,
       "markdown-importer:Open Markdown importer": true,
       "zk-prefixer:Create new unique note": true,
-      "chronology:Open Chronology": false,
       "daily-notes:Open today's note": false,
       "switcher:Open quick switcher": false,
-      "periodic-notes:Open today": false,
       "templater-obsidian:Templater": false,
-      "modalforms:Edit forms": false
+      "modalforms:Edit forms": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "24d4839dd5af5bb4",
+  "active": "b258d899107b0636",
   "lastOpenFiles": [
+    "אנשים/דני.md",
+    "אנשים/יהודה פולק.md",
+    "אנשים/אופק דאון.md",
+    "tm/tp - Book Detail.md",
+    "אנשים/גילי כהן.md",
     "אנשים/בלה.md",
     "אנשים/אנסטסיה.md",
     "אנשים/אנית גרוסמן.md",
@@ -197,8 +199,6 @@
     "inbox/202401171323.md",
     "אנשים/השחקנית.md",
     "אנשים/איילה.md",
-    "אנשים/גילי כהן.md",
-    "אנשים/דני.md",
     "database/log - Fury of Dracula.md",
     "Jornal/daily/2024-01-15.md",
     "archive/Fury of Dracula (2th Edition) 2005 (.1 rank score).md",
@@ -208,12 +208,9 @@
     "אנשים/jornal/2023-10-18.md",
     "database",
     "tm/meta-bind/habbit-tracker.md",
-    "Jornal/daily/2024-01-16.md",
-    "Jornal/daily/2024-01-17.md",
     "scripts/metabind-template-input.js",
     "scripts/flat-object.js",
     "scripts/habbit-tracking.js",
-    "Jornal/daily/2024-01-16 (1).md",
     "Jornal/monthly",
     "tm/meta-bind",
     "משאבים/goodreads-db",

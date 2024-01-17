@@ -10,10 +10,10 @@
   "obsidian-linter",
   "obsidian-git",
   "calendar",
-  "chronology",
   "templater-obsidian",
   "periodic-notes",
   "quickadd",
   "js-engine",
-  "modalforms"
+  "modalforms",
+  "tag-wrangler"
 ]
