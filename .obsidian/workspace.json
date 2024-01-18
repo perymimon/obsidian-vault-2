@@ -4,23 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "0313a6262f5096ef",
-        "type": "tabs",
+        "id": "f4f765ff06fe2c50",
+        "type": "split",
         "children": [
           {
-            "id": "b258d899107b0636",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "inbox/202401171323.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
+            "id": "0313a6262f5096ef",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b258d899107b0636",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "tm/quick-add/game-log-template.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": true
+                  }
+                }
               }
-            }
+            ]
+          },
+          {
+            "id": "0c4092fda196895f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "81a68b3c1615e164",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Jornal/daily/2024-01-17.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": true
+                  }
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -87,7 +113,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "inbox/202401171323.md"
+                "file": "tm/quick-add/game-log-template.md"
               }
             }
           },
@@ -124,7 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 947.5
+    "width": 344.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -138,14 +164,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6abbcb0d476d0062",
+  "active": "b258d899107b0636",
   "lastOpenFiles": [
-    "tm/quick-add/game-log-template.md",
+    "Jornal/daily/2024-01-17.md",
     "Jornal/daily/2024-01-18.md",
+    "tm/tp - daily template.md",
+    "tm/quick-add/game-log-template.md",
+    "inbox/202401171323.md",
     "tm/quick-add/game-log.md",
     "tm/quick-add",
     "inbox/202312271907.md",
-    "inbox/202401171323.md",
     "אנשים/נריה רוזנר.md",
     "אנשים/סטאס פירר.md",
     "אנשים/אופק דאון.md",
@@ -165,8 +193,6 @@
     "אנשים/ענבר איזנמן (conflict 2023-12-20-16-27-57).md",
     "אנשים/אילון-מאסק (conflict 2023-11-25-14-45-03).md",
     "אנשים/Ordan Trablsi.md",
-    "inbox/test.md",
-    "אנשים/השחקנית.md",
     "database",
     "scripts/metabind-template-input.js",
     "scripts/flat-object.js",
