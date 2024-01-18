@@ -139,6 +139,13 @@
       },
       "openFile": true,
       "openFileInMode": "source"
+    },
+    {
+      "id": "e062e620-fe43-4ed3-aae8-98fc234b760f",
+      "name": "game-log",
+      "type": "Macro",
+      "command": true,
+      "macroId": "da02eb7e-9dc7-41fd-b20b-10f9bc57aaea"
     }
   ],
   "macros": [
@@ -155,7 +162,7 @@
             "name": "game-log-template",
             "type": "Template",
             "command": false,
-            "templatePath": "tm/quick-add/game-log.md",
+            "templatePath": "tm/quick-add/game-log-template.md",
             "fileNameFormat": {
               "enabled": true,
               "format": "game-log-{{date}}-{{time}}.md"

@@ -118,52 +118,9 @@
               "type": "calendar",
               "state": {}
             }
-          },
-          {
-            "id": "71318f1eef9db5ac",
-            "type": "leaf",
-            "state": {
-              "type": "modal-form-edit-form-view",
-              "state": {
-                "title": "Tob Table Game",
-                "name": "TopTableGame",
-                "version": "1",
-                "fields": [
-                  {
-                    "name": "game",
-                    "label": "Game",
-                    "description": "",
-                    "input": {
-                      "type": "dataview",
-                      "allowUnknownValues": false,
-                      "folder": "אנשים",
-                      "options": [],
-                      "source": "notes",
-                      "query": "dv.pages(\"#משחקי-לוח\").file.name"
-                    },
-                    "isRequired": false
-                  },
-                  {
-                    "name": "players",
-                    "label": "Players",
-                    "description": "",
-                    "input": {
-                      "type": "multiselect",
-                      "allowUnknownValues": false,
-                      "query": "dv.pages('#gamer').file.name",
-                      "multi_select_options": [],
-                      "source": "dataview",
-                      "folder": "אנשים"
-                    },
-                    "isRequired": false
-                  }
-                ],
-                "customClassname": "TopTableGame"
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -181,7 +138,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b258d899107b0636",
+  "active": "6abbcb0d476d0062",
   "lastOpenFiles": [
     "tm/quick-add/game-log-template.md",
     "Jornal/daily/2024-01-18.md",
