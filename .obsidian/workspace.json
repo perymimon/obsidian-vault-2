@@ -11,13 +11,8 @@
             "id": "b258d899107b0636",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "database/2024-01-18-1912-game-log-{{game}}.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,9 +80,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "database/2024-01-18-1912-game-log-{{game}}.md"
-              }
+              "state": {}
             }
           },
           {
@@ -139,8 +132,10 @@
   },
   "active": "b258d899107b0636",
   "lastOpenFiles": [
-    "database/game-log-2024-01-18-1858.md",
+    "database/2024-01-18-1948-game-log-13123123.md",
     "database/2024-01-18-1912-game-log-{{game}}.md",
+    "database/2024-01-18-1946-game-log-{{game}}.md",
+    "database/game-log-2024-01-18-1858.md",
     "database/game-log-2024-01-18-1844.md",
     "archive/הזמנה לארוחת צהרים בווילה.md",
     "2024-01-05.md",
@@ -164,8 +159,6 @@
     "אנשים/ענבר איזנמן.md",
     "אנשים/איליה.md",
     "אנשים/דני.md",
-    "אנשים/יהודה פולק.md",
-    "tm/tp - Book Detail.md",
     "database",
     "scripts/metabind-template-input.js",
     "scripts/flat-object.js",
