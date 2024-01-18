@@ -143,25 +143,25 @@
   ],
   "macros": [
     {
-      "name": "123",
-      "id": "7b4c434c-99e9-4fdf-be47-6c360aaa1706",
+      "name": "game-log",
+      "id": "da02eb7e-9dc7-41fd-b20b-10f9bc57aaea",
       "commands": [
         {
-          "name": "Untitled Template Choice",
+          "name": "game-log-template",
           "type": "NestedChoice",
-          "id": "0a2b1466-36db-4383-b22f-e58aad360e38",
+          "id": "2587ab03-acb7-4996-93c0-452240d2b9eb",
           "choice": {
-            "id": "86253d11-b016-4816-82c7-8f530b9951ec",
-            "name": "Untitled Template Choice",
+            "id": "d8dba642-9745-4f49-adb9-12c9e1028d60",
+            "name": "game-log-template",
             "type": "Template",
             "command": false,
-            "templatePath": "",
+            "templatePath": "tm/quick-add/game-log.md",
             "fileNameFormat": {
-              "enabled": false,
-              "format": ""
+              "enabled": true,
+              "format": "game-log-{{date}}-{{time}}.md"
             },
             "folder": {
-              "enabled": false,
+              "enabled": true,
               "folders": [],
               "chooseWhenCreatingNote": false,
               "createInSameFolderAsActiveFile": false,
@@ -176,16 +176,10 @@
             "openFile": false,
             "openFileInMode": "default",
             "fileExistsMode": "Increment the file name",
-            "setFileExistsBehavior": false
+            "setFileExistsBehavior": true
           }
         }
       ],
-      "runOnStartup": false
-    },
-    {
-      "name": "game-log",
-      "id": "da02eb7e-9dc7-41fd-b20b-10f9bc57aaea",
-      "commands": [],
       "runOnStartup": false
     }
   ],
