@@ -23,7 +23,7 @@ bgg-rank: 6.9
 https://boardgamegeek.com/boardgame/20963/fury-dracula-second-edition
 
 ## Logs
-![[log - Fury of Dracula]]
+![[game log - Fury of Dracula]]
 
 
 | date | time | players | win | 

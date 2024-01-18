@@ -165,11 +165,13 @@
             "templatePath": "tm/quick-add/game-log-template.md",
             "fileNameFormat": {
               "enabled": true,
-              "format": "game-log-{{date}}-{{time}}.md"
+              "format": "game-log-{{date}}-{{time:HHmm}}.md"
             },
             "folder": {
               "enabled": true,
-              "folders": [],
+              "folders": [
+                "database"
+              ],
               "chooseWhenCreatingNote": false,
               "createInSameFolderAsActiveFile": false,
               "chooseFromSubfolders": false

@@ -1,23 +1,20 @@
+---
+---
+
 ```js quickadd
-console.log(this, arguments)
 const modalForm = app.plugins.plugins.modalforms.api;
 const result = await modalForm.openForm("top-table-game");
-Object.assign(this.variable, result)
+Object.assign(this.variables, result.data)
+debugger
 ```
+day:: {{DATE:YYYY-MM-DD}}
+start:: {{time}} 
 
-# GAME: {{value: result.game}}
+# game-log: {{value: game}}
+
 ```js quickadd
-this.variable.players
+console.log(this.variables)
+return this.variables.players.
+	map(name=> `- [[${name}]]::`+`\`INPUT[:score[${name}]]\``)
+    .join('\n')
 ```
-
-# top table game log
-start:: 10:00
-## players
-    [[dany]]:: 60,000
-    [[pery]]:: 58,000
-
-end:: 12:00
-
-win:: [[dany]]
-
-## comments
