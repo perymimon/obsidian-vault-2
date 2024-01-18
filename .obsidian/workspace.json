@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "archive/הזמנה לארוחת צהרים בווילה.md",
+                "file": "database/game-log-2024-01-18-1858.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "archive/הזמנה לארוחת צהרים בווילה.md"
+                "file": "database/game-log-2024-01-18-1858.md"
               }
             }
           },
@@ -137,8 +137,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b52c9dfd18c75d28",
+  "active": "b258d899107b0636",
   "lastOpenFiles": [
+    "database/game-log-2024-01-18-1844.md",
+    "database/game-log-2024-01-18-1858.md",
+    "archive/הזמנה לארוחת צהרים בווילה.md",
     "2024-01-05.md",
     "game-log-2024-01-18-1840.md",
     "game-log-2024-01-18-1830.md",
@@ -163,9 +166,6 @@
     "אנשים/יהודה פולק.md",
     "tm/tp - Book Detail.md",
     "אנשים/גילי כהן.md",
-    "אנשים/בלה.md",
-    "אנשים/אנסטסיה.md",
-    "אנשים/אנית גרוסמן.md",
     "database",
     "scripts/metabind-template-input.js",
     "scripts/flat-object.js",
