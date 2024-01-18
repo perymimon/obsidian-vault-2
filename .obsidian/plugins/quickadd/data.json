@@ -181,6 +181,12 @@
         }
       ],
       "runOnStartup": false
+    },
+    {
+      "name": "game-log",
+      "id": "da02eb7e-9dc7-41fd-b20b-10f9bc57aaea",
+      "commands": [],
+      "runOnStartup": false
     }
   ],
   "inputPrompt": "multi-line",

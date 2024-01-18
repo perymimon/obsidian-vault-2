@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "אנשים/נריה רוזנר.md",
+                "file": "inbox/202401171323.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5
+    "width": 302.5,
+    "collapsed": true
   },
   "right": {
     "id": "7598a77bad2a22d5",
@@ -86,7 +87,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "אנשים/נריה רוזנר.md"
+                "file": "inbox/202401171323.md"
               }
             }
           },
@@ -149,7 +150,7 @@
                     "input": {
                       "type": "multiselect",
                       "allowUnknownValues": false,
-                      "query": "",
+                      "query": "dv.pages('#gamer').file.name",
                       "multi_select_options": [],
                       "source": "dataview",
                       "folder": "אנשים"
@@ -180,10 +181,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "71318f1eef9db5ac",
+  "active": "b258d899107b0636",
   "lastOpenFiles": [
-    "אנשים/סטאס פירר.md",
+    "tm/quick-add/game-log.md",
+    "tm/quick-add",
+    "inbox/202312271907.md",
+    "inbox/202401171323.md",
     "אנשים/נריה רוזנר.md",
+    "אנשים/סטאס פירר.md",
     "אנשים/אופק דאון.md",
     "אנשים/איילה.md",
     "אנשים/פרי מימון.md",
@@ -202,12 +207,9 @@
     "אנשים/אילון-מאסק (conflict 2023-11-25-14-45-03).md",
     "אנשים/Ordan Trablsi.md",
     "inbox/test.md",
-    "inbox/202401171323.md",
     "אנשים/השחקנית.md",
     "database/log - Fury of Dracula.md",
     "Jornal/daily/2024-01-15.md",
-    "archive/Fury of Dracula (2th Edition) 2005 (.1 rank score).md",
-    "archive/2021 הזמנה ליום הולדת של איתמר.md",
     "database",
     "scripts/metabind-template-input.js",
     "scripts/flat-object.js",
@@ -217,7 +219,6 @@
     "משאבים/goodreads-db",
     "ספרים",
     "Book/goodreads-db",
-    "Book",
     "Untitled.canvas",
     "assets/13dd9a2e550.bcd8073ff147be95.jpg",
     "assets/13dfeedbd74.8a43a4cc67bd6a4c.jpg",
