@@ -3,6 +3,7 @@ aliases:
 cssclasse: 
 date-created: 2022-06-06
 date-modified: 2024-01-19
+end: 20:00
 tags:
   - topTableGame
 ---
@@ -23,10 +24,6 @@ Scythe משתמש במנגנון יעיל לבחירת פעולה (ללא סיב
 
 [Scythe | Image | BoardGameGeek](https://boardgamegeek.com/image/3163924/scythe)
 
-## log
+## Game Log
 
-```dataview 
-table from [[]] 
-
-```
-
+![[game-log@  scythe]]

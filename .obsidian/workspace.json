@@ -6,6 +6,7 @@
       {
         "id": "cbae57caa1595223",
         "type": "tabs",
+        "dimension": 55.242227042660886,
         "children": [
           {
             "id": "5d9082d93568c201",
@@ -25,6 +26,7 @@
       {
         "id": "4f27c55ec575e736",
         "type": "tabs",
+        "dimension": 25.16268980477224,
         "children": [
           {
             "id": "5f79d06158f8c2e6",
@@ -32,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "database/game-log@ game@ scythe.md",
+                "file": "database/topTableGame/game@ Scythe.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -44,6 +46,7 @@
       {
         "id": "a61190835e4a06bb",
         "type": "tabs",
+        "dimension": 19.595083152566882,
         "children": [
           {
             "id": "54b2879fdddf4389",
@@ -51,8 +54,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "database/game-log@ game@ scythe.md",
-                "mode": "preview",
+                "file": "database/game-log@  scythe.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -109,7 +112,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "7598a77bad2a22d5",
@@ -125,7 +129,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "database/game-log@ game@ scythe.md"
+                "file": "note/Examples Dataview query.md"
               }
             }
           },
@@ -165,13 +169,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 762.5,
-    "collapsed": true
+    "width": 492.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,10 +187,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5f79d06158f8c2e6",
+  "active": "5d9082d93568c201",
   "lastOpenFiles": [
     "database/topTableGame/game@ Scythe.md",
-    "database/game-log@ game@ scythe.md",
+    "database/game-log@  scythe.md",
     "note/Examples Dataview query.md",
     "note/obsidian code reference.md",
     "משאבים/goodreads-db/Guardians of the West.md",
