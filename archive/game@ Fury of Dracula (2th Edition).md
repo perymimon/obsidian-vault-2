@@ -1,16 +1,15 @@
 ---
 aliases:
   - Fury of Dracula (2th Edition) 2005 (7.1 rank score)
+bgg-link: https://boardgamegeek.com/boardgame/20963/fury-dracula-second-edition
 cssclasse: 
 date-created: 2022-06-06
-date-modified: 2023-11-08
+date-modified: 2024-01-19
 tags:
-  - משחקי-לוח/תיאור-משחקים
-bgg-link: https://boardgamegeek.com/boardgame/20963/fury-dracula-second-edition
-bgg-rank: 6.9
+  - topTableGame
 ---
 
-# Fury of Dracula (2th Edition) 2005 (.1 Rank score)
+[score: 7.1] [release: 2005]
 
 משחק הרפתקאות גותי, שחקן אחד לוקח את התפקיד של דרקולה בעוד ארבעה אחרים מנסים לעצור אותו על ידי כציידי ערפדים מהרומן המפורסם של בראם סטוקר.
 
@@ -20,21 +19,6 @@ bgg-rank: 6.9
 
 כדי להציל את אירופה ולפטר את העולם מהמגיפה הרעה של דרקולה, על הציידים להשמיד את דרקולה לפני שהוא צובר מספיק נקודות ניצחון כדי לנצח במשחק... האם יהיו להם מספיק שנינות ואומץ כדי להביס את הרוזן האפל?
 
-https://boardgamegeek.com/boardgame/20963/fury-dracula-second-edition
+[Fury of Dracula (Second Edition) | Board Game | BoardGameGeek](https://boardgamegeek.com/boardgame/20963/fury-dracula-second-edition)
 
 ## Logs
-![[game log - Fury of Dracula]]
-
-
-| date | time | players | win | 
-| --- | --- | --- | --- | --- |
-| [[2024-01-17]]|19:00 | @dany:60000 @elya:50000 | @elya
-
-- [[2024-01-17]]
-	time:: 19:00
-	 players:
-		 - @dany::600000
-		 - @elya:: 60000
-	win:
-		@elya
-	

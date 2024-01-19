@@ -1,12 +1,14 @@
 <%*
  const result = await app.plugins.plugins.modalforms.api.openForm("top-table-game");
  let folder = "database"
- var filename = `game-log@ ${ result.game.value.toLowerCase() }`
+ let gameName = result.game.value.toLowerCase()
+ var filename = `game-log@ ${ gameName }`
  _%>
 ---
 <% result.asFrontmatter() %>
+tags: game-log/<% gameName.replace(/\s+/g,'') %>
 ---
-[day:: <% tp.date.now("YYYY-MM-DD") %>] [start:: <% tp.date.now("HH:mm") %>]
+[day:: <% tp.date.now("YYYY-MM-DD") %>] [start:: <% tp.date.now("HH:mm") %>] [end:: `INPUT[time:end]`]
 
 <%*
 tR += result.players.value.map(name=> `- [[${name}]]::\`INPUT[text:score["${name}"]]\``)

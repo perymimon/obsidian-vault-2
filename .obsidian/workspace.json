@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "0313a6262f5096ef",
+        "id": "af50b5fc184f412c",
         "type": "tabs",
         "children": [
           {
@@ -13,8 +13,66 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "database/game-log@ netrunner.md",
-                "mode": "preview",
+                "file": "database/topTableGame/game@ Scythe.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "a7380e250e3496c9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c8ae9f2b4ae28d54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "game@ Havana.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "844dde708d32c68f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "game@ caylus.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "8994be347969b908",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "database/topTableGame/game@ Risk.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "f50a49a49d32159c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "game@ מצודות.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -49,7 +107,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"tags\"]",
+                "query": "[tags:topTableGame]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +144,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "database/game-log@ netrunner.md"
+                "file": "game@ Havana.md"
               }
             }
           },
@@ -125,12 +183,50 @@
               "type": "modal-form-manage-forms-view",
               "state": {}
             }
+          },
+          {
+            "id": "87bb12ab8f5f3eef",
+            "type": "leaf",
+            "state": {
+              "type": "modal-form-edit-form-view",
+              "state": {
+                "title": "Tob Table Game",
+                "name": "top-table-game",
+                "customClassname": "TopTableGame",
+                "fields": [
+                  {
+                    "name": "game",
+                    "label": "Game",
+                    "description": "",
+                    "isRequired": false,
+                    "input": {
+                      "type": "dataview",
+                      "query": "dv.pages(\"#משחקי-לוח\").file.name"
+                    }
+                  },
+                  {
+                    "name": "players",
+                    "label": "Players",
+                    "description": "",
+                    "isRequired": false,
+                    "input": {
+                      "type": "multiselect",
+                      "source": "dataview",
+                      "query": "dv.pages('#gamer').file.name",
+                      "allowUnknownValues": false,
+                      "multi_select_options": []
+                    }
+                  }
+                ],
+                "version": "1"
+              }
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 344.5
+    "width": 318.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -144,34 +240,34 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b258d899107b0636",
+  "active": "c8ae9f2b4ae28d54",
   "lastOpenFiles": [
-    "inbox/202401191807.md",
+    "database/topTableGame/game@ Risk.md",
+    "game@ מצודות.md",
+    "database/topTableGame",
+    "database/topTableGame/game@ Scythe.md",
+    "archive/תיאור למשחקי לוח.md",
+    "game@ caylus.md",
+    "game@ Isla Dorada.md",
+    "game@ Havana.md",
+    "archive/game@ Viticulture.md",
+    "archive/game@ NetRunner.md",
+    "archive/game@ Imperial Settlers.md",
+    "archive/game@ Bunny Kingdom.md",
+    "archive/game@ Ceylon 2018.md",
+    "archive/game@ DARK MOON 2011.md",
+    "archive/game@ Fury of Dracula (2th Edition).md",
+    "archive/Teotihuacan_ City of Gods 2018 (7.9).md",
+    "archive/game@ Just Dance.md",
+    "archive/DARK MOON 2011 (7.0 rank score).md",
+    "database/game-log@ imperial settlers 2013 (7.5 rank score).md",
     "database/game-log@ netrunner.md",
+    "database/game-log@ just dance.md",
+    "inbox/202401191807.md",
     "database/game-log@ netrunner 1.md",
     "database/game-log@ viticulture 2013 (7.5).md",
     "inbox/202401171323.md",
     "database/game-log@ dark moon 2011.md",
-    "database/game-log@ תיאור למשחקי לוח.md.md",
-    "database/game-log@ scythe 2016 (8.2 score).md.md",
-    "database/game-log@ netrunner.md.md",
-    "note/Example Templater.md",
-    "tm/meta-bind/habbit-tracker.md",
-    "tm/quick-add/game-log-template.md",
-    "אנשים/ענבר איזנמן.md",
-    "database/game-log; 'Teotihuacan_ City of Gods 2018 (7.9)'.md.md",
-    "Jornal/daily/2024-01-19.md",
-    "database/2024-01-18-1948-game-log-13123123.md",
-    "database/2024-01-18-1912-game-log-{{game}}.md",
-    "database/2024-01-18-1946-game-log-{{game}}.md",
-    "database/game-log-2024-01-18-1858.md",
-    "database/game-log-2024-01-18-1844.md",
-    "archive/הזמנה לארוחת צהרים בווילה.md",
-    "2024-01-05.md",
-    "game-log-2024-01-18-1840.md",
-    "game-log-2024-01-18-1830.md",
-    "game-log-2024-01-18-1838.md",
-    "database/game log - Fury of Dracula.md",
     "tm/quick-add",
     "database",
     "scripts/metabind-template-input.js",
@@ -181,7 +277,6 @@
     "tm/meta-bind",
     "משאבים/goodreads-db",
     "ספרים",
-    "Book/goodreads-db",
     "Untitled.canvas",
     "assets/13dd9a2e550.bcd8073ff147be95.jpg",
     "assets/13dfeedbd74.8a43a4cc67bd6a4c.jpg",
