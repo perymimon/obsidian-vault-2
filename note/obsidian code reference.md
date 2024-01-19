@@ -23,11 +23,12 @@ tags:
 	- [[Example Templater]]
 - [Dataview](https://blacksmithgu.github.io/obsidian-dataview/)
 	- [Codeblock Reference - Dataview](https://blacksmithgu.github.io/obsidian-dataview/api/code-reference/)
+	- [JS Reference - Dataview](https://blacksmithgu.github.io/obsidian-dataview/api/code-reference/)
 	- [Query Functions - Dataview API](https://blacksmithgu.github.io/obsidian-dataview/reference/functions/)
 	- [Literals list - Dataview API](https://blacksmithgu.github.io/obsidian-dataview/reference/literals/)
 	- [Metadata on Pages - Dataview](https://blacksmithgu.github.io/obsidian-dataview/annotation/metadata-pages/)
 	- [Metadata - Tasks and Lists](https://blacksmithgu.github.io/obsidian-dataview/annotation/metadata-tasks/)
-	- [JS Reference - Dataview](https://blacksmithgu.github.io/obsidian-dataview/api/code-reference/)
+	
 My
 	- [[Examples Dataview query]]
 	- [[Examples Dataview inline]]

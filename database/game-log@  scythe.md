@@ -4,16 +4,15 @@ cssclasse:
 date-created: 2024-01-19
 date-modified: 2024-01-19
 end: 20:17
-game:
-  - - game@ Scythe
+game: [[game@ Scythe]]
 players:
   - דני
   - פרי מימון
-tags:
-  - game-log/game@scythe
 score:
   דני: ""
   פרי מימון: ""
+tags:
+  - game-log/game@scythe
 ---
 [day:: 2024-01-19]
 [start:: 20:17]    | [end:: `INPUT[time:end]`]

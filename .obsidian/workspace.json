@@ -4,49 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "cbae57caa1595223",
+        "id": "5383bd0765903bd1",
         "type": "tabs",
-        "dimension": 55.242227042660886,
+        "dimension": 63.33725029377204,
         "children": [
           {
-            "id": "5d9082d93568c201",
+            "id": "352859339459380e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/Examples Dataview query.md",
-                "mode": "preview",
+                "file": "database/topTableGame/game@ Scythe.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "4f27c55ec575e736",
-        "type": "tabs",
-        "dimension": 25.16268980477224,
-        "children": [
+          },
           {
             "id": "5f79d06158f8c2e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "database/topTableGame/game@ Scythe.md",
+                "file": "note/obsidian code reference.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "a61190835e4a06bb",
         "type": "tabs",
-        "dimension": 19.595083152566882,
+        "dimension": 36.662749706227956,
         "children": [
           {
             "id": "54b2879fdddf4389",
@@ -129,7 +123,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "note/Examples Dataview query.md"
+                "file": "note/obsidian code reference.md"
               }
             }
           },
@@ -187,12 +181,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5d9082d93568c201",
+  "active": "5f79d06158f8c2e6",
   "lastOpenFiles": [
+    "note/Examples Dataviewjs query.md",
     "database/topTableGame/game@ Scythe.md",
     "database/game-log@  scythe.md",
-    "note/Examples Dataview query.md",
     "note/obsidian code reference.md",
+    "משאבים/goodreads-db/Green Mars.md",
+    "note/Examples Dataview query.md",
     "משאבים/goodreads-db/Guardians of the West.md",
     "database/ספרים/אומן השיר.md",
     "database/ספרים/אדיוס מוצ'אצ'וס.md",
@@ -214,8 +210,6 @@
     "database/topTableGame/game@ Isla Dorada.md",
     "archive/Teotihuacan_ City of Gods 2018 (7.9).md",
     "archive/game@ Just Dance.md",
-    "archive/DARK MOON 2011 (7.0 rank score).md",
-    "database/game-log@ imperial settlers 2013 (7.5 rank score).md",
     "tm/quick-add",
     "database",
     "scripts/metabind-template-input.js",

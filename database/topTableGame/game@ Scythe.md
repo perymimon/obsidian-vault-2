@@ -27,3 +27,7 @@ Scythe משתמש במנגנון יעיל לבחירת פעולה (ללא סיב
 ## Game Log
 
 ![[game-log@  scythe]]
+
+```dataviewjs
+dv.pagePaths('[[game@ Scythe]]').forEach(pagePath => { dv.paragraph("![["+pagePath+"]]") })
+```
