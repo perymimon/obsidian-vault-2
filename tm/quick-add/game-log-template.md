@@ -1,20 +1,15 @@
+<%*
+ const result = await app.plugins.plugins.modalforms.api.openForm("top-table-game");
+ 
+_%>
 
----
-```js quickadd
-const modalForm = app.plugins.plugins.modalforms.api;
-const result = await modalForm.openForm("top-table-game");
-Object.assign(this.variables, result.data)
-return result.asFrontmatterString()
-```
----
+# game-log: <% result.game %>
 
+[day:: <% tp.date.now("YYYY-MM-DD") %>] [start:: <% tp.date.now("HH:mm") %>]
 
-# game-log: {{VALUE: game}}
-
-[day:: {{DATE:YYYY-MM-DD}}] [start:: {{time}}]
-```js quickadd
-console.log(this.variables)
-return this.variables.players.
-	map(name=> `- [[${name}]]::`+`\`INPUT[text:score["${name}"]]\``)
+<%*
+console.log(this)
+debugger
+return result.players.value.map(name=> `- [[${name}]]::\`INPUT[text:score["${name}"]]\``)
     .join('\n')
-```
+_%>

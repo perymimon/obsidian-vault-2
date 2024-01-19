@@ -11,8 +11,13 @@
             "id": "b258d899107b0636",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "inbox/202401191358.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -61,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -80,7 +86,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "inbox/202401191358.md"
+              }
             }
           },
           {
@@ -132,6 +140,9 @@
   },
   "active": "b258d899107b0636",
   "lastOpenFiles": [
+    "tm/meta-bind/habbit-tracker.md",
+    "inbox/202401191358.md",
+    "note/Example Templater.md",
     "database/2024-01-18-1948-game-log-13123123.md",
     "database/2024-01-18-1912-game-log-{{game}}.md",
     "database/2024-01-18-1946-game-log-{{game}}.md",
@@ -156,9 +167,6 @@
     "אנשים/אופק דאון.md",
     "אנשים/איילה.md",
     "אנשים/פרי מימון.md",
-    "אנשים/ענבר איזנמן.md",
-    "אנשים/איליה.md",
-    "אנשים/דני.md",
     "database",
     "scripts/metabind-template-input.js",
     "scripts/flat-object.js",

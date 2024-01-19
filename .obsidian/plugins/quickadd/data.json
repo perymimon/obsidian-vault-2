@@ -165,7 +165,7 @@
             "templatePath": "tm/quick-add/game-log-template.md",
             "fileNameFormat": {
               "enabled": true,
-              "format": "{{date}}-{{time:HHmm}}-game-log-{{VALUE:game}}.md"
+              "format": "{{date}}-{{time:HHmm}}-game-{{value:game}}.md"
             },
             "folder": {
               "enabled": true,
