@@ -13,9 +13,10 @@ score:
   פרי מימון: ""
 tags:
   - game-log/scythe
+win: דני
 ---
-[day:: 2024-01-19]
-[start:: 20:17]    | [end:: `INPUT[time:end]`]
+[[game@ Scythe]] [day:: 2024-01-19]
+[start:: 20:17]    | [end:: `INPUT[time:end]`] sdf `VIEW[:win][text]`
 
-- [[דני]]::`INPUT[text:score["דני"]]`
-- [[פרי מימון]]::`INPUT[text:score["פרי מימון"]]`
+[ [[דני]]:: `INPUT[text(placeholder(score)):score["דני"]]` ]
+[ [[פרי מימון]]:: `INPUT[text(placeholder(score) ):score["פרי מימון"]]`]
