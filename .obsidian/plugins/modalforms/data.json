@@ -236,8 +236,7 @@
             "type": "multiselect",
             "source": "dataview",
             "query": "dv.pages('#gamer').file.name",
-            "allowUnknownValues": false,
-            "multi_select_options": []
+            "allowUnknownValues": false
           }
         }
       ],

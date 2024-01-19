@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "database/topTableGame/game@ Scythe.md",
+                "file": "Jornal/daily/2024-01-19.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -34,8 +34,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "a61190835e4a06bb",
@@ -123,7 +122,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "note/obsidian code reference.md"
+                "file": "Jornal/daily/2024-01-19.md"
               }
             }
           },
@@ -181,12 +180,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5f79d06158f8c2e6",
+  "active": "352859339459380e",
   "lastOpenFiles": [
-    "note/Examples Dataviewjs query.md",
+    "note/obsidian code reference.md",
     "database/topTableGame/game@ Scythe.md",
     "database/game-log@  scythe.md",
-    "note/obsidian code reference.md",
+    "note/Examples Dataviewjs query.md",
     "משאבים/goodreads-db/Green Mars.md",
     "note/Examples Dataview query.md",
     "משאבים/goodreads-db/Guardians of the West.md",

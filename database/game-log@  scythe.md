@@ -12,7 +12,7 @@ score:
   דני: ""
   פרי מימון: ""
 tags:
-  - game-log/game@scythe
+  - game-log/scythe
 ---
 [day:: 2024-01-19]
 [start:: 20:17]    | [end:: `INPUT[time:end]`]
