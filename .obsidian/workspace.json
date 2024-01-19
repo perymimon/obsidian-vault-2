@@ -6,6 +6,7 @@
       {
         "id": "0313a6262f5096ef",
         "type": "tabs",
+        "dimension": 47.929395790902916,
         "children": [
           {
             "id": "b258d899107b0636",
@@ -13,7 +14,27 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "inbox/202401191358.md",
+                "file": "tm/quick-add/game-log-template.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "fe3b0111722a6864",
+        "type": "tabs",
+        "dimension": 52.070604209097084,
+        "children": [
+          {
+            "id": "548e1b2ddac1bda9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "database/game-log; 'Teotihuacan_ City of Gods 2018 (7.9)'.md.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -66,8 +87,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +107,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "inbox/202401191358.md"
+                "file": "database/game-log; 'Teotihuacan_ City of Gods 2018 (7.9)'.md.md"
               }
             }
           },
@@ -118,9 +138,17 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "baf2c247340e4c14",
+            "type": "leaf",
+            "state": {
+              "type": "modal-form-manage-forms-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -138,10 +166,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b258d899107b0636",
+  "active": "548e1b2ddac1bda9",
   "lastOpenFiles": [
+    "Jornal/daily/2024-01-19.md",
+    "database/game-log; 'Teotihuacan_ City of Gods 2018 (7.9)'.md.md",
+    "tm/quick-add/game-log-template.md",
     "tm/meta-bind/habbit-tracker.md",
-    "inbox/202401191358.md",
     "note/Example Templater.md",
     "database/2024-01-18-1948-game-log-13123123.md",
     "database/2024-01-18-1912-game-log-{{game}}.md",
@@ -156,7 +186,6 @@
     "inbox/202401171323.md",
     "database/game log - Fury of Dracula.md",
     "Jornal/daily/2024-01-17.md",
-    "tm/quick-add/game-log-template.md",
     "Jornal/daily/2024-01-18.md",
     "tm/tp - daily template.md",
     "tm/quick-add/game-log.md",
@@ -166,7 +195,6 @@
     "אנשים/סטאס פירר.md",
     "אנשים/אופק דאון.md",
     "אנשים/איילה.md",
-    "אנשים/פרי מימון.md",
     "database",
     "scripts/metabind-template-input.js",
     "scripts/flat-object.js",
