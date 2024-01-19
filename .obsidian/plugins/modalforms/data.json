@@ -215,38 +215,33 @@
     {
       "title": "Tob Table Game",
       "name": "top-table-game",
-      "version": "1",
+      "customClassname": "TopTableGame",
       "fields": [
         {
           "name": "game",
           "label": "Game",
           "description": "",
+          "isRequired": false,
           "input": {
             "type": "dataview",
-            "allowUnknownValues": false,
-            "folder": "אנשים",
-            "options": [],
-            "source": "notes",
-            "query": "dv.pages(\"#משחקי-לוח\").file.name"
-          },
-          "isRequired": false
+            "query": "dv.pages(\"#topTableGame\").file.name"
+          }
         },
         {
           "name": "players",
           "label": "Players",
           "description": "",
+          "isRequired": false,
           "input": {
             "type": "multiselect",
-            "allowUnknownValues": false,
-            "query": "dv.pages('#gamer').file.name",
-            "multi_select_options": [],
             "source": "dataview",
-            "folder": "אנשים"
-          },
-          "isRequired": false
+            "query": "dv.pages('#gamer').file.name",
+            "allowUnknownValues": false,
+            "multi_select_options": []
+          }
         }
       ],
-      "customClassname": "TopTableGame"
+      "version": "1"
     }
   ]
 }

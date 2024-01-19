@@ -4,74 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "af50b5fc184f412c",
+        "id": "cbae57caa1595223",
         "type": "tabs",
         "children": [
           {
-            "id": "b258d899107b0636",
+            "id": "5d9082d93568c201",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "database/topTableGame/game@ Scythe.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "a7380e250e3496c9",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c8ae9f2b4ae28d54",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "game@ Havana.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "844dde708d32c68f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "game@ caylus.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "8994be347969b908",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "database/topTableGame/game@ Risk.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "f50a49a49d32159c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "game@ מצודות.md",
+                "file": "database/topTableGame/game@ Bunny Kingdom.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -107,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[tags:topTableGame]",
+                "query": "[tags:topTableGame] -path:database  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -144,7 +86,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "game@ Havana.md"
+                "file": "database/topTableGame/game@ Bunny Kingdom.md"
               }
             }
           },
@@ -183,50 +125,13 @@
               "type": "modal-form-manage-forms-view",
               "state": {}
             }
-          },
-          {
-            "id": "87bb12ab8f5f3eef",
-            "type": "leaf",
-            "state": {
-              "type": "modal-form-edit-form-view",
-              "state": {
-                "title": "Tob Table Game",
-                "name": "top-table-game",
-                "customClassname": "TopTableGame",
-                "fields": [
-                  {
-                    "name": "game",
-                    "label": "Game",
-                    "description": "",
-                    "isRequired": false,
-                    "input": {
-                      "type": "dataview",
-                      "query": "dv.pages(\"#משחקי-לוח\").file.name"
-                    }
-                  },
-                  {
-                    "name": "players",
-                    "label": "Players",
-                    "description": "",
-                    "isRequired": false,
-                    "input": {
-                      "type": "multiselect",
-                      "source": "dataview",
-                      "query": "dv.pages('#gamer').file.name",
-                      "allowUnknownValues": false,
-                      "multi_select_options": []
-                    }
-                  }
-                ],
-                "version": "1"
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 762.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,34 +145,35 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c8ae9f2b4ae28d54",
+  "active": "5d9082d93568c201",
   "lastOpenFiles": [
-    "database/topTableGame/game@ Risk.md",
-    "game@ מצודות.md",
-    "database/topTableGame",
+    "database/game-log@ game@ scythe.md",
+    "inbox/202401192016.md",
+    "database/topTableGame/game@ מצודות.md",
+    "database/game-log@ netrunner.md",
+    "database/topTableGame/game@ Bunny Kingdom.md",
     "database/topTableGame/game@ Scythe.md",
+    "database/topTableGame/game@ Viticulture.md",
+    "database/topTableGame/game@ NetRunner.md",
+    "database/topTableGame/game@ Imperial Settlers.md",
+    "database/topTableGame/game@ Fury of Dracula (2th Edition).md",
+    "database/topTableGame/game@ DARK MOON 2011.md",
+    "database/topTableGame/game@ Ceylon 2018.md",
+    "database/topTableGame/game@ Risk.md",
+    "database/topTableGame/game@ caylus.md",
+    "database/topTableGame/game@ Havana.md",
+    "database/topTableGame",
     "archive/תיאור למשחקי לוח.md",
-    "game@ caylus.md",
-    "game@ Isla Dorada.md",
-    "game@ Havana.md",
-    "archive/game@ Viticulture.md",
-    "archive/game@ NetRunner.md",
-    "archive/game@ Imperial Settlers.md",
-    "archive/game@ Bunny Kingdom.md",
-    "archive/game@ Ceylon 2018.md",
-    "archive/game@ DARK MOON 2011.md",
-    "archive/game@ Fury of Dracula (2th Edition).md",
+    "database/topTableGame/game@ Isla Dorada.md",
     "archive/Teotihuacan_ City of Gods 2018 (7.9).md",
     "archive/game@ Just Dance.md",
     "archive/DARK MOON 2011 (7.0 rank score).md",
     "database/game-log@ imperial settlers 2013 (7.5 rank score).md",
-    "database/game-log@ netrunner.md",
     "database/game-log@ just dance.md",
     "inbox/202401191807.md",
     "database/game-log@ netrunner 1.md",
     "database/game-log@ viticulture 2013 (7.5).md",
     "inbox/202401171323.md",
-    "database/game-log@ dark moon 2011.md",
     "tm/quick-add",
     "database",
     "scripts/metabind-template-input.js",
