@@ -6,7 +6,6 @@
       {
         "id": "0313a6262f5096ef",
         "type": "tabs",
-        "dimension": 47.929395790902916,
         "children": [
           {
             "id": "b258d899107b0636",
@@ -14,28 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tm/quick-add/game-log-template.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "fe3b0111722a6864",
-        "type": "tabs",
-        "dimension": 52.070604209097084,
-        "children": [
-          {
-            "id": "548e1b2ddac1bda9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "database/game-log; 'Teotihuacan_ City of Gods 2018 (7.9)'.md.md",
-                "mode": "source",
+                "file": "database/game-log@ netrunner.md.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -107,7 +86,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "database/game-log; 'Teotihuacan_ City of Gods 2018 (7.9)'.md.md"
+                "file": "database/game-log@ netrunner.md.md"
               }
             }
           },
@@ -147,8 +126,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -166,13 +144,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "548e1b2ddac1bda9",
+  "active": "b258d899107b0636",
   "lastOpenFiles": [
-    "Jornal/daily/2024-01-19.md",
-    "database/game-log; 'Teotihuacan_ City of Gods 2018 (7.9)'.md.md",
-    "tm/quick-add/game-log-template.md",
-    "tm/meta-bind/habbit-tracker.md",
     "note/Example Templater.md",
+    "tm/meta-bind/habbit-tracker.md",
+    "tm/quick-add/game-log-template.md",
+    "אנשים/ענבר איזנמן.md",
+    "database/game-log@ netrunner.md.md",
+    "database/game-log; 'Teotihuacan_ City of Gods 2018 (7.9)'.md.md",
+    "Jornal/daily/2024-01-19.md",
     "database/2024-01-18-1948-game-log-13123123.md",
     "database/2024-01-18-1912-game-log-{{game}}.md",
     "database/2024-01-18-1946-game-log-{{game}}.md",
@@ -193,8 +173,6 @@
     "inbox/202312271907.md",
     "אנשים/נריה רוזנר.md",
     "אנשים/סטאס פירר.md",
-    "אנשים/אופק דאון.md",
-    "אנשים/איילה.md",
     "database",
     "scripts/metabind-template-input.js",
     "scripts/flat-object.js",

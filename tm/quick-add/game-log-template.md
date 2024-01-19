@@ -1,11 +1,8 @@
 <%*
  const result = await app.plugins.plugins.modalforms.api.openForm("top-table-game");
- 
- debugger
  let folder = "database"
- var filename = `game-log@ '${ result.game.toLowerCase() }'`
+ var filename = `game-log@ ${ result.game.value.toLowerCase() }`
  _%>
-
 ---
 a: abc
 ---
