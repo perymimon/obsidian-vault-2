@@ -2,7 +2,7 @@
 habbit:
   redingStoryBook: true
   book:
-    name: "[[משאבים/ספרים/אומן השיר.md|אומן השיר]]"
+    name: "[[database/ספרים/אומן השיר|אומן השיר]]"
     page: 24
   topTableGame: true
 ---

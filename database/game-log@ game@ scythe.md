@@ -9,7 +9,7 @@ players:
   - פרי מימון
 tags: game-log/game@scythe
 ---
-of the game [[game-log@ game@ scythe]]
+Of the  [[game@ scythe]]
 [day:: 2024-01-19] [start:: 20:17] [end:: `INPUT[time:end]`]
 
 - [[דני]]::`INPUT[text:score["דני"]]`

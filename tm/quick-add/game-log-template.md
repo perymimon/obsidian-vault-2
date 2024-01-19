@@ -8,6 +8,8 @@
 <% result.asFrontmatter() %>
 tags: game-log/<% gameName.replace(/\s+/g,'') %>
 ---
+For the [[game@ <% gameName %>]]
+
 [day:: <% tp.date.now("YYYY-MM-DD") %>] [start:: <% tp.date.now("HH:mm") %>] [end:: `INPUT[time:end]`]
 
 <%*

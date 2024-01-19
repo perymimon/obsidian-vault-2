@@ -22,7 +22,6 @@ tags:
 	- [Internal Functions - Templater](https://silentvoid13.github.io/Templater/internal-functions/overview.html)
 	- [[Example Templater]]
 - [Dataview](https://blacksmithgu.github.io/obsidian-dataview/)
-	com/s-blu/obsidian_dataview_example_vault)
 	- [Codeblock Reference - Dataview](https://blacksmithgu.github.io/obsidian-dataview/api/code-reference/)
 	- [Query Functions - Dataview API](https://blacksmithgu.github.io/obsidian-dataview/reference/functions/)
 	- [Literals list - Dataview API](https://blacksmithgu.github.io/obsidian-dataview/reference/literals/)

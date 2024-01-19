@@ -13,8 +13,46 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "note/Examples Dataview query.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "4f27c55ec575e736",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5f79d06158f8c2e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "database/game-log@ game@ scythe.md",
-                "mode": "source",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "a61190835e4a06bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "54b2879fdddf4389",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "database/game-log@ game@ scythe.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -49,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[tags:topTableGame] -path:database  ",
+                "query": "dataview",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +104,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -131,7 +170,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 762.5
+    "width": 762.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -145,14 +185,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5d9082d93568c201",
+  "active": "5f79d06158f8c2e6",
   "lastOpenFiles": [
-    "database/topTableGame/game@ Bunny Kingdom.md",
+    "database/topTableGame/game@ Scythe.md",
     "database/game-log@ game@ scythe.md",
+    "note/Examples Dataview query.md",
+    "note/obsidian code reference.md",
+    "משאבים/goodreads-db/Guardians of the West.md",
+    "database/ספרים/אומן השיר.md",
+    "database/ספרים/אדיוס מוצ'אצ'וס.md",
+    "database/topTableGame/game@ Bunny Kingdom.md",
     "inbox/202401192016.md",
     "database/topTableGame/game@ מצודות.md",
     "database/game-log@ netrunner.md",
-    "database/topTableGame/game@ Scythe.md",
     "database/topTableGame/game@ Viticulture.md",
     "database/topTableGame/game@ NetRunner.md",
     "database/topTableGame/game@ Imperial Settlers.md",
@@ -169,11 +214,6 @@
     "archive/game@ Just Dance.md",
     "archive/DARK MOON 2011 (7.0 rank score).md",
     "database/game-log@ imperial settlers 2013 (7.5 rank score).md",
-    "database/game-log@ just dance.md",
-    "inbox/202401191807.md",
-    "database/game-log@ netrunner 1.md",
-    "database/game-log@ viticulture 2013 (7.5).md",
-    "inbox/202401171323.md",
     "tm/quick-add",
     "database",
     "scripts/metabind-template-input.js",

@@ -32,12 +32,13 @@
     "אינדקס/ספרים שקראתי.md": "rtl",
     "Jornal/daily/2024-01-10.md": "rtl",
     "Jornal/daily/2024-01-12.md": "rtl",
-    "משאבים/ספרים/אילון מאסק - הספר.md": "rtl",
     "Jornal/daily/2024-01-13.md": "rtl",
     "Jornal/daily/2024-01-14.md": "auto",
     "Jornal/daily/2024-01-11.md": "auto",
     "tm/meta-bind/habbit-tracker.md": "auto",
-    "database/topTableGame/game@ Fury of Dracula (2th Edition).md": "ltr"
+    "database/topTableGame/game@ Fury of Dracula (2th Edition).md": "ltr",
+    "database/game-log@ game@ scythe.md": "ltr",
+    "database/ספרים/אילון מאסק - הספר.md": "rtl"
   },
   "defaultDirection": "auto",
   "rememberPerFile": true,
