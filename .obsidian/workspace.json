@@ -14,8 +14,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jornal/daily/2024-01-19.md",
-                "mode": "source",
+                "file": "database/topTableGame/game@ Scythe.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -124,8 +124,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 253.5
   },
   "right": {
     "id": "7598a77bad2a22d5",
@@ -202,12 +201,12 @@
   },
   "active": "54b2879fdddf4389",
   "lastOpenFiles": [
+    "database/topTableGame/game@ Scythe.md",
     "Jornal/daily/2024-01-19.md",
     "database/game-log@  scythe.md",
     "אנשים/דני.md",
     "אנשים/פרי מימון.md",
     "[פרי מימון.md",
-    "database/topTableGame/game@ Scythe.md",
     "note/obsidian code reference.md",
     "note/Examples Dataviewjs query.md",
     "משאבים/goodreads-db/Green Mars.md",
