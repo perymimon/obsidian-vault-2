@@ -6,7 +6,7 @@
       {
         "id": "5383bd0765903bd1",
         "type": "tabs",
-        "dimension": 37.20682302771855,
+        "dimension": 30.244313395113732,
         "children": [
           {
             "id": "352859339459380e",
@@ -39,7 +39,7 @@
       {
         "id": "a61190835e4a06bb",
         "type": "tabs",
-        "dimension": 40.0319829424307,
+        "dimension": 45.82982308340354,
         "children": [
           {
             "id": "54b2879fdddf4389",
@@ -59,7 +59,7 @@
       {
         "id": "bbec78967367d85d",
         "type": "tabs",
-        "dimension": 22.761194029850746,
+        "dimension": 23.92586352148273,
         "children": [
           {
             "id": "e7f8358db6a384cd",
@@ -202,8 +202,8 @@
   "active": "54b2879fdddf4389",
   "lastOpenFiles": [
     "database/topTableGame/game@ Scythe.md",
-    "Jornal/daily/2024-01-19.md",
     "database/game-log@  scythe.md",
+    "Jornal/daily/2024-01-19.md",
     "אנשים/דני.md",
     "אנשים/פרי מימון.md",
     "[פרי מימון.md",
