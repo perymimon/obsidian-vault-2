@@ -4,20 +4,21 @@
  var filename = `game-log@ ${ result.game.value.toLowerCase() }`
  _%>
 ---
-a: abc
+<% result.asFrontmatter() %>
 ---
 [day:: <% tp.date.now("YYYY-MM-DD") %>] [start:: <% tp.date.now("HH:mm") %>]
 
 <%*
-console.log(this)
-debugger
 tR += result.players.value.map(name=> `- [[${name}]]::\`INPUT[text:score["${name}"]]\``)
     .join('\n')
 _%>
 
 
 <%*
- debugger
- // file move and rename
- tp.file.move(`${folder}/${filename}.md`)
+
+const _rst = await Promise.all(__prs);
+tR = tR.replace(/rJ2KqXzxQg/g, () => _rst.shift());
+await tp.file.create_new(tR, `${folder}/${filename}.md`)
+tR = ''
+
 _%>

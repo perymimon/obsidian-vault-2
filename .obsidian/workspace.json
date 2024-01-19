@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "database/game-log@ netrunner.md.md",
+                "file": "database/game-log@ netrunner.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "database/game-log@ netrunner.md.md"
+                "file": "database/game-log@ netrunner.md"
               }
             }
           },
@@ -146,11 +146,19 @@
   },
   "active": "b258d899107b0636",
   "lastOpenFiles": [
+    "inbox/202401191807.md",
+    "database/game-log@ netrunner.md",
+    "database/game-log@ netrunner 1.md",
+    "database/game-log@ viticulture 2013 (7.5).md",
+    "inbox/202401171323.md",
+    "database/game-log@ dark moon 2011.md",
+    "database/game-log@ תיאור למשחקי לוח.md.md",
+    "database/game-log@ scythe 2016 (8.2 score).md.md",
+    "database/game-log@ netrunner.md.md",
     "note/Example Templater.md",
     "tm/meta-bind/habbit-tracker.md",
     "tm/quick-add/game-log-template.md",
     "אנשים/ענבר איזנמן.md",
-    "database/game-log@ netrunner.md.md",
     "database/game-log; 'Teotihuacan_ City of Gods 2018 (7.9)'.md.md",
     "Jornal/daily/2024-01-19.md",
     "database/2024-01-18-1948-game-log-13123123.md",
@@ -163,16 +171,8 @@
     "game-log-2024-01-18-1840.md",
     "game-log-2024-01-18-1830.md",
     "game-log-2024-01-18-1838.md",
-    "inbox/202401171323.md",
     "database/game log - Fury of Dracula.md",
-    "Jornal/daily/2024-01-17.md",
-    "Jornal/daily/2024-01-18.md",
-    "tm/tp - daily template.md",
-    "tm/quick-add/game-log.md",
     "tm/quick-add",
-    "inbox/202312271907.md",
-    "אנשים/נריה רוזנר.md",
-    "אנשים/סטאס פירר.md",
     "database",
     "scripts/metabind-template-input.js",
     "scripts/flat-object.js",
