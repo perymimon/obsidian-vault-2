@@ -3,7 +3,7 @@ aliases:
 cssclasse: 
 date-created: 2024-01-19
 date-modified: 2024-01-20
-end: 00:20
+end: 2024-01-20T22:04
 game:
   - - game@ Scythe
 players:
@@ -17,10 +17,8 @@ tags:
 win: דני
 ---
 [[game@ Scythe]]  [[2024-01-19]] [start:: 20:17]   [duration:: `= date(this.end,"HH:mm")`] ]
-```dataviewjs
-debugger
-moment( this["date-created"] + ' ' + this.start )
-```
+
+`= this.end - date(this["date-created"] + "T" + this.start)`
 
  `BUTTON[end-game]`
 
@@ -36,5 +34,5 @@ actions:
   - type: updateMetadata
     bindTarget: end
     evaluate: true
-    value: moment().format("HH:mm")
+    value: moment().format("yyyy-MM-DDTHH:mm")
 ```
