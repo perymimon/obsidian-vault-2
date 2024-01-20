@@ -16,7 +16,9 @@ tags:
   - game-log/scythe
 win: דני
 ---
-[[game@ Scythe]]  [[2024-01-19]] [start:: 20:17]   [duration:: `= this.end - date(this["date-created"] + "T" + this.start)` ]
+[[game@ Scythe]]  [[2024-01-19]] [start:: 20:17]    
+
+`= this.end - date(this["date-created"] + "T" + this.start)` 
 
  `BUTTON[end-game]`
 
