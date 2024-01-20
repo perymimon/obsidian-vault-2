@@ -16,7 +16,10 @@ tags:
   - game-log/scythe
 win: דני
 ---
-[[game@ Scythe]]  [[2024-01-19]] [start:: 20:17]   [duration:: `= date(this["date-created"] + " " + this.end,"HH:mm") - date(this.start,"HH:mm") `]
+[[game@ Scythe]]  [[2024-01-19]] [start:: 20:17]   [duration:: `= date(this.end,"HH:mm")`] ]
+
+`==  moment(this["date-created"] + ' ' + this.start , 'YYYY-MM-DD HH:mm')`
+
  `BUTTON[end-game]`
 
 [ [[דני]]:: `INPUT[text(placeholder(score)):score["דני"]]` ]
