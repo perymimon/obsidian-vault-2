@@ -6,10 +6,13 @@
  _%>
 ---
 <% result.asFrontmatter() %>
+date-created: <% tp.date.now("YYYY-MM-DD") %>
 tags: game-log/<% gameName.replace(/\s+/g,'') %>
 ---
 `BUTTON[end-game]` [[game@ <% gameName %>]] [[<% tp.date.now("YYYY-MM-DD") %>]]
+
 [ duration: `= this.end - date(this["date-created"] + "T" + this.start)` ]
+
 [start:: <% tp.date.now("HH:mm") %>] 
 
 | players | score |
@@ -18,6 +21,11 @@ tags: game-log/<% gameName.replace(/\s+/g,'') %>
 tR += result.players.value.map(name=> `| [[${name}]] | \`INPUT[text:score["${name}"]] \` |`)
     .join('\n')
 %>
+
+| players | score |
+|---|---|
+| [[דני]]  |`INPUT[text(placeholder(score)):score["דני"]]` |
+| [[פרי מימון]] | `INPUT[text(placeholder(score) ):score["פרי מימון"]]` |
 
 ```meta-bind-button
 label: End Game
