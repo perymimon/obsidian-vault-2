@@ -2,7 +2,7 @@
 aliases: 
 cssclasse: 
 date-created: 2024-01-19
-date-modified: 2024-01-19
+date-modified: 2024-01-21
 tags:
   - "topTableGame"
 ---
@@ -10,9 +10,9 @@ tags:
 אנחנו רוזנים של עיר אצילית ואנו שואפים שתהיה לנו את העיר היוקרתית ביותר . בעזרת תככים ו
 החלפת דמויות נשיג מספיק משאבים כדי לבנות את העיר שלנו לפני כולם
 
-### log
+### Log
 
 ```dataview
-list from #topTableGame
+list from #game-log/מצודות
 
 ```

@@ -15,10 +15,10 @@ tags: game-log/<% gameName.replace(/\s+/g,'') %>
  `BUTTON[end-game]`
 
 | players score |
-|--- |
+|---|
 <%*
 tR += result.players.value
-.map(name=> `| [[${name}]] :: \`INPUT[text(placeholder(score)):score["דני"]]\``)
+.map(name=> `| [[${name}]] :: \`INPUT[text(placeholder(score)):score["דני"]]\` | `)
     .join('\n')
 %>
 

@@ -8,12 +8,14 @@ game: game@ Risk
 players:
   - פרי מימון
   - נריה רוזנר
-tags: game-log/risk
 score:
   דני: "234234"
+tags: game-log/risk
 ---
 [[game@  risk]] [[2024-01-21]] [start:: 21:51]
- 
+
+`VIEW[{date-created}]`
+
 `BUTTON[end-game]`
 
 `= date(this["date-created"] + "T" + this.start)`
@@ -26,8 +28,6 @@ score:
 |---|
 | [[פרי מימון]] :: `INPUT[text(placeholder(score)):score["דני"]]`  |
 | [[נריה רוזנר]] :: `INPUT[text(placeholder(score)):score["דני"]]` |
-
-
 
 ```meta-bind-button
 label: End Game

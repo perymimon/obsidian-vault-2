@@ -6,10 +6,23 @@
       {
         "id": "5383bd0765903bd1",
         "type": "tabs",
-        "dimension": 38.72707659115426,
+        "dimension": 43.74614910659273,
         "children": [
           {
             "id": "5f79d06158f8c2e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "database/game-log@  מצודות.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "e802172e297b250f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,12 +34,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "bbec78967367d85d",
         "type": "tabs",
-        "dimension": 61.272923408845735,
+        "dimension": 56.253850893407275,
         "children": [
           {
             "id": "e7f8358db6a384cd",
@@ -105,8 +119,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5,
-    "collapsed": true
+    "width": 253.5
   },
   "right": {
     "id": "7598a77bad2a22d5",
@@ -181,13 +194,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5f79d06158f8c2e6",
+  "active": "e802172e297b250f",
   "lastOpenFiles": [
-    "אנשים/פרי מימון.md",
+    "database/game-log@  מצודות.md",
     "database/game-log@  risk.md",
+    "database/topTableGame/game@ מצודות.md",
+    "אנשים/פרי מימון.md",
     "note/obsidian code reference.md",
     "database/game-log@  havana.md",
-    "database/game-log@  מצודות.md",
     "database/game-log@  fury of dracula (2th edition).md",
     "database/game-log@  scythe.md",
     "database/game-log@  viticulture.md",
@@ -207,7 +221,6 @@
     "database/ספרים/אומן השיר.md",
     "database/ספרים/אדיוס מוצ'אצ'וס.md",
     "inbox/202401192016.md",
-    "database/topTableGame/game@ מצודות.md",
     "database/game-log@ netrunner.md",
     "database/topTableGame",
     "tm/quick-add",
