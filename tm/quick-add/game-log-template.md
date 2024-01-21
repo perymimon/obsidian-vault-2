@@ -9,15 +9,16 @@
 date-created: <% tp.date.now("YYYY-MM-DD") %>
 tags: game-log/<% gameName.replace(/\s+/g,'') %>
 ---
-`BUTTON[end-game]` [[game@ <% gameName %>]] [[<% tp.date.now("YYYY-MM-DD") %>]] [start:: <% tp.date.now("HH:mm") %>]  
+ [[game@ <% gameName %>]] [[<% tp.date.now("YYYY-MM-DD") %>]] [start:: <% tp.date.now("HH:mm") %>]  
+ [ duration: `= this.end - date(this["date-created"] + "T" + this.start)` ]
 
-[ duration: `= this.end - date(this["date-created"] + "T" + this.start)` ]
+ `BUTTON[end-game]`
 
-| players | score |
-|---|---|
+| players score |
+|--- |
 <%*
 tR += result.players.value
-.map(name=> `| [[${name}]] | \`INPUT[text(placeholder(score)):score["דני"]]\``)
+.map(name=> `| [[${name}]] :: \`INPUT[text(placeholder(score)):score["דני"]]\``)
     .join('\n')
 %>
 

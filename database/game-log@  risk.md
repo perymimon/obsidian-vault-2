@@ -1,26 +1,33 @@
 ---
+aliases: 
+cssclasse: 
+date-created: 2024-01-21
+date-modified: 2024-01-21
+end: 2024-01-21T21:58
 game: game@ Risk
 players:
-  - סטאס פירר
-  - דני
-
-date-created: 2024-01-21
+  - פרי מימון
+  - נריה רוזנר
 tags: game-log/risk
+score:
+  דני: "234234"
 ---
-`BUTTON[end-game]` [[game@  risk]] [[2024-01-21]]
+[[game@  risk]] [[2024-01-21]] [start:: 21:51]
+ 
+`BUTTON[end-game]`
+
+`= date(this["date-created"] + "T" + this.start)`
+
+`= this.end`
 
 [ duration: `= this.end - date(this["date-created"] + "T" + this.start)` ]
 
-[start:: 16:43] 
+| players score |
+|---|
+| [[פרי מימון]] :: `INPUT[text(placeholder(score)):score["דני"]]`  |
+| [[נריה רוזנר]] :: `INPUT[text(placeholder(score)):score["דני"]]` |
 
 
- [[סטאס פירר]] `INPUT[text(placeholder(score)):score["דני"]]`
- [[דני]] `INPUT[text(placeholder(score)):score["דני"]]`
-
-| players | score |
-|---|---|
-| [[דני]]  |`INPUT[text(placeholder(score)):score["דני"]]` |
-| [[פרי מימון]] | `INPUT[text(placeholder(score) ):score["פרי מימון"]]` |
 
 ```meta-bind-button
 label: End Game
@@ -33,4 +40,3 @@ actions:
     evaluate: true
     value: moment().format("yyyy-MM-DDTHH:mm")
 ```
-

@@ -6,54 +6,27 @@
       {
         "id": "5383bd0765903bd1",
         "type": "tabs",
-        "dimension": 55.83203732503888,
+        "dimension": 38.72707659115426,
         "children": [
-          {
-            "id": "352859339459380e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "database/game-log@  scythe.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
           {
             "id": "5f79d06158f8c2e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/obsidian code reference.md",
+                "file": "database/game-log@  risk.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
-          },
-          {
-            "id": "54b2879fdddf4389",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "database/game-log@  havana.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "bbec78967367d85d",
         "type": "tabs",
-        "dimension": 44.16796267496112,
+        "dimension": 61.272923408845735,
         "children": [
           {
             "id": "e7f8358db6a384cd",
@@ -67,8 +40,22 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "089770c525c35179",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "database/game-log@  risk.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +105,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 253.5,
+    "collapsed": true
   },
   "right": {
     "id": "7598a77bad2a22d5",
@@ -134,7 +122,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "database/game-log@  havana.md"
+                "file": "database/game-log@  risk.md"
               }
             }
           },
@@ -193,9 +181,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "54b2879fdddf4389",
+  "active": "5f79d06158f8c2e6",
   "lastOpenFiles": [
+    "אנשים/פרי מימון.md",
     "database/game-log@  risk.md",
+    "note/obsidian code reference.md",
     "database/game-log@  havana.md",
     "database/game-log@  מצודות.md",
     "database/game-log@  fury of dracula (2th edition).md",
@@ -209,9 +199,7 @@
     "Jornal/daily/2024-01-20.md",
     "Jornal/daily/2024-01-19.md",
     "אנשים/דני.md",
-    "אנשים/פרי מימון.md",
     "[פרי מימון.md",
-    "note/obsidian code reference.md",
     "note/Examples Dataviewjs query.md",
     "משאבים/goodreads-db/Green Mars.md",
     "note/Examples Dataview query.md",
