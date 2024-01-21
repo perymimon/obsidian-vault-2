@@ -1,24 +1,22 @@
 ---
-aliases: 
-cssclasse: 
-date-created: 2024-01-21
-date-modified: 2024-01-21
-game: game@ Risk
+game: game@ מצודות
 players:
   - פרי מימון
   - דני
-tags: game-log/risk
+
+date-created: 2024-01-21
+tags: game-log/מצודות
 ---
-`BUTTON[end-game]` [[game@  risk]] [[2024-01-21]]
+`BUTTON[end-game]` [[game@  מצודות]] [[2024-01-21]]
 
 [ duration: `= this.end - date(this["date-created"] + "T" + this.start)` ]
 
-[start:: 15:46]
+[start:: 15:57] 
 
 | players | score |
 |---|---|
-| [[דני]]   | `INPUT[text:score["דני"]]` |
-| [[פרי מימון]] | `INPUT[text:score["פרי מימון"]] ` |
+| [[פרי מימון]] |`INPUT[text(placeholder(score)):score["דני"]] ` |
+| [[דני]] |`INPUT[text(placeholder(score)):score["דני"]]` |
 
 | players | score |
 |---|---|
@@ -36,3 +34,4 @@ actions:
     evaluate: true
     value: moment().format("yyyy-MM-DDTHH:mm")
 ```
+

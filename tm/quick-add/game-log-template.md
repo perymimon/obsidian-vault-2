@@ -16,9 +16,10 @@ tags: game-log/<% gameName.replace(/\s+/g,'') %>
 [start:: <% tp.date.now("HH:mm") %>] 
 
 | players | score |
-| --- | --- |
+|---|---|
 <%*
-tR += result.players.value.map(name=> `| [[${name}]] | \`INPUT[text:score["${name}"]] \` |`)
+tR += result.players.value
+.map(name=> `| [[${name}]] | \`INPUT[text(placeholder(score)):score["דני"]] \` |`)
     .join('\n')
 %>
 
