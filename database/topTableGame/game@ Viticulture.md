@@ -2,7 +2,7 @@
 aliases: 
 cssclasse: 
 date-created: 2022-06-06
-date-modified: 2024-01-19
+date-modified: 2024-01-21
 tags:
   - topTableGame
 ---
@@ -18,3 +18,7 @@ tags:
 באמצעות אותם עובדים ומבקרים, שחקנים יכולים להרחיב את הכרמים שלהם על ידי בניית מבנים, שתילת גפנים (כרטיסי גפן) ומילוי הזמנות יין (כרטיסי הזמנת יין). השחקנים פועלים לקראת המטרה לנהל את היקב המצליח ביותר בטוסקנה.
 
 [Viticulture | Board Game | BoardGameGeek](https://boardgamegeek.com/boardgame/128621/viticulture)
+
+```dataviewjs 
+dv.pagePaths('#game-log/viticulture').forEach(pagePath => { dv.paragraph("![["+pagePath+"]]") })
+```

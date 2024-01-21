@@ -2,7 +2,7 @@
 aliases: 
 cssclasse: 
 date-created: 2021-12-19
-date-modified: 2024-01-19
+date-modified: 2024-01-21
 tags:
   - topTableGame
 ---
@@ -18,3 +18,7 @@ tags:
 במשחקים הראשונים נשחק את דק הבסיס לכל תאגיד או אקר  ובהמשך אפשר לשנות ולהוסיף עם ההרחבות שיש לי .
 
 בכל מקרה המשחק תמיד מאוזן
+
+```dataviewjs 
+dv.pagePaths('#game-log/netrunner').forEach(pagePath => { dv.paragraph("![["+pagePath+"]]") })
+```

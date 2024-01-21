@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "73b0a29c60927a85",
+        "id": "0b0dead5863237e6",
         "type": "tabs",
         "children": [
           {
-            "id": "a71ac0d0f74258c3",
+            "id": "d291f142dda40a37",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "database/topTableGame/game@ citadels.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,9 +80,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "database/topTableGame/game@ citadels.md"
-              }
+              "state": {}
             }
           },
           {
@@ -145,34 +138,34 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a71ac0d0f74258c3",
+  "active": "d291f142dda40a37",
   "lastOpenFiles": [
-    "database/topTableGame/game@ Scythe.md",
-    "database/topTableGame/game@ citadels.md",
-    "database/topTableGame/game@ DARK MOON 2011.md",
+    "משאבים/2002 - שיר לענבל.md",
+    "database/game-log@  isla dorada.md",
     "database/topTableGame/game@ Bunny Kingdom.md",
+    "database/topTableGame/game@ NetRunner.md",
+    "database/topTableGame/game@ caylus.md",
+    "database/topTableGame/game@ Ceylon.md",
+    "database/topTableGame/game@ citadels.md",
+    "database/topTableGame/game@ DARK MOON.md",
+    "database/topTableGame/game@ Fury of Dracula.md",
+    "database/topTableGame/game@ Havana.md",
+    "database/topTableGame/game@ Imperial Settlers.md",
+    "database/topTableGame/game@ Isla Dorada.md",
+    "database/topTableGame/game@ Risk.md",
+    "database/topTableGame/game@ Viticulture.md",
+    "database/topTableGame/game@ Scythe.md",
+    "database/game-log@  מצודות.md",
     "database/game-log@  netrunner.md",
     "database/game-log@  scythe.md",
     "note/obsidian code reference.md",
-    "database/game-log@  מצודות.md",
-    "database/game-log@  isla dorada.md",
     "database/game-log@  risk.md",
-    "אנשים/פרי מימון.md",
+    "database/אנשים/פרי מימון.md",
     "database/game-log@  havana.md",
     "database/game-log@  fury of dracula (2th edition).md",
     "database/game-log@  viticulture.md",
     "database/game-log@  havana 1.md",
     "Jornal/daily/2024-01-21.md",
-    "Jornal/daily/2024-01-20.md",
-    "Jornal/daily/2024-01-19.md",
-    "אנשים/דני.md",
-    "[פרי מימון.md",
-    "note/Examples Dataviewjs query.md",
-    "משאבים/goodreads-db/Green Mars.md",
-    "note/Examples Dataview query.md",
-    "משאבים/goodreads-db/Guardians of the West.md",
-    "database/ספרים/אומן השיר.md",
-    "database/ספרים/אדיוס מוצ'אצ'וס.md",
     "database/topTableGame",
     "tm/quick-add",
     "database",

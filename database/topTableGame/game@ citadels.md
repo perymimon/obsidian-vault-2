@@ -12,7 +12,6 @@ tags:
 
 ### Log
 
-```dataview
-list from [[]]
-
+```dataviewjs 
+dv.pagePaths('#game-log/citadels').forEach(pagePath => { dv.paragraph("![["+pagePath+"]]") })
 ```

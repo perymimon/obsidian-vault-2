@@ -4,7 +4,7 @@ aliases:
 bgg-link: https://boardgamegeek.com/boardgame/20963/fury-dracula-second-edition
 cssclasse: 
 date-created: 2022-06-06
-date-modified: 2024-01-19
+date-modified: 2024-01-21
 tags:
   - topTableGame
 ---
@@ -22,3 +22,7 @@ tags:
 [Fury of Dracula (Second Edition) | Board Game | BoardGameGeek](https://boardgamegeek.com/boardgame/20963/fury-dracula-second-edition)
 
 ## Logs
+
+```dataviewjs 
+dv.pagePaths('#game-log/FuryofDracula').forEach(pagePath => { dv.paragraph("![["+pagePath+"]]") })
+```
