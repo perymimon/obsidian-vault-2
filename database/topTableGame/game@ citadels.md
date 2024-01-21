@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases: משחק לוח- מצודות
 cssclasse: 
 date-created: 2024-01-19
 date-modified: 2024-01-21
@@ -13,6 +13,6 @@ tags:
 ### Log
 
 ```dataview
-list from #game-log/מצודות
+list from [[]]
 
 ```

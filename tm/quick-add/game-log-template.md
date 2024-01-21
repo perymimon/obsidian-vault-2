@@ -3,16 +3,20 @@
  let folder = "database"
  let gameName = result.game.value.toLowerCase().replace('game@','')
  var filename = `game-log@ ${ gameName }`
+var winOptions =  result.players.value.map(n=>`option(${n})`)
  _%>
 ---
 <% result.asFrontmatter() %>
 date-created: <% tp.date.now("YYYY-MM-DD") %>
 tags: game-log/<% gameName.replace(/\s+/g,'') %>
 ---
- [[game@ <% gameName %>]] [[<% tp.date.now("YYYY-MM-DD") %>]] [start:: <% tp.date.now("HH:mm") %>]  
- [ duration: `= this.end - date(this["date-created"] + "T" + this.start)` ]
+[[game@ <% gameName %>]] [[<% tp.date.now("YYYY-MM-DD") %>]] [start:: <% tp.date.now("HH:mm") %>]  
 
- `BUTTON[end-game]`
+End game `= this.end`
+ 
+[ duration: `= this.end - date(this["date-created"] + "T" + this.start)` ]
+
+ `BUTTON[end-game]` who win: `INPUT[inlineSelect(<% winOptions %>):win]`
 
 | players score |
 |---|
