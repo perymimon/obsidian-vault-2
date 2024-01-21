@@ -16,14 +16,14 @@ tags:
   - game-log/scythe
 win: דני
 ---
-[[game@ Scythe]]  [[2024-01-19]] [start:: 20:17]
+ `BUTTON[end-game]` [[game@ Scythe]]  [[2024-01-19]] [start:: 20:17] 
 
 [ duration: `= this.end - date(this["date-created"] + "T" + this.start)`  ]
 
- `BUTTON[end-game]`
-
-[ [[דני]]:: `INPUT[text(placeholder(score)):score["דני"]]` ]
-[ [[פרי מימון]]:: `INPUT[text(placeholder(score) ):score["פרי מימון"]]`]
+| players | score |
+|---|---|
+| [[דני]]  |`INPUT[text(placeholder(score)):score["דני"]]` |
+| [[פרי מימון]] | `INPUT[text(placeholder(score) ):score["פרי מימון"]]` |
 
 ```meta-bind-button
 label: End Game

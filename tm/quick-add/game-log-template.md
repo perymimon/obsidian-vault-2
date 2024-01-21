@@ -8,15 +8,28 @@
 <% result.asFrontmatter() %>
 tags: game-log/<% gameName.replace(/\s+/g,'') %>
 ---
-For the [[game@ <% gameName %>]]
+`BUTTON[end-game]` [[game@ <% gameName %>]] [[<% tp.date.now("YYYY-MM-DD") %>]]
+[ duration: `= this.end - date(this["date-created"] + "T" + this.start)` ]
+[start:: <% tp.date.now("HH:mm") %>] 
 
-[day:: <% tp.date.now("YYYY-MM-DD") %>] [start:: <% tp.date.now("HH:mm") %>] [end:: `INPUT[time:end]`]
-
+| players | score |
+| --- | --- |
 <%*
-tR += result.players.value.map(name=> `- [[${name}]]::\`INPUT[text:score["${name}"]]\``)
+tR += result.players.value.map(name=> `| [[${name}]] | \`INPUT[text:score["${name}"]] \` |`)
     .join('\n')
-_%>
+%>
 
+```meta-bind-button
+label: End Game
+hidden: true
+id: end-game
+style: default
+actions:
+  - type: updateMetadata
+    bindTarget: end
+    evaluate: true
+    value: moment().format("yyyy-MM-DDTHH:mm")
+```
 
 <%*
 
