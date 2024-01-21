@@ -40,7 +40,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "database/game-log@  מצודות.md",
+                "file": "database/game-log@  havana.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -134,7 +134,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "database/game-log@  מצודות.md"
+                "file": "database/game-log@  havana.md"
               }
             }
           },
@@ -195,12 +195,13 @@
   },
   "active": "54b2879fdddf4389",
   "lastOpenFiles": [
-    "database/game-log@  scythe.md",
-    "database/game-log@  מצודות.md",
-    "database/game-log@  viticulture.md",
-    "database/game-log@  netrunner.md",
     "database/game-log@  risk.md",
     "database/game-log@  havana.md",
+    "database/game-log@  מצודות.md",
+    "database/game-log@  fury of dracula (2th edition).md",
+    "database/game-log@  scythe.md",
+    "database/game-log@  viticulture.md",
+    "database/game-log@  netrunner.md",
     "database/game-log@  havana 1.md",
     "Jornal/daily/2024-01-21.md",
     "database/topTableGame/game@ Scythe.md",
@@ -220,7 +221,6 @@
     "inbox/202401192016.md",
     "database/topTableGame/game@ מצודות.md",
     "database/game-log@ netrunner.md",
-    "database/topTableGame/game@ Viticulture.md",
     "database/topTableGame",
     "tm/quick-add",
     "database",
