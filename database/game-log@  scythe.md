@@ -18,7 +18,7 @@ win: דני
 ---
 [[game@ Scythe]]  [[2024-01-19]] [start:: 20:17]
 
-[ duration: `= this.end - date(this["date-created"] + "T" + this.start)` ]
+[ duration: `= this.end - date(this["date-created"] + "T" + this.start)`  ]
 
  `BUTTON[end-game]`
 
