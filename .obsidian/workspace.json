@@ -6,6 +6,7 @@
       {
         "id": "0b0dead5863237e6",
         "type": "tabs",
+        "dimension": 47.8544776119403,
         "children": [
           {
             "id": "d291f142dda40a37",
@@ -38,6 +39,7 @@
       {
         "id": "87355f299e591435",
         "type": "tabs",
+        "dimension": 52.1455223880597,
         "children": [
           {
             "id": "ada0cf9e4e78e23d",
@@ -177,7 +179,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d291f142dda40a37",
+  "active": "ada0cf9e4e78e23d",
   "lastOpenFiles": [
     "Jornal/daily/2024-01-22 (1).md",
     "scripts/metabind-habit-tracker.js",

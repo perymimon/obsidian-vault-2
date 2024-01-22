@@ -92,11 +92,10 @@ id: tefillin
 hidden: true
 style: primary
 actions:
-  - type: js
-    file: scripts/metabind-habit-tracker.js
-  - type: updateMetadata
+  - type: command
+    command: quickadd:choice:59fa3186-ca93-48ae-87fb-36781d8f9189
+  - type: updateMetadata    
     bindTarget: habbit.tefillin
-    evaluate: false
     value: true
 ```
 
