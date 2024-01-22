@@ -28,11 +28,12 @@
               "type": "markdown",
               "state": {
                 "file": "Jornal/daily/2024-01-23.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
-            }
+            },
+            "group": "cbcefbc77bfbbe97"
           }
         ],
         "currentTab": 1
@@ -48,12 +49,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tm/meta-bind/habbit-tracker.md",
+                "file": "Jornal/daily/2024-01-23.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
               }
-            }
+            },
+            "group": "cbcefbc77bfbbe97"
           }
         ]
       }
@@ -183,8 +185,10 @@
   },
   "active": "a1d21136a78333c5",
   "lastOpenFiles": [
-    "tm/meta-bind/habbit-tracker.md",
+    "Untitled 2.md",
     "Jornal/daily/2024-01-23.md",
+    "database/game-log/game-log@  scythe 1.md",
+    "tm/meta-bind/habbit-tracker.md",
     "tm/meta-bind/habbit-tracker 1.md",
     "database/ספרים/אומן השיר.md",
     "scripts/metabind-habit-tracker-read-book.js",
@@ -215,8 +219,6 @@
     "database/topTableGame/game@ citadels.md",
     "database/topTableGame/game@ DARK MOON.md",
     "database/topTableGame/game@ Fury of Dracula.md",
-    "database/topTableGame/game@ Havana.md",
-    "database/topTableGame/game@ Imperial Settlers.md",
     "database/topTableGame",
     "tm/quick-add",
     "Untitled.canvas",

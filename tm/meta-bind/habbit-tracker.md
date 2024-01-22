@@ -19,7 +19,7 @@ habbit:
 label: Reading Book
 hidden: true
 id: readingStoryBook
-style: primary
+style: default
 actions:
   - type: js
     file: scripts/metabind-habit-tracker-read-book.js  
@@ -27,7 +27,7 @@ actions:
  
 ```meta-bind-button
 label: hanging
-hidden: false
+hidden: true
 class: ""
 tooltip: ""
 id: "hanging"
@@ -42,13 +42,11 @@ actions:
 ```
 
 
-
-
 ```meta-bind-button
 label: Morning Gym
 id: morning-gym
 hidden: true
-style: primary
+style: default
 actions:
  - type: updateMetadata
    bindTarget: habbit.morningGym
@@ -62,7 +60,7 @@ actions:
 label: JustDance
 id: JustDance
 hidden: true
-style: primary
+style: default
 actions:
   - type: updateMetadata
     bindTarget: habbit.JustDance
@@ -72,26 +70,26 @@ actions:
     file: scripts/metabind-habit-tracker-justdance.js   
 ```
 
-```meta-bind-button
-label: תפילין
-id: tefillin
-hidden: false
-style: primary
-actions:
-  - type: js
-    file: scripts/metabind-habit-tracker-thfilin.js  
-  - type: updateMetadata    
-    bindTarget: habbit.tefillin
-	evaluate: false
-    value: "true"
-```
 
+```meta-bind-button
+label: tefillin
+hidden: true
+id: tefillin
+style: default
+actions:
+  - type: updateMetadata
+    bindTarget: habbit.tefillin
+    evaluate: false
+    value: "true"
+  - type: js
+    file: scripts/metabind-habit-tracker-thfilin.js 
+```
 
 ```meta-bind-button
 label: Top Table Game
 id: topTableGame
 hidden: true
-style: primary
+style: default
 actions:
   - type: templaterCreateNote
     templateFile: tm/quick-add/game-log-template.md

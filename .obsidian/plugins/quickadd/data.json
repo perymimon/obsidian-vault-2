@@ -154,7 +154,7 @@
       "command": false,
       "appendLink": false,
       "captureTo": "Jornal/daily/{{date}}",
-      "captureToActiveFile": false,
+      "captureToActiveFile": true,
       "createFileIfItDoesntExist": {
         "enabled": false,
         "createWithTemplate": false,
