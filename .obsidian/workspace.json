@@ -160,11 +160,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 492.5,
+    "width": 731.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -179,8 +180,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d291f142dda40a37",
+  "active": "baf2c247340e4c14",
   "lastOpenFiles": [
+    "database/ספרים/אומן השיר.md",
+    "tm/meta-bind/habbit-tracker.md",
+    "scripts/metabind-habit-tracker-read-book.js",
     "scripts/metabind-habit-tracker-hanging.js",
     "scripts/metabind-habit-tracker-hnaging.js",
     "scripts/metabind-habit-tracker-morning-gym.js",
@@ -189,12 +193,10 @@
     "Jornal/daily/2024-01-22 (1).md",
     "scripts/metabind-habit-tracker.js",
     "Jornal/daily/2024-01-22.md",
-    "tm/meta-bind/habbit-tracker.md",
     "Untitled 1.md",
     "database/game-log/game-log@  netrunner.md",
     "Untitled.md",
     "database/game-log/game-log@  scythe.md",
-    "database/ספרים/אומן השיר.md",
     "database/game-log/game-log@.md",
     "database/game-log@  scythe.md",
     "database/game-log@  isla dorada.md",
@@ -215,8 +217,6 @@
     "database/topTableGame/game@ Isla Dorada.md",
     "database/topTableGame",
     "tm/quick-add",
-    "database",
-    "scripts/metabind-template-input.js",
     "Untitled.canvas",
     "assets/13dd9a2e550.bcd8073ff147be95.jpg",
     "assets/13dfeedbd74.8a43a4cc67bd6a4c.jpg",

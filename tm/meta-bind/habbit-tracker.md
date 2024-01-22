@@ -19,15 +19,8 @@ hidden: true
 id: readingStoryBook
 style: primary
 actions:
-  - type: command
-    command: quickadd:choice:1a3b6275-d9b2-4604-b43d-55cf470298bc
-  - type: sleep
-    ms: 100
-  - type: updateMetadata
-    bindTarget: memory^inputText
-    value: I'm reading {{habbit.book.name}} until page {{habbit.book.page}}
   - type: js
-    file: scripts/metabind-template-input.js  
+    file: scripts/metabind-habit-tracker-read-book.js  
 ``` 
  
 ```meta-bind-button
@@ -36,15 +29,11 @@ id: hanging
 hidden: true
 style: primary
 actions:
-  - type: command
-    command: quickadd:choice:1a3b6275-d9b2-4604-b43d-55cf470298bc
-  - type: sleep
-    ms: 100
   - type: updateMetadata
-    bindTarget: memory^inputText
-    value: hanging for 1 minute
+    bindTarget: habbit.hanging
+    value: 1 min
   - type: js
-    file: scripts/metabind-template-input.js  
+    file: scripts/metabind-habit-tracker-hanging.js  
 ```
 
 ```meta-bind-button
@@ -53,18 +42,10 @@ id: morning-gym
 hidden: true
 style: primary
 actions:
-  - type: command
-    command: quickadd:choice:1a3b6275-d9b2-4604-b43d-55cf470298bc
-  - type: sleep
-    ms: 100
-  - type: updateMetadata
-    bindTarget: memory^inputText
-    value: Morning Gym, set 1    
-  - type: input
-    str: Morning Gym, set 1
+  - type: js
+    file: scripts/metabind-habit-tracker-morning-gym.js  
   - type: updateMetadata
     bindTarget: habbit.hanging
-    evaluate: false
     value: true
 ```
 
@@ -74,15 +55,10 @@ id: JustDance
 hidden: true
 style: primary
 actions:
-  - type: command
-    command: quickadd:choice:1a3b6275-d9b2-4604-b43d-55cf470298bc
-  - type: sleep
-    ms: 100
-  - type: input
-    str: Justdance 
+  - type: js
+    file: scripts/metabind-habit-tracker-justdance.js   
   - type: updateMetadata
     bindTarget: habbit.JustDance
-    evaluate: false
     value: true
 ```
 
@@ -92,8 +68,8 @@ id: tefillin
 hidden: true
 style: primary
 actions:
-  - type: command
-    command: quickadd:choice:59fa3186-ca93-48ae-87fb-36781d8f9189
+  - type: js
+    file: scripts/metabind-habit-tracker-thfilin.js  
   - type: updateMetadata    
     bindTarget: habbit.tefillin
     value: true
