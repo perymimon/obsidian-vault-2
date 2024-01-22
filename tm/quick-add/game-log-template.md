@@ -44,5 +44,9 @@ const _rst = await Promise.all(__prs);
 tR = tR.replace(/rJ2KqXzxQg/g, () => _rst.shift());
 await tp.file.create_new(tR, `${folder}/${filename}.md`)
 tR = ''
-
+// add note on daily page
+let quickadd = app.plugins.plugins['quickadd']
+let choice = quickadd.settings.choices.find( c => c.name == "script-daily-log")
+choice.format.format = `- {{time}} played the game [[${filename}]] \\n`
+quickadd.api.executeChoice('script-daily-log')
 _%>

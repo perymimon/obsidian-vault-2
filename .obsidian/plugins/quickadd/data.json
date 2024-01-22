@@ -149,20 +149,20 @@
     },
     {
       "id": "c893722d-6626-4ede-8482-06ab2e4237dc",
-      "name": "what im done tody ⚒️ (copy)",
+      "name": "script-daily-log ",
       "type": "Capture",
       "command": true,
       "appendLink": false,
       "captureTo": "Jornal/daily/{{date}}",
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
-        "enabled": true,
+        "enabled": false,
         "createWithTemplate": false,
         "template": ""
       },
       "format": {
         "enabled": true,
-        "format": "- {{time}} {{value}} \\n"
+        "format": "- {{time}} "
       },
       "insertAfter": {
         "enabled": true,
@@ -179,7 +179,7 @@
         "direction": "vertical",
         "focus": false
       },
-      "openFile": true,
+      "openFile": false,
       "openFileInMode": "source"
     }
   ],
