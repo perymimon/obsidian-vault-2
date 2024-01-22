@@ -37,7 +37,7 @@
     },
     {
       "id": "e95ecc9a-1c3d-4467-9214-2abce199f07a",
-      "name": "מה הספקתי היום ⚒️",
+      "name": "what im done tody ⚒️",
       "type": "Capture",
       "command": true,
       "appendLink": false,
@@ -146,6 +146,41 @@
       "type": "Macro",
       "command": true,
       "macroId": "da02eb7e-9dc7-41fd-b20b-10f9bc57aaea"
+    },
+    {
+      "id": "c893722d-6626-4ede-8482-06ab2e4237dc",
+      "name": "what im done tody ⚒️ (copy)",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Jornal/daily/{{date}}",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- {{time}} {{value}} \\n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## הספקתי היום",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "bottom"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": false
+      },
+      "openFile": true,
+      "openFileInMode": "source"
     }
   ],
   "macros": [
@@ -154,38 +189,43 @@
       "id": "da02eb7e-9dc7-41fd-b20b-10f9bc57aaea",
       "commands": [
         {
-          "name": "game-log-template",
+          "name": "add daily log",
           "type": "NestedChoice",
-          "id": "2587ab03-acb7-4996-93c0-452240d2b9eb",
+          "id": "e661f926-301f-47d4-986e-d0c626d5b4d1",
           "choice": {
-            "id": "d8dba642-9745-4f49-adb9-12c9e1028d60",
-            "name": "game-log-template",
-            "type": "Template",
+            "id": "e32b71a4-04e7-47f5-b719-2f14eb887496",
+            "name": "add daily log",
+            "type": "Capture",
             "command": false,
-            "templatePath": "tm/quick-add/game-log-template.md",
-            "fileNameFormat": {
-              "enabled": true,
-              "format": "{{date}}-{{time:HHmm}}-game-{{value:game}}.md"
-            },
-            "folder": {
-              "enabled": true,
-              "folders": [
-                "database"
-              ],
-              "chooseWhenCreatingNote": false,
-              "createInSameFolderAsActiveFile": false,
-              "chooseFromSubfolders": false
-            },
             "appendLink": false,
+            "captureTo": "Jornal/daily/{{date}}",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "player game [[{sdf}]]"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "## הספקתי היום",
+              "insertAtEnd": true,
+              "considerSubsections": true,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
             "openFileInNewTab": {
               "enabled": false,
               "direction": "vertical",
               "focus": true
             },
             "openFile": false,
-            "openFileInMode": "default",
-            "fileExistsMode": "Increment the file name",
-            "setFileExistsBehavior": true
+            "openFileInMode": "default"
           }
         }
       ],
