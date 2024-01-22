@@ -5,6 +5,7 @@ habbit:
     name: "[[database/ספרים/אומן השיר|אומן השיר]]"
     page: 24
   topTableGame: true
+  tefillin: true
 ---
 > [!danger]+ Habit Tracker 
 > **כושר**: `BUTTON[hanging,morning-gym,JustDance]`
@@ -84,7 +85,6 @@ actions:
     evaluate: false
     value: true
 ```
-
 
 ```meta-bind-button
 label: תפילין

@@ -46,7 +46,7 @@
               "type": "markdown",
               "state": {
                 "file": "tm/meta-bind/habbit-tracker.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -102,8 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5,
-    "collapsed": true
+    "width": 253.5
   },
   "right": {
     "id": "7598a77bad2a22d5",
@@ -180,13 +179,16 @@
   },
   "active": "ada0cf9e4e78e23d",
   "lastOpenFiles": [
-    "database/ספרים/אומן השיר.md",
-    "tm/meta-bind/habbit-tracker.md",
     "Jornal/daily/2024-01-22.md",
+    "tm/meta-bind/habbit-tracker.md",
+    "Untitled 1.md",
+    "database/game-log/game-log@  netrunner.md",
+    "Untitled.md",
+    "database/game-log/game-log@  scythe.md",
+    "database/ספרים/אומן השיר.md",
     "database/game-log/game-log@.md",
     "database/game-log@  scythe.md",
     "database/game-log@  isla dorada.md",
-    "database/game-log/game-log@  scythe.md",
     "kjkjk.md",
     "database/game-log/game-log@  viticulture.md",
     "database/game-log/game-log@1.md",
@@ -204,9 +206,6 @@
     "database/topTableGame/game@ Isla Dorada.md",
     "database/topTableGame/game@ Risk.md",
     "database/topTableGame/game@ Viticulture.md",
-    "database/topTableGame/game@ Scythe.md",
-    "database/game-log@  מצודות.md",
-    "database/game-log@  netrunner.md",
     "database/topTableGame",
     "tm/quick-add",
     "database",
