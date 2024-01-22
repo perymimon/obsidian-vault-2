@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jornal/daily/2024-01-18.md",
+                "file": "Jornal/daily/2024-01-22.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -106,8 +106,9 @@
   },
   "active": "21c2a342a33745b1",
   "lastOpenFiles": [
-    "Jornal/daily/2024-01-20.md",
     "Jornal/daily/2024-01-18.md",
+    "Jornal/daily/2024-01-22.md",
+    "Jornal/daily/2024-01-20.md",
     "Jornal/daily/2024-01-16.md",
     "Jornal/daily/2024-01-17.md",
     "tm/meta-bind/habbit-tracker.md",
@@ -132,7 +133,6 @@
     "Jornal/daily/2024-01-07.md",
     "inbox/pieces context.md",
     "piecesdb.json",
-    "note/Obsidian md notation.md",
     "_.obsidian",
     "draft",
     "archive"
