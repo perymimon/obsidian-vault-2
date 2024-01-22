@@ -6,13 +6,12 @@ habbit:
     page: 24
   topTableGame: true
   tefillin: true
-  morningGym: true
 ---
 > [!danger]+ Habit Tracker 
-> **כושר**: `BUTTON[hanging,morning-gym, JustDance]`
+> **כושר**: `BUTTON[hanging,  morning-gym, JustDance]`
 > **דת**: `BUTTON[tefillin]` 
 > **hobbies** `BUTTON[topTableGame]` 
-> **Reading**: `BUTTON[readingStoryBook]`
+> **Reading**: Book `INPUT[suggester(optionQuery(#book)):habbit.book.name]`  until page 
 
 
 ```meta-bind-button
@@ -26,23 +25,17 @@ actions:
 ``` 
  
 ```meta-bind-button
-label: hanging
-hidden: false
-class: ""
-tooltip: ""
-id: "hanging"
-style: default
+label: Hanging
+id: hanging
+hidden: true
+style: primary
 actions:
   - type: updateMetadata
     bindTarget: habbit.hanging
-    evaluate: false
-    value: "true"
+    value: 1 min
   - type: js
-    file: scripts/metabind-habit-tracker-hanging.js 
+    file: scripts/metabind-habit-tracker-hanging.js  
 ```
-
-
-
 
 ```meta-bind-button
 label: Morning Gym
@@ -50,12 +43,11 @@ id: morning-gym
 hidden: true
 style: primary
 actions:
- - type: updateMetadata
-   bindTarget: habbit.morningGym
-   evaluate: false
-   value: "true"
- - type: js
-   file: scripts/metabind-habit-tracker-morning-gym.js  
+  - type: js
+    file: scripts/metabind-habit-tracker-morning-gym.js  
+  - type: updateMetadata
+    bindTarget: habbit.hanging
+    value: true
 ```
 
 ```meta-bind-button
@@ -64,26 +56,24 @@ id: JustDance
 hidden: true
 style: primary
 actions:
-  - type: updateMetadata
-    bindTarget: habbit.JustDance
-    evaluate: false
-    value: true
   - type: js
     file: scripts/metabind-habit-tracker-justdance.js   
+  - type: updateMetadata
+    bindTarget: habbit.JustDance
+    value: true
 ```
 
 ```meta-bind-button
 label: תפילין
 id: tefillin
-hidden: false
+hidden: true
 style: primary
 actions:
   - type: js
     file: scripts/metabind-habit-tracker-thfilin.js  
   - type: updateMetadata    
     bindTarget: habbit.tefillin
-	evaluate: false
-    value: "true"
+    value: true
 ```
 
 

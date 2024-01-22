@@ -245,30 +245,28 @@
     {
       "title": "Read Book",
       "name": "read-book",
-      "version": "1",
       "fields": [
         {
           "name": "book",
           "label": "book",
           "description": "select book from the list ",
+          "isRequired": true,
           "input": {
             "type": "dataview",
-            "allowUnknownValues": false,
             "query": "dv.pages('#book').file.name"
-          },
-          "isRequired": true
+          }
         },
         {
           "name": "page",
           "label": "Page",
           "description": "until which page I'm reading",
+          "isRequired": false,
           "input": {
-            "type": "number",
-            "allowUnknownValues": false
-          },
-          "isRequired": false
+            "type": "number"
+          }
         }
-      ]
+      ],
+      "version": "1"
     }
   ]
 }
