@@ -1,3 +1,4 @@
+debugger
 let metaData = app.plugins.plugins["obsidian-meta-bind-plugin"]
 let {flattenObject} = (await engine.importJs('scripts/flat-object.js'));
 let file = app.workspace.activeEditor.file
