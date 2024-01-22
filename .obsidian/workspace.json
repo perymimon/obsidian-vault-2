@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "database/game-log/game-log@.md",
-                "mode": "preview",
+                "file": "tm/meta-bind/habbit-tracker.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -27,6 +27,25 @@
               "type": "markdown",
               "state": {
                 "file": "kjkjk.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "87355f299e591435",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ada0cf9e4e78e23d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tm/meta-bind/habbit-tracker.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -83,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 253.5,
+    "collapsed": true
   },
   "right": {
     "id": "7598a77bad2a22d5",
@@ -99,7 +119,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "database/game-log/game-log@.md"
+                "file": "tm/meta-bind/habbit-tracker.md"
               }
             }
           },
@@ -158,15 +178,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d291f142dda40a37",
+  "active": "ada0cf9e4e78e23d",
   "lastOpenFiles": [
+    "database/ספרים/אומן השיר.md",
+    "tm/meta-bind/habbit-tracker.md",
+    "Jornal/daily/2024-01-22.md",
+    "database/game-log/game-log@.md",
+    "database/game-log@  scythe.md",
+    "database/game-log@  isla dorada.md",
+    "database/game-log/game-log@  scythe.md",
     "kjkjk.md",
     "database/game-log/game-log@  viticulture.md",
-    "database/game-log/game-log@.md",
     "database/game-log/game-log@1.md",
     "database/game-log",
     "משאבים/2002 - שיר לענבל.md",
-    "database/game-log@  isla dorada.md",
     "database/topTableGame/game@ Bunny Kingdom.md",
     "database/topTableGame/game@ NetRunner.md",
     "database/topTableGame/game@ caylus.md",
@@ -182,11 +207,6 @@
     "database/topTableGame/game@ Scythe.md",
     "database/game-log@  מצודות.md",
     "database/game-log@  netrunner.md",
-    "database/game-log@  scythe.md",
-    "note/obsidian code reference.md",
-    "database/game-log@  risk.md",
-    "database/אנשים/פרי מימון.md",
-    "database/game-log@  havana.md",
     "database/topTableGame",
     "tm/quick-add",
     "database",

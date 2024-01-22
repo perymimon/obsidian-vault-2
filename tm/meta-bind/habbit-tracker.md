@@ -111,13 +111,6 @@ id: topTableGame
 hidden: true
 style: primary
 actions:
-  - type: command
-    command: quickadd:choice:1a3b6275-d9b2-4604-b43d-55cf470298bc
-  - type: sleep
-    ms: 100
-  - type: input
-    str: I played : 
-  - type: updateMetadata
-    bindTarget: habbit.topTableGame
-    value: true
+  - type: templaterCreateNote
+    templateFile: tm/quick-add/game-log-template.md
 ```

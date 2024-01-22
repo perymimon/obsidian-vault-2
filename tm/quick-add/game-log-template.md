@@ -22,7 +22,7 @@ End game `= this.end`
 |---|
 <%*
 tR += result.players.value
-.map(name=> `| [[${name}]] :: \`INPUT[text(placeholder(score)):score["דני"]]\` | `)
+.map(name=> `| [[${name}]] :: \`INPUT[text(placeholder(score)):score["${name}"]]\` | `)
     .join('\n')
 %>
 
@@ -46,7 +46,7 @@ await tp.file.create_new(tR, `${folder}/${filename}.md`)
 tR = ''
 // add note on daily page
 let quickadd = app.plugins.plugins['quickadd']
-let choice = quickadd.settings.choices.find( c => c.name == "script-daily-log")
+let choice = quickadd.settings.choices.find( c => c.name.trim() == "script-daily-log")
 choice.format.format = `- {{time}} played the game [[${filename}]] \\n`
 quickadd.api.executeChoice('script-daily-log')
 _%>

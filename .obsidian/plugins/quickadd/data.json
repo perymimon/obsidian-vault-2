@@ -149,7 +149,7 @@
     },
     {
       "id": "c893722d-6626-4ede-8482-06ab2e4237dc",
-      "name": "script-daily-log ",
+      "name": "script-daily-log",
       "type": "Capture",
       "command": true,
       "appendLink": false,
