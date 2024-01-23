@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Jornal/daily/2024-01-23.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -106,8 +106,8 @@
   },
   "active": "21c2a342a33745b1",
   "lastOpenFiles": [
-    "tm/meta-bind/habbit-tracker.md",
     "Jornal/daily/2024-01-23.md",
+    "tm/meta-bind/habbit-tracker.md",
     "Jornal/daily/2024-01-22.md",
     "Jornal/daily/2024-01-18.md",
     "Jornal/daily/2024-01-20.md",
