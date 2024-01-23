@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Jornal/daily/2024-01-23.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -97,16 +97,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "switcher:Open quick switcher": false,
       "daily-notes:Open today's daily note": false,
       "templater-obsidian:Templater": false,
       "markdown-importer:Open format converter": true,
       "zk-prefixer:Create new unique note": true,
-      "command-palette:Open command palette": true
+      "command-palette:Open command palette": true,
+      "modalforms:Edit forms": false
     }
   },
   "active": "21c2a342a33745b1",
   "lastOpenFiles": [
+    "Untitled 4.md",
+    "database/game-log/game-log@  viticulture.md",
     "Jornal/daily/2024-01-23.md",
+    "Untitled 3.md",
+    "[פרי מימון.md",
     "tm/meta-bind/habbit-tracker.md",
     "Jornal/daily/2024-01-22.md",
     "Jornal/daily/2024-01-18.md",
@@ -128,10 +134,6 @@
     "משאבים/goodreads-db/ילדי המחשבה.md",
     "מחשבה.md",
     "Jornal/daily/2024-01-12 (conflict 2024-01-13-17-19-30).md",
-    "jornal/daily/2024-01-12.md",
-    "Jornal/daily/2024-01-09.md",
-    "Jornal/daily/2024-01-08.md",
-    "Jornal/daily/2024-01-07.md",
     "piecesdb.json",
     "_.obsidian",
     "draft",

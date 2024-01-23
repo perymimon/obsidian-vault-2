@@ -4,25 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0b0dead5863237e6",
+        "id": "9b6eb9e9e6bc8225",
         "type": "tabs",
-        "dimension": 47.85447761194029,
         "children": [
           {
-            "id": "d291f142dda40a37",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tm/meta-bind/habbit-tracker 1.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "a1d21136a78333c5",
+            "id": "d2df7b34204d89d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,30 +18,7 @@
                 "backlinks": false,
                 "source": true
               }
-            },
-            "group": "cbcefbc77bfbbe97"
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "87355f299e591435",
-        "type": "tabs",
-        "dimension": 52.14552238805971,
-        "children": [
-          {
-            "id": "ada0cf9e4e78e23d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Jornal/daily/2024-01-23.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            },
-            "group": "cbcefbc77bfbbe97"
+            }
           }
         ]
       }
@@ -163,13 +126,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 731.5,
-    "collapsed": true
+    "width": 542.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,12 +144,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a1d21136a78333c5",
+  "active": "f5f286256d70b4e5",
   "lastOpenFiles": [
+    "Untitled 4.md",
+    "Jornal/daily/2024-01-23.md",
+    "Untitled 3.md",
     "desktop.ini",
     "Jornal/daily/2024-01-23 (1).md",
     "Untitled 2.md",
-    "Jornal/daily/2024-01-23.md",
     "database/game-log/game-log@  scythe 1.md",
     "tm/meta-bind/habbit-tracker.md",
     "tm/meta-bind/habbit-tracker 1.md",
@@ -218,9 +181,7 @@
     "database/topTableGame/game@ NetRunner.md",
     "database/topTableGame/game@ caylus.md",
     "database/topTableGame/game@ Ceylon.md",
-    "database/topTableGame/game@ citadels.md",
     "database/topTableGame",
-    "tm/quick-add",
     "Untitled.canvas",
     "assets/13dd9a2e550.bcd8073ff147be95.jpg",
     "assets/13dfeedbd74.8a43a4cc67bd6a4c.jpg",
