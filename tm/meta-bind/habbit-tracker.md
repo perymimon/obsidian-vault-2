@@ -9,7 +9,7 @@ habbit:
   morningGym: true
 ---
 > [!danger]+ Habit Tracker 
-> **כושר**: `BUTTON[hanging,morning-gym, JustDance]`
+> **כושר**: `BUTTON[hanging, morning-gym, JustDance]`
 > **דת**: `BUTTON[tefillin]` 
 > **hobbies** `BUTTON[topTableGame]` 
 > **Reading**: `BUTTON[readingStoryBook]`

@@ -13,25 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tm/meta-bind/habbit-tracker.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "190a2874e857ecb6",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "70b5a62661223c7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Jornal/daily/2024-01-23.md",
                 "mode": "source",
                 "backlinks": false,
@@ -89,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5,
-    "collapsed": true
+    "width": 253.5
   },
   "right": {
     "id": "7598a77bad2a22d5",
@@ -106,7 +86,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "tm/meta-bind/habbit-tracker.md"
+                "file": "Jornal/daily/2024-01-23.md"
               }
             }
           },
@@ -166,42 +146,42 @@
   },
   "active": "d2df7b34204d89d8",
   "lastOpenFiles": [
-    "Jornal/daily/2024-01-23.md",
+    "Jornal/daily/2024-01-12.md",
+    "Jornal/daily/2024-01-12 (conflict 2024-01-13-17-19-30).md",
+    "tm/tp - daily template.md",
     "tm/meta-bind/habbit-tracker.md",
-    "Untitled 4.md",
-    "Untitled 3.md",
+    "jornal/daily/2024-01-24.md",
+    "Jornal/daily/2024-01-23.md",
+    "Jornal/daily/2024-01-24.md",
+    "jornal/daily/2024-01-23.md",
+    "jornal/daily/2024-02-07.md",
+    "jornal/daily/2024-01-23 (1).md",
+    "jornal/daily/2024-01-22.md",
+    "jornal/daily/2024-01-22 (1).md",
+    "jornal/daily/2024-01-20.md",
+    "jornal/daily/2024-01-19.md",
+    "jornal/daily/2024-01-21.md",
+    "jornal/daily/2024-01-18.md",
+    "jornal/daily/2024-01-17.md",
+    "jornal/daily/2024-01-16.md",
+    "jornal/daily/2024-01-16 (1).md",
+    "jornal/daily/2024-01-15.md",
+    "jornal/daily/2024-01-14.md",
+    "jornal/daily/2024-01-13.md",
+    "jornal/daily/2024-01-12.md",
+    "jornal/daily/2024-01-12 (conflict 2024-01-13-17-19-30).md",
+    "jornal/daily/2024-01-11.md",
+    "jornal/daily/2024-01-10.md",
+    "jornal/daily",
     "desktop.ini",
-    "Jornal/daily/2024-01-23 (1).md",
-    "Untitled 2.md",
-    "database/game-log/game-log@  scythe 1.md",
-    "tm/meta-bind/habbit-tracker 1.md",
-    "database/ספרים/אומן השיר.md",
     "scripts/metabind-habit-tracker-read-book.js",
     "scripts/metabind-habit-tracker-hanging.js",
     "scripts/metabind-habit-tracker-hnaging.js",
     "scripts/metabind-habit-tracker-morning-gym.js",
     "scripts/metabind-habit-tracker-justdance.js",
     "scripts/metabind-habit-tracker-thfilin.js",
-    "Jornal/daily/2024-01-22 (1).md",
     "scripts/metabind-habit-tracker.js",
-    "Jornal/daily/2024-01-22.md",
-    "Untitled 1.md",
-    "database/game-log/game-log@  netrunner.md",
-    "Untitled.md",
-    "database/game-log/game-log@  scythe.md",
-    "database/game-log/game-log@.md",
-    "database/game-log@  scythe.md",
-    "database/game-log@  isla dorada.md",
-    "kjkjk.md",
-    "database/game-log/game-log@  viticulture.md",
-    "database/game-log/game-log@1.md",
     "database/game-log",
-    "משאבים/2002 - שיר לענבל.md",
-    "database/topTableGame/game@ Bunny Kingdom.md",
-    "database/topTableGame/game@ NetRunner.md",
-    "database/topTableGame/game@ caylus.md",
-    "database/topTableGame/game@ Ceylon.md",
-    "database/topTableGame",
     "Untitled.canvas",
     "assets/13dd9a2e550.bcd8073ff147be95.jpg",
     "assets/13dfeedbd74.8a43a4cc67bd6a4c.jpg",
