@@ -162,7 +162,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "- {{time}} put תפלין \\n"
+        "format": "- {{time}} Morning Gym, set 1 \\n"
       },
       "insertAfter": {
         "enabled": true,
@@ -180,41 +180,6 @@
         "focus": false
       },
       "openFile": false,
-      "openFileInMode": "source"
-    },
-    {
-      "id": "59fa3186-ca93-48ae-87fb-36781d8f9189",
-      "name": "log Thfilin",
-      "type": "Capture",
-      "command": true,
-      "appendLink": false,
-      "captureTo": "",
-      "captureToActiveFile": true,
-      "createFileIfItDoesntExist": {
-        "enabled": true,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
-        "enabled": true,
-        "format": "- {{time}} הנחתי תפילין\\n"
-      },
-      "insertAfter": {
-        "enabled": true,
-        "after": "## הספקתי היום",
-        "insertAtEnd": true,
-        "considerSubsections": false,
-        "createIfNotFound": true,
-        "createIfNotFoundLocation": "bottom"
-      },
-      "prepend": false,
-      "task": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": false
-      },
-      "openFile": true,
       "openFileInMode": "source"
     }
   ],

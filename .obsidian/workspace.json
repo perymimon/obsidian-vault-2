@@ -13,8 +13,27 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "tm/meta-bind/habbit-tracker.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "190a2874e857ecb6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "70b5a62661223c7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Jornal/daily/2024-01-23.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -70,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 253.5,
+    "collapsed": true
   },
   "right": {
     "id": "7598a77bad2a22d5",
@@ -86,7 +106,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Jornal/daily/2024-01-23.md"
+                "file": "tm/meta-bind/habbit-tracker.md"
               }
             }
           },
@@ -144,16 +164,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f5f286256d70b4e5",
+  "active": "d2df7b34204d89d8",
   "lastOpenFiles": [
-    "Untitled 4.md",
     "Jornal/daily/2024-01-23.md",
+    "tm/meta-bind/habbit-tracker.md",
+    "Untitled 4.md",
     "Untitled 3.md",
     "desktop.ini",
     "Jornal/daily/2024-01-23 (1).md",
     "Untitled 2.md",
     "database/game-log/game-log@  scythe 1.md",
-    "tm/meta-bind/habbit-tracker.md",
     "tm/meta-bind/habbit-tracker 1.md",
     "database/ספרים/אומן השיר.md",
     "scripts/metabind-habit-tracker-read-book.js",
