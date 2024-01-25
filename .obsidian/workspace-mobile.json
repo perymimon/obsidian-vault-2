@@ -13,8 +13,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jornal/daily/2024-01-23.md",
+                "file": "Jornal/daily/2024-01-24.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "a7c65c86be3f8fe0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jornal/daily/2024-01-24.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
