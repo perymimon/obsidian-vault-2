@@ -162,7 +162,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "- {{time}} Morning Gym, set 1 \\n"
+        "format": "- {{time}} play JustDance \\n"
       },
       "insertAfter": {
         "enabled": true,
