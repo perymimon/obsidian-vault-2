@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "jornal/daily/2024-01-24.md",
+                "file": "Jornal/daily/2024-01-27.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "jornal/daily/2024-01-24.md"
+                "file": "Jornal/daily/2024-01-27.md"
               }
             }
           },
@@ -147,6 +147,8 @@
   },
   "active": "48b890d6af39deda",
   "lastOpenFiles": [
+    "jornal/daily/2024-01-24.md",
+    "Jornal/daily/2024-01-27.md",
     "Jornal/daily/2024-01-23.md",
     "Jornal/daily/2024-01-23 (conflict 2024-01-23-23-21-06).md",
     "Jornal/daily/2023-11-17.md",
@@ -154,7 +156,6 @@
     "Jornal/daily/2024-01-24.md",
     "Jornal/daily/2024-01-25.md",
     "jornal/daily/2024-01-25.md",
-    "jornal/daily/2024-01-24.md",
     "database/game-log/game-log@  viticulture.md",
     "Jornal/daily/2024-01-12.md",
     "Jornal/daily/2024-01-12 (conflict 2024-01-13-17-19-30).md",
@@ -172,7 +173,6 @@
     "jornal/daily/2024-01-17.md",
     "jornal/daily/2024-01-16.md",
     "jornal/daily/2024-01-16 (1).md",
-    "jornal/daily/2024-01-15.md",
     "jornal/daily",
     "desktop.ini",
     "scripts/metabind-habit-tracker-read-book.js",
