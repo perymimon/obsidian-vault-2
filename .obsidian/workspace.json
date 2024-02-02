@@ -13,6 +13,71 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Jornal/daily/2024-02-02.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "827f618d0d7da72d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jornal/daily/2024-01-31.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "8e02adffe4b1b4f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jornal/daily/2024-01-31.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "6237709a7f86da47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jornal/daily/2024-01-31.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "ef25c5ce51b25039",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jornal/daily/2024-01-31.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "e21485de3c5a31b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Jornal/daily/2024-01-31.md",
                 "mode": "source",
                 "backlinks": false,
@@ -87,7 +152,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Jornal/daily/2024-01-31.md"
+                "file": "Jornal/daily/2024-02-02.md"
               }
             }
           },
@@ -147,8 +212,9 @@
   },
   "active": "48b890d6af39deda",
   "lastOpenFiles": [
-    "Jornal/daily/2024-01-29.md",
     "Jornal/daily/2024-01-31.md",
+    "Jornal/daily/2024-02-02.md",
+    "Jornal/daily/2024-01-29.md",
     "note/Examples Dataview query.md",
     "Jornal/daily/2024-01-27.md",
     "jornal/daily/2024-01-24.md",
@@ -172,7 +238,6 @@
     "jornal/daily/2024-01-20.md",
     "jornal/daily/2024-01-19.md",
     "jornal/daily/2024-01-21.md",
-    "jornal/daily/2024-01-18.md",
     "jornal/daily",
     "desktop.ini",
     "scripts/metabind-habit-tracker-read-book.js",
