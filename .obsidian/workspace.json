@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jornal/daily/2024-02-02.md",
+                "file": "Jornal/daily/2024-02-04.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -152,7 +152,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Jornal/daily/2024-02-02.md"
+                "file": "Jornal/daily/2024-02-04.md"
               }
             }
           },
@@ -212,8 +212,9 @@
   },
   "active": "48b890d6af39deda",
   "lastOpenFiles": [
-    "Jornal/daily/2024-01-31.md",
     "Jornal/daily/2024-02-02.md",
+    "Jornal/daily/2024-02-04.md",
+    "Jornal/daily/2024-01-31.md",
     "Jornal/daily/2024-01-29.md",
     "note/Examples Dataview query.md",
     "Jornal/daily/2024-01-27.md",
@@ -237,7 +238,6 @@
     "jornal/daily/2024-01-22 (1).md",
     "jornal/daily/2024-01-20.md",
     "jornal/daily/2024-01-19.md",
-    "jornal/daily/2024-01-21.md",
     "jornal/daily",
     "desktop.ini",
     "scripts/metabind-habit-tracker-read-book.js",
