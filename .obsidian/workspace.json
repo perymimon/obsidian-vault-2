@@ -4,85 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "8addae52dc612ab9",
+        "id": "5ea3c0bd8144488c",
         "type": "tabs",
         "children": [
           {
-            "id": "48b890d6af39deda",
+            "id": "cb8e5598547c90e7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Jornal/daily/2024-02-04.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "827f618d0d7da72d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Jornal/daily/2024-01-31.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "8e02adffe4b1b4f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Jornal/daily/2024-01-31.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "6237709a7f86da47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Jornal/daily/2024-01-31.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "ef25c5ce51b25039",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Jornal/daily/2024-01-31.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "e21485de3c5a31b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Jornal/daily/2024-01-31.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -151,9 +81,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Jornal/daily/2024-02-04.md"
-              }
+              "state": {}
             }
           },
           {
@@ -210,11 +138,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "48b890d6af39deda",
+  "active": "cb8e5598547c90e7",
   "lastOpenFiles": [
-    "Jornal/daily/2024-02-02.md",
-    "Jornal/daily/2024-02-04.md",
     "Jornal/daily/2024-01-31.md",
+    "database/אנשים/jornal/מכתב המלצה לגיור.md",
+    "database/אנשים/אנסטסיה.md",
+    "Jornal/daily/2024-02-04.md",
+    "Jornal/daily/2024-02-02.md",
     "Jornal/daily/2024-01-29.md",
     "note/Examples Dataview query.md",
     "Jornal/daily/2024-01-27.md",
@@ -236,8 +166,6 @@
     "jornal/daily/2024-01-23 (1).md",
     "jornal/daily/2024-01-22.md",
     "jornal/daily/2024-01-22 (1).md",
-    "jornal/daily/2024-01-20.md",
-    "jornal/daily/2024-01-19.md",
     "jornal/daily",
     "desktop.ini",
     "scripts/metabind-habit-tracker-read-book.js",
