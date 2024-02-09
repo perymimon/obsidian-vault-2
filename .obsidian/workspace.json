@@ -11,8 +11,13 @@
             "id": "cb8e5598547c90e7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Jornal/daily/2024-02-09.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -81,7 +86,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "Jornal/daily/2024-02-09.md"
+              }
             }
           },
           {
@@ -140,6 +147,7 @@
   },
   "active": "cb8e5598547c90e7",
   "lastOpenFiles": [
+    "Jornal/daily/2024-02-09.md",
     "Jornal/daily/2024-01-31.md",
     "database/אנשים/jornal/מכתב המלצה לגיור.md",
     "database/אנשים/אנסטסיה.md",
@@ -165,7 +173,6 @@
     "jornal/daily/2024-02-07.md",
     "jornal/daily/2024-01-23 (1).md",
     "jornal/daily/2024-01-22.md",
-    "jornal/daily/2024-01-22 (1).md",
     "jornal/daily",
     "desktop.ini",
     "scripts/metabind-habit-tracker-read-book.js",
