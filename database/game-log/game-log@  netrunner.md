@@ -4,9 +4,9 @@ players:
   - דני
   - נריה רוזנר
   - סטאס פירר
-
 date-created: 2024-01-22
 tags: game-log/netrunner
+end: 2024-02-10T10:24
 ---
 [[game@  netrunner]] [[2024-01-22]] [start:: 22:14]  
 
@@ -14,17 +14,9 @@ End game `= this.end`
  
 [ duration: `= this.end - date(this["date-created"] + "T" + this.start)` ]
 
- `BUTTON[end-game]` who win: `INPUT[inlineSelect(option(דני),option(נריה רוזנר),option(סטאס פירר)):win]`
-
-| players score |
-|---|
-| [[דני]] :: `INPUT[text(placeholder(score)):score["דני"]]` | 
-| [[נריה רוזנר]] :: `INPUT[text(placeholder(score)):score["נריה רוזנר"]]` | 
-| [[סטאס פירר]] :: `INPUT[text(placeholder(score)):score["סטאס פירר"]]` | 
-
-```meta-bind-button
+ ```meta-bind-button
 label: End Game
-hidden: true
+hidden: false
 id: end-game
 style: default
 actions:
@@ -33,4 +25,14 @@ actions:
     evaluate: true
     value: moment().format("yyyy-MM-DDTHH:mm")
 ```
+
+
+who win: `____,דני,נריה רוזנר,סטאס פירר -5-`
+
+| players score |
+|---|
+| [[דני]] :: `__score__ -2-` | 
+| [[נריה רוזנר]] :: `__score__ -3-` | 
+| [[סטאס פירר]] :: `__score__ -4-` | 
+
 
