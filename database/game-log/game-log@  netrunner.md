@@ -26,7 +26,7 @@ actions:
     value: moment().format("yyyy-MM-DDTHH:mm")
 ```
 
-`Button,js| void moment().format("yyyy-MM-DDTHH:mm")`
+`Button,run void moment().format("yyyy-MM-DDTHH:mm")`
 
 who win: `____,דני,נריה רוזנר,סטאס פירר -5-`
 
