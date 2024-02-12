@@ -6,6 +6,7 @@
       {
         "id": "5ea3c0bd8144488c",
         "type": "tabs",
+        "dimension": 48.720682302771856,
         "children": [
           {
             "id": "cb8e5598547c90e7",
@@ -13,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jornal/daily/2024-02-11.md",
+                "file": "Jornal/daily/2024-02-12.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -25,6 +26,7 @@
       {
         "id": "0991d99f8816c869",
         "type": "tabs",
+        "dimension": 51.279317697228144,
         "children": [
           {
             "id": "3cef77fdfafc9622",
@@ -32,8 +34,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tm/meta-bind/habbit-tracker.md",
-                "mode": "source",
+                "file": "Jornal/daily/2024-02-12.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -89,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 253.5,
+    "collapsed": true
   },
   "right": {
     "id": "7598a77bad2a22d5",
@@ -105,7 +108,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Jornal/daily/2024-02-11.md"
+                "file": "Jornal/daily/2024-02-12.md"
               }
             }
           },
@@ -149,7 +152,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 542.5
+    "width": 542.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,11 +169,13 @@
   },
   "active": "cb8e5598547c90e7",
   "lastOpenFiles": [
+    "Jornal/daily/2024-02-12.md",
+    "Untitled 5.md",
     "tm/meta-bind/habbit-tracker.md",
+    "tm/quick-add/game-log-template.md",
     "Jornal/daily/2024-02-11.md",
     "database/game-log/game-log@  netrunner.md",
     "Jornal/daily/2024-02-10.md",
-    "tm/quick-add/game-log-template.md",
     "Jornal/daily/2024-02-09.md",
     "Jornal/daily/2024-01-31.md",
     "database/אנשים/jornal/מכתב המלצה לגיור.md",
@@ -189,8 +195,6 @@
     "jornal/daily/2024-01-25.md",
     "database/game-log/game-log@  viticulture.md",
     "Jornal/daily/2024-01-12.md",
-    "Jornal/daily/2024-01-12 (conflict 2024-01-13-17-19-30).md",
-    "tm/tp - daily template.md",
     "jornal/daily",
     "desktop.ini",
     "scripts/metabind-habit-tracker-read-book.js",
