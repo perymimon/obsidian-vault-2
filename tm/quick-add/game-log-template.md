@@ -41,10 +41,11 @@ actions:
 
 <%*
 
-const _rst = await Promise.all(__prs);
-tR = tR.replace(/rJ2KqXzxQg/g, () => _rst.shift());
-await tp.file.create_new(tR, `${folder}/${filename}.md`)
-tR = ''
+//const _rst = await Promise.all(__prs);
+//tR = tR.replace(/rJ2KqXzxQg/g, () => _rst.shift());
+//await tp.file.create_new(tR, `${folder}/${filename}.md`)
+//tR = ''
+await tp.file.move(`${folder}/${filename}.md`)
 // add note on daily page
 let quickadd = app.plugins.plugins['quickadd']
 let choice = quickadd.settings.choices.find( c => c.name.trim() == "script-daily-log")

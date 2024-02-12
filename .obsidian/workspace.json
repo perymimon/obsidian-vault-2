@@ -6,7 +6,6 @@
       {
         "id": "4b1adc2c43b72964",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
             "id": "3cef77fdfafc9622",
@@ -15,29 +14,9 @@
               "type": "markdown",
               "state": {
                 "file": "tm/quick-add/game-log-template.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
-                "source": true
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "5ea3c0bd8144488c",
-        "type": "tabs",
-        "dimension": 50,
-        "children": [
-          {
-            "id": "cb8e5598547c90e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tm/quick-add/game-log-template.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
+                "source": false
               }
             }
           }
@@ -91,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 371.5,
-    "collapsed": true
+    "width": 371.5
   },
   "right": {
     "id": "7598a77bad2a22d5",
@@ -167,13 +145,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "cb8e5598547c90e7",
+  "active": "3cef77fdfafc9622",
   "lastOpenFiles": [
+    "database/game-log/game-log@  scythe.md.md",
+    "database/game-log/game-log@  viticulture.md",
+    "Jornal/daily/2024-02-12.md",
+    "tm/quick-add/game-log-template.md",
     "Untitled 7.md",
     "tm/meta-bind/habbit-tracker 1.md",
-    "Jornal/daily/2024-02-12.md",
     "database/game-log/game-log@  scythe 2.md",
-    "tm/quick-add/game-log-template.md",
     "Untitled 6.md",
     "Untitled 5.md",
     "tm/meta-bind/habbit-tracker.md",
@@ -193,8 +173,6 @@
     "Jornal/daily/2024-01-23.md",
     "Jornal/daily/2024-01-23 (conflict 2024-01-23-23-21-06).md",
     "Jornal/daily/2023-11-17.md",
-    "Jornal/daily/2024-01-23 (1).md",
-    "Jornal/daily/2024-01-24.md",
     "jornal/daily",
     "desktop.ini",
     "scripts/metabind-habit-tracker-read-book.js",
