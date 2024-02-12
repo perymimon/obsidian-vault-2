@@ -21,8 +21,8 @@ End game `= this.end`
 
 | players score |
 |---|
-<%*
-tR += result.players.value
+<%
+ result.players.value
 .map(name=> `| [[${name}]] :: \`INPUT[text(placeholder(score)):score["${name}"]]\` | `)
     .join('\n')
 %>
@@ -45,7 +45,7 @@ actions:
 //tR = tR.replace(/rJ2KqXzxQg/g, () => _rst.shift());
 //await tp.file.create_new(tR, `${folder}/${filename}.md`)
 //tR = ''
-await tp.file.move(`${folder}/${filename}.md`)
+await tp.file.move(`${folder}/${filename}`)
 // add note on daily page
 let quickadd = app.plugins.plugins['quickadd']
 let choice = quickadd.settings.choices.find( c => c.name.trim() == "script-daily-log")
