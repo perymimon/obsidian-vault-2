@@ -1,10 +1,10 @@
 <%*
-deubgger
  const result = await app.plugins.plugins.modalforms.api.openForm("top-table-game");
  let folder = "database/game-log"
  let gameName = result.game.value.toLowerCase().replace('game@','')
  var filename = `game-log@ ${ gameName }`
 var winOptions =  result.players.value.map(n=>`option(${n})`)
+debugger
  _%>
 ---
 <% result.asFrontmatter() %>
