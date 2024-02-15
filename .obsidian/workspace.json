@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tm/quick-add/game-log-template.md",
+                "file": "Jornal/daily/2024-02-15.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -99,7 +99,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "tm/quick-add/game-log-template.md"
+                "file": "Jornal/daily/2024-02-15.md"
               }
             }
           },
@@ -160,10 +160,11 @@
   },
   "active": "3cef77fdfafc9622",
   "lastOpenFiles": [
+    "tm/quick-add/game-log-template.md",
+    "Jornal/daily/2024-02-15.md",
     "database/game-log/game-log@  scythe.md.md",
     "Jornal/daily/2024-02-12.md",
     "Untitled 8.md",
-    "tm/quick-add/game-log-template.md",
     "database/game-log/game-log@  viticulture.md",
     "Untitled 7.md",
     "tm/meta-bind/habbit-tracker 1.md",
@@ -185,7 +186,6 @@
     "Jornal/daily/2024-01-27.md",
     "jornal/daily/2024-01-24.md",
     "Jornal/daily/2024-01-23.md",
-    "Jornal/daily/2024-01-23 (conflict 2024-01-23-23-21-06).md",
     "jornal/daily",
     "desktop.ini",
     "scripts/metabind-habit-tracker-read-book.js",
