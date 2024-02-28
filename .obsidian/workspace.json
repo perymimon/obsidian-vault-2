@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jornal/daily/2024-02-28.md",
+                "file": "tm/quick-add/game-log-template.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 371.5
+    "width": 294.5
   },
   "right": {
     "id": "7598a77bad2a22d5",
@@ -99,7 +99,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Jornal/daily/2024-02-28.md"
+                "file": "tm/quick-add/game-log-template.md"
               }
             }
           },
