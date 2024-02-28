@@ -1,4 +1,4 @@
-`text|____,= list(#tag)`
+`text|____,= list(#game) >::game`
 
 <%*
  const result = await app.plugins.plugins.modalforms.api.openForm("top-table-game");
