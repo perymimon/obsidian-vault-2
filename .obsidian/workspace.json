@@ -6,6 +6,7 @@
       {
         "id": "4b1adc2c43b72964",
         "type": "tabs",
+        "dimension": 69.53551912568307,
         "children": [
           {
             "id": "3cef77fdfafc9622",
@@ -14,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "tm/quick-add/game-log-template.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -38,6 +39,7 @@
       {
         "id": "aaa51e3265ab995e",
         "type": "tabs",
+        "dimension": 30.46448087431694,
         "children": [
           {
             "id": "e4e807b6949a5285",
@@ -102,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.5
+    "width": 294.5,
+    "collapsed": true
   },
   "right": {
     "id": "7598a77bad2a22d5",
@@ -157,13 +160,51 @@
               "type": "modal-form-manage-forms-view",
               "state": {}
             }
+          },
+          {
+            "id": "5d642b831e7b4074",
+            "type": "leaf",
+            "state": {
+              "type": "modal-form-edit-form-view",
+              "state": {
+                "title": "Tob Table Game",
+                "name": "top-table-game",
+                "customClassname": "TopTableGame",
+                "fields": [
+                  {
+                    "name": "game",
+                    "label": "Game",
+                    "description": "",
+                    "isRequired": false,
+                    "input": {
+                      "type": "dataview",
+                      "query": "dv.pages(\"#topTableGame\").file.name"
+                    }
+                  },
+                  {
+                    "name": "players",
+                    "label": "Players",
+                    "description": "",
+                    "isRequired": false,
+                    "input": {
+                      "type": "multiselect",
+                      "source": "dataview",
+                      "query": "dv.pages('#gamer').file.name",
+                      "allowUnknownValues": false,
+                      "multi_select_options": []
+                    }
+                  }
+                ],
+                "version": "1"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 542.5,
-    "collapsed": true
+    "width": 628.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,7 +218,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e4e807b6949a5285",
+  "active": "5d642b831e7b4074",
   "lastOpenFiles": [
     "tm/quick-add/game-log-template.md",
     "Untitled 9.md",
