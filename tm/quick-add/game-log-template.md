@@ -1,4 +1,4 @@
-`text|____,=`
+`text|____,= list(#tag)`
 
 <%*
  const result = await app.plugins.plugins.modalforms.api.openForm("top-table-game");
@@ -14,7 +14,5 @@ date-created: <% tp.date.now("YYYY-MM-DD") %>
 tags: game-log/<% gameName.replace(/\s+/g,'') %>
 ---
 `button|End Game| {time} >::end` 
-[[game@ <% gameName %>]] [[<% tp.date.now("YYYY-MM-DD") %>]] [start:: <% tp.date.now("HH:mm") %>] [end::]  
-
-[ duration::  ]
-[Who win:: `text|____| <% players %> `]
+[[game@ <% gameName %>]] [[<% tp.date.now("YYYY-MM-DD") %>]] [start:: <% tp.date.now("HH:mm") %>] 
+[end::] [duration::  ] [Who win:: `text|____| <% players %> `] 
