@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "tm/quick-add/game-log-template.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -180,8 +180,8 @@
   "active": "3cef77fdfafc9622",
   "lastOpenFiles": [
     "Untitled 9.md",
-    "Jornal/daily/2024-02-28.md",
     "tm/quick-add/game-log-template.md",
+    "Jornal/daily/2024-02-28.md",
     "database/game-log/game-log@  netrunner.md",
     "Untitled 8.md",
     "tm/meta-bind/habbit-tracker.md",
