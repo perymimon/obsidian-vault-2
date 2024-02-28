@@ -13,10 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jornal/daily/2024-02-15.md",
-                "mode": "preview",
+                "file": "Jornal/daily/2024-02-28.md",
+                "mode": "source",
                 "backlinks": false,
-                "source": false
+                "source": true
               }
             }
           },
@@ -99,7 +99,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Jornal/daily/2024-02-15.md"
+                "file": "Jornal/daily/2024-02-28.md"
               }
             }
           },
@@ -160,6 +160,7 @@
   },
   "active": "3cef77fdfafc9622",
   "lastOpenFiles": [
+    "Jornal/daily/2024-02-28.md",
     "tm/quick-add/game-log-template.md",
     "Jornal/daily/2024-02-15.md",
     "database/game-log/game-log@  scythe.md.md",
@@ -185,7 +186,6 @@
     "note/Examples Dataview query.md",
     "Jornal/daily/2024-01-27.md",
     "jornal/daily/2024-01-24.md",
-    "Jornal/daily/2024-01-23.md",
     "jornal/daily",
     "desktop.ini",
     "scripts/metabind-habit-tracker-read-book.js",
