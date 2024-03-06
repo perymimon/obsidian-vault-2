@@ -207,6 +207,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian42-brat:BRAT": false,
       "command-palette:Open command palette": true,
       "markdown-importer:Open Markdown importer": true,
       "zk-prefixer:Create new unique note": true,
