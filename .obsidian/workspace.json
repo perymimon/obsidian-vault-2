@@ -14,8 +14,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tm/quick-add/game-log-template.md",
-                "mode": "preview",
+                "file": "Jornal/daily/2024-03-06.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -104,8 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.5,
-    "collapsed": true
+    "width": 294.5
   },
   "right": {
     "id": "7598a77bad2a22d5",
@@ -121,7 +120,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Untitled 9.md"
+                "file": "Jornal/daily/2024-03-06.md"
               }
             }
           },
@@ -218,8 +217,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5d642b831e7b4074",
+  "active": "3cef77fdfafc9622",
   "lastOpenFiles": [
+    "database/topTableGame/game@ Viticulture.md",
     "tm/quick-add/game-log-template.md",
     "Untitled 9.md",
     "Jornal/daily/2024-02-28.md",
@@ -245,7 +245,6 @@
     "Jornal/daily/2024-02-02.md",
     "Jornal/daily/2024-01-29.md",
     "note/Examples Dataview query.md",
-    "Jornal/daily/2024-01-27.md",
     "jornal/daily",
     "desktop.ini",
     "scripts/metabind-habit-tracker-read-book.js",

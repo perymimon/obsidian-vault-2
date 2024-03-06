@@ -1,17 +1,21 @@
 
 
-[gamers::database/אנשים/איליה.md,database/אנשים/נריה רוזנר.md,database/אנשים/נריה רוזנר.md]
+[gamers append ::[[database/אנשים/נריה רוזנר.md]]]]]]]
 
 
-[game::database/topTableGame/game@ Fury of Dracula.md]
+[gamers::database/אנשים/איליה.md,database/אנשים/נריה רוזנר.md,database/אנשים/נריה רוזנר.md,[[database/אנשים/איליה.md,[[database/אנשים/איליה.md,[[database/אנשים/דני.md]]]]]]]
 
-`text|__select game__|= list from #topTableGame >::game` `text|__select players__|= list from #gamer >::gamers append`
+
+[game::[[database/topTableGame/game@ NetRunner.md]]))]]]
+
+`text|[[__select game__]]|= list from #topTableGame >::game -1-` `text|[[__select players__]]|= list from #gamer >::gamers append -2-`
+`text|getLinkToFile(__select game__)|= list from #topTableGame >::game -3-` 
 
 ```dataview
 list  from #gamer  
 ```
 <%*
- const result = await app.plugins.plugins.modalforms.api.openForm("top-table-game");
+ **const result = await app.plugins.plugins.modalforms.api.openForm("top-table-game");**
  let folder = "database/game-log"
  let gameName = result.game.value.toLowerCase().replace('game@','')
  var filename = `game-log@ ${ gameName }`

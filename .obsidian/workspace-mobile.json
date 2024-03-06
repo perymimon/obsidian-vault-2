@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jornal/daily/2024-02-10.md",
+                "file": "Jornal/daily/2024-03-02.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -86,7 +86,9 @@
         "state": {
           "type": "all-properties",
           "state": {
-            "sortOrder": "frequency"
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
           }
         }
       }
@@ -121,6 +123,7 @@
   },
   "active": "21c2a342a33745b1",
   "lastOpenFiles": [
+    "Jornal/daily/2024-03-02.md",
     "Jornal/daily/2024-01-24.md",
     "Jornal/daily/2024-02-10.md",
     "Untitled 4.md",
@@ -146,7 +149,6 @@
     "inbox/python.md",
     "Jornal/daily/2024-01-12.md",
     "note/בנקים.md",
-    "משאבים/goodreads-db/ילדי המחשבה.md",
     "piecesdb.json",
     "_.obsidian",
     "draft",
